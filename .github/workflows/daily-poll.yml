@@ -1,0 +1,68 @@
+name: Daily Poll
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 09:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-poll
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: poller/package-lock.json
+
+      - name: Install poller deps
+        working-directory: poller
+        run: npm ci
+
+      - name: Test poller
+        working-directory: poller
+        run: npm test
+
+      - name: Run poller
+        working-directory: poller
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run poll
+
+      - name: Commit & push if changed
+        id: commit
+        run: |
+          if [[ -z $(git status --porcelain) ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "ai-tools-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/ catalog/ digests/
+          git commit -F poller/out/commit-message.txt
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open digest issue
+        if: steps.commit.outputs.changed == 'true' && hashFiles('poller/out/issue-title.txt') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          title=$(cat poller/out/issue-title.txt)
+          gh issue create \
+            --title "$title" \
+            --body-file poller/out/issue-body.md \
+            --label digest
