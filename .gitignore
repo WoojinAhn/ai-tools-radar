@@ -3,7 +3,15 @@
 .env.local
 .claude/notes.md
 node_modules/
-dist/
+
+# Poller generated artifacts (per-run outputs consumed by the workflow)
+poller/out/
+
+# Astro build output and cache
+site/dist/
+site/.astro/
+
+# Misc
 .next/
 __pycache__/
 *.pyc
