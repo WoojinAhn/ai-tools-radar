@@ -1,0 +1,44 @@
+---
+// site/src/layouts/BaseLayout.astro
+import '../styles/global.css'
+
+interface Props {
+  title: string
+  description?: string
+}
+
+const { title, description = 'Radar for the AI coding tool ecosystem' } = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen">
+    <header class="border-b border-neutral-800">
+      <div class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
+        <a href={import.meta.env.BASE_URL} class="font-semibold tracking-tight text-lg">
+          ai-tools-radar
+        </a>
+        <nav class="flex gap-5 text-sm text-neutral-400">
+          <a href={import.meta.env.BASE_URL} class="hover:text-white">Catalog</a>
+          <a href={`${import.meta.env.BASE_URL}/digests/`} class="hover:text-white">Digests</a>
+          <a href={`${import.meta.env.BASE_URL}/about/`} class="hover:text-white">About</a>
+        </nav>
+      </div>
+    </header>
+    <main class="max-w-5xl mx-auto px-6 py-10">
+      <slot />
+    </main>
+    <footer class="border-t border-neutral-800 mt-20">
+      <div class="max-w-5xl mx-auto px-6 py-6 text-xs text-neutral-500">
+        Data from <a href="https://github.com/anthropics/claude-plugins-official" class="underline">anthropics/claude-plugins-official</a>.
+        Source: <a href="https://github.com/WoojinAhn/ai-tools-radar" class="underline">WoojinAhn/ai-tools-radar</a>.
+      </div>
+    </footer>
+  </body>
+</html>
