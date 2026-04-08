@@ -106,8 +106,8 @@ site/
 - Create: `poller/package.json`
 - Create: `poller/tsconfig.json`
 - Create: `poller/vitest.config.ts`
-- Create: `poller/src/.gitkeep`
-- Create: `poller/test/.gitkeep`
+- Create: `poller/src/.gitkeep` (placeholder; deleted in Task 2 when real source files land)
+- Create: `poller/test/.gitkeep` (placeholder; deleted in Task 3 when the first test lands)
 
 - [ ] **Step 1: Create `poller/package.json`**
 
@@ -157,9 +157,11 @@ site/
     "outDir": "dist",
     "rootDir": "."
   },
-  "include": ["src/**/*", "test/**/*"]
+  "include": ["src/**/*", "test/**/*", "vitest.config.ts"]
 }
 ```
+
+> Including `vitest.config.ts` gives `tsc --noEmit` at least one file to check during Task 1 before any `src/` files exist. Task 2 adds the first real source file, after which the `src/**/*` glob matches normally.
 
 - [ ] **Step 3: Create `poller/vitest.config.ts`**
 
