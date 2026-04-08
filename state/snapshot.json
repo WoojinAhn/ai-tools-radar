@@ -1,0 +1,715 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-08T17:10:30.107Z",
+  "entries": {
+    "claude-code/first-party/agent-sdk-dev": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "agent-sdk-dev",
+      "name": "agent-sdk-dev",
+      "description": "Claude Agent SDK Development Plugin",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/agent-sdk-dev",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:30.834Z"
+    },
+    "claude-code/first-party/clangd-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "clangd-lsp",
+      "name": "clangd-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/clangd-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:31.196Z"
+    },
+    "claude-code/first-party/claude-code-setup": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "claude-code-setup",
+      "name": "claude-code-setup",
+      "description": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents.",
+      "version": "1.0.0",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:31.519Z"
+    },
+    "claude-code/first-party/claude-md-management": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "claude-md-management",
+      "name": "claude-md-management",
+      "description": "Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, and keep project memory current.",
+      "version": "1.0.0",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:31.862Z"
+    },
+    "claude-code/first-party/code-review": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "code-review",
+      "name": "code-review",
+      "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:32.163Z"
+    },
+    "claude-code/first-party/code-simplifier": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "code-simplifier",
+      "name": "code-simplifier",
+      "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality",
+      "version": "1.0.0",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:32.498Z"
+    },
+    "claude-code/first-party/commit-commands": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "commit-commands",
+      "name": "commit-commands",
+      "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:32.942Z"
+    },
+    "claude-code/first-party/csharp-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "csharp-lsp",
+      "name": "csharp-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/csharp-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:33.273Z"
+    },
+    "claude-code/first-party/example-plugin": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "example-plugin",
+      "name": "example-plugin",
+      "description": "A comprehensive example plugin demonstrating all Claude Code extension options including commands, agents, skills, hooks, and MCP servers",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/example-plugin",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:33.661Z"
+    },
+    "claude-code/first-party/explanatory-output-style": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "explanatory-output-style",
+      "name": "explanatory-output-style",
+      "description": "Adds educational insights about implementation choices and codebase patterns (mimics the deprecated Explanatory output style)",
+      "version": "1.0.0",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/explanatory-output-style",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:34.068Z"
+    },
+    "claude-code/first-party/feature-dev": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "feature-dev",
+      "name": "feature-dev",
+      "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/feature-dev",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:34.394Z"
+    },
+    "claude-code/first-party/frontend-design": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "description": "Frontend design skill for UI/UX implementation",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:34.728Z"
+    },
+    "claude-code/first-party/gopls-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "gopls-lsp",
+      "name": "gopls-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/gopls-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:35.093Z"
+    },
+    "claude-code/first-party/hookify": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "hookify",
+      "name": "hookify",
+      "description": "Easily create hooks to prevent unwanted behaviors by analyzing conversation patterns",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/hookify",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:35.503Z"
+    },
+    "claude-code/first-party/jdtls-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "jdtls-lsp",
+      "name": "jdtls-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/jdtls-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:35.851Z"
+    },
+    "claude-code/first-party/kotlin-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "kotlin-lsp",
+      "name": "kotlin-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/kotlin-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:36.219Z"
+    },
+    "claude-code/first-party/learning-output-style": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "learning-output-style",
+      "name": "learning-output-style",
+      "description": "Interactive learning mode that requests meaningful code contributions at decision points (mimics the unshipped Learning output style)",
+      "version": "1.0.0",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/learning-output-style",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:36.556Z"
+    },
+    "claude-code/first-party/lua-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "lua-lsp",
+      "name": "lua-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/lua-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:36.850Z"
+    },
+    "claude-code/first-party/math-olympiad": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "math-olympiad",
+      "name": "math-olympiad",
+      "description": "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that catches what self-verification misses. Fresh-context verifiers attack proofs with specific failure patterns. Calibrated abstention over bluffing.",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:37.164Z"
+    },
+    "claude-code/first-party/mcp-server-dev": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "mcp-server-dev",
+      "name": "mcp-server-dev",
+      "description": "Skills for designing and building MCP servers that work seamlessly with Claude — guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and interactive MCP apps.",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:37.488Z"
+    },
+    "claude-code/first-party/php-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "php-lsp",
+      "name": "php-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/php-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:37.809Z"
+    },
+    "claude-code/first-party/playground": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "playground",
+      "name": "playground",
+      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output with copy button",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:38.104Z"
+    },
+    "claude-code/first-party/plugin-dev": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "plugin-dev",
+      "name": "plugin-dev",
+      "description": "Plugin development toolkit with skills for creating agents, commands, hooks, MCP integrations, and comprehensive plugin structure guidance",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:38.472Z"
+    },
+    "claude-code/first-party/pr-review-toolkit": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "pr-review-toolkit",
+      "name": "pr-review-toolkit",
+      "description": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/pr-review-toolkit",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:38.794Z"
+    },
+    "claude-code/first-party/pyright-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "pyright-lsp",
+      "name": "pyright-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/pyright-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:39.115Z"
+    },
+    "claude-code/first-party/ralph-loop": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "ralph-loop",
+      "name": "ralph-loop",
+      "description": "Continuous self-referential AI loops for interactive iterative development, implementing the Ralph Wiggum technique. Run Claude in a while-true loop with the same prompt until task completion.",
+      "version": "1.0.0",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:39.439Z"
+    },
+    "claude-code/first-party/ruby-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "ruby-lsp",
+      "name": "ruby-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ruby-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:39.761Z"
+    },
+    "claude-code/first-party/rust-analyzer-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "rust-analyzer-lsp",
+      "name": "rust-analyzer-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/rust-analyzer-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:40.213Z"
+    },
+    "claude-code/first-party/security-guidance": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "security-guidance",
+      "name": "security-guidance",
+      "description": "Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:40.568Z"
+    },
+    "claude-code/first-party/session-report": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "session-report",
+      "name": "session-report",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:40.851Z"
+    },
+    "claude-code/first-party/skill-creator": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "skill-creator",
+      "name": "skill-creator",
+      "description": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, or benchmark skill performance with variance analysis.",
+      "author": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator",
+      "metadata": {
+        "extra": {
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:41.238Z"
+    },
+    "claude-code/first-party/swift-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "swift-lsp",
+      "name": "swift-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/swift-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:41.546Z"
+    },
+    "claude-code/first-party/typescript-lsp": {
+      "tool": "claude-code",
+      "kind": "first-party",
+      "id": "typescript-lsp",
+      "name": "typescript-lsp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/typescript-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:41.854Z"
+    },
+    "claude-code/third-party/asana": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "asana",
+      "name": "asana",
+      "description": "Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development workflow with Asana's work management platform.",
+      "author": "Asana",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/asana",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:30.847Z"
+    },
+    "claude-code/third-party/context7": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "context7",
+      "name": "context7",
+      "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
+      "author": "Upstash",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/context7",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:31.219Z"
+    },
+    "claude-code/third-party/discord": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "discord",
+      "name": "discord",
+      "description": "Discord channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
+      "version": "0.0.4",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/discord",
+      "metadata": {
+        "extra": {
+          "keywords": [
+            "discord",
+            "messaging",
+            "channel",
+            "mcp"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:31.606Z"
+    },
+    "claude-code/third-party/fakechat": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "fakechat",
+      "name": "fakechat",
+      "description": "Localhost iMessage-style web chat for Claude Code — test surface with file upload and edits. No tokens, no access control.",
+      "version": "0.0.1",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/fakechat",
+      "metadata": {
+        "extra": {
+          "keywords": [
+            "fakechat",
+            "web",
+            "localhost",
+            "testing",
+            "channel",
+            "mcp"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:31.925Z"
+    },
+    "claude-code/third-party/firebase": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "firebase",
+      "name": "firebase",
+      "description": "Google Firebase MCP integration. Manage Firestore databases, authentication, cloud functions, hosting, and storage. Build and manage your Firebase backend directly from your development workflow.",
+      "author": "Google",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/firebase",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:32.289Z"
+    },
+    "claude-code/third-party/github": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "github",
+      "name": "github",
+      "description": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code.",
+      "author": "GitHub",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/github",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:32.598Z"
+    },
+    "claude-code/third-party/gitlab": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "gitlab",
+      "name": "gitlab",
+      "description": "GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive DevOps lifecycle tools.",
+      "author": "GitLab",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/gitlab",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:32.943Z"
+    },
+    "claude-code/third-party/greptile": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "greptile",
+      "name": "greptile",
+      "description": "AI code review agent for GitHub and GitLab. View and resolve Greptile's PR review comments directly from Claude Code.",
+      "author": "Greptile",
+      "homepage": "https://greptile.com/docs",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/greptile",
+      "metadata": {
+        "extra": {
+          "keywords": [
+            "code-review",
+            "pull-requests",
+            "github",
+            "gitlab",
+            "ai"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:33.272Z"
+    },
+    "claude-code/third-party/imessage": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "imessage",
+      "name": "imessage",
+      "description": "iMessage channel for Claude Code — reads chat.db directly, sends via AppleScript. Built-in access control; manage pairing, allowlists, and policy via /imessage:access.",
+      "version": "0.1.0",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/imessage",
+      "metadata": {
+        "extra": {
+          "keywords": [
+            "imessage",
+            "messaging",
+            "channel",
+            "mcp"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:33.660Z"
+    },
+    "claude-code/third-party/laravel-boost": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "laravel-boost",
+      "name": "laravel-boost",
+      "description": "Laravel development toolkit MCP server. Provides intelligent assistance for Laravel applications including Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
+      "author": "Laravel",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/laravel-boost",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:34.068Z"
+    },
+    "claude-code/third-party/linear": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "linear",
+      "name": "linear",
+      "description": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software development workflow with Linear's modern issue tracker.",
+      "author": "Linear",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/linear",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:34.389Z"
+    },
+    "claude-code/third-party/playwright": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "playwright",
+      "name": "playwright",
+      "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
+      "author": "Microsoft",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/playwright",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:34.715Z"
+    },
+    "claude-code/third-party/serena": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "serena",
+      "name": "serena",
+      "description": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration.",
+      "author": "Oraios",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/serena",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:35.092Z"
+    },
+    "claude-code/third-party/slack": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "slack",
+      "name": "slack",
+      "description": "Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find relevant discussions and context quickly.",
+      "author": "Slack",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/slack",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:35.502Z"
+    },
+    "claude-code/third-party/supabase": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "supabase",
+      "name": "supabase",
+      "description": "Supabase MCP integration for database operations, authentication, storage, and real-time subscriptions. Manage your Supabase projects, run SQL queries, and interact with your backend directly.",
+      "author": "Supabase",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/supabase",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:35.802Z"
+    },
+    "claude-code/third-party/telegram": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "telegram",
+      "name": "telegram",
+      "description": "Telegram channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access.",
+      "version": "0.0.4",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/telegram",
+      "metadata": {
+        "extra": {
+          "keywords": [
+            "telegram",
+            "messaging",
+            "channel",
+            "mcp"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-08T17:10:36.218Z"
+    },
+    "claude-code/third-party/terraform": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "terraform",
+      "name": "terraform",
+      "description": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
+      "author": "HashiCorp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/terraform",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-08T17:10:36.554Z"
+    }
+  }
+}
