@@ -1,0 +1,33 @@
+---
+// site/src/pages/digests/index.astro
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { getCollection } from 'astro:content'
+
+const digests = (await getCollection('digests')).sort((a, b) =>
+  a.data.date < b.data.date ? 1 : -1,
+)
+---
+
+<BaseLayout title="ai-tools-radar — Digests">
+  <h1 class="text-3xl font-semibold tracking-tight mb-2">Digests</h1>
+  <p class="text-neutral-400 mb-8">One entry per day on which the marketplace actually changed.</p>
+
+  {digests.length === 0 && (
+    <p class="text-neutral-500">No digests yet. The first run writes the bootstrap snapshot silently.</p>
+  )}
+
+  <ul class="divide-y divide-neutral-800">
+    {digests.map((d) => (
+      <li class="py-4 flex items-center justify-between">
+        <a href={`${import.meta.env.BASE_URL}/digests/${d.id}/`} class="font-medium hover:underline">
+          {d.data.date}
+        </a>
+        <div class="text-xs text-neutral-500 flex gap-3">
+          {d.data.added > 0 && <span class="text-emerald-400">+{d.data.added}</span>}
+          {d.data.removed > 0 && <span class="text-red-400">−{d.data.removed}</span>}
+          {d.data.updated > 0 && <span class="text-amber-400">~{d.data.updated}</span>}
+        </div>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

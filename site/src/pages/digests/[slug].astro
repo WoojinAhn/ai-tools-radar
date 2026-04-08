@@ -1,0 +1,22 @@
+---
+// site/src/pages/digests/[slug].astro
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { getCollection, render } from 'astro:content'
+
+export async function getStaticPaths() {
+  const digests = await getCollection('digests')
+  return digests.map((d) => ({ params: { slug: d.id }, props: { digest: d } }))
+}
+
+const { digest } = Astro.props
+const { Content } = await render(digest)
+---
+
+<BaseLayout title={`Digest — ${digest.data.date}`}>
+  <a href={`${import.meta.env.BASE_URL}/digests/`} class="text-sm text-neutral-500 hover:text-white">
+    ← All digests
+  </a>
+  <article class="prose prose-invert max-w-none mt-6">
+    <Content />
+  </article>
+</BaseLayout>
