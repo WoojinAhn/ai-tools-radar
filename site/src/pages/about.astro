@@ -1,0 +1,25 @@
+---
+// site/src/pages/about.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+
+<BaseLayout title="About — ai-tools-radar">
+  <h1 class="text-3xl font-semibold tracking-tight mb-6">About</h1>
+  <div class="prose prose-invert max-w-none">
+    <p>
+      <strong>ai-tools-radar</strong> tracks additions and metadata changes in official AI coding
+      tool marketplaces, starting with Claude Code's plugin directory.
+    </p>
+    <p>
+      A GitHub Actions workflow polls the upstream repository daily. On days when something
+      actually changes, it writes an entry to <code>state/events.jsonl</code>, updates the
+      catalog this site renders from, generates a daily digest, and opens a GitHub issue with
+      the same content.
+    </p>
+    <p>
+      The design and implementation plan live under
+      <code>docs/superpowers/</code> in the
+      <a href="https://github.com/WoojinAhn/ai-tools-radar">source repository</a>.
+    </p>
+  </div>
+</BaseLayout>
