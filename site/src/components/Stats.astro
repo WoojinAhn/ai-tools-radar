@@ -1,20 +1,21 @@
 ---
 // site/src/components/Stats.astro
-import type { CatalogFile } from '../lib/types.ts'
+import type { CatalogEntryView } from '../lib/types.ts'
 
 interface Props {
-  catalog: CatalogFile
+  entries: CatalogEntryView[]
 }
 
-const { catalog } = Astro.props
-const firstParty = catalog.stats.by_kind['first-party'] ?? 0
-const thirdParty = catalog.stats.by_kind['third-party'] ?? 0
+const { entries } = Astro.props
+const total = entries.length
+const firstParty = entries.filter((e) => e.kind === 'first-party').length
+const thirdParty = entries.filter((e) => e.kind === 'third-party').length
 ---
 
 <div class="grid grid-cols-3 gap-4 mb-8">
   <div class="border border-neutral-800 rounded-lg p-4">
     <div class="text-xs uppercase tracking-wider text-neutral-500">Total</div>
-    <div class="text-2xl font-semibold mt-1">{catalog.stats.total}</div>
+    <div class="text-2xl font-semibold mt-1">{total}</div>
   </div>
   <div class="border border-neutral-800 rounded-lg p-4">
     <div class="text-xs uppercase tracking-wider text-neutral-500">First-party</div>
