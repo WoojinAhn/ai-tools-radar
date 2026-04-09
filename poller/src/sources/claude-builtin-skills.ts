@@ -105,7 +105,8 @@ async function extractFileFromTarball(tarballUrl: string, targetPath: string): P
   })
 }
 
-function extractFromTarBuffer(buf: Buffer, targetPath: string): string | null {
+/** @internal Exported for testing only. */
+export function extractFromTarBuffer(buf: Buffer, targetPath: string): string | null {
   let offset = 0
   while (offset + 512 <= buf.length) {
     // tar header: first 100 bytes = file name (null-terminated)

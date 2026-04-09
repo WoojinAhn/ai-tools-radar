@@ -89,4 +89,22 @@ describe('diff', () => {
     if (events[0]!.type !== 'updated') throw new Error('guard')
     expect(events[0]!.changes.map((c) => c.path)).toEqual(['metadata.extra.author_email'])
   })
+
+  it('handles builtin/ prefixed IDs (slash in id)', () => {
+    const builtinEntry = entry({ id: 'builtin/simplify', metadata: { extra: { builtin: true } } })
+    const prev = snapshot([])
+    const events = diff(prev, [builtinEntry], FROZEN_TS)
+    expect(events).toHaveLength(1)
+    expect(events[0]!.type).toBe('added')
+    expect(events[0]!.key).toBe('claude-code/first-party/builtin/simplify')
+  })
+
+  it('detects removal of builtin/ prefixed entries', () => {
+    const builtinEntry = entry({ id: 'builtin/loop', metadata: { extra: { builtin: true } } })
+    const prev = snapshot([builtinEntry])
+    const events = diff(prev, [], FROZEN_TS)
+    expect(events).toHaveLength(1)
+    expect(events[0]!.type).toBe('removed')
+    expect(events[0]!.key).toBe('claude-code/first-party/builtin/loop')
+  })
 })

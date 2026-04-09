@@ -1,6 +1,6 @@
 // poller/test/sources/claude-builtin-skills.test.ts
 import { describe, it, expect } from 'vitest'
-import { ClaudeBuiltinSkillsSource } from '../../src/sources/claude-builtin-skills.js'
+import { ClaudeBuiltinSkillsSource, extractFromTarBuffer } from '../../src/sources/claude-builtin-skills.js'
 
 const VERSION = '2.1.97'
 
@@ -85,5 +85,46 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
     const js = `UO({name:"dream",aliases:["learn"],description:"Reflective memory consolidation."})`
     const entries = makeSource().parseSkills(js, VERSION)
     expect(entries[0]!.description).toBe('Reflective memory consolidation.')
+  })
+})
+
+describe('extractFromTarBuffer', () => {
+  /** Build a minimal valid tar buffer with one file entry. */
+  function makeTarBuffer(fileName: string, content: string): Buffer {
+    const contentBuf = Buffer.from(content, 'utf8')
+    const header = Buffer.alloc(512)
+
+    // name: bytes 0-99
+    header.write(fileName, 0, Math.min(fileName.length, 100), 'utf8')
+
+    // size: bytes 124-135 in octal, zero-padded, null-terminated
+    const sizeOctal = contentBuf.length.toString(8).padStart(11, '0')
+    header.write(sizeOctal, 124, 12, 'utf8')
+
+    // content padded to 512-byte boundary
+    const contentPadded = Buffer.alloc(Math.ceil(contentBuf.length / 512) * 512)
+    contentBuf.copy(contentPadded)
+
+    // Two empty 512-byte blocks = end of archive
+    const end = Buffer.alloc(1024)
+
+    return Buffer.concat([header, contentPadded, end])
+  }
+
+  it('extracts file content by exact path', () => {
+    const tar = makeTarBuffer('package/cli.js', 'console.log("hello")')
+    const result = extractFromTarBuffer(tar, 'package/cli.js')
+    expect(result).toBe('console.log("hello")')
+  })
+
+  it('returns null when file not found', () => {
+    const tar = makeTarBuffer('package/cli.js', 'content')
+    const result = extractFromTarBuffer(tar, 'package/other.js')
+    expect(result).toBeNull()
+  })
+
+  it('handles empty tar (no entries)', () => {
+    const empty = Buffer.alloc(1024) // two empty blocks
+    expect(extractFromTarBuffer(empty, 'anything')).toBeNull()
   })
 })
