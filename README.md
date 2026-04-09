@@ -2,7 +2,7 @@
 
 Tracks additions and metadata changes in official AI coding tool marketplaces and surfaces them through a [static catalog](https://woojinahn.github.io/ai-tools-radar/) and per-change digests.
 
-Currently tracking **50 plugins** from [`anthropics/claude-plugins-official`](https://github.com/anthropics/claude-plugins-official) (33 first-party + 17 third-party). Designed to extend to Cursor and other tools via a source adapter layer.
+Currently tracking **50 marketplace plugins** from [`anthropics/claude-plugins-official`](https://github.com/anthropics/claude-plugins-official) (33 first-party + 17 third-party) and **10 built-in skills** extracted from the Claude Code npm bundle. Designed to extend to Cursor and other tools via a source adapter layer.
 
 ## How it works
 
@@ -10,6 +10,7 @@ Currently tracking **50 plugins** from [`anthropics/claude-plugins-official`](ht
 cron 09:00 KST (daily)
   │
   ├─ Fetch marketplace via GitHub API
+  ├─ Fetch built-in skills via npm registry (parse cli.js bundle)
   ├─ Diff against state/snapshot.json
   │
   ├─ No changes → exit silently
@@ -35,11 +36,11 @@ On days when nothing changes, nothing happens — no commit, no issue, no noise.
 
 ```
 poller/          TypeScript — fetches, diffs, writes state
-  src/sources/     Source adapters (ClaudePluginsSource)
+  src/sources/     Source adapters (ClaudePluginsSource, ClaudeBuiltinSkillsSource)
   src/writers/     Snapshot, events, catalog, digest, artifacts
   src/differ.ts    Pure diff engine (field-level changes)
   src/main.ts      Orchestrator with bootstrap mode
-  test/            17 unit tests (Vitest)
+  test/            26 unit tests (Vitest)
 
 site/            Astro 5 + Tailwind 4 — static catalog site
   src/pages/       Catalog index, digest archive, entry detail, about
@@ -63,7 +64,7 @@ digests/
 ## Tech stack
 
 - **Runtime:** Node 20, TypeScript strict
-- **Poller:** Octokit, Vitest
+- **Poller:** Octokit, Vitest, npm registry API
 - **Site:** Astro 5 (static), Tailwind 4, React (two client islands only)
 - **CI/CD:** GitHub Actions, GitHub Pages
 - **Database:** None — git is the database
@@ -74,7 +75,7 @@ digests/
 # Poller
 cd poller
 npm ci
-npm test                                          # 17 tests
+npm test                                          # 26 tests
 GITHUB_TOKEN=$(gh auth token) npm run poll        # fetches real data
 
 # Site
