@@ -4,14 +4,14 @@ Repository-specific guidance for `ai-tools-radar`.
 
 ## Overview
 
-`ai-tools-radar` polls official AI coding tool marketplaces, detects additions and metadata changes, and surfaces them through a static catalog site and per-change digests. First source is `anthropics/claude-plugins-official`; the source adapter layer is designed so Cursor and other tools can be added without touching the core.
+`ai-tools-radar` polls official AI coding tool marketplaces, detects additions and metadata changes, and surfaces them through a static catalog site and per-change digests. Two sources are active: `anthropics/claude-plugins-official` (marketplace plugins) and `@anthropic-ai/claude-code` npm bundle (built-in skills parsed from minified `cli.js`). The source adapter layer is designed so Cursor and other tools can be added without touching the core.
 
 Full design: `docs/superpowers/specs/2026-04-09-ai-tools-radar-design.md`. Start there before making non-trivial changes.
 
 ## Tech stack
 
 - **Runtime:** Node 20, TypeScript everywhere. Single runtime for both the poller and the site.
-- **Poller:** plain TypeScript + Octokit + Vitest.
+- **Poller:** plain TypeScript + Octokit + npm registry API + Vitest.
 - **Site:** Astro 5 with Tailwind. Content collection for digests via `glob` loader pointing at `../digests/`.
 - **State:** Git. No database. `state/snapshot.json` is the current mirror; `state/events.jsonl` is the append-only event log; `catalog/data.json` is a rebuildable view for the site.
 - **CI:** GitHub Actions. Two workflows: `daily-poll.yml` (cron) and `deploy-pages.yml` (on push).
@@ -57,9 +57,11 @@ A local poll writes real files under `state/`, `catalog/`, `digests/`. Review th
 
 ### Code style
 - TypeScript strict mode. No `any` unless justified in a comment.
-- Poller modules are pure functions where possible. `Source.fetch()` takes no arguments; all IO is via an injected Octokit.
+- Poller modules are pure functions where possible. `ClaudePluginsSource` takes an injected Octokit; `ClaudeBuiltinSkillsSource` uses Node.js built-ins (no external deps) to fetch from npm registry.
 - Tests live under `poller/test/` and mirror the `src/` tree.
 - Site components prefer static `.astro` over client islands. Add islands only for the two interactive pieces (search, filter).
+- The site has two sections: Marketplace Plugins (with search/filter) and Built-in Skills (separate grid). Built-in entries are identified by `metadata.extra.builtin === true`.
+- Entry detail routes use `[...id]` (rest param) because built-in skill IDs contain slashes (e.g. `builtin/simplify`).
 
 ### Data invariants
 - `state/snapshot.json` entries are sorted by key before serialization so byte-identical states produce byte-identical files.
