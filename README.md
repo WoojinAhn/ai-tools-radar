@@ -28,8 +28,9 @@ On days when nothing changes, nothing happens — no commit, no issue, no noise.
 
 **https://woojinahn.github.io/ai-tools-radar/**
 
-- Catalog with search and filter (first-party / third-party)
-- Per-plugin detail pages
+- Marketplace Plugins catalog with search and filter (first-party / third-party)
+- Built-in Skills section (skills embedded in the Claude Code CLI binary)
+- Per-entry detail pages
 - Digest archive (one entry per change day)
 
 ## Repository structure
