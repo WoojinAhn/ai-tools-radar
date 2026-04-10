@@ -101,10 +101,24 @@ describe('diff', () => {
 
   it('detects removal of builtin/ prefixed entries', () => {
     const builtinEntry = entry({ id: 'builtin/loop', metadata: { extra: { builtin: true } } })
-    const prev = snapshot([builtinEntry])
-    const events = diff(prev, [], FROZEN_TS)
+    const prev = snapshot([entry({ id: 'a' }), builtinEntry])
+    // claude-code tool is still present (entry 'a'), but builtin/loop was removed
+    const curr = [entry({ id: 'a' })]
+    const events = diff(prev, curr, FROZEN_TS)
     expect(events).toHaveLength(1)
     expect(events[0]!.type).toBe('removed')
     expect(events[0]!.key).toBe('claude-code/first-party/builtin/loop')
+  })
+
+  it('skips removals for a tool when current fetch returned zero entries', () => {
+    const prev = snapshot([
+      entry({ id: 'a' }),
+      { ...entry({ id: 'x' }), tool: 'cursor' as const },
+    ])
+    // Cursor returned nothing (transient failure), Claude Code returned its entry
+    const curr = [entry({ id: 'a' })]
+    const events = diff(prev, curr, FROZEN_TS)
+    // Should NOT emit 'removed' for cursor entry
+    expect(events).toEqual([])
   })
 })

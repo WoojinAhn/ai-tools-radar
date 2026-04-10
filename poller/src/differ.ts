@@ -20,8 +20,10 @@ type ComparableKey = (typeof TOP_LEVEL_FIELDS)[number]
 export function diff(prev: SnapshotFile, current: CatalogEntry[], now: string): Event[] {
   const events: Event[] = []
   const currentMap = new Map<string, CatalogEntry>()
+  const currentTools = new Set<string>()
   for (const entry of current) {
     currentMap.set(entryKey(entry), entry)
+    currentTools.add(entry.tool)
   }
 
   // added + updated
@@ -41,7 +43,9 @@ export function diff(prev: SnapshotFile, current: CatalogEntry[], now: string): 
   // removed
   for (const key of Object.keys(prev.entries)) {
     if (!currentMap.has(key)) {
-      events.push({ ts: now, type: 'removed', key, previous: prev.entries[key]! })
+      const prevEntry = prev.entries[key]!
+      if (!currentTools.has(prevEntry.tool)) continue
+      events.push({ ts: now, type: 'removed', key, previous: prevEntry })
     }
   }
 
