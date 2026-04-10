@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-09T16:49:22.970Z",
+  "generated_at": "2026-04-10T02:45:26.371Z",
   "entries": {
     "claude-code/first-party/agent-sdk-dev": {
       "tool": "claude-code",
@@ -15,157 +15,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.243Z"
-    },
-    "claude-code/first-party/builtin/batch": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/batch",
-      "name": "batch",
-      "description": "Research and plan a large-scale change, then execute it in parallel across 5–30 isolated worktree agents that each open a PR.",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.548Z"
-    },
-    "claude-code/first-party/builtin/claude-api": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/claude-api",
-      "name": "claude-api",
-      "description": "Build Claude API / Anthropic SDK apps.\nTRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks to use the Claude API, Anthropic SDKs, or Managed Agents (`/v1/agents`, `/v1/sessions`); or asks to add a Claude feature (prompt caching, adaptive thinking, compaction, code_execution, batch, files API, citations, memory tool) or a Claude model (Opus/Sonnet/Haiku) to a Claude file.\nDO NOT TRIGGER when: file imports `openai`/non-Anthropic SDK, filename signals another provider (`agent-openai.py`, `*-generic.py`), code is provider-neutral, or task is general programming/ML.",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.585Z"
-    },
-    "claude-code/first-party/builtin/claude-in-chrome": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/claude-in-chrome",
-      "name": "claude-in-chrome",
-      "description": "Automates your Chrome browser to interact with web pages - clicking elements, filling forms, capturing screenshots, reading console logs, and navigating sites. Opens pages in new tabs within your existing Chrome session. Requires site-level permissions before executing (configured in the extension).",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.552Z"
-    },
-    "claude-code/first-party/builtin/debug": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/debug",
-      "name": "debug",
-      "description": "Enable debug logging for this session and help diagnose issues",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.556Z"
-    },
-    "claude-code/first-party/builtin/dream": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/dream",
-      "name": "dream",
-      "description": "Reflective memory consolidation — review recent activity, synthesize learnings into typed memory files, and prune stale entries.",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.572Z"
-    },
-    "claude-code/first-party/builtin/keybindings-help": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/keybindings-help",
-      "name": "keybindings-help",
-      "description": "Use when the user wants to customize keyboard shortcuts, rebind keys, add chord bindings, or modify ~/.claude/keybindings.json. Examples: \"rebind ctrl+s\", \"add a chord shortcut\", \"change the submit key\", \"customize keybindings\".",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.559Z"
-    },
-    "claude-code/first-party/builtin/loop": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/loop",
-      "name": "loop",
-      "description": "Run a prompt or slash command on a recurring interval (e.g. /loop 5m /foo, defaults to 10m)",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.577Z"
-    },
-    "claude-code/first-party/builtin/schedule": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/schedule",
-      "name": "schedule",
-      "description": "Create, update, list, or run scheduled remote agents (triggers) that execute on a cron schedule.",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.581Z"
-    },
-    "claude-code/first-party/builtin/simplify": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/simplify",
-      "name": "simplify",
-      "description": "Review changed code for reuse, quality, and efficiency, then fix any issues found.",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.563Z"
-    },
-    "claude-code/first-party/builtin/update-config": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "builtin/update-config",
-      "name": "update-config",
-      "description": "Use this skill to configure the Claude Code harness via settings.json. Automated behaviors (\"from now on when X\", \"each time X\", \"whenever X\", \"before/after X\") require hooks configured in settings.json - the harness executes these, not Claude, so memory/preferences cannot fulfill them. Also use for: permissions (\"allow X\", \"add permission\", \"move permission to\"), env vars (\"set X=Y\"), hook troubleshooting, or any changes to settings.json/settings.local.json files. Examples: \"allow npm commands\", \"add bq permission to global settings\", \"move permission to user settings\", \"set DEBUG=true\", \"when claude stops show X\". For simple settings like theme/model, use Config tool.",
-      "version": "2.1.97",
-      "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-04-09T16:49:26.567Z"
+      "fetched_at": "2026-04-10T02:45:26.670Z"
     },
     "claude-code/first-party/clangd-lsp": {
       "tool": "claude-code",
@@ -176,7 +26,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:23.312Z"
+      "fetched_at": "2026-04-10T02:45:26.740Z"
     },
     "claude-code/first-party/claude-code-setup": {
       "tool": "claude-code",
@@ -192,7 +42,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.408Z"
+      "fetched_at": "2026-04-10T02:45:26.809Z"
     },
     "claude-code/first-party/claude-md-management": {
       "tool": "claude-code",
@@ -208,7 +58,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.477Z"
+      "fetched_at": "2026-04-10T02:45:26.882Z"
     },
     "claude-code/first-party/code-review": {
       "tool": "claude-code",
@@ -223,7 +73,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.576Z"
+      "fetched_at": "2026-04-10T02:45:26.948Z"
     },
     "claude-code/first-party/code-simplifier": {
       "tool": "claude-code",
@@ -239,7 +89,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.663Z"
+      "fetched_at": "2026-04-10T02:45:27.022Z"
     },
     "claude-code/first-party/commit-commands": {
       "tool": "claude-code",
@@ -254,7 +104,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.765Z"
+      "fetched_at": "2026-04-10T02:45:27.097Z"
     },
     "claude-code/first-party/csharp-lsp": {
       "tool": "claude-code",
@@ -265,7 +115,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:23.874Z"
+      "fetched_at": "2026-04-10T02:45:27.160Z"
     },
     "claude-code/first-party/example-plugin": {
       "tool": "claude-code",
@@ -280,7 +130,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.985Z"
+      "fetched_at": "2026-04-10T02:45:27.224Z"
     },
     "claude-code/first-party/explanatory-output-style": {
       "tool": "claude-code",
@@ -296,7 +146,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:24.064Z"
+      "fetched_at": "2026-04-10T02:45:27.340Z"
     },
     "claude-code/first-party/feature-dev": {
       "tool": "claude-code",
@@ -311,7 +161,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:24.142Z"
+      "fetched_at": "2026-04-10T02:45:27.409Z"
     },
     "claude-code/first-party/frontend-design": {
       "tool": "claude-code",
@@ -326,7 +176,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:24.231Z"
+      "fetched_at": "2026-04-10T02:45:27.478Z"
     },
     "claude-code/first-party/gopls-lsp": {
       "tool": "claude-code",
@@ -337,7 +187,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.283Z"
+      "fetched_at": "2026-04-10T02:45:27.540Z"
     },
     "claude-code/first-party/hookify": {
       "tool": "claude-code",
@@ -352,7 +202,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:24.361Z"
+      "fetched_at": "2026-04-10T02:45:27.621Z"
     },
     "claude-code/first-party/jdtls-lsp": {
       "tool": "claude-code",
@@ -363,7 +213,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.448Z"
+      "fetched_at": "2026-04-10T02:45:27.685Z"
     },
     "claude-code/first-party/kotlin-lsp": {
       "tool": "claude-code",
@@ -374,7 +224,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.541Z"
+      "fetched_at": "2026-04-10T02:45:27.747Z"
     },
     "claude-code/first-party/learning-output-style": {
       "tool": "claude-code",
@@ -390,7 +240,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:24.643Z"
+      "fetched_at": "2026-04-10T02:45:27.818Z"
     },
     "claude-code/first-party/lua-lsp": {
       "tool": "claude-code",
@@ -401,7 +251,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.706Z"
+      "fetched_at": "2026-04-10T02:45:27.888Z"
     },
     "claude-code/first-party/math-olympiad": {
       "tool": "claude-code",
@@ -416,7 +266,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:24.801Z"
+      "fetched_at": "2026-04-10T02:45:27.967Z"
     },
     "claude-code/first-party/mcp-server-dev": {
       "tool": "claude-code",
@@ -431,7 +281,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:24.877Z"
+      "fetched_at": "2026-04-10T02:45:28.042Z"
     },
     "claude-code/first-party/php-lsp": {
       "tool": "claude-code",
@@ -442,7 +292,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.954Z"
+      "fetched_at": "2026-04-10T02:45:28.118Z"
     },
     "claude-code/first-party/playground": {
       "tool": "claude-code",
@@ -457,7 +307,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:25.020Z"
+      "fetched_at": "2026-04-10T02:45:28.202Z"
     },
     "claude-code/first-party/plugin-dev": {
       "tool": "claude-code",
@@ -472,7 +322,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:25.090Z"
+      "fetched_at": "2026-04-10T02:45:28.274Z"
     },
     "claude-code/first-party/pr-review-toolkit": {
       "tool": "claude-code",
@@ -487,7 +337,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:25.175Z"
+      "fetched_at": "2026-04-10T02:45:28.348Z"
     },
     "claude-code/first-party/pyright-lsp": {
       "tool": "claude-code",
@@ -498,7 +348,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:25.305Z"
+      "fetched_at": "2026-04-10T02:45:28.414Z"
     },
     "claude-code/first-party/ralph-loop": {
       "tool": "claude-code",
@@ -514,7 +364,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:25.392Z"
+      "fetched_at": "2026-04-10T02:45:28.487Z"
     },
     "claude-code/first-party/ruby-lsp": {
       "tool": "claude-code",
@@ -525,7 +375,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:25.467Z"
+      "fetched_at": "2026-04-10T02:45:28.551Z"
     },
     "claude-code/first-party/rust-analyzer-lsp": {
       "tool": "claude-code",
@@ -536,7 +386,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:25.532Z"
+      "fetched_at": "2026-04-10T02:45:28.630Z"
     },
     "claude-code/first-party/security-guidance": {
       "tool": "claude-code",
@@ -551,7 +401,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:25.611Z"
+      "fetched_at": "2026-04-10T02:45:28.701Z"
     },
     "claude-code/first-party/session-report": {
       "tool": "claude-code",
@@ -562,7 +412,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:25.686Z"
+      "fetched_at": "2026-04-10T02:45:28.778Z"
     },
     "claude-code/first-party/skill-creator": {
       "tool": "claude-code",
@@ -577,7 +427,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-09T16:49:25.757Z"
+      "fetched_at": "2026-04-10T02:45:28.858Z"
     },
     "claude-code/first-party/swift-lsp": {
       "tool": "claude-code",
@@ -588,7 +438,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:25.828Z"
+      "fetched_at": "2026-04-10T02:45:28.933Z"
     },
     "claude-code/first-party/typescript-lsp": {
       "tool": "claude-code",
@@ -599,7 +449,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:25.894Z"
+      "fetched_at": "2026-04-10T02:45:29.044Z"
     },
     "claude-code/third-party/asana": {
       "tool": "claude-code",
@@ -612,7 +462,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:23.226Z"
+      "fetched_at": "2026-04-10T02:45:26.713Z"
     },
     "claude-code/third-party/context7": {
       "tool": "claude-code",
@@ -625,7 +475,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:23.304Z"
+      "fetched_at": "2026-04-10T02:45:26.783Z"
     },
     "claude-code/third-party/discord": {
       "tool": "claude-code",
@@ -645,7 +495,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.400Z"
+      "fetched_at": "2026-04-10T02:45:26.861Z"
     },
     "claude-code/third-party/fakechat": {
       "tool": "claude-code",
@@ -667,7 +517,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.534Z"
+      "fetched_at": "2026-04-10T02:45:26.928Z"
     },
     "claude-code/third-party/firebase": {
       "tool": "claude-code",
@@ -680,7 +530,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:23.625Z"
+      "fetched_at": "2026-04-10T02:45:27.003Z"
     },
     "claude-code/third-party/github": {
       "tool": "claude-code",
@@ -693,7 +543,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:23.706Z"
+      "fetched_at": "2026-04-10T02:45:27.079Z"
     },
     "claude-code/third-party/gitlab": {
       "tool": "claude-code",
@@ -706,7 +556,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:23.783Z"
+      "fetched_at": "2026-04-10T02:45:27.154Z"
     },
     "claude-code/third-party/greptile": {
       "tool": "claude-code",
@@ -728,7 +578,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.867Z"
+      "fetched_at": "2026-04-10T02:45:27.232Z"
     },
     "claude-code/third-party/imessage": {
       "tool": "claude-code",
@@ -748,7 +598,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-09T16:49:23.935Z"
+      "fetched_at": "2026-04-10T02:45:27.311Z"
     },
     "claude-code/third-party/laravel-boost": {
       "tool": "claude-code",
@@ -761,7 +611,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.008Z"
+      "fetched_at": "2026-04-10T02:45:27.403Z"
     },
     "claude-code/third-party/linear": {
       "tool": "claude-code",
@@ -774,7 +624,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.081Z"
+      "fetched_at": "2026-04-10T02:45:27.477Z"
     },
     "claude-code/third-party/playwright": {
       "tool": "claude-code",
@@ -787,7 +637,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.152Z"
+      "fetched_at": "2026-04-10T02:45:27.549Z"
     },
     "claude-code/third-party/serena": {
       "tool": "claude-code",
@@ -800,7 +650,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.246Z"
+      "fetched_at": "2026-04-10T02:45:27.620Z"
     },
     "claude-code/third-party/slack": {
       "tool": "claude-code",
@@ -813,7 +663,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.349Z"
+      "fetched_at": "2026-04-10T02:45:27.684Z"
     },
     "claude-code/third-party/supabase": {
       "tool": "claude-code",
@@ -826,7 +676,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.437Z"
+      "fetched_at": "2026-04-10T02:45:27.755Z"
     },
     "claude-code/third-party/telegram": {
       "tool": "claude-code",
@@ -846,7 +696,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-09T16:49:24.526Z"
+      "fetched_at": "2026-04-10T02:45:27.824Z"
     },
     "claude-code/third-party/terraform": {
       "tool": "claude-code",
@@ -859,7 +709,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-09T16:49:24.631Z"
+      "fetched_at": "2026-04-10T02:45:27.892Z"
     }
   }
 }
