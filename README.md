@@ -1,16 +1,23 @@
 # ai-tools-radar
 
-Tracks additions and metadata changes in official AI coding tool marketplaces and surfaces them through a [static catalog](https://woojinahn.github.io/ai-tools-radar/) and per-change digests.
+Tracks additions and metadata changes in AI coding tool ecosystems and surfaces them through a [static catalog](https://woojinahn.github.io/ai-tools-radar/) and per-change digests.
 
-Currently tracking **50 marketplace plugins** from [`anthropics/claude-plugins-official`](https://github.com/anthropics/claude-plugins-official) (33 first-party + 17 third-party) and **10 built-in skills** extracted from the Claude Code npm bundle. Designed to extend to Cursor and other tools via a source adapter layer.
+Currently tracking **170 entries** across two tools:
+
+| Tool | Marketplace Plugins | Built-in |
+|---|---|---|
+| **Claude Code** | 50 (33 first-party + 17 third-party) | 10 skills (npm bundle) |
+| **Cursor** | 91 (5 first-party + 86 third-party) | 19 commands (changelog) |
 
 ## How it works
 
 ```
 cron 09:00 KST (daily)
   │
-  ├─ Fetch marketplace via GitHub API
-  ├─ Fetch built-in skills via npm registry (parse cli.js bundle)
+  ├─ Claude Code: fetch marketplace via GitHub API
+  ├─ Claude Code: fetch built-in skills via npm registry (parse cli.js bundle)
+  ├─ Cursor: fetch marketplace via cursor.com/marketplace (RSC payload parse)
+  ├─ Cursor: fetch built-in commands via cursor.com/changelog
   ├─ Diff against state/snapshot.json
   │
   ├─ No changes → exit silently
@@ -28,8 +35,9 @@ On days when nothing changes, nothing happens — no commit, no issue, no noise.
 
 **https://woojinahn.github.io/ai-tools-radar/**
 
+- Tool tabs: Claude Code / Cursor (separate pages)
 - Marketplace Plugins catalog with search and filter (first-party / third-party)
-- Built-in Skills section (skills embedded in the Claude Code CLI binary)
+- Built-in Skills / Commands section per tool
 - Per-entry detail pages
 - Digest archive (one entry per change day)
 
@@ -37,18 +45,22 @@ On days when nothing changes, nothing happens — no commit, no issue, no noise.
 
 ```
 poller/          TypeScript — fetches, diffs, writes state
-  src/sources/     Source adapters (ClaudePluginsSource, ClaudeBuiltinSkillsSource)
+  src/sources/     4 source adapters:
+                     ClaudePluginsSource (GitHub API)
+                     ClaudeBuiltinSkillsSource (npm registry)
+                     CursorMarketplaceSource (cursor.com HTML)
+                     CursorBuiltinCommandsSource (cursor.com HTML)
   src/writers/     Snapshot, events, catalog, digest, artifacts
   src/differ.ts    Pure diff engine (field-level changes)
   src/main.ts      Orchestrator with bootstrap mode
-  test/            26 unit tests (Vitest)
+  test/            50 unit tests (Vitest)
 
 site/            Astro 5 + Tailwind 4 — static catalog site
-  src/pages/       Catalog index, digest archive, entry detail, about
-  src/components/  EntryCard, Stats, NewBadge, SearchBox, FilterBar
+  src/pages/       /claude-code/, /cursor/, digests, entries, about
+  src/components/  ToolTabs, EntryCard, Stats, NewBadge, SearchBox, FilterBar
 
 state/           Poller-written (committed to git)
-  snapshot.json    Current marketplace mirror
+  snapshot.json    Current mirror (all tools)
   events.jsonl     Append-only change log (SSOT)
 
 catalog/
@@ -65,7 +77,7 @@ digests/
 ## Tech stack
 
 - **Runtime:** Node 20, TypeScript strict
-- **Poller:** Octokit, Vitest, npm registry API
+- **Poller:** Octokit, npm registry API, cursor.com HTML parsing, Vitest
 - **Site:** Astro 5 (static), Tailwind 4, React (two client islands only)
 - **CI/CD:** GitHub Actions, GitHub Pages
 - **Database:** None — git is the database
@@ -76,7 +88,7 @@ digests/
 # Poller
 cd poller
 npm ci
-npm test                                          # 26 tests
+npm test                                          # 50 tests
 GITHUB_TOKEN=$(gh auth token) npm run poll        # fetches real data
 
 # Site
@@ -86,15 +98,17 @@ npm run dev                                       # http://localhost:4321
 npm run build                                     # produces site/dist/
 ```
 
-## Adding a new source (e.g., Cursor)
+## Adding a new source
 
-1. Create `poller/src/sources/cursor-*.ts` implementing the `Source` interface
+1. Create `poller/src/sources/<tool>-*.ts` implementing the `Source` interface
 2. Add one line to `poller/src/sources/index.ts` → `registerSources()`
-3. Zero changes to the differ, writers, catalog, or site
+3. Add a tool page at `site/src/pages/<tool>/index.astro`
+4. Add a tab entry in `site/src/components/ToolTabs.astro`
 
-The `CatalogEntry` interface is the universal contract. Everything downstream works with any `Source` that returns `CatalogEntry[]`.
+The `CatalogEntry` interface is the universal contract. Everything downstream (differ, writers, catalog) works with any `Source` that returns `CatalogEntry[]`.
 
 ## Design docs
 
-- **Spec:** [`docs/superpowers/specs/2026-04-09-ai-tools-radar-design.md`](docs/superpowers/specs/2026-04-09-ai-tools-radar-design.md)
-- **Plan:** [`docs/superpowers/plans/2026-04-09-ai-tools-radar.md`](docs/superpowers/plans/2026-04-09-ai-tools-radar.md)
+- **Original spec:** [`docs/superpowers/specs/2026-04-09-ai-tools-radar-design.md`](docs/superpowers/specs/2026-04-09-ai-tools-radar-design.md)
+- **Cursor support spec:** [`docs/superpowers/specs/2026-04-11-cursor-support-design.md`](docs/superpowers/specs/2026-04-11-cursor-support-design.md)
+- **Cursor support plan:** [`docs/superpowers/plans/2026-04-11-cursor-support.md`](docs/superpowers/plans/2026-04-11-cursor-support.md)
