@@ -168,9 +168,10 @@ export class ClaudeBuiltinSkillsSource implements Source {
       const name = match[1]!
       if (seen.has(name)) continue
 
-      // Validate: real skill registrations contain getPromptForCommand nearby
-      const window = source.slice(match.index, match.index + 500)
-      if (!window.includes('getPromptForCommand')) continue
+      // Validate: real skill registrations contain getPromptForCommand nearby.
+      // Some skills have large description/config blocks before the method, so use 2000 chars.
+      const validationWindow = source.slice(match.index, match.index + 2000)
+      if (!validationWindow.includes('getPromptForCommand')) continue
 
       seen.add(name)
 
