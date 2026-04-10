@@ -12,8 +12,12 @@ export function getStaticPaths() {
 }
 
 const { entry } = Astro.props
-const backHref = isBuiltin(entry) ? `${import.meta.env.BASE_URL}#builtin-skills` : import.meta.env.BASE_URL
-const backLabel = isBuiltin(entry) ? '← Back to built-in skills' : '← Back to catalog'
+const backHref = isBuiltin(entry)
+  ? `${import.meta.env.BASE_URL}/${entry.tool}/#builtin-${entry.tool === 'cursor' ? 'commands' : 'skills'}`
+  : `${import.meta.env.BASE_URL}/${entry.tool}/`
+const backLabel = isBuiltin(entry)
+  ? `← Back to built-in ${entry.tool === 'cursor' ? 'commands' : 'skills'}`
+  : `← Back to ${displayTool(entry.tool)} catalog`
 ---
 
 <BaseLayout title={`${entry.name} — ai-tools-radar`}>

@@ -25,7 +25,6 @@ const { title, description = 'Radar for the AI coding tool ecosystem' } = Astro.
           ai-tools-radar
         </a>
         <nav class="flex gap-5 text-sm text-neutral-400">
-          <a href={import.meta.env.BASE_URL} class="hover:text-white">Catalog</a>
           <a href={`${import.meta.env.BASE_URL}/digests/`} class="hover:text-white">Digests</a>
           <a href={`${import.meta.env.BASE_URL}/about/`} class="hover:text-white">About</a>
         </nav>
@@ -36,7 +35,8 @@ const { title, description = 'Radar for the AI coding tool ecosystem' } = Astro.
     </main>
     <footer class="border-t border-neutral-800 mt-20">
       <div class="max-w-5xl mx-auto px-6 py-6 text-xs text-neutral-500">
-        Data from <a href="https://github.com/anthropics/claude-plugins-official" class="underline">anthropics/claude-plugins-official</a>.
+        Data from <a href="https://github.com/anthropics/claude-plugins-official" class="underline">anthropics/claude-plugins-official</a>
+        and <a href="https://cursor.com/marketplace" class="underline">cursor.com/marketplace</a>.
         Source: <a href="https://github.com/WoojinAhn/ai-tools-radar" class="underline">WoojinAhn/ai-tools-radar</a>.
       </div>
     </footer>
