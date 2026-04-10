@@ -8,7 +8,7 @@ Repository-specific guidance for `ai-tools-radar`.
 
 | Source | Tool | Method |
 |---|---|---|
-| `ClaudePluginsSource` | Claude Code | GitHub API → `anthropics/claude-plugins-official` |
+| `ClaudePluginsSource` | Claude Code | GitHub API → `anthropics/claude-plugins-official` `marketplace.json` |
 | `ClaudeBuiltinSkillsSource` | Claude Code | npm registry → `cli.js` bundle parsing |
 | `CursorMarketplaceSource` | Cursor | `cursor.com/marketplace` → RSC payload parsing |
 | `CursorBuiltinCommandsSource` | Cursor | `cursor.com/changelog` → RSC payload parsing |
@@ -64,7 +64,7 @@ A local poll writes real files under `state/`, `catalog/`, `digests/`. Review th
 
 ### Code style
 - TypeScript strict mode. No `any` unless justified in a comment.
-- `ClaudePluginsSource` takes an injected Octokit. `ClaudeBuiltinSkillsSource` uses Node.js built-ins to fetch from npm registry. Both Cursor sources use `fetchHtml()` from `src/sources/http.ts` to parse `cursor.com` HTML pages.
+- `ClaudePluginsSource` reads `marketplace.json` via Octokit (single API call for all plugins — local + external). `ClaudeBuiltinSkillsSource` uses Node.js built-ins to fetch from npm registry. Both Cursor sources use `fetchHtml()` from `src/sources/http.ts` to parse `cursor.com` HTML pages.
 - Claude Code built-in skill extraction uses a generic regex (`\w{1,4}\({name:"..."`) validated by `getPromptForCommand` presence — the minified function name changes across npm versions.
 - Cursor marketplace extraction parses `initialPlugins` from Next.js RSC payload. First-party detection: `repositoryUrl === github.com/cursor/plugins`.
 - Tests live under `poller/test/` and mirror the `src/` tree.
