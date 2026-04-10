@@ -92,6 +92,7 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
     const entries = makeSource().parseSkills(js, VERSION)
     expect(entries).toHaveLength(1)
     expect(entries[0]!.name).toBe('simplify')
+    expect(entries[0]!.description).toBe('Review code.')
   })
 
   it('rejects false positives without getPromptForCommand', () => {

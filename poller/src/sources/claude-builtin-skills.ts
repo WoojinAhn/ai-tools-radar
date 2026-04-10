@@ -16,12 +16,11 @@ const SKILL_NAME_RE = /\w{1,4}\(\{name:"([^"]*)"/g
 /**
  * Extracts skill descriptions from the bundle.
  *
- * Strategy: find the `UO({name:"<skillName>"` anchor, then search within
- * a bounded window (500 chars) for the description field. This avoids
- * greedy regex backtracking across the entire file.
+ * Strategy: find `({name:"<skillName>"` anchor (function name varies across
+ * bundler versions), then search within a bounded window for the description.
  */
 function extractDescription(source: string, skillName: string): string | undefined {
-  const anchor = `UO({name:"${skillName}"`
+  const anchor = `({name:"${skillName}"`
   const idx = source.indexOf(anchor)
   if (idx === -1) return undefined
 
