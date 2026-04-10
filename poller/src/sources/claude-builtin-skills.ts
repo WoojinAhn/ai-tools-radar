@@ -5,8 +5,13 @@ import type { CatalogEntry, Source } from './types.js'
 
 const NPM_REGISTRY_URL = 'https://registry.npmjs.org/@anthropic-ai/claude-code/latest'
 
-/** Pattern for `UO({name:"<name>"` — the minified skill registration call. */
-const SKILL_NAME_RE = /UO\(\{name:"([^"]*)"/g
+/**
+ * Pattern for skill registration calls in the minified bundle.
+ * The function name changes across versions (UO, H2, etc.) so we match
+ * any short identifier followed by ({name:"<name>". We validate matches
+ * by checking for `getPromptForCommand` in a nearby window.
+ */
+const SKILL_NAME_RE = /\w{1,4}\(\{name:"([^"]*)"/g
 
 /**
  * Extracts skill descriptions from the bundle.
@@ -162,6 +167,11 @@ export class ClaudeBuiltinSkillsSource implements Source {
     while ((match = SKILL_NAME_RE.exec(source)) !== null) {
       const name = match[1]!
       if (seen.has(name)) continue
+
+      // Validate: real skill registrations contain getPromptForCommand nearby
+      const window = source.slice(match.index, match.index + 500)
+      if (!window.includes('getPromptForCommand')) continue
+
       seen.add(name)
 
       const description = extractDescription(source, name)

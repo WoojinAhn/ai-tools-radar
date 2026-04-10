@@ -10,7 +10,7 @@ function makeSource(): ClaudeBuiltinSkillsSource {
 
 describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
   it('extracts skill with double-quoted description', () => {
-    const js = `some code;UO({name:"simplify",description:"Review changed code for reuse.",userInvocable:!0});more code`
+    const js = `some code;UO({name:"simplify",description:"Review changed code for reuse.",userInvocable:!0,async getPromptForCommand(q){}});more code`
     const entries = makeSource().parseSkills(js, VERSION)
 
     expect(entries).toHaveLength(1)
@@ -26,7 +26,7 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
   })
 
   it('extracts skill with single-quoted description', () => {
-    const js = `UO({name:"keybindings-help",description:'Customize keyboard shortcuts.',allowedTools:["Read"]})`
+    const js = `UO({name:"keybindings-help",description:'Customize keyboard shortcuts.',allowedTools:["Read"],async getPromptForCommand(q){}})`
     const entries = makeSource().parseSkills(js, VERSION)
 
     expect(entries).toHaveLength(1)
@@ -35,7 +35,7 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
   })
 
   it('extracts skill with getter description', () => {
-    const js = `UO({name:"loop",get description(){return"Run a prompt on a recurring interval"}})`
+    const js = `UO({name:"loop",get description(){return"Run a prompt on a recurring interval"},async getPromptForCommand(q){}})`
     const entries = makeSource().parseSkills(js, VERSION)
 
     expect(entries).toHaveLength(1)
@@ -53,16 +53,16 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
   })
 
   it('deduplicates skills by name', () => {
-    const js = `UO({name:"debug",description:"Enable debug logging"});UO({name:"debug",description:"Enable debug logging"})`
+    const js = `UO({name:"debug",description:"Enable debug logging",async getPromptForCommand(q){}});UO({name:"debug",description:"Enable debug logging",async getPromptForCommand(q){}})`
     const entries = makeSource().parseSkills(js, VERSION)
     expect(entries).toHaveLength(1)
   })
 
   it('extracts multiple skills from realistic bundle fragment', () => {
     const js = [
-      `function x(){UO({name:"batch",description:"Research and plan a large-scale change."})}`,
-      `function y(){UO({name:"simplify",description:"Review changed code."})}`,
-      `function z(){UO({name:"schedule",description:"Create scheduled agents."})}`,
+      `function x(){UO({name:"batch",description:"Research and plan a large-scale change.",async getPromptForCommand(q){}})}`,
+      `function y(){UO({name:"simplify",description:"Review changed code.",async getPromptForCommand(q){}})}`,
+      `function z(){UO({name:"schedule",description:"Create scheduled agents.",async getPromptForCommand(q){}})}`,
     ].join(';')
     const entries = makeSource().parseSkills(js, VERSION)
 
@@ -71,7 +71,7 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
   })
 
   it('unescapes \\n in descriptions', () => {
-    const js = `UO({name:"claude-api",description:"Build apps.\\nTRIGGER when: code imports."})`
+    const js = `UO({name:"claude-api",description:"Build apps.\\nTRIGGER when: code imports.",async getPromptForCommand(q){}})`
     const entries = makeSource().parseSkills(js, VERSION)
     expect(entries[0]!.description).toContain('\nTRIGGER when:')
   })
@@ -82,9 +82,22 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
   })
 
   it('extracts description when other fields appear between name and description', () => {
-    const js = `UO({name:"dream",aliases:["learn"],description:"Reflective memory consolidation."})`
+    const js = `UO({name:"dream",aliases:["learn"],description:"Reflective memory consolidation.",async getPromptForCommand(q){}})`
     const entries = makeSource().parseSkills(js, VERSION)
     expect(entries[0]!.description).toBe('Reflective memory consolidation.')
+  })
+
+  it('works with different minified function names (H2 instead of UO)', () => {
+    const js = `H2({name:"simplify",description:"Review code.",async getPromptForCommand(q){}})`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries).toHaveLength(1)
+    expect(entries[0]!.name).toBe('simplify')
+  })
+
+  it('rejects false positives without getPromptForCommand', () => {
+    const js = `XY({name:"not-a-skill",description:"Should be ignored."})`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries).toEqual([])
   })
 })
 
