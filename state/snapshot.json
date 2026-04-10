@@ -1,21 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-10T16:43:37.341Z",
+  "generated_at": "2026-04-10T16:53:16.860Z",
   "entries": {
     "claude-code/first-party/agent-sdk-dev": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "agent-sdk-dev",
       "name": "agent-sdk-dev",
-      "description": "Claude Agent SDK Development Plugin",
+      "description": "Development kit for working with the Claude Agent SDK",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/agent-sdk-dev",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/agent-sdk-dev",
       "metadata": {
         "extra": {
+          "category": "development",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:37.678Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/builtin/batch": {
       "tool": "claude-code",
@@ -30,7 +32,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.239Z"
+      "fetched_at": "2026-04-10T16:53:17.856Z"
     },
     "claude-code/first-party/builtin/claude-api": {
       "tool": "claude-code",
@@ -45,7 +47,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.280Z"
+      "fetched_at": "2026-04-10T16:53:17.898Z"
     },
     "claude-code/first-party/builtin/claude-in-chrome": {
       "tool": "claude-code",
@@ -60,7 +62,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.242Z"
+      "fetched_at": "2026-04-10T16:53:17.860Z"
     },
     "claude-code/first-party/builtin/debug": {
       "tool": "claude-code",
@@ -75,7 +77,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.247Z"
+      "fetched_at": "2026-04-10T16:53:17.865Z"
     },
     "claude-code/first-party/builtin/dream": {
       "tool": "claude-code",
@@ -90,7 +92,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.265Z"
+      "fetched_at": "2026-04-10T16:53:17.882Z"
     },
     "claude-code/first-party/builtin/keybindings-help": {
       "tool": "claude-code",
@@ -105,7 +107,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.251Z"
+      "fetched_at": "2026-04-10T16:53:17.869Z"
     },
     "claude-code/first-party/builtin/loop": {
       "tool": "claude-code",
@@ -120,7 +122,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.271Z"
+      "fetched_at": "2026-04-10T16:53:17.888Z"
     },
     "claude-code/first-party/builtin/schedule": {
       "tool": "claude-code",
@@ -135,7 +137,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.275Z"
+      "fetched_at": "2026-04-10T16:53:17.893Z"
     },
     "claude-code/first-party/builtin/simplify": {
       "tool": "claude-code",
@@ -150,7 +152,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.256Z"
+      "fetched_at": "2026-04-10T16:53:17.873Z"
     },
     "claude-code/first-party/builtin/update-config": {
       "tool": "claude-code",
@@ -165,18 +167,23 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.260Z"
+      "fetched_at": "2026-04-10T16:53:17.877Z"
     },
     "claude-code/first-party/clangd-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "clangd-lsp",
       "name": "clangd-lsp",
+      "description": "C/C++ language server (clangd) for code intelligence",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/clangd-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:37.756Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/claude-code-setup": {
       "tool": "claude-code",
@@ -184,15 +191,16 @@
       "id": "claude-code-setup",
       "name": "claude-code-setup",
       "description": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents.",
-      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup",
       "metadata": {
         "extra": {
+          "category": "productivity",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:37.859Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/claude-md-management": {
       "tool": "claude-code",
@@ -200,87 +208,83 @@
       "id": "claude-md-management",
       "name": "claude-md-management",
       "description": "Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, and keep project memory current.",
-      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management",
       "metadata": {
         "extra": {
+          "category": "productivity",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:37.964Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/code-review": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "code-review",
       "name": "code-review",
-      "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring",
+      "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring to filter false positives",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/code-review",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review",
       "metadata": {
         "extra": {
+          "category": "productivity",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.053Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/code-simplifier": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "code-simplifier",
       "name": "code-simplifier",
-      "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality",
-      "version": "1.0.0",
+      "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality. Focuses on recently modified code.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
       "metadata": {
         "extra": {
+          "category": "productivity",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.155Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/commit-commands": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "commit-commands",
       "name": "commit-commands",
-      "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests",
+      "description": "Commands for git commit workflows including commit, push, and PR creation",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/commit-commands",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/commit-commands",
       "metadata": {
         "extra": {
+          "category": "productivity",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.254Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/csharp-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "csharp-lsp",
       "name": "csharp-lsp",
+      "description": "C# language server for code intelligence",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/csharp-lsp",
       "metadata": {
-        "extra": {}
-      },
-      "fetched_at": "2026-04-10T16:43:38.324Z"
-    },
-    "claude-code/first-party/example-plugin": {
-      "tool": "claude-code",
-      "kind": "first-party",
-      "id": "example-plugin",
-      "name": "example-plugin",
-      "description": "A comprehensive example plugin demonstrating all Claude Code extension options including commands, agents, skills, hooks, and MCP servers",
-      "author": "Anthropic",
-      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/example-plugin",
-      "metadata": {
         "extra": {
+          "category": "development",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.425Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/explanatory-output-style": {
       "tool": "claude-code",
@@ -288,15 +292,16 @@
       "id": "explanatory-output-style",
       "name": "explanatory-output-style",
       "description": "Adds educational insights about implementation choices and codebase patterns (mimics the deprecated Explanatory output style)",
-      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/explanatory-output-style",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/explanatory-output-style",
       "metadata": {
         "extra": {
+          "category": "learning",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.507Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/feature-dev": {
       "tool": "claude-code",
@@ -304,77 +309,98 @@
       "id": "feature-dev",
       "name": "feature-dev",
       "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/feature-dev",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/feature-dev",
       "metadata": {
         "extra": {
+          "category": "development",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.587Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/frontend-design": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "frontend-design",
       "name": "frontend-design",
-      "description": "Frontend design skill for UI/UX implementation",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/frontend-design",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design",
       "metadata": {
         "extra": {
+          "category": "development",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.670Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/gopls-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "gopls-lsp",
       "name": "gopls-lsp",
+      "description": "Go language server for code intelligence and refactoring",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/gopls-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:38.750Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/hookify": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "hookify",
       "name": "hookify",
-      "description": "Easily create hooks to prevent unwanted behaviors by analyzing conversation patterns",
+      "description": "Easily create custom hooks to prevent unwanted behaviors by analyzing conversation patterns or from explicit instructions. Define rules via simple markdown files.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/hookify",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/hookify",
       "metadata": {
         "extra": {
+          "category": "productivity",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.828Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/jdtls-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "jdtls-lsp",
       "name": "jdtls-lsp",
+      "description": "Java language server (Eclipse JDT.LS) for code intelligence",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/jdtls-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:38.907Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/kotlin-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "kotlin-lsp",
       "name": "kotlin-lsp",
+      "description": "Kotlin language server for code intelligence",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/kotlin-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:38.999Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/learning-output-style": {
       "tool": "claude-code",
@@ -382,26 +408,32 @@
       "id": "learning-output-style",
       "name": "learning-output-style",
       "description": "Interactive learning mode that requests meaningful code contributions at decision points (mimics the unshipped Learning output style)",
-      "version": "1.0.0",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/learning-output-style",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/learning-output-style",
       "metadata": {
         "extra": {
+          "category": "learning",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:39.094Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/lua-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "lua-lsp",
       "name": "lua-lsp",
+      "description": "Lua language server for code intelligence",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/lua-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:39.174Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/math-olympiad": {
       "tool": "claude-code",
@@ -409,70 +441,83 @@
       "id": "math-olympiad",
       "name": "math-olympiad",
       "description": "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that catches what self-verification misses. Fresh-context verifiers attack proofs with specific failure patterns. Calibrated abstention over bluffing.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad",
       "metadata": {
         "extra": {
+          "category": "math",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:39.263Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/mcp-server-dev": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "mcp-server-dev",
       "name": "mcp-server-dev",
-      "description": "Skills for designing and building MCP servers that work seamlessly with Claude — guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and interactive MCP apps.",
+      "description": "Skills for designing and building MCP servers that work seamlessly with Claude. Guides you through deployment models (remote HTTP, MCPB, local), tool design patterns, auth, and interactive MCP apps.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev",
       "metadata": {
         "extra": {
+          "category": "development",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:39.347Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/php-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "php-lsp",
       "name": "php-lsp",
+      "description": "PHP language server (Intelephense) for code intelligence",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/php-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:39.431Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/playground": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "playground",
       "name": "playground",
-      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output with copy button",
+      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output with copy button. Includes templates for design playgrounds, data explorers, concept maps, and document critique.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground",
       "metadata": {
         "extra": {
+          "category": "development",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:39.515Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/plugin-dev": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "plugin-dev",
       "name": "plugin-dev",
-      "description": "Plugin development toolkit with skills for creating agents, commands, hooks, MCP integrations, and comprehensive plugin structure guidance",
+      "description": "Comprehensive toolkit for developing Claude Code plugins. Includes 7 expert skills covering hooks, MCP integration, commands, agents, and best practices. AI-assisted plugin creation and validation.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/plugin-dev",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev",
       "metadata": {
         "extra": {
+          "category": "development",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:39.598Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/pr-review-toolkit": {
       "tool": "claude-code",
@@ -480,63 +525,81 @@
       "id": "pr-review-toolkit",
       "name": "pr-review-toolkit",
       "description": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/pr-review-toolkit",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/pr-review-toolkit",
       "metadata": {
         "extra": {
+          "category": "productivity",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:39.715Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/pyright-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "pyright-lsp",
       "name": "pyright-lsp",
+      "description": "Python language server (Pyright) for type checking and code intelligence",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/pyright-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:39.799Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/ralph-loop": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "ralph-loop",
       "name": "ralph-loop",
-      "description": "Continuous self-referential AI loops for interactive iterative development, implementing the Ralph Wiggum technique. Run Claude in a while-true loop with the same prompt until task completion.",
-      "version": "1.0.0",
+      "description": "Interactive self-referential AI loops for iterative development, implementing the Ralph Wiggum technique. Claude works on the same task repeatedly, seeing its previous work, until completion.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/ralph-loop",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop",
       "metadata": {
         "extra": {
+          "category": "development",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:39.881Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/ruby-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "ruby-lsp",
       "name": "ruby-lsp",
+      "description": "Ruby language server for code intelligence and analysis",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ruby-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:39.959Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/rust-analyzer-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "rust-analyzer-lsp",
       "name": "rust-analyzer-lsp",
+      "description": "Rust language server for code intelligence and analysis",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/rust-analyzer-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:40.035Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/security-guidance": {
       "tool": "claude-code",
@@ -544,25 +607,33 @@
       "id": "security-guidance",
       "name": "security-guidance",
       "description": "Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/security-guidance",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance",
       "metadata": {
         "extra": {
+          "category": "security",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:40.179Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/session-report": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "session-report",
       "name": "session-report",
+      "description": "Generate an explorable HTML report of Claude Code session usage — tokens, cache efficiency, subagents, skills, and the most expensive prompts — from local ~/.claude/projects transcripts.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "productivity",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:40.259Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/skill-creator": {
       "tool": "claude-code",
@@ -570,36 +641,117 @@
       "id": "skill-creator",
       "name": "skill-creator",
       "description": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, or benchmark skill performance with variance analysis.",
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator",
       "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator",
       "metadata": {
         "extra": {
+          "category": "development",
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:43:40.385Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/swift-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "swift-lsp",
       "name": "swift-lsp",
+      "description": "Swift language server (SourceKit-LSP) for code intelligence",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/swift-lsp",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:40.464Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/first-party/typescript-lsp": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "typescript-lsp",
       "name": "typescript-lsp",
+      "description": "TypeScript/JavaScript language server for enhanced code intelligence",
+      "author": "Anthropic",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/typescript-lsp",
+      "metadata": {
+        "extra": {
+          "category": "development",
+          "author_email": "support@anthropic.com"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/adspirer-ads-agent": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "adspirer-ads-agent",
+      "name": "adspirer-ads-agent",
+      "description": "Cross-platform ad management for Google Ads, Meta Ads, TikTok Ads, and LinkedIn Ads. 91 tools for keyword research, campaign creation, performance analysis, and budget optimization.",
+      "homepage": "https://www.adspirer.com",
+      "source_url": "https://github.com/amekala/adspirer-mcp-plugin",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/ai-firstify": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "ai-firstify",
+      "name": "ai-firstify",
+      "description": "AI-first project auditor and re-engineer based on the 9 design principles and 7 design patterns from the TechWolf AI-First Bootcamp",
+      "homepage": "https://ai-first.techwolf.ai",
+      "source_url": "https://github.com/techwolf-ai/ai-first-toolkit",
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:43:40.552Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/ai-plugins": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "ai-plugins",
+      "name": "ai-plugins",
+      "description": "Set up endorctl and use Endor Labs to scan, prioritize, and fix security risks across your software supply chain",
+      "homepage": "https://www.endorlabs.com",
+      "source_url": "https://github.com/endorlabs/ai-plugins",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/aikido": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "aikido",
+      "name": "aikido",
+      "description": "Aikido Security scanning for Claude Code — SAST, secrets, and IaC vulnerability detection powered by the Aikido MCP server.",
+      "homepage": "https://github.com/AikidoSec/aikido-claude-plugin",
+      "source_url": "https://github.com/AikidoSec/aikido-claude-plugin",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/amazon-location-service": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "amazon-location-service",
+      "name": "amazon-location-service",
+      "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "source_url": "https://github.com/awslabs/agent-plugins",
+      "metadata": {
+        "extra": {
+          "category": "location"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/asana": {
       "tool": "claude-code",
@@ -607,12 +759,217 @@
       "id": "asana",
       "name": "asana",
       "description": "Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development workflow with Asana's work management platform.",
-      "author": "Asana",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/asana",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/astronomer-data-agents": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "astronomer-data-agents",
+      "name": "astronomer-data-agents",
+      "description": "Data engineering for Apache Airflow and Astronomer. Author DAGs with best practices, debug pipeline failures, trace data lineage, profile tables, migrate Airflow 2 to 3, and manage local and cloud deployments.",
+      "homepage": "https://github.com/astronomer/agents",
+      "source_url": "https://github.com/astronomer/agents",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/atlan": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "atlan",
+      "name": "atlan",
+      "description": "Atlan data catalog plugin for Claude Code. Search, explore, govern, and manage your data assets through natural language. Powered by the Atlan MCP server with semantic search, lineage traversal, glossary management, data quality rules, and more.",
+      "homepage": "https://docs.atlan.com/",
+      "source_url": "https://github.com/atlanhq/agent-toolkit",
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:43:37.639Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/atlassian": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "atlassian",
+      "name": "atlassian",
+      "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
+      "homepage": "https://github.com/atlassian/atlassian-mcp-server",
+      "source_url": "https://github.com/atlassian/atlassian-mcp-server",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/atomic-agents": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "atomic-agents",
+      "name": "atomic-agents",
+      "description": "Comprehensive development workflow for building AI agents with the Atomic Agents framework. Includes specialized agents for schema design, architecture planning, code review, and tool development. Features guided workflows, progressive-disclosure skills, and best practice validation.",
+      "homepage": "https://github.com/BrainBlend-AI/atomic-agents",
+      "source_url": "https://github.com/BrainBlend-AI/atomic-agents",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/autofix-bot": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "autofix-bot",
+      "name": "autofix-bot",
+      "description": "Code review agent that detects security vulnerabilities, code quality issues, and hardcoded secrets. Combines 5,000+ static analyzers to scan your code and dependencies for CVEs.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/autofix-bot",
+      "author": "DeepSource Corp",
+      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/autofix-bot",
+      "metadata": {
+        "extra": {
+          "category": "security"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/aws-serverless": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "aws-serverless",
+      "name": "aws-serverless",
+      "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "source_url": "https://github.com/awslabs/agent-plugins",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/box": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "box",
+      "name": "box",
+      "description": "Work with your Box content directly from Claude Code — search files, organize folders, collaborate with your team, and use Box AI to answer questions, summarize documents, and extract data without leaving your workflow.",
+      "homepage": "https://github.com/box/box-for-ai",
+      "source_url": "https://github.com/box/box-for-ai",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/brightdata-plugin": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "brightdata-plugin",
+      "name": "brightdata-plugin",
+      "description": "Web scraping, Google search, structured data extraction, and MCP server integration powered by Bright Data. Includes 7 skills: scrape any webpage as markdown (with bot detection/CAPTCHA bypass), search Google with structured JSON results, extract data from 40+ websites (Amazon, LinkedIn, Instagram, TikTok, YouTube, and more), orchestrate Bright Data's 60+ MCP tools, built-in best practices for Web Unlocker, SERP API, Web Scraper API, and Browser API, Python SDK best practices for the brightda...",
+      "homepage": "https://docs.brightdata.com",
+      "source_url": "https://github.com/brightdata/skills",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/cds-mcp": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "cds-mcp",
+      "name": "cds-mcp",
+      "description": "AI-assisted development of SAP Cloud Application Programming Model (CAP) projects. Search CDS models and CAP documentation.",
+      "homepage": "https://cap.cloud.sap/",
+      "source_url": "https://github.com/cap-js/mcp-server",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/chrome-devtools-mcp": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "chrome-devtools-mcp",
+      "name": "chrome-devtools-mcp",
+      "description": "Control and inspect a live Chrome browser from your coding agent. Record performance traces, analyze network requests, check console messages with source-mapped stack traces, and automate browser actions with Puppeteer.",
+      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "source_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/circleback": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "circleback",
+      "name": "circleback",
+      "description": "Circleback conversational context integration. Search and access meetings, emails, calendar events, and more.",
+      "homepage": "https://github.com/circlebackai/claude-code-plugin.git",
+      "source_url": "https://github.com/circlebackai/claude-code-plugin",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/cloudinary": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "cloudinary",
+      "name": "cloudinary",
+      "description": "Use Cloudinary directly in Claude. Manage assets, apply transformations, optimize media, and more through natural conversation.",
+      "homepage": "https://cloudinary.com/documentation",
+      "source_url": "https://github.com/cloudinary-devs/cloudinary-plugin",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/cockroachdb": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "cockroachdb",
+      "name": "cockroachdb",
+      "description": "CockroachDB plugin for Claude Code — explore schemas, write optimized SQL, debug queries, and manage distributed database clusters directly from your AI coding agent.",
+      "homepage": "https://github.com/cockroachdb/claude-plugin",
+      "source_url": "https://github.com/cockroachdb/claude-plugin",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/coderabbit": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "coderabbit",
+      "name": "coderabbit",
+      "description": "Your code review partner. CodeRabbit provides external validation using a specialized AI architecture and 40+ integrated static analyzers—offering a different perspective that catches bugs, security vulnerabilities, logic errors, and edge cases. Context-aware analysis via AST parsing and codegraph relationships. Automatically incorporates CLAUDE.md and project coding guidelines into reviews. Useful after writing or modifying code, before commits, when implementing complex or security-sensitive logic, or when a second opinion would increase confidence in the changes. Returns specific findings with suggested fixes that can be applied immediately. Free to use.",
+      "homepage": "https://github.com/coderabbitai/claude-plugin.git",
+      "source_url": "https://github.com/coderabbitai/claude-plugin",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/context7": {
       "tool": "claude-code",
@@ -620,54 +977,154 @@
       "id": "context7",
       "name": "context7",
       "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
-      "author": "Upstash",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/context7",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/context7",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/data": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "data",
+      "name": "data",
+      "description": "Data engineering for Apache Airflow and Astronomer. Author DAGs with best practices, debug pipeline failures, trace data lineage, profile tables, migrate Airflow 2 to 3, and manage local and cloud deployments.",
+      "homepage": "https://github.com/astronomer/agents",
+      "source_url": "https://github.com/astronomer/agents",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/data-engineering": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "data-engineering",
+      "name": "data-engineering",
+      "description": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration",
+      "homepage": "https://github.com/astronomer/agents",
+      "source_url": "https://github.com/astronomer/agents",
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:43:37.748Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/deploy-on-aws": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "deploy-on-aws",
+      "name": "deploy-on-aws",
+      "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "source_url": "https://github.com/awslabs/agent-plugins",
+      "metadata": {
+        "extra": {
+          "category": "deployment"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/discord": {
       "tool": "claude-code",
       "kind": "third-party",
       "id": "discord",
       "name": "discord",
-      "description": "Discord channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
-      "version": "0.0.4",
+      "description": "Discord messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/discord",
       "metadata": {
         "extra": {
-          "keywords": [
-            "discord",
-            "messaging",
-            "channel",
-            "mcp"
-          ]
+          "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:43:37.854Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/elixir-ls-lsp": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "elixir-ls-lsp",
+      "name": "elixir-ls-lsp",
+      "description": "Elixir language server (ElixirLS) for Claude Code — provides code intelligence and diagnostics for .ex, .exs, and .heex files.",
+      "homepage": "https://elixir-lsp.github.io/elixir-ls/",
+      "source_url": "https://github.com/MikaelFangel/claude-elixir-ls-lsp",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/expo": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "expo",
+      "name": "expo",
+      "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI development with Expo Router, SwiftUI and Jetpack Compose components, Tailwind CSS setup, API routes, data fetching, CI/CD workflows, App Store and Play Store deployment, SDK upgrades, DOM components, and dev client distribution.",
+      "homepage": "https://github.com/expo/skills/blob/main/plugins/expo/README.md",
+      "source_url": "https://github.com/expo/skills",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/fakechat": {
       "tool": "claude-code",
       "kind": "third-party",
       "id": "fakechat",
       "name": "fakechat",
-      "description": "Localhost iMessage-style web chat for Claude Code — test surface with file upload and edits. No tokens, no access control.",
-      "version": "0.0.1",
+      "description": "Localhost web chat for testing the channel notification flow. No tokens, no access control, no third-party service.",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/fakechat",
       "metadata": {
         "extra": {
-          "keywords": [
-            "fakechat",
-            "web",
-            "localhost",
-            "testing",
-            "channel",
-            "mcp"
-          ]
+          "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:43:37.931Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/fastly-agent-toolkit": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "fastly-agent-toolkit",
+      "name": "fastly-agent-toolkit",
+      "description": "Fastly development tools and platform skills",
+      "homepage": "https://github.com/fastly/fastly-agent-toolkit/blob/main/README.md",
+      "source_url": "https://github.com/fastly/fastly-agent-toolkit",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/fiftyone": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "fiftyone",
+      "name": "fiftyone",
+      "description": "Build high-quality datasets and computer vision models. Visualize datasets, analyze models, find duplicates, run inference, evaluate predictions, and develop custom plugins.",
+      "homepage": "https://docs.voxel51.com/",
+      "source_url": "https://github.com/voxel51/fiftyone-skills",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/figma": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "figma",
+      "name": "figma",
+      "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
+      "homepage": "https://github.com/figma/mcp-server-guide",
+      "source_url": "https://github.com/figma/mcp-server-guide",
+      "metadata": {
+        "extra": {
+          "category": "design"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/firebase": {
       "tool": "claude-code",
@@ -675,12 +1132,68 @@
       "id": "firebase",
       "name": "firebase",
       "description": "Google Firebase MCP integration. Manage Firestore databases, authentication, cloud functions, hosting, and storage. Build and manage your Firebase backend directly from your development workflow.",
-      "author": "Google",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/firebase",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/firebase",
+      "metadata": {
+        "extra": {
+          "category": "database"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/firecrawl": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "firecrawl",
+      "name": "firecrawl",
+      "description": "Web scraping and crawling powered by Firecrawl. Turn any website into clean, LLM-ready markdown or structured data. Scrape single pages, crawl entire sites, search the web, and extract structured information. Includes an AI agent for autonomous multi-source data gathering - just describe what you need and it finds, navigates, and extracts automatically.",
+      "homepage": "https://github.com/firecrawl/firecrawl-claude-plugin.git",
+      "source_url": "https://github.com/firecrawl/firecrawl-claude-plugin",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/firetiger": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "firetiger",
+      "name": "firetiger",
+      "description": "Claude Code plugin for Firetiger observability workflows and MCP-powered investigations.",
+      "homepage": "https://www.firetiger.com/",
+      "source_url": "https://github.com/firetiger-oss/claude-plugin",
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:43:38.030Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/flint": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "flint",
+      "name": "flint",
+      "description": "Build and manage websites with Flint's AI website builder through natural conversation.",
+      "homepage": "https://www.tryflint.com/docs/claude-code-plugin",
+      "source_url": "https://github.com/tryflint/claude-code-plugin",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/followrabbit": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "followrabbit",
+      "name": "followrabbit",
+      "description": "Cloud cost optimization for GCP infrastructure. Review changes for cost impact and auto-apply savings recommendations using the followrabbit CLI.",
+      "homepage": "https://subscriptions.agentic.followrabbit.ai/",
+      "source_url": "https://github.com/followrabbit-ai/awesome-rabbit",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/github": {
       "tool": "claude-code",
@@ -688,12 +1201,14 @@
       "id": "github",
       "name": "github",
       "description": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code.",
-      "author": "GitHub",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/github",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "productivity"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:38.115Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/gitlab": {
       "tool": "claude-code",
@@ -701,54 +1216,99 @@
       "id": "gitlab",
       "name": "gitlab",
       "description": "GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive DevOps lifecycle tools.",
-      "author": "GitLab",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/gitlab",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/gitlab",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/goodmem": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "goodmem",
+      "name": "goodmem",
+      "description": "GoodMem memory infrastructure for AI agents. Use Python SDK skills to write code that manages embedders, spaces, and memories, or use MCP tools to perform GoodMem operations directly via natural language.",
+      "homepage": "https://github.com/PAIR-Systems-Inc/goodmem-claude-code-plugin",
+      "source_url": "https://github.com/PAIR-Systems-Inc/goodmem-claude-code-plugin",
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:43:38.212Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/greptile": {
       "tool": "claude-code",
       "kind": "third-party",
       "id": "greptile",
       "name": "greptile",
-      "description": "AI code review agent for GitHub and GitLab. View and resolve Greptile's PR review comments directly from Claude Code.",
-      "author": "Greptile",
-      "homepage": "https://greptile.com/docs",
+      "description": "AI-powered codebase search and understanding. Query your repositories using natural language to find relevant code, understand dependencies, and get contextual answers about your codebase architecture.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/greptile",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/greptile",
       "metadata": {
         "extra": {
-          "keywords": [
-            "code-review",
-            "pull-requests",
-            "github",
-            "gitlab",
-            "ai"
-          ]
+          "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.292Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/helius": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "helius",
+      "name": "helius",
+      "description": "Build on Solana with Helius — live blockchain tools, expert coding patterns, and autonomous account signup",
+      "homepage": "https://www.helius.dev/docs",
+      "source_url": "https://github.com/helius-labs/core-ai",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/huggingface-skills": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "huggingface-skills",
+      "name": "huggingface-skills",
+      "description": "Build, train, evaluate, and use open source AI models, datasets, and spaces.",
+      "homepage": "https://github.com/huggingface/skills.git",
+      "source_url": "https://github.com/huggingface/skills",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/imessage": {
       "tool": "claude-code",
       "kind": "third-party",
       "id": "imessage",
       "name": "imessage",
-      "description": "iMessage channel for Claude Code — reads chat.db directly, sends via AppleScript. Built-in access control; manage pairing, allowlists, and policy via /imessage:access.",
-      "version": "0.1.0",
+      "description": "iMessage messaging bridge with built-in access control. Reads chat.db directly, sends via AppleScript. Manage pairing, allowlists, and policy via /imessage:access.",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/imessage",
       "metadata": {
         "extra": {
-          "keywords": [
-            "imessage",
-            "messaging",
-            "channel",
-            "mcp"
-          ]
+          "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.380Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/intercom": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "intercom",
+      "name": "intercom",
+      "description": "Intercom integration for Claude Code. Search conversations, analyze customer support patterns, look up contacts and companies, and install the Intercom Messenger. Connect your Intercom workspace to get real-time insights from customer data.",
+      "homepage": "https://github.com/intercom/claude-plugin-external",
+      "source_url": "https://github.com/intercom/claude-plugin-external",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/laravel-boost": {
       "tool": "claude-code",
@@ -756,12 +1316,29 @@
       "id": "laravel-boost",
       "name": "laravel-boost",
       "description": "Laravel development toolkit MCP server. Provides intelligent assistance for Laravel applications including Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
-      "author": "Laravel",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/laravel-boost",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/laravel-boost",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:38.473Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/legalzoom": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "legalzoom",
+      "name": "legalzoom",
+      "description": "Attorney guidance and legal tools for business and personal needs. AI-powered document review identifies critical risks and important clauses, advises when to engage an attorney, and routes to LegalZoom's network when professional expertise is needed.",
+      "homepage": "https://www.legalzoom.com/",
+      "source_url": "https://github.com/legalzoom/claude-plugins",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/linear": {
       "tool": "claude-code",
@@ -769,12 +1346,216 @@
       "id": "linear",
       "name": "linear",
       "description": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software development workflow with Linear's modern issue tracker.",
-      "author": "Linear",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/linear",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/linear",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/microsoft-docs": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "microsoft-docs",
+      "name": "microsoft-docs",
+      "description": "Access official Microsoft documentation, API references, and code samples for Azure, .NET, Windows, and more.",
+      "homepage": "https://github.com/microsoftdocs/mcp",
+      "source_url": "https://github.com/MicrosoftDocs/mcp",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/migration-to-aws": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "migration-to-aws",
+      "name": "migration-to-aws",
+      "description": "Assess current cloud provider usage and billing to estimate and compare AWS services and pricing, with recommendations for migration or continued use of current provider.",
+      "homepage": "https://github.com/awslabs/agent-plugins",
+      "source_url": "https://github.com/awslabs/agent-plugins",
+      "metadata": {
+        "extra": {
+          "category": "migration"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/mintlify": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "mintlify",
+      "name": "mintlify",
+      "description": "Build beautiful documentation sites with Mintlify. Convert non-markdown files into properly formatted MDX pages, add and modify content with correct component use, and automate documentation updates.",
+      "homepage": "https://www.mintlify.com/",
+      "source_url": "https://github.com/mintlify/mintlify-claude-plugin",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/mongodb": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "mongodb",
+      "name": "mongodb",
+      "description": "Official Claude plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
+      "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
+      "source_url": "https://github.com/mongodb/agent-skills",
+      "metadata": {
+        "extra": {
+          "category": "database"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/neon": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "neon",
+      "name": "neon",
+      "description": "Manage your Neon projects and databases with the neon-postgres agent skill and the Neon MCP Server.",
+      "homepage": "https://github.com/neondatabase/agent-skills/tree/main/plugins/neon-postgres",
+      "source_url": "https://github.com/neondatabase/agent-skills",
+      "metadata": {
+        "extra": {
+          "category": "database"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/netlify-skills": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "netlify-skills",
+      "name": "netlify-skills",
+      "description": "Netlify platform skills for Claude Code — functions, edge functions, blobs, database, image CDN, forms, config, CLI, frameworks, caching, AI gateway, and deployment.",
+      "homepage": "https://github.com/netlify/context-and-tools",
+      "source_url": "https://github.com/netlify/context-and-tools",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/nightvision": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "nightvision",
+      "name": "nightvision",
+      "description": "Skills for working with NightVision, a DAST and API Discovery platform that finds exploitable vulnerabilities in web applications and REST APIs",
+      "homepage": "https://github.com/nvsecurity/nightvision-skills",
+      "source_url": "https://github.com/nvsecurity/nightvision-skills",
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:43:38.560Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/nimble": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "nimble",
+      "name": "nimble",
+      "description": "Nimble web data toolkit — search, extract, map, crawl the web and work with structured data agents",
+      "homepage": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation",
+      "source_url": "https://github.com/Nimbleway/agent-skills",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/notion": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "notion",
+      "name": "notion",
+      "description": "Notion workspace integration. Search pages, create and update documents, manage databases, and access your team's knowledge base directly from Claude Code for seamless documentation workflows.",
+      "homepage": "https://github.com/makenotion/claude-code-notion-plugin",
+      "source_url": "https://github.com/makenotion/claude-code-notion-plugin",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/opsera-devsecops": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "opsera-devsecops",
+      "name": "opsera-devsecops",
+      "description": "Opsera DevSecOps Agent — AI-powered architecture analysis, security scanning, compliance auditing, and SQL security for your codebase. Free trial included.",
+      "homepage": "https://opsera.ai/agents",
+      "source_url": "https://github.com/opsera-agents/opsera-devsecops",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/optibot": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "optibot",
+      "name": "optibot",
+      "description": "AI code review that catches production-breaking bugs, business logic issues, and security vulnerabilities — directly in Claude Code.",
+      "homepage": "https://getoptimal.ai",
+      "source_url": "https://github.com/Optimal-AI/optibot-skill",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/pagerduty": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "pagerduty",
+      "name": "pagerduty",
+      "description": "Enhance code quality and security through PagerDuty risk scoring and incident correlation. Score pre-commit diffs against historical incident data and surface deployment risk before you ship.",
+      "homepage": "https://github.com/PagerDuty/claude-code-plugins",
+      "source_url": "https://github.com/PagerDuty/claude-code-plugins",
+      "metadata": {
+        "extra": {
+          "category": "monitoring"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/pinecone": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "pinecone",
+      "name": "pinecone",
+      "description": "Pinecone vector database integration. Streamline your Pinecone development with powerful tools for managing vector indexes, querying data, and rapid prototyping. Use slash commands like /quickstart to generate AGENTS.md files and initialize Python projects and /query to quickly explore indexes. Access the Pinecone MCP server for creating, describing, upserting and querying indexes with Claude. Perfect for developers building semantic search, RAG applications, recommendation systems, and other vector-based applications with Pinecone.",
+      "homepage": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
+      "source_url": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
+      "metadata": {
+        "extra": {
+          "category": "database"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/planetscale": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "planetscale",
+      "name": "planetscale",
+      "description": "An authenticated hosted MCP server that accesses your PlanetScale organizations, databases, branches, schema, and Insights data. Query against your data, surface slow queries, and get organizational and account information.",
+      "homepage": "https://planetscale.com/",
+      "source_url": "https://github.com/planetscale/claude-plugin",
+      "metadata": {
+        "extra": {
+          "category": "database"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/playwright": {
       "tool": "claude-code",
@@ -782,12 +1563,215 @@
       "id": "playwright",
       "name": "playwright",
       "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
-      "author": "Microsoft",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/playwright",
+      "metadata": {
+        "extra": {
+          "category": "testing"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/posthog": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "posthog",
+      "name": "posthog",
+      "description": "Access PostHog analytics, feature flags, experiments, error tracking, and insights directly from Claude Code.",
+      "homepage": "https://posthog.com/docs/model-context-protocol",
+      "source_url": "https://github.com/PostHog/ai-plugin",
+      "metadata": {
+        "extra": {
+          "category": "monitoring"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/postiz": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "postiz",
+      "name": "postiz",
+      "description": "Social media automation CLI for scheduling posts, managing integrations, uploading media, and tracking analytics across 28+ platforms including X, LinkedIn, Reddit, YouTube, TikTok, Instagram, and more",
+      "homepage": "https://postiz.com/agent",
+      "source_url": "https://github.com/gitroomhq/postiz-agent",
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:43:38.650Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/postman": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "postman",
+      "name": "postman",
+      "description": "Full API lifecycle management for Claude Code. Sync collections, generate client code, discover APIs, run tests, create mocks, publish docs, and audit security. Powered by the Postman MCP Server.",
+      "homepage": "https://learning.postman.com/docs/developer/postman-mcp-server/",
+      "source_url": "https://github.com/Postman-Devrel/postman-claude-code-plugin",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/prisma": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "prisma",
+      "name": "prisma",
+      "description": "Prisma MCP integration for Postgres database management, schema migrations, SQL queries, and connection string management. Provision Prisma Postgres databases, run migrations, and interact with your data directly.",
+      "homepage": "https://prisma.io",
+      "source_url": "https://github.com/prisma/claude-plugin",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/product-tracking-skills": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "product-tracking-skills",
+      "name": "product-tracking-skills",
+      "description": "AI agent skills that make SaaS products data-ready for product analytics — from codebase scan to tracking plan to working instrumentation code.",
+      "homepage": "https://www.accoil.com/product-tracking",
+      "source_url": "https://github.com/Accoil/product-tracking-skills",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/qodo-skills": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "qodo-skills",
+      "name": "qodo-skills",
+      "description": "Qodo Skills provides a curated library of reusable AI agent capabilities that extend Claude's functionality for software development workflows. Each skill is designed to integrate seamlessly into your development process, enabling tasks like code quality checks, automated testing, security scanning, and compliance validation. Skills operate across your entire SDLC—from IDE to CI/CD—ensuring consistent standards and catching issues early.",
+      "homepage": "https://github.com/qodo-ai/qodo-skills.git",
+      "source_url": "https://github.com/qodo-ai/qodo-skills",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/railway": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "railway",
+      "name": "railway",
+      "description": "Deploy and manage apps, databases, and infrastructure on Railway. Covers project setup, deploys, environment configuration, networking, troubleshooting, and monitoring.",
+      "homepage": "https://docs.railway.com/ai/claude-code-plugin",
+      "source_url": "https://github.com/railwayapp/railway-skills",
+      "metadata": {
+        "extra": {
+          "category": "deployment"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/rc": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "rc",
+      "name": "rc",
+      "description": "Configure RevenueCat projects, apps, products, entitlements, and offerings directly from Claude Code. Manage your in-app purchase backend without leaving your development workflow.",
+      "homepage": "https://www.revenuecat.com",
+      "source_url": "https://github.com/RevenueCat/rc-claude-code-plugin",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/remember": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "remember",
+      "name": "remember",
+      "description": "Continuous memory for Claude Code. Extracts, summarizes, and compresses conversations into tiered daily logs. Claude remembers what you did yesterday.",
+      "homepage": "https://github.com/Digital-Process-Tools/claude-remember",
+      "source_url": "https://github.com/Digital-Process-Tools/claude-remember",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/revenuecat": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "revenuecat",
+      "name": "revenuecat",
+      "description": "Configure RevenueCat projects, apps, products, entitlements, and offerings directly from Claude Code. Manage your in-app purchase backend without leaving your development workflow.",
+      "homepage": "https://www.revenuecat.com",
+      "source_url": "https://github.com/RevenueCat/rc-claude-code-plugin",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/sanity-plugin": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "sanity-plugin",
+      "name": "sanity-plugin",
+      "description": "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing.",
+      "homepage": "https://www.sanity.io",
+      "author": "Sanity",
+      "source_url": "https://github.com/sanity-io/agent-toolkit",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/searchfit-seo": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "searchfit-seo",
+      "name": "searchfit-seo",
+      "description": "Free AI-powered SEO toolkit — audit websites, plan content strategy, optimize pages, generate schema markup, cluster keywords, and track AI visibility. Works with any website or codebase.",
+      "homepage": "https://searchfit.ai",
+      "source_url": "https://github.com/searchfit/searchfit-seo",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/semgrep": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "semgrep",
+      "name": "semgrep",
+      "description": "Semgrep catches security vulnerabilities in real-time and guides Claude to write secure code from the start.",
+      "homepage": "https://github.com/semgrep/mcp-marketplace.git",
+      "source_url": "https://github.com/semgrep/mcp-marketplace",
+      "metadata": {
+        "extra": {
+          "category": "security"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/sentry": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "sentry",
+      "name": "sentry",
+      "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
+      "homepage": "https://github.com/getsentry/sentry-for-claude/tree/main",
+      "source_url": "https://github.com/getsentry/sentry-for-claude",
+      "metadata": {
+        "extra": {
+          "category": "monitoring"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/serena": {
       "tool": "claude-code",
@@ -795,12 +1779,14 @@
       "id": "serena",
       "name": "serena",
       "description": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration.",
-      "author": "Oraios",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/serena",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "development"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:38.739Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/slack": {
       "tool": "claude-code",
@@ -808,12 +1794,105 @@
       "id": "slack",
       "name": "slack",
       "description": "Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find relevant discussions and context quickly.",
-      "author": "Slack",
-      "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/slack",
+      "homepage": "https://github.com/slackapi/slack-mcp-plugin/tree/main",
+      "source_url": "https://github.com/slackapi/slack-mcp-plugin",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "productivity"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:38.827Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/sonarqube-agent-plugins": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "sonarqube-agent-plugins",
+      "name": "sonarqube-agent-plugins",
+      "description": "Integrate SonarQube code quality and security analysis into Claude Code: namespaced slash commands, a guided skill to setup the SonarQube CLI, and a startup check for CLI wiring. MCP server registration and secrets-scanning hooks are installed by the SonarQube CLI as part of setup.",
+      "homepage": "https://github.com/SonarSource/sonarqube-agent-plugins",
+      "source_url": "https://github.com/SonarSource/sonarqube-agent-plugins",
+      "metadata": {
+        "extra": {
+          "category": "security"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/sonatype-guide": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "sonatype-guide",
+      "name": "sonatype-guide",
+      "description": "Sonatype Guide MCP server for software supply chain intelligence and dependency security. Analyze dependencies for vulnerabilities, get secure version recommendations, and check component quality metrics.",
+      "homepage": "https://github.com/sonatype/sonatype-guide-claude-plugin.git",
+      "source_url": "https://github.com/sonatype/sonatype-guide-claude-plugin",
+      "metadata": {
+        "extra": {
+          "category": "security"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/sourcegraph": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "sourcegraph",
+      "name": "sourcegraph",
+      "description": "Code search and understanding across codebases. Search, read, and trace references across repositories; analyze refactor impact; investigate incidents via commit and diff search; run targeted security sweeps.",
+      "homepage": "https://sourcegraph.com",
+      "source_url": "https://github.com/sourcegraph-community/sourcegraph-claudecode-plugin",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/stagehand": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "stagehand",
+      "name": "stagehand",
+      "description": "Browser automation skill for Claude Code using Stagehand. Automate web interactions, extract data, and navigate websites using natural language.",
+      "homepage": "https://github.com/browserbase/agent-browse",
+      "author": "Browserbase",
+      "source_url": "https://github.com/browserbase/agent-browse",
+      "metadata": {
+        "extra": {
+          "category": "automation"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/stripe": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "stripe",
+      "name": "stripe",
+      "description": "Stripe development plugin for Claude",
+      "homepage": "https://github.com/stripe/ai/tree/main/providers/claude/plugin",
+      "source_url": "https://github.com/stripe/ai",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/sumup": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "sumup",
+      "name": "sumup",
+      "description": "SumUp payment integrations across terminal and online checkout flows. Build Android and iOS POS apps with SumUp card readers, online checkout with server SDKs and the checkout widget, and control card readers remotely via Cloud API.",
+      "homepage": "https://www.sumup.com/",
+      "source_url": "https://github.com/sumup/sumup-skills",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/supabase": {
       "tool": "claude-code",
@@ -821,32 +1900,43 @@
       "id": "supabase",
       "name": "supabase",
       "description": "Supabase MCP integration for database operations, authentication, storage, and real-time subscriptions. Manage your Supabase projects, run SQL queries, and interact with your backend directly.",
-      "author": "Supabase",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/supabase",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/supabase",
       "metadata": {
-        "extra": {}
+        "extra": {
+          "category": "database"
+        }
       },
-      "fetched_at": "2026-04-10T16:43:38.909Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/superpowers": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "superpowers",
+      "name": "superpowers",
+      "description": "Superpowers teaches Claude brainstorming, subagent driven development with built in code review, systematic debugging, and red/green TDD. Additionally, it teaches Claude how to author and test new skills.",
+      "homepage": "https://github.com/obra/superpowers.git",
+      "source_url": "https://github.com/obra/superpowers",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/telegram": {
       "tool": "claude-code",
       "kind": "third-party",
       "id": "telegram",
       "name": "telegram",
-      "description": "Telegram channel for Claude Code — messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access.",
-      "version": "0.0.4",
+      "description": "Telegram messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access.",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/telegram",
       "metadata": {
         "extra": {
-          "keywords": [
-            "telegram",
-            "messaging",
-            "channel",
-            "mcp"
-          ]
+          "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:43:38.988Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "claude-code/third-party/terraform": {
       "tool": "claude-code",
@@ -854,12 +1944,132 @@
       "id": "terraform",
       "name": "terraform",
       "description": "The Terraform MCP Server provides seamless integration with Terraform ecosystem, enabling advanced automation and interaction capabilities for Infrastructure as Code (IaC) development.",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/terraform",
       "author": "HashiCorp",
       "source_url": "https://github.com/anthropics/claude-plugins-official/tree/main/external_plugins/terraform",
       "metadata": {
+        "extra": {
+          "category": "development",
+          "author_email": "support@hashicorp.com"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/ui5": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "ui5",
+      "name": "ui5",
+      "description": "SAPUI5 / OpenUI5 plugin for Claude. Create and validate UI5 projects, access API documentation, run UI5 linter, get development guidelines and best practices for UI5 development.",
+      "homepage": "https://github.com/UI5/plugins-claude",
+      "source_url": "https://github.com/UI5/plugins-claude",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/ui5-typescript-conversion": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "ui5-typescript-conversion",
+      "name": "ui5-typescript-conversion",
+      "description": "SAPUI5 / OpenUI5 plugin for Claude. Convert JavaScript based UI5 projects to TypeScript.",
+      "homepage": "https://github.com/UI5/plugins-claude",
+      "source_url": "https://github.com/UI5/plugins-claude",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/vercel": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "vercel",
+      "name": "vercel",
+      "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Claude Code.",
+      "homepage": "https://github.com/vercel/vercel-plugin",
+      "source_url": "https://github.com/vercel/vercel-plugin",
+      "metadata": {
+        "extra": {
+          "category": "deployment"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/voila-api": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "voila-api",
+      "name": "voila-api",
+      "description": "Definitive guide for the Voila API. Covers shipment creation (Manual/Smart Shipping), real-time tracking, detailed history, manifesting, collections, webhooks, and third-party integrations (Sorted, Peoplevox, Mintsoft, Veeqo, JD).",
+      "homepage": "https://github.com/TSedmanDC/Voila-API-Skill",
+      "source_url": "https://github.com/TSedmanDC/Voila-API-Skill",
+      "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:43:39.072Z"
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/wix": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "wix",
+      "name": "wix",
+      "description": "Build, manage, and deploy Wix sites and apps. CLI development skills for dashboard extensions, backend APIs, site widgets, and service plugins with the Wix Design System, plus MCP server for site management.",
+      "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills",
+      "source_url": "https://github.com/wix/skills",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/wordpress.com": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "wordpress.com",
+      "name": "wordpress.com",
+      "description": "Uses Claude Code to create and edit WordPress sites with WordPress Studio before deploying changes to your WordPress.com site.",
+      "homepage": "https://developer.wordpress.com/wordpress-com-claude-code-plugin/",
+      "source_url": "https://github.com/Automattic/claude-code-wordpress.com",
+      "metadata": {
+        "extra": {}
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/zapier": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "zapier",
+      "name": "zapier",
+      "description": "Connect 8,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client.",
+      "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier",
+      "source_url": "https://github.com/zapier/zapier-mcp",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
+    },
+    "claude-code/third-party/zoom-plugin": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "zoom-plugin",
+      "name": "zoom-plugin",
+      "description": "Claude plugin for planning, building, and debugging Zoom integrations across REST APIs, SDKs, webhooks, bots, and MCP workflows.",
+      "homepage": "https://developers.zoom.us/",
+      "source_url": "https://github.com/zoom/zoom-plugin",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-10T16:53:17.102Z"
     },
     "cursor/first-party/agent-compatibility": {
       "tool": "cursor",
@@ -874,7 +2084,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/first-party/builtin/about": {
       "tool": "cursor",
@@ -887,7 +2097,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/add-plugin": {
       "tool": "cursor",
@@ -900,7 +2110,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/ask": {
       "tool": "cursor",
@@ -913,7 +2123,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/auto-run": {
       "tool": "cursor",
@@ -926,7 +2136,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/best-of-n": {
       "tool": "cursor",
@@ -940,7 +2150,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/commands": {
       "tool": "cursor",
@@ -953,7 +2163,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/list": {
       "tool": "cursor",
@@ -966,7 +2176,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/max-mode": {
       "tool": "cursor",
@@ -979,7 +2189,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/mcp": {
       "tool": "cursor",
@@ -992,7 +2202,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/model": {
       "tool": "cursor",
@@ -1005,7 +2215,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/models": {
       "tool": "cursor",
@@ -1018,7 +2228,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/plan": {
       "tool": "cursor",
@@ -1032,7 +2242,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/resume": {
       "tool": "cursor",
@@ -1046,7 +2256,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/rules": {
       "tool": "cursor",
@@ -1059,7 +2269,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/setup-terminal": {
       "tool": "cursor",
@@ -1072,7 +2282,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/summarize": {
       "tool": "cursor",
@@ -1086,7 +2296,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/usage": {
       "tool": "cursor",
@@ -1099,7 +2309,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/vim": {
       "tool": "cursor",
@@ -1113,7 +2323,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/builtin/worktree": {
       "tool": "cursor",
@@ -1127,7 +2337,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:43:42.015Z"
+      "fetched_at": "2026-04-10T16:53:18.662Z"
     },
     "cursor/first-party/cli-for-agent": {
       "tool": "cursor",
@@ -1142,7 +2352,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/first-party/continual-learning": {
       "tool": "cursor",
@@ -1157,7 +2367,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/first-party/create-plugin": {
       "tool": "cursor",
@@ -1172,7 +2382,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/first-party/cursor-team-kit": {
       "tool": "cursor",
@@ -1187,7 +2397,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/1password": {
       "tool": "cursor",
@@ -1202,7 +2412,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/amazon-location-service": {
       "tool": "cursor",
@@ -1217,7 +2427,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/amplitude": {
       "tool": "cursor",
@@ -1234,7 +2444,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/antimetal": {
       "tool": "cursor",
@@ -1251,7 +2461,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/appwrite-plugin": {
       "tool": "cursor",
@@ -1268,7 +2478,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/astronomer-data": {
       "tool": "cursor",
@@ -1283,7 +2493,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/atlassian": {
       "tool": "cursor",
@@ -1302,7 +2512,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/aws-amplify": {
       "tool": "cursor",
@@ -1317,7 +2527,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/aws-serverless": {
       "tool": "cursor",
@@ -1332,7 +2542,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/azure-cosmosdb": {
       "tool": "cursor",
@@ -1349,7 +2559,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/box": {
       "tool": "cursor",
@@ -1364,7 +2574,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/braintrust": {
       "tool": "cursor",
@@ -1379,7 +2589,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/browse": {
       "tool": "cursor",
@@ -1396,7 +2606,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/browserstack": {
       "tool": "cursor",
@@ -1413,7 +2623,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/chargebee-integration": {
       "tool": "cursor",
@@ -1430,7 +2640,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/circle": {
       "tool": "cursor",
@@ -1445,7 +2655,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/clerk": {
       "tool": "cursor",
@@ -1462,7 +2672,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/clickhouse-cursor-plugin": {
       "tool": "cursor",
@@ -1479,7 +2689,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/clickup": {
       "tool": "cursor",
@@ -1496,7 +2706,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/cloudflare": {
       "tool": "cursor",
@@ -1513,7 +2723,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/cloudinary": {
       "tool": "cursor",
@@ -1530,7 +2740,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/cockroachdb": {
       "tool": "cursor",
@@ -1547,7 +2757,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/compound-engineering": {
       "tool": "cursor",
@@ -1562,7 +2772,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/context7-plugin": {
       "tool": "cursor",
@@ -1580,7 +2790,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/convex": {
       "tool": "cursor",
@@ -1597,7 +2807,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/databricks-skills": {
       "tool": "cursor",
@@ -1614,7 +2824,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/datadog": {
       "tool": "cursor",
@@ -1631,7 +2841,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/dbt": {
       "tool": "cursor",
@@ -1648,7 +2858,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/deploy-on-aws": {
       "tool": "cursor",
@@ -1666,7 +2876,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/elastic": {
       "tool": "cursor",
@@ -1681,7 +2891,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/encore": {
       "tool": "cursor",
@@ -1698,7 +2908,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/endorlabs": {
       "tool": "cursor",
@@ -1713,7 +2923,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/etoro": {
       "tool": "cursor",
@@ -1730,7 +2940,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/figma": {
       "tool": "cursor",
@@ -1747,7 +2957,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/firebase": {
       "tool": "cursor",
@@ -1764,7 +2974,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/firecrawl": {
       "tool": "cursor",
@@ -1781,7 +2991,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/firetiger": {
       "tool": "cursor",
@@ -1796,7 +3006,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/functions": {
       "tool": "cursor",
@@ -1813,7 +3023,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/gitlab": {
       "tool": "cursor",
@@ -1830,7 +3040,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/glean": {
       "tool": "cursor",
@@ -1847,7 +3057,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/grafana-assistant": {
       "tool": "cursor",
@@ -1864,7 +3074,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/hex": {
       "tool": "cursor",
@@ -1881,7 +3091,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/huggingface-skills": {
       "tool": "cursor",
@@ -1899,7 +3109,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/jfrog": {
       "tool": "cursor",
@@ -1914,7 +3124,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/langfuse": {
       "tool": "cursor",
@@ -1931,7 +3141,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/launchdarkly": {
       "tool": "cursor",
@@ -1948,7 +3158,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/linear": {
       "tool": "cursor",
@@ -1966,7 +3176,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/meta-quest-agentic-tools": {
       "tool": "cursor",
@@ -1981,7 +3191,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/migration-to-aws": {
       "tool": "cursor",
@@ -1996,7 +3206,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/miro": {
       "tool": "cursor",
@@ -2013,7 +3223,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/monday.com": {
       "tool": "cursor",
@@ -2028,7 +3238,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/mongodb": {
       "tool": "cursor",
@@ -2045,7 +3255,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/neon-postgres": {
       "tool": "cursor",
@@ -2062,7 +3272,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/notion-workspace": {
       "tool": "cursor",
@@ -2079,7 +3289,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/omni-analytics": {
       "tool": "cursor",
@@ -2096,7 +3306,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/pagerduty": {
       "tool": "cursor",
@@ -2113,7 +3323,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/parallel": {
       "tool": "cursor",
@@ -2128,7 +3338,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/pendo-analytics": {
       "tool": "cursor",
@@ -2145,7 +3355,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/phantom-connect": {
       "tool": "cursor",
@@ -2162,7 +3372,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/plain": {
       "tool": "cursor",
@@ -2177,7 +3387,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/planetscale": {
       "tool": "cursor",
@@ -2194,7 +3404,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/posthog": {
       "tool": "cursor",
@@ -2211,7 +3421,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/postman": {
       "tool": "cursor",
@@ -2228,7 +3438,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/prisma": {
       "tool": "cursor",
@@ -2245,7 +3455,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/redis-development": {
       "tool": "cursor",
@@ -2262,7 +3472,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/render": {
       "tool": "cursor",
@@ -2277,7 +3487,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/runlayer": {
       "tool": "cursor",
@@ -2294,7 +3504,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/sanity": {
       "tool": "cursor",
@@ -2311,7 +3521,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/semgrep-plugin": {
       "tool": "cursor",
@@ -2328,7 +3538,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/sentry": {
       "tool": "cursor",
@@ -2345,7 +3555,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/shopify-plugin": {
       "tool": "cursor",
@@ -2362,7 +3572,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/slack": {
       "tool": "cursor",
@@ -2377,7 +3587,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/snyk-secure-development": {
       "tool": "cursor",
@@ -2394,7 +3604,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/sourcegraph": {
       "tool": "cursor",
@@ -2411,7 +3621,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/stripe": {
       "tool": "cursor",
@@ -2428,7 +3638,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/supabase": {
       "tool": "cursor",
@@ -2445,7 +3655,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/superpowers": {
       "tool": "cursor",
@@ -2462,7 +3672,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/svelte": {
       "tool": "cursor",
@@ -2479,7 +3689,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/tavily": {
       "tool": "cursor",
@@ -2496,7 +3706,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/thousandeyes": {
       "tool": "cursor",
@@ -2514,7 +3724,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/tldraw": {
       "tool": "cursor",
@@ -2529,7 +3739,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/turbopuffer": {
       "tool": "cursor",
@@ -2546,7 +3756,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/vercel": {
       "tool": "cursor",
@@ -2563,7 +3773,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/webflow": {
       "tool": "cursor",
@@ -2580,7 +3790,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/wix": {
       "tool": "cursor",
@@ -2597,7 +3807,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     },
     "cursor/third-party/zapier": {
       "tool": "cursor",
@@ -2614,7 +3824,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:43:41.718Z"
+      "fetched_at": "2026-04-10T16:53:18.291Z"
     }
   }
 }
