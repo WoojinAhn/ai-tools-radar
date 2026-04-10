@@ -2,11 +2,11 @@
 
 Tracks additions and metadata changes in AI coding tool ecosystems and surfaces them through a [static catalog](https://woojinahn.github.io/ai-tools-radar/) and per-change digests.
 
-Currently tracking **170 entries** across two tools:
+Currently tracking **248 entries** across two tools:
 
 | Tool | Marketplace Plugins | Built-in |
 |---|---|---|
-| **Claude Code** | 50 (33 first-party + 17 third-party) | 10 skills (npm bundle) |
+| **Claude Code** | 128 (49 first-party + 79 third-party) | 10 skills (npm bundle) |
 | **Cursor** | 91 (5 first-party + 86 third-party) | 19 commands (changelog) |
 
 ## How it works
@@ -14,7 +14,7 @@ Currently tracking **170 entries** across two tools:
 ```
 cron 09:00 KST (daily)
   │
-  ├─ Claude Code: fetch marketplace via GitHub API
+  ├─ Claude Code: fetch marketplace.json via GitHub API (128 plugins)
   ├─ Claude Code: fetch built-in skills via npm registry (parse cli.js bundle)
   ├─ Cursor: fetch marketplace via cursor.com/marketplace (RSC payload parse)
   ├─ Cursor: fetch built-in commands via cursor.com/changelog
@@ -53,7 +53,7 @@ poller/          TypeScript — fetches, diffs, writes state
   src/writers/     Snapshot, events, catalog, digest, artifacts
   src/differ.ts    Pure diff engine (field-level changes)
   src/main.ts      Orchestrator with bootstrap mode
-  test/            50 unit tests (Vitest)
+  test/            55 unit tests (Vitest)
 
 site/            Astro 5 + Tailwind 4 — static catalog site
   src/pages/       /claude-code/, /cursor/, digests, entries, about
@@ -88,7 +88,7 @@ digests/
 # Poller
 cd poller
 npm ci
-npm test                                          # 50 tests
+npm test                                          # 55 tests
 GITHUB_TOKEN=$(gh auth token) npm run poll        # fetches real data
 
 # Site

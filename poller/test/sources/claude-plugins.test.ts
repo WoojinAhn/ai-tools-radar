@@ -3,100 +3,119 @@ import { describe, it, expect, vi } from 'vitest'
 import { ClaudePluginsSource } from '../../src/sources/claude-plugins.js'
 import type { Octokit } from '@octokit/rest'
 
-function mockOctokit(responses: Record<string, unknown>): Octokit {
-  const getContent = vi.fn(async ({ path }: { path: string }) => {
-    const data = responses[path]
-    if (data === undefined) {
-      const err = new Error(`not found: ${path}`) as Error & { status: number }
-      err.status = 404
-      throw err
-    }
-    return { data }
-  })
+function mockOctokit(marketplaceJson: unknown): Octokit {
+  const getContent = vi.fn(async () => ({
+    data: {
+      type: 'file',
+      content: Buffer.from(JSON.stringify(marketplaceJson)).toString('base64'),
+      encoding: 'base64',
+    },
+  }))
   return { rest: { repos: { getContent } } } as unknown as Octokit
 }
 
+const NOW = '2026-04-11T00:00:00.000Z'
+
 describe('ClaudePluginsSource', () => {
-  it('maps plugin.json into CatalogEntry', async () => {
+  it('reads marketplace.json and returns all plugins', async () => {
     const octokit = mockOctokit({
-      plugins: [{ name: 'code-review', type: 'dir', html_url: 'https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-review' }],
-      external_plugins: [],
-      'plugins/code-review/.claude-plugin/plugin.json': {
-        type: 'file',
-        content: Buffer.from(
-          JSON.stringify({
-            name: 'code-review',
-            description: 'Automated code review',
-            author: { name: 'Anthropic', email: 'support@anthropic.com' },
-          }),
-        ).toString('base64'),
-        encoding: 'base64',
-      },
+      plugins: [
+        { name: 'code-review', description: 'Automated code review', author: { name: 'Anthropic', email: 'support@anthropic.com' }, source: './plugins/code-review', category: 'development' },
+        { name: 'superpowers', description: 'Core skills library', source: { source: 'url', url: 'https://github.com/obra/superpowers.git' }, homepage: 'https://github.com/obra/superpowers' },
+      ],
     })
-
-    const src = new ClaudePluginsSource(octokit, () => '2026-04-09T00:00:00.000Z')
+    const src = new ClaudePluginsSource(octokit, () => NOW)
     const entries = await src.fetch()
 
-    expect(entries).toHaveLength(1)
-    const entry = entries[0]!
-    expect(entry.tool).toBe('claude-code')
-    expect(entry.kind).toBe('first-party')
-    expect(entry.id).toBe('code-review')
-    expect(entry.name).toBe('code-review')
-    expect(entry.description).toBe('Automated code review')
-    expect(entry.author).toBe('Anthropic')
-    expect(entry.source_url).toContain('code-review')
-    expect(entry.metadata.extra).toMatchObject({ author_email: 'support@anthropic.com' })
+    expect(entries).toHaveLength(2)
   })
 
-  it('falls back to directory name when plugin.json is missing', async () => {
+  it('maps local plugin as first-party', async () => {
     const octokit = mockOctokit({
-      plugins: [{ name: 'broken', type: 'dir', html_url: 'https://example.com/broken' }],
-      external_plugins: [],
-      // plugin.json omitted → 404
+      plugins: [
+        { name: 'code-review', description: 'Review', author: { name: 'Anthropic' }, source: './plugins/code-review' },
+      ],
     })
-    const src = new ClaudePluginsSource(octokit, () => '2026-04-09T00:00:00.000Z')
+    const src = new ClaudePluginsSource(octokit, () => NOW)
     const entries = await src.fetch()
-    expect(entries).toHaveLength(1)
-    expect(entries[0]!.id).toBe('broken')
-    expect(entries[0]!.name).toBe('broken')
+
+    expect(entries[0]!.kind).toBe('first-party')
+    expect(entries[0]!.source_url).toContain('plugins/code-review')
   })
 
-  it('handles author as a string (not object)', async () => {
+  it('maps external plugin as third-party', async () => {
     const octokit = mockOctokit({
-      plugins: [{ name: 'p', type: 'dir', html_url: 'https://x' }],
-      external_plugins: [],
-      'plugins/p/.claude-plugin/plugin.json': {
-        type: 'file',
-        content: Buffer.from(JSON.stringify({ name: 'p', author: 'Someone' })).toString('base64'),
-        encoding: 'base64',
-      },
+      plugins: [
+        { name: 'superpowers', description: 'Skills', source: { source: 'url', url: 'https://github.com/obra/superpowers.git' } },
+      ],
     })
-    const src = new ClaudePluginsSource(octokit, () => '2026-04-09T00:00:00.000Z')
+    const src = new ClaudePluginsSource(octokit, () => NOW)
+    const entries = await src.fetch()
+
+    expect(entries[0]!.kind).toBe('third-party')
+    expect(entries[0]!.source_url).toBe('https://github.com/obra/superpowers')
+  })
+
+  it('maps external_plugins/ path as third-party', async () => {
+    const octokit = mockOctokit({
+      plugins: [
+        { name: 'context7', description: 'Docs', source: './external_plugins/context7' },
+      ],
+    })
+    const src = new ClaudePluginsSource(octokit, () => NOW)
+    const entries = await src.fetch()
+    expect(entries[0]!.kind).toBe('third-party')
+  })
+
+  it('handles author as string', async () => {
+    const octokit = mockOctokit({
+      plugins: [
+        { name: 'p', description: 'desc', author: 'Someone', source: './plugins/p' },
+      ],
+    })
+    const src = new ClaudePluginsSource(octokit, () => NOW)
     const entries = await src.fetch()
     expect(entries[0]!.author).toBe('Someone')
   })
 
-  it('separates first-party and third-party', async () => {
+  it('extracts source_url from git-subdir source', async () => {
     const octokit = mockOctokit({
-      plugins: [{ name: 'a', type: 'dir', html_url: 'https://x/a' }],
-      external_plugins: [{ name: 'b', type: 'dir', html_url: 'https://x/b' }],
-      'plugins/a/.claude-plugin/plugin.json': {
-        type: 'file',
-        content: Buffer.from(JSON.stringify({ name: 'a' })).toString('base64'),
-        encoding: 'base64',
-      },
-      'external_plugins/b/.claude-plugin/plugin.json': {
-        type: 'file',
-        content: Buffer.from(JSON.stringify({ name: 'b' })).toString('base64'),
-        encoding: 'base64',
-      },
+      plugins: [
+        { name: 'stripe', description: 'Payments', source: { source: 'git-subdir', url: 'stripe/ai', path: 'providers/claude/plugin', ref: 'main' } },
+      ],
     })
-    const src = new ClaudePluginsSource(octokit, () => '2026-04-09T00:00:00.000Z')
+    const src = new ClaudePluginsSource(octokit, () => NOW)
     const entries = await src.fetch()
-    const aEntry = entries.find((e) => e.id === 'a')!
-    const bEntry = entries.find((e) => e.id === 'b')!
-    expect(aEntry.kind).toBe('first-party')
-    expect(bEntry.kind).toBe('third-party')
+    expect(entries[0]!.source_url).toBe('https://github.com/stripe/ai')
+  })
+
+  it('extracts source_url from github source', async () => {
+    const octokit = mockOctokit({
+      plugins: [
+        { name: 'stagehand', description: 'Browser', source: { source: 'github', repo: 'browserbase/agent-browse' } },
+      ],
+    })
+    const src = new ClaudePluginsSource(octokit, () => NOW)
+    const entries = await src.fetch()
+    expect(entries[0]!.source_url).toBe('https://github.com/browserbase/agent-browse')
+  })
+
+  it('stores category in metadata.extra', async () => {
+    const octokit = mockOctokit({
+      plugins: [
+        { name: 'p', description: 'desc', source: './plugins/p', category: 'development' },
+      ],
+    })
+    const src = new ClaudePluginsSource(octokit, () => NOW)
+    const entries = await src.fetch()
+    expect(entries[0]!.metadata.extra).toMatchObject({ category: 'development' })
+  })
+
+  it('returns empty array when marketplace.json is missing', async () => {
+    const getContent = vi.fn(async () => { throw Object.assign(new Error('not found'), { status: 404 }) })
+    const octokit = { rest: { repos: { getContent } } } as unknown as Octokit
+    const src = new ClaudePluginsSource(octokit, () => NOW)
+    const entries = await src.fetch()
+    expect(entries).toEqual([])
   })
 })
