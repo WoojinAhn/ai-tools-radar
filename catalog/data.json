@@ -1,7 +1,148 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-10T16:53:16.860Z",
+  "generated_at": "2026-04-11T02:30:29.084Z",
   "entries": [
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "amplitude",
+      "name": "amplitude",
+      "description": "Use Amplitude as an expert analyst — instrument Amplitude, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts.",
+      "homepage": "https://github.com/amplitude/mcp-marketplace",
+      "source_url": "https://github.com/amplitude/mcp-marketplace",
+      "metadata": {
+        "extra": {
+          "category": "monitoring"
+        }
+      },
+      "fetched_at": "2026-04-11T02:30:29.431Z",
+      "first_seen_at": "2026-04-11T02:30:29.084Z",
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "azure-cosmos-db-assistant",
+      "name": "azure-cosmos-db-assistant",
+      "description": "Expert assistant for Azure Cosmos DB — data modeling, query optimization, performance tuning, and best practices.",
+      "homepage": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+      "source_url": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin",
+      "metadata": {
+        "extra": {
+          "category": "database"
+        }
+      },
+      "fetched_at": "2026-04-11T02:30:29.432Z",
+      "first_seen_at": "2026-04-11T02:30:29.084Z",
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "cloudflare",
+      "name": "cloudflare",
+      "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and web performance.",
+      "homepage": "https://github.com/cloudflare/skills",
+      "source_url": "https://github.com/cloudflare/skills",
+      "metadata": {
+        "extra": {
+          "category": "deployment"
+        }
+      },
+      "fetched_at": "2026-04-11T02:30:29.432Z",
+      "first_seen_at": "2026-04-11T02:30:29.084Z",
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "pydantic-ai",
+      "name": "pydantic-ai",
+      "description": "Write accurate Pydantic AI code from the start. Up-to-date patterns, decision trees, and common gotchas for agents, tools, structured output, streaming, and multi-agent apps.",
+      "homepage": "https://github.com/pydantic/skills/tree/main/plugins/ai",
+      "source_url": "https://github.com/pydantic/skills",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-11T02:30:29.432Z",
+      "first_seen_at": "2026-04-11T02:30:29.084Z",
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "sanity",
+      "name": "sanity",
+      "description": "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing.",
+      "homepage": "https://www.sanity.io",
+      "author": "Sanity",
+      "source_url": "https://github.com/sanity-io/agent-toolkit",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-11T02:30:29.432Z",
+      "first_seen_at": "2026-04-11T02:30:29.084Z",
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "spotify-ads-api",
+      "name": "spotify-ads-api",
+      "description": "Manage Spotify ad campaigns with natural language. Create campaigns, ad sets, ads, pull reports, and handle OAuth — all through conversation.",
+      "homepage": "https://github.com/spotify/ads-claude-plugin",
+      "source_url": "https://github.com/spotify/ads-claude-plugin",
+      "metadata": {
+        "extra": {
+          "category": "productivity"
+        }
+      },
+      "fetched_at": "2026-04-11T02:30:29.432Z",
+      "first_seen_at": "2026-04-11T02:30:29.084Z",
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "exa",
+      "name": "Exa",
+      "description": "Web search and content extraction powered by Exa AI",
+      "source_url": "https://github.com/exa-labs/exa-cursor-plugin",
+      "metadata": {
+        "extra": {
+          "displayName": "Exa",
+          "tags": [
+            "exa"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-11T02:30:30.813Z",
+      "first_seen_at": "2026-04-11T02:30:29.084Z",
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "granola",
+      "name": "Granola",
+      "description": "Your meetings in your workflow. Granola gives Cursor access to what your team discussed, decided, and committed to.",
+      "source_url": "https://github.com/granola-inc/granola-cursor-plugin",
+      "metadata": {
+        "extra": {
+          "displayName": "Granola",
+          "tags": [
+            "granola"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-11T02:30:30.813Z",
+      "first_seen_at": "2026-04-11T02:30:29.084Z",
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
+    },
     {
       "tool": "claude-code",
       "kind": "third-party",
@@ -15,7 +156,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.431Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -34,7 +175,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.431Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -49,7 +190,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.431Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -64,7 +205,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.431Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -79,7 +220,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.431Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -96,7 +237,7 @@
           "category": "location"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.431Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -113,7 +254,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -130,7 +271,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -145,7 +286,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -162,7 +303,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -179,7 +320,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -197,7 +338,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -214,7 +355,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -231,7 +372,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -246,7 +387,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -263,7 +404,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -280,7 +421,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -297,7 +438,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -315,7 +456,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -334,7 +475,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -353,7 +494,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -368,7 +509,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -383,7 +524,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -402,7 +543,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -421,7 +562,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -438,7 +579,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -457,7 +598,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -474,7 +615,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -492,7 +633,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -509,7 +650,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -524,7 +665,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -541,7 +682,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -557,7 +698,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -572,7 +713,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -591,7 +732,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -608,7 +749,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -624,7 +765,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -639,7 +780,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -658,7 +799,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -673,7 +814,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -690,7 +831,7 @@
           "category": "design"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -707,7 +848,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -724,7 +865,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -739,7 +880,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -754,7 +895,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -769,7 +910,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -788,7 +929,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -805,7 +946,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -822,7 +963,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -837,7 +978,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -855,7 +996,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -872,7 +1013,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -887,7 +1028,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -906,7 +1047,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -923,7 +1064,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -939,7 +1080,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -956,7 +1097,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -974,7 +1115,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -992,7 +1133,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1009,7 +1150,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1028,7 +1169,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1045,7 +1186,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1062,7 +1203,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1080,7 +1221,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1099,7 +1240,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1118,7 +1259,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1135,7 +1276,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1152,7 +1293,7 @@
           "category": "migration"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1169,7 +1310,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1186,7 +1327,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1203,7 +1344,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1220,7 +1361,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1235,7 +1376,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1250,7 +1391,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1267,7 +1408,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1282,7 +1423,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1297,7 +1438,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1314,7 +1455,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1332,7 +1473,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1349,7 +1490,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1366,7 +1507,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1385,7 +1526,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1402,7 +1543,7 @@
           "category": "testing"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1421,7 +1562,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1438,7 +1579,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1453,7 +1594,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1470,7 +1611,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1489,7 +1630,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1504,7 +1645,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1519,7 +1660,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1537,7 +1678,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1554,7 +1695,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1571,7 +1712,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1590,7 +1731,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1607,7 +1748,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1622,7 +1763,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1639,7 +1780,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1657,7 +1798,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1675,25 +1816,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
-      "first_seen_at": "2026-04-10T16:53:16.860Z",
-      "last_updated_at": "2026-04-10T16:53:16.860Z"
-    },
-    {
-      "tool": "claude-code",
-      "kind": "third-party",
-      "id": "sanity-plugin",
-      "name": "sanity-plugin",
-      "description": "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing.",
-      "homepage": "https://www.sanity.io",
-      "author": "Sanity",
-      "source_url": "https://github.com/sanity-io/agent-toolkit",
-      "metadata": {
-        "extra": {
-          "category": "development"
-        }
-      },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1708,7 +1831,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1727,7 +1850,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1744,7 +1867,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1761,7 +1884,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1778,7 +1901,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1797,7 +1920,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1816,7 +1939,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1833,7 +1956,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1850,7 +1973,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1867,7 +1990,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1884,7 +2007,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1902,7 +2025,7 @@
           "category": "automation"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1919,7 +2042,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1936,7 +2059,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1953,7 +2076,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1970,7 +2093,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1988,7 +2111,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2004,7 +2127,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2023,7 +2146,7 @@
           "author_email": "support@hashicorp.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2041,7 +2164,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2058,7 +2181,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2075,7 +2198,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2092,7 +2215,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2107,7 +2230,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2124,7 +2247,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2139,7 +2262,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2156,7 +2279,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2173,7 +2296,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.102Z",
+      "fetched_at": "2026-04-11T02:30:29.432Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2192,7 +2315,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2211,7 +2334,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2230,7 +2353,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2249,7 +2372,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2266,7 +2389,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2283,7 +2406,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2302,7 +2425,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2321,7 +2444,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2338,7 +2461,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2357,7 +2480,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2376,7 +2499,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2395,7 +2518,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2414,7 +2537,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2431,7 +2554,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2450,7 +2573,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2467,7 +2590,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2484,7 +2607,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2501,7 +2624,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2518,7 +2641,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2537,7 +2660,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2556,7 +2679,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2575,7 +2698,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2594,7 +2717,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2611,7 +2734,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2630,7 +2753,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2647,7 +2770,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2666,7 +2789,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2685,7 +2808,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2704,7 +2827,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2724,7 +2847,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2741,7 +2864,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2760,7 +2883,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2779,7 +2902,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2796,7 +2919,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2813,7 +2936,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2830,7 +2953,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2849,7 +2972,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2866,7 +2989,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2885,7 +3008,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2904,7 +3027,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2921,7 +3044,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2940,7 +3063,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2959,7 +3082,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2978,7 +3101,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2997,7 +3120,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3016,7 +3139,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3033,7 +3156,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3052,7 +3175,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3069,7 +3192,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3088,7 +3211,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3107,7 +3230,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3126,7 +3249,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3143,7 +3266,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3162,7 +3285,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3181,7 +3304,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3200,7 +3323,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3219,7 +3342,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3239,7 +3362,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3258,7 +3381,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3277,7 +3400,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3296,7 +3419,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3315,7 +3438,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3332,7 +3455,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3353,7 +3476,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3372,7 +3495,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3391,7 +3514,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3408,7 +3531,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3425,7 +3548,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3444,7 +3567,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3461,7 +3584,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3478,7 +3601,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3497,7 +3620,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3516,7 +3639,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3533,7 +3656,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3552,7 +3675,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3571,7 +3694,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3590,7 +3713,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3609,7 +3732,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3628,7 +3751,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3648,7 +3771,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3667,7 +3790,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3684,7 +3807,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3703,7 +3826,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3722,7 +3845,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3742,7 +3865,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3761,7 +3884,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3780,7 +3903,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3800,7 +3923,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3819,7 +3942,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3838,7 +3961,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3857,7 +3980,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.291Z",
+      "fetched_at": "2026-04-11T02:30:30.813Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3873,7 +3996,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3889,7 +4012,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3905,7 +4028,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3921,7 +4044,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3936,7 +4059,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3951,7 +4074,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3967,7 +4090,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3982,7 +4105,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3997,7 +4120,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4012,7 +4135,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4027,7 +4150,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4042,7 +4165,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4057,7 +4180,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4072,7 +4195,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4087,7 +4210,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4102,7 +4225,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4117,7 +4240,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4132,7 +4255,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4148,7 +4271,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:18.662Z",
+      "fetched_at": "2026-04-11T02:30:31.021Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4158,16 +4281,16 @@
       "id": "builtin/batch",
       "name": "batch",
       "description": "Research and plan a large-scale change, then execute it in parallel across 5–30 isolated worktree agents that each open a PR.",
-      "version": "2.1.100",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.856Z",
+      "fetched_at": "2026-04-11T02:30:30.037Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
     {
       "tool": "claude-code",
@@ -4175,16 +4298,16 @@
       "id": "builtin/claude-in-chrome",
       "name": "claude-in-chrome",
       "description": "Automates your Chrome browser to interact with web pages - clicking elements, filling forms, capturing screenshots, reading console logs, and navigating sites. Opens pages in new tabs within your existing Chrome session. Requires site-level permissions before executing (configured in the extension).",
-      "version": "2.1.100",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.860Z",
+      "fetched_at": "2026-04-11T02:30:30.040Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
     {
       "tool": "claude-code",
@@ -4192,16 +4315,16 @@
       "id": "builtin/debug",
       "name": "debug",
       "description": "Enable debug logging for this session and help diagnose issues",
-      "version": "2.1.100",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.865Z",
+      "fetched_at": "2026-04-11T02:30:30.046Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
     {
       "tool": "claude-code",
@@ -4209,16 +4332,16 @@
       "id": "builtin/keybindings-help",
       "name": "keybindings-help",
       "description": "Use when the user wants to customize keyboard shortcuts, rebind keys, add chord bindings, or modify ~/.claude/keybindings.json. Examples: \"rebind ctrl+s\", \"add a chord shortcut\", \"change the submit key\", \"customize keybindings\".",
-      "version": "2.1.100",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.869Z",
+      "fetched_at": "2026-04-11T02:30:30.049Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
     {
       "tool": "claude-code",
@@ -4226,16 +4349,16 @@
       "id": "builtin/simplify",
       "name": "simplify",
       "description": "Review changed code for reuse, quality, and efficiency, then fix any issues found.",
-      "version": "2.1.100",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.873Z",
+      "fetched_at": "2026-04-11T02:30:30.054Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
     {
       "tool": "claude-code",
@@ -4243,16 +4366,16 @@
       "id": "builtin/update-config",
       "name": "update-config",
       "description": "Use this skill to configure the Claude Code harness via settings.json. Automated behaviors (\"from now on when X\", \"each time X\", \"whenever X\", \"before/after X\") require hooks configured in settings.json - the harness executes these, not Claude, so memory/preferences cannot fulfill them. Also use for: permissions (\"allow X\", \"add permission\", \"move permission to\"), env vars (\"set X=Y\"), hook troubleshooting, or any changes to settings.json/settings.local.json files. Examples: \"allow npm commands\", \"add bq permission to global settings\", \"move permission to user settings\", \"set DEBUG=true\", \"when claude stops show X\". For simple settings like theme/model, use Config tool.",
-      "version": "2.1.100",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.877Z",
+      "fetched_at": "2026-04-11T02:30:30.058Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
     {
       "tool": "claude-code",
@@ -4260,33 +4383,32 @@
       "id": "builtin/dream",
       "name": "dream",
       "description": "Reflective memory consolidation — review recent activity, synthesize learnings into typed memory files, and prune stale entries.",
-      "version": "2.1.100",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.882Z",
+      "fetched_at": "2026-04-11T02:30:30.063Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
     {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/loop",
       "name": "loop",
-      "description": "Run a prompt or slash command on a recurring interval (e.g. /loop 5m /foo, defaults to 10m)",
-      "version": "2.1.100",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.888Z",
+      "fetched_at": "2026-04-11T02:30:30.069Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
     {
       "tool": "claude-code",
@@ -4294,43 +4416,43 @@
       "id": "builtin/schedule",
       "name": "schedule",
       "description": "Create, update, list, or run scheduled remote agents (triggers) that execute on a cron schedule.",
-      "version": "2.1.100",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.893Z",
+      "fetched_at": "2026-04-11T02:30:30.074Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
     {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/claude-api",
       "name": "claude-api",
-      "description": "Build Claude API / Anthropic SDK apps.\nTRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks to use the Claude API, Anthropic SDKs, or Managed Agents (`/v1/agents`, `/v1/sessions`); or asks to add a Claude feature (prompt caching, adaptive thinking, compaction, code_execution, batch, files API, citations, memory tool) or a Claude model (Opus/Sonnet/Haiku) to a Claude file.\nDO NOT TRIGGER when: file imports `openai`/non-Anthropic SDK, filename signals another provider (`agent-openai.py`, `*-generic.py`), code is provider-neutral, or task is general programming/ML.",
-      "version": "2.1.100",
+      "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching.\nTRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks to use the Claude API, Anthropic SDKs, or Managed Agents (`/v1/agents`, `/v1/sessions`); user asks to add, modify, debug, optimize, or improve a Claude feature (prompt caching, cache hit rate, adaptive thinking, compaction, code_execution, batch, files API, citations, memory tool) or a Claude model (Opus/Sonnet/Haiku) in a file; or user asks about prompt caching / cache hit rate / cache reads / cache creation in any project that uses the Anthropic SDK (even without mentioning Claude by name).\nDO NOT TRIGGER when: file imports `openai`/non-Anthropic SDK, filename signals another provider (`agent-openai.py`, `*-generic.py`), code is provider-neutral, or task is general programming/ML.",
+      "version": "2.1.101",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-10T16:53:17.898Z",
+      "fetched_at": "2026-04-11T02:30:30.078Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-10T16:43:37.341Z"
+      "last_updated_at": "2026-04-11T02:30:29.084Z"
     }
   ],
   "stats": {
-    "total": 248,
+    "total": 255,
     "by_tool": {
-      "claude-code": 138,
-      "cursor": 110
+      "claude-code": 143,
+      "cursor": 112
     },
     "by_kind": {
-      "third-party": 182,
+      "third-party": 189,
       "first-party": 66
     }
   }
