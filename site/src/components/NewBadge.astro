@@ -4,10 +4,11 @@ import { isNew } from '../lib/format.ts'
 
 interface Props {
   firstSeenAt: string
+  latestFirstSeenAt: string
 }
 
-const { firstSeenAt } = Astro.props
-const show = isNew(firstSeenAt)
+const { firstSeenAt, latestFirstSeenAt } = Astro.props
+const show = isNew(firstSeenAt, latestFirstSeenAt)
 ---
 
 {show && (

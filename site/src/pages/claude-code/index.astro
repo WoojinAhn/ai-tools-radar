@@ -27,7 +27,7 @@ const { plugins, builtins } = entriesForTool('claude-code')
   </div>
 
   <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" id="entry-grid">
-    {plugins.map((entry) => <EntryCard entry={entry} />)}
+    {plugins.map((entry) => <EntryCard entry={entry} latestFirstSeenAt={catalog.stats.latest_first_seen_at} />)}
   </div>
 
   {builtins.length > 0 && (
@@ -37,7 +37,7 @@ const { plugins, builtins } = entriesForTool('claude-code')
         {builtins.length} skills embedded in the Claude Code CLI binary.
       </p>
       <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" id="builtin-grid">
-        {builtins.map((entry) => <EntryCard entry={entry} />)}
+        {builtins.map((entry) => <EntryCard entry={entry} latestFirstSeenAt={catalog.stats.latest_first_seen_at} />)}
       </div>
     </section>
   )}

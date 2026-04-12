@@ -1,10 +1,6 @@
 // site/src/lib/format.ts
-const NEW_THRESHOLD_DAYS = 7
-
-export function isNew(firstSeenAt: string, now: Date = new Date()): boolean {
-  const seen = new Date(firstSeenAt).getTime()
-  const ms = now.getTime() - seen
-  return ms < NEW_THRESHOLD_DAYS * 24 * 60 * 60 * 1000
+export function isNew(firstSeenAt: string, latestFirstSeenAt: string): boolean {
+  return firstSeenAt.slice(0, 10) === latestFirstSeenAt.slice(0, 10)
 }
 
 export function formatDate(iso: string): string {

@@ -6,9 +6,10 @@ import NewBadge from './NewBadge.astro'
 
 interface Props {
   entry: CatalogEntryView
+  latestFirstSeenAt: string
 }
 
-const { entry } = Astro.props
+const { entry, latestFirstSeenAt } = Astro.props
 const detailHref = `${import.meta.env.BASE_URL}/entries/${entry.tool}/${entry.kind}/${entry.id}/`
 ---
 
@@ -22,7 +23,7 @@ const detailHref = `${import.meta.env.BASE_URL}/entries/${entry.tool}/${entry.ki
     <a href={detailHref} class="font-medium text-white hover:underline">
       {entry.name}
     </a>
-    <NewBadge firstSeenAt={entry.first_seen_at} />
+    <NewBadge firstSeenAt={entry.first_seen_at} latestFirstSeenAt={latestFirstSeenAt} />
   </div>
   <div class="mt-1 text-xs text-neutral-500">
     {displayTool(entry.tool)} · {entry.kind}
