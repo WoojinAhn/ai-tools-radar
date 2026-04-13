@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-12T02:49:27.335Z",
+  "generated_at": "2026-04-13T02:54:01.697Z",
   "entries": {
     "claude-code/first-party/agent-sdk-dev": {
       "tool": "claude-code",
@@ -17,7 +17,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/builtin/batch": {
       "tool": "claude-code",
@@ -25,14 +25,14 @@
       "id": "builtin/batch",
       "name": "batch",
       "description": "Research and plan a large-scale change, then execute it in parallel across 5–30 isolated worktree agents that each open a PR.",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.416Z"
+      "fetched_at": "2026-04-13T02:54:02.603Z"
     },
     "claude-code/first-party/builtin/claude-api": {
       "tool": "claude-code",
@@ -40,14 +40,14 @@
       "id": "builtin/claude-api",
       "name": "claude-api",
       "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching.\nTRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks to use the Claude API, Anthropic SDKs, or Managed Agents (`/v1/agents`, `/v1/sessions`); user asks to add, modify, debug, optimize, or improve a Claude feature (prompt caching, cache hit rate, adaptive thinking, compaction, code_execution, batch, files API, citations, memory tool) or a Claude model (Opus/Sonnet/Haiku) in a file; or user asks about prompt caching / cache hit rate / cache reads / cache creation in any project that uses the Anthropic SDK (even without mentioning Claude by name).\nDO NOT TRIGGER when: file imports `openai`/non-Anthropic SDK, filename signals another provider (`agent-openai.py`, `*-generic.py`), code is provider-neutral, or task is general programming/ML.",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.457Z"
+      "fetched_at": "2026-04-13T02:54:02.649Z"
     },
     "claude-code/first-party/builtin/claude-in-chrome": {
       "tool": "claude-code",
@@ -55,14 +55,14 @@
       "id": "builtin/claude-in-chrome",
       "name": "claude-in-chrome",
       "description": "Automates your Chrome browser to interact with web pages - clicking elements, filling forms, capturing screenshots, reading console logs, and navigating sites. Opens pages in new tabs within your existing Chrome session. Requires site-level permissions before executing (configured in the extension).",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.419Z"
+      "fetched_at": "2026-04-13T02:54:02.607Z"
     },
     "claude-code/first-party/builtin/debug": {
       "tool": "claude-code",
@@ -70,14 +70,14 @@
       "id": "builtin/debug",
       "name": "debug",
       "description": "Enable debug logging for this session and help diagnose issues",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.425Z"
+      "fetched_at": "2026-04-13T02:54:02.612Z"
     },
     "claude-code/first-party/builtin/dream": {
       "tool": "claude-code",
@@ -85,14 +85,14 @@
       "id": "builtin/dream",
       "name": "dream",
       "description": "Reflective memory consolidation — review recent activity, synthesize learnings into typed memory files, and prune stale entries.",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.442Z"
+      "fetched_at": "2026-04-13T02:54:02.632Z"
     },
     "claude-code/first-party/builtin/keybindings-help": {
       "tool": "claude-code",
@@ -100,28 +100,28 @@
       "id": "builtin/keybindings-help",
       "name": "keybindings-help",
       "description": "Use when the user wants to customize keyboard shortcuts, rebind keys, add chord bindings, or modify ~/.claude/keybindings.json. Examples: \"rebind ctrl+s\", \"add a chord shortcut\", \"change the submit key\", \"customize keybindings\".",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.428Z"
+      "fetched_at": "2026-04-13T02:54:02.616Z"
     },
     "claude-code/first-party/builtin/loop": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/loop",
       "name": "loop",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.448Z"
+      "fetched_at": "2026-04-13T02:54:02.638Z"
     },
     "claude-code/first-party/builtin/schedule": {
       "tool": "claude-code",
@@ -129,14 +129,14 @@
       "id": "builtin/schedule",
       "name": "schedule",
       "description": "Create, update, list, or run scheduled remote agents (triggers) that execute on a cron schedule.",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.452Z"
+      "fetched_at": "2026-04-13T02:54:02.643Z"
     },
     "claude-code/first-party/builtin/simplify": {
       "tool": "claude-code",
@@ -144,14 +144,14 @@
       "id": "builtin/simplify",
       "name": "simplify",
       "description": "Review changed code for reuse, quality, and efficiency, then fix any issues found.",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.432Z"
+      "fetched_at": "2026-04-13T02:54:02.621Z"
     },
     "claude-code/first-party/builtin/update-config": {
       "tool": "claude-code",
@@ -159,14 +159,14 @@
       "id": "builtin/update-config",
       "name": "update-config",
       "description": "Use this skill to configure the Claude Code harness via settings.json. Automated behaviors (\"from now on when X\", \"each time X\", \"whenever X\", \"before/after X\") require hooks configured in settings.json - the harness executes these, not Claude, so memory/preferences cannot fulfill them. Also use for: permissions (\"allow X\", \"add permission\", \"move permission to\"), env vars (\"set X=Y\"), hook troubleshooting, or any changes to settings.json/settings.local.json files. Examples: \"allow npm commands\", \"add bq permission to global settings\", \"move permission to user settings\", \"set DEBUG=true\", \"when claude stops show X\". For simple settings like theme/model, use Config tool.",
-      "version": "2.1.101",
+      "version": "2.1.104",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.436Z"
+      "fetched_at": "2026-04-13T02:54:02.626Z"
     },
     "claude-code/first-party/clangd-lsp": {
       "tool": "claude-code",
@@ -182,7 +182,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/claude-code-setup": {
       "tool": "claude-code",
@@ -199,7 +199,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/claude-md-management": {
       "tool": "claude-code",
@@ -216,7 +216,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/code-review": {
       "tool": "claude-code",
@@ -233,7 +233,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/code-simplifier": {
       "tool": "claude-code",
@@ -250,7 +250,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/commit-commands": {
       "tool": "claude-code",
@@ -267,7 +267,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/csharp-lsp": {
       "tool": "claude-code",
@@ -283,7 +283,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/explanatory-output-style": {
       "tool": "claude-code",
@@ -300,7 +300,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/feature-dev": {
       "tool": "claude-code",
@@ -317,7 +317,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/frontend-design": {
       "tool": "claude-code",
@@ -334,7 +334,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/gopls-lsp": {
       "tool": "claude-code",
@@ -350,7 +350,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/hookify": {
       "tool": "claude-code",
@@ -367,7 +367,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/first-party/jdtls-lsp": {
       "tool": "claude-code",
@@ -383,7 +383,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/kotlin-lsp": {
       "tool": "claude-code",
@@ -399,7 +399,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/learning-output-style": {
       "tool": "claude-code",
@@ -416,7 +416,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/lua-lsp": {
       "tool": "claude-code",
@@ -432,7 +432,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/math-olympiad": {
       "tool": "claude-code",
@@ -449,7 +449,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/mcp-server-dev": {
       "tool": "claude-code",
@@ -466,7 +466,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/php-lsp": {
       "tool": "claude-code",
@@ -482,7 +482,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/playground": {
       "tool": "claude-code",
@@ -499,7 +499,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/plugin-dev": {
       "tool": "claude-code",
@@ -516,7 +516,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/pr-review-toolkit": {
       "tool": "claude-code",
@@ -533,7 +533,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/pyright-lsp": {
       "tool": "claude-code",
@@ -549,7 +549,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/ralph-loop": {
       "tool": "claude-code",
@@ -566,7 +566,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/ruby-lsp": {
       "tool": "claude-code",
@@ -582,7 +582,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/rust-analyzer-lsp": {
       "tool": "claude-code",
@@ -598,7 +598,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/security-guidance": {
       "tool": "claude-code",
@@ -615,7 +615,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/session-report": {
       "tool": "claude-code",
@@ -632,7 +632,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/skill-creator": {
       "tool": "claude-code",
@@ -649,7 +649,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/swift-lsp": {
       "tool": "claude-code",
@@ -665,7 +665,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/first-party/typescript-lsp": {
       "tool": "claude-code",
@@ -681,7 +681,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/adspirer-ads-agent": {
       "tool": "claude-code",
@@ -696,7 +696,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/ai-firstify": {
       "tool": "claude-code",
@@ -709,7 +709,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/ai-plugins": {
       "tool": "claude-code",
@@ -722,7 +722,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/aikido": {
       "tool": "claude-code",
@@ -735,7 +735,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/amazon-location-service": {
       "tool": "claude-code",
@@ -750,7 +750,7 @@
           "category": "location"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/amplitude": {
       "tool": "claude-code",
@@ -765,7 +765,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/asana": {
       "tool": "claude-code",
@@ -780,7 +780,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/astronomer-data-agents": {
       "tool": "claude-code",
@@ -795,7 +795,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/atlan": {
       "tool": "claude-code",
@@ -808,7 +808,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/atlassian": {
       "tool": "claude-code",
@@ -823,7 +823,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/atomic-agents": {
       "tool": "claude-code",
@@ -838,7 +838,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/autofix-bot": {
       "tool": "claude-code",
@@ -854,7 +854,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/aws-serverless": {
       "tool": "claude-code",
@@ -869,7 +869,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/azure-cosmos-db-assistant": {
       "tool": "claude-code",
@@ -884,7 +884,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/box": {
       "tool": "claude-code",
@@ -899,7 +899,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/brightdata-plugin": {
       "tool": "claude-code",
@@ -912,7 +912,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/cds-mcp": {
       "tool": "claude-code",
@@ -927,7 +927,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/chrome-devtools-mcp": {
       "tool": "claude-code",
@@ -942,7 +942,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/circleback": {
       "tool": "claude-code",
@@ -957,7 +957,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/cloudflare": {
       "tool": "claude-code",
@@ -972,7 +972,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/cloudinary": {
       "tool": "claude-code",
@@ -985,7 +985,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/cockroachdb": {
       "tool": "claude-code",
@@ -998,7 +998,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/coderabbit": {
       "tool": "claude-code",
@@ -1013,7 +1013,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/context7": {
       "tool": "claude-code",
@@ -1028,7 +1028,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/data": {
       "tool": "claude-code",
@@ -1043,7 +1043,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/data-engineering": {
       "tool": "claude-code",
@@ -1056,7 +1056,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/deploy-on-aws": {
       "tool": "claude-code",
@@ -1071,7 +1071,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/discord": {
       "tool": "claude-code",
@@ -1085,7 +1085,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/elixir-ls-lsp": {
       "tool": "claude-code",
@@ -1098,7 +1098,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/expo": {
       "tool": "claude-code",
@@ -1113,7 +1113,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/fakechat": {
       "tool": "claude-code",
@@ -1127,7 +1127,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/fastly-agent-toolkit": {
       "tool": "claude-code",
@@ -1140,7 +1140,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/fiftyone": {
       "tool": "claude-code",
@@ -1153,7 +1153,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/figma": {
       "tool": "claude-code",
@@ -1168,7 +1168,7 @@
           "category": "design"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/firebase": {
       "tool": "claude-code",
@@ -1183,7 +1183,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/firecrawl": {
       "tool": "claude-code",
@@ -1198,7 +1198,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/firetiger": {
       "tool": "claude-code",
@@ -1211,7 +1211,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/flint": {
       "tool": "claude-code",
@@ -1224,7 +1224,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/followrabbit": {
       "tool": "claude-code",
@@ -1237,7 +1237,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/github": {
       "tool": "claude-code",
@@ -1252,7 +1252,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/gitlab": {
       "tool": "claude-code",
@@ -1267,7 +1267,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/goodmem": {
       "tool": "claude-code",
@@ -1280,7 +1280,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/greptile": {
       "tool": "claude-code",
@@ -1295,7 +1295,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/helius": {
       "tool": "claude-code",
@@ -1308,7 +1308,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/huggingface-skills": {
       "tool": "claude-code",
@@ -1323,7 +1323,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.853Z"
     },
     "claude-code/third-party/imessage": {
       "tool": "claude-code",
@@ -1337,7 +1337,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/intercom": {
       "tool": "claude-code",
@@ -1352,7 +1352,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/laravel-boost": {
       "tool": "claude-code",
@@ -1367,7 +1367,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/legalzoom": {
       "tool": "claude-code",
@@ -1382,7 +1382,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/linear": {
       "tool": "claude-code",
@@ -1397,7 +1397,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/microsoft-docs": {
       "tool": "claude-code",
@@ -1412,7 +1412,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/migration-to-aws": {
       "tool": "claude-code",
@@ -1427,7 +1427,7 @@
           "category": "migration"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/mintlify": {
       "tool": "claude-code",
@@ -1442,7 +1442,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/mongodb": {
       "tool": "claude-code",
@@ -1457,7 +1457,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/neon": {
       "tool": "claude-code",
@@ -1472,7 +1472,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/netlify-skills": {
       "tool": "claude-code",
@@ -1487,7 +1487,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/nightvision": {
       "tool": "claude-code",
@@ -1500,7 +1500,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/nimble": {
       "tool": "claude-code",
@@ -1513,7 +1513,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/notion": {
       "tool": "claude-code",
@@ -1528,7 +1528,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/opsera-devsecops": {
       "tool": "claude-code",
@@ -1541,7 +1541,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/optibot": {
       "tool": "claude-code",
@@ -1554,7 +1554,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/pagerduty": {
       "tool": "claude-code",
@@ -1569,7 +1569,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/pinecone": {
       "tool": "claude-code",
@@ -1584,7 +1584,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/planetscale": {
       "tool": "claude-code",
@@ -1599,7 +1599,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/playwright": {
       "tool": "claude-code",
@@ -1614,7 +1614,7 @@
           "category": "testing"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/posthog": {
       "tool": "claude-code",
@@ -1629,7 +1629,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/postiz": {
       "tool": "claude-code",
@@ -1642,7 +1642,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/postman": {
       "tool": "claude-code",
@@ -1657,7 +1657,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/prisma": {
       "tool": "claude-code",
@@ -1670,7 +1670,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/product-tracking-skills": {
       "tool": "claude-code",
@@ -1683,7 +1683,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/pydantic-ai": {
       "tool": "claude-code",
@@ -1698,7 +1698,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/qodo-skills": {
       "tool": "claude-code",
@@ -1713,7 +1713,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/railway": {
       "tool": "claude-code",
@@ -1728,7 +1728,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/rc": {
       "tool": "claude-code",
@@ -1743,7 +1743,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/remember": {
       "tool": "claude-code",
@@ -1756,7 +1756,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/revenuecat": {
       "tool": "claude-code",
@@ -1771,7 +1771,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/sanity": {
       "tool": "claude-code",
@@ -1787,7 +1787,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/searchfit-seo": {
       "tool": "claude-code",
@@ -1800,7 +1800,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/semgrep": {
       "tool": "claude-code",
@@ -1815,7 +1815,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/sentry": {
       "tool": "claude-code",
@@ -1830,7 +1830,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/serena": {
       "tool": "claude-code",
@@ -1845,7 +1845,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/slack": {
       "tool": "claude-code",
@@ -1860,7 +1860,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/sonarqube-agent-plugins": {
       "tool": "claude-code",
@@ -1875,7 +1875,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/sonatype-guide": {
       "tool": "claude-code",
@@ -1890,7 +1890,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/sourcegraph": {
       "tool": "claude-code",
@@ -1905,7 +1905,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/spotify-ads-api": {
       "tool": "claude-code",
@@ -1920,7 +1920,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/stagehand": {
       "tool": "claude-code",
@@ -1936,7 +1936,7 @@
           "category": "automation"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/stripe": {
       "tool": "claude-code",
@@ -1951,7 +1951,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/sumup": {
       "tool": "claude-code",
@@ -1966,7 +1966,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/supabase": {
       "tool": "claude-code",
@@ -1981,7 +1981,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/superpowers": {
       "tool": "claude-code",
@@ -1996,7 +1996,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/telegram": {
       "tool": "claude-code",
@@ -2010,7 +2010,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/terraform": {
       "tool": "claude-code",
@@ -2027,7 +2027,7 @@
           "author_email": "support@hashicorp.com"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/ui5": {
       "tool": "claude-code",
@@ -2042,7 +2042,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/ui5-typescript-conversion": {
       "tool": "claude-code",
@@ -2057,7 +2057,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/vercel": {
       "tool": "claude-code",
@@ -2072,7 +2072,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/voila-api": {
       "tool": "claude-code",
@@ -2085,7 +2085,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/wix": {
       "tool": "claude-code",
@@ -2100,7 +2100,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/wordpress.com": {
       "tool": "claude-code",
@@ -2113,7 +2113,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/zapier": {
       "tool": "claude-code",
@@ -2128,7 +2128,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "claude-code/third-party/zoom-plugin": {
       "tool": "claude-code",
@@ -2143,7 +2143,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-12T02:49:27.731Z"
+      "fetched_at": "2026-04-13T02:54:01.854Z"
     },
     "cursor/first-party/agent-compatibility": {
       "tool": "cursor",
@@ -2158,7 +2158,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/first-party/builtin/about": {
       "tool": "cursor",
@@ -2171,7 +2171,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/add-plugin": {
       "tool": "cursor",
@@ -2184,7 +2184,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/ask": {
       "tool": "cursor",
@@ -2197,7 +2197,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/auto-run": {
       "tool": "cursor",
@@ -2210,7 +2210,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/best-of-n": {
       "tool": "cursor",
@@ -2224,7 +2224,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/commands": {
       "tool": "cursor",
@@ -2237,7 +2237,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/list": {
       "tool": "cursor",
@@ -2250,7 +2250,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/max-mode": {
       "tool": "cursor",
@@ -2263,7 +2263,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/mcp": {
       "tool": "cursor",
@@ -2276,7 +2276,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/model": {
       "tool": "cursor",
@@ -2289,7 +2289,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/models": {
       "tool": "cursor",
@@ -2302,7 +2302,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/plan": {
       "tool": "cursor",
@@ -2316,7 +2316,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/resume": {
       "tool": "cursor",
@@ -2330,7 +2330,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/rules": {
       "tool": "cursor",
@@ -2343,7 +2343,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/setup-terminal": {
       "tool": "cursor",
@@ -2356,7 +2356,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/summarize": {
       "tool": "cursor",
@@ -2370,7 +2370,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/usage": {
       "tool": "cursor",
@@ -2383,7 +2383,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/vim": {
       "tool": "cursor",
@@ -2397,7 +2397,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/builtin/worktree": {
       "tool": "cursor",
@@ -2411,7 +2411,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-12T02:49:29.460Z"
+      "fetched_at": "2026-04-13T02:54:03.302Z"
     },
     "cursor/first-party/cli-for-agent": {
       "tool": "cursor",
@@ -2426,7 +2426,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/first-party/continual-learning": {
       "tool": "cursor",
@@ -2441,7 +2441,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/first-party/create-plugin": {
       "tool": "cursor",
@@ -2456,7 +2456,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/first-party/cursor-team-kit": {
       "tool": "cursor",
@@ -2471,7 +2471,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/1password": {
       "tool": "cursor",
@@ -2486,7 +2486,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/amazon-location-service": {
       "tool": "cursor",
@@ -2501,7 +2501,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/amplitude": {
       "tool": "cursor",
@@ -2518,7 +2518,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/antimetal": {
       "tool": "cursor",
@@ -2535,7 +2535,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/appwrite-plugin": {
       "tool": "cursor",
@@ -2552,7 +2552,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/astronomer-data": {
       "tool": "cursor",
@@ -2567,7 +2567,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/atlassian": {
       "tool": "cursor",
@@ -2586,7 +2586,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/aws-amplify": {
       "tool": "cursor",
@@ -2601,7 +2601,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/aws-serverless": {
       "tool": "cursor",
@@ -2616,7 +2616,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/azure-cosmosdb": {
       "tool": "cursor",
@@ -2633,7 +2633,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/box": {
       "tool": "cursor",
@@ -2648,7 +2648,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/braintrust": {
       "tool": "cursor",
@@ -2663,7 +2663,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/browse": {
       "tool": "cursor",
@@ -2680,7 +2680,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/browserstack": {
       "tool": "cursor",
@@ -2697,7 +2697,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/chargebee-integration": {
       "tool": "cursor",
@@ -2714,7 +2714,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/circle": {
       "tool": "cursor",
@@ -2729,7 +2729,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/clerk": {
       "tool": "cursor",
@@ -2746,7 +2746,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/clickhouse-cursor-plugin": {
       "tool": "cursor",
@@ -2763,7 +2763,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/clickup": {
       "tool": "cursor",
@@ -2780,7 +2780,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/cloudflare": {
       "tool": "cursor",
@@ -2797,7 +2797,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/cloudinary": {
       "tool": "cursor",
@@ -2814,7 +2814,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/cockroachdb": {
       "tool": "cursor",
@@ -2831,7 +2831,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/compound-engineering": {
       "tool": "cursor",
@@ -2846,7 +2846,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/context7-plugin": {
       "tool": "cursor",
@@ -2864,7 +2864,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/convex": {
       "tool": "cursor",
@@ -2881,7 +2881,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/databricks-skills": {
       "tool": "cursor",
@@ -2898,7 +2898,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/datadog": {
       "tool": "cursor",
@@ -2915,7 +2915,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/dbt": {
       "tool": "cursor",
@@ -2932,7 +2932,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/deploy-on-aws": {
       "tool": "cursor",
@@ -2950,7 +2950,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/elastic": {
       "tool": "cursor",
@@ -2965,7 +2965,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/encore": {
       "tool": "cursor",
@@ -2982,7 +2982,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/endorlabs": {
       "tool": "cursor",
@@ -2997,7 +2997,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/etoro": {
       "tool": "cursor",
@@ -3014,7 +3014,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/exa": {
       "tool": "cursor",
@@ -3031,7 +3031,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/figma": {
       "tool": "cursor",
@@ -3048,7 +3048,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/firebase": {
       "tool": "cursor",
@@ -3065,7 +3065,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/firecrawl": {
       "tool": "cursor",
@@ -3082,7 +3082,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/firetiger": {
       "tool": "cursor",
@@ -3097,7 +3097,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/functions": {
       "tool": "cursor",
@@ -3114,7 +3114,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/gitlab": {
       "tool": "cursor",
@@ -3131,7 +3131,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/glean": {
       "tool": "cursor",
@@ -3148,7 +3148,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/grafana-assistant": {
       "tool": "cursor",
@@ -3165,7 +3165,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/granola": {
       "tool": "cursor",
@@ -3182,7 +3182,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/hex": {
       "tool": "cursor",
@@ -3199,7 +3199,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/huggingface-skills": {
       "tool": "cursor",
@@ -3217,7 +3217,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/jfrog": {
       "tool": "cursor",
@@ -3232,7 +3232,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/langfuse": {
       "tool": "cursor",
@@ -3249,7 +3249,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/launchdarkly": {
       "tool": "cursor",
@@ -3266,7 +3266,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/linear": {
       "tool": "cursor",
@@ -3284,7 +3284,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/meta-quest-agentic-tools": {
       "tool": "cursor",
@@ -3299,7 +3299,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/migration-to-aws": {
       "tool": "cursor",
@@ -3314,7 +3314,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/miro": {
       "tool": "cursor",
@@ -3331,7 +3331,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/monday.com": {
       "tool": "cursor",
@@ -3346,7 +3346,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/mongodb": {
       "tool": "cursor",
@@ -3363,7 +3363,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/neon-postgres": {
       "tool": "cursor",
@@ -3380,7 +3380,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/notion-workspace": {
       "tool": "cursor",
@@ -3397,7 +3397,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/omni-analytics": {
       "tool": "cursor",
@@ -3414,7 +3414,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/pagerduty": {
       "tool": "cursor",
@@ -3431,7 +3431,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/parallel": {
       "tool": "cursor",
@@ -3446,7 +3446,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/pendo-analytics": {
       "tool": "cursor",
@@ -3463,7 +3463,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/phantom-connect": {
       "tool": "cursor",
@@ -3480,7 +3480,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/plain": {
       "tool": "cursor",
@@ -3495,7 +3495,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/planetscale": {
       "tool": "cursor",
@@ -3512,7 +3512,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/posthog": {
       "tool": "cursor",
@@ -3529,7 +3529,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/postman": {
       "tool": "cursor",
@@ -3546,7 +3546,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/prisma": {
       "tool": "cursor",
@@ -3563,7 +3563,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/redis-development": {
       "tool": "cursor",
@@ -3580,7 +3580,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/render": {
       "tool": "cursor",
@@ -3595,7 +3595,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/runlayer": {
       "tool": "cursor",
@@ -3612,7 +3612,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/sanity": {
       "tool": "cursor",
@@ -3629,7 +3629,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/semgrep-plugin": {
       "tool": "cursor",
@@ -3646,7 +3646,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/sentry": {
       "tool": "cursor",
@@ -3663,7 +3663,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/shopify-plugin": {
       "tool": "cursor",
@@ -3680,7 +3680,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/slack": {
       "tool": "cursor",
@@ -3695,7 +3695,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/snyk-secure-development": {
       "tool": "cursor",
@@ -3712,7 +3712,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/sourcegraph": {
       "tool": "cursor",
@@ -3729,7 +3729,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/stripe": {
       "tool": "cursor",
@@ -3746,7 +3746,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/supabase": {
       "tool": "cursor",
@@ -3763,7 +3763,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/superpowers": {
       "tool": "cursor",
@@ -3780,7 +3780,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/svelte": {
       "tool": "cursor",
@@ -3797,7 +3797,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/tavily": {
       "tool": "cursor",
@@ -3814,7 +3814,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/thousandeyes": {
       "tool": "cursor",
@@ -3832,7 +3832,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/tldraw": {
       "tool": "cursor",
@@ -3847,7 +3847,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/turbopuffer": {
       "tool": "cursor",
@@ -3864,7 +3864,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/vercel": {
       "tool": "cursor",
@@ -3881,7 +3881,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/webflow": {
       "tool": "cursor",
@@ -3898,7 +3898,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/wix": {
       "tool": "cursor",
@@ -3915,7 +3915,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/zapier": {
       "tool": "cursor",
@@ -3932,7 +3932,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     },
     "cursor/third-party/zscaler": {
       "tool": "cursor",
@@ -3949,7 +3949,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-12T02:49:28.977Z"
+      "fetched_at": "2026-04-13T02:54:03.050Z"
     }
   }
 }
