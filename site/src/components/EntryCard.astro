@@ -18,6 +18,8 @@ const detailHref = `${import.meta.env.BASE_URL}/entries/${entry.tool}/${entry.ki
   data-tool={entry.tool}
   data-kind={entry.kind}
   data-search={`${entry.name} ${entry.description ?? ''}`.toLowerCase()}
+  data-first-seen={entry.first_seen_at}
+  data-last-updated={entry.last_updated_at}
 >
   <div class="flex items-start justify-between gap-3">
     <a href={detailHref} class="font-medium text-white hover:underline">
