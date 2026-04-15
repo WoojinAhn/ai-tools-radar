@@ -10,12 +10,20 @@ function parseGitHubRepo(url: string): { owner: string; repo: string } | null {
   return { owner: m[1]!, repo: m[2]!.replace(/\.git$/, '') }
 }
 
+function pickRepoUrl(entry: CatalogEntry): string | undefined {
+  // Skip first-party — stars reflect the shared registry repo, not the plugin
+  if (entry.kind === 'first-party') return undefined
+  // Prefer homepage if it's a GitHub URL (more likely the plugin's own repo)
+  if (entry.homepage && GITHUB_REPO_RE.test(entry.homepage)) return entry.homepage
+  return entry.source_url
+}
+
 export async function enrichStars(
   entries: CatalogEntry[],
   octokit: Octokit,
 ): Promise<void> {
   const toEnrich = entries
-    .map((entry) => ({ entry, parsed: parseGitHubRepo(entry.source_url) }))
+    .map((entry) => ({ entry, parsed: parseGitHubRepo(pickRepoUrl(entry) ?? '') }))
     .filter((x): x is { entry: CatalogEntry; parsed: { owner: string; repo: string } } => x.parsed !== null)
 
   console.log(`[stars] enriching ${toEnrich.length}/${entries.length} entries`)

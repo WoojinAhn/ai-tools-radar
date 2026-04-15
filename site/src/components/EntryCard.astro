@@ -31,7 +31,7 @@ const detailHref = `${import.meta.env.BASE_URL}/entries/${entry.tool}/${entry.ki
   <div class="mt-1 text-xs text-neutral-500">
     {displayTool(entry.tool)} · {entry.kind}
     {entry.author && <> · {entry.author}</>}
-    {typeof entry.metadata.extra.stars === 'number' && entry.metadata.extra.stars > 0 && (
+    {entry.kind !== 'first-party' && typeof entry.metadata.extra.stars === 'number' && entry.metadata.extra.stars > 0 && (
       <> · <span class="text-yellow-500">{entry.metadata.extra.stars.toLocaleString()}</span></>
     )}
   </div>
