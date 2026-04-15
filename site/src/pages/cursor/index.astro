@@ -29,7 +29,7 @@ const { plugins, builtins } = entriesForTool('cursor')
   </div>
 
   <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" id="entry-grid">
-    {plugins.map((entry) => <EntryCard entry={entry} latestFirstSeenAt={catalog.stats.latest_first_seen_at} />)}
+    {plugins.map((entry) => <EntryCard entry={entry} latestFirstSeenAt={catalog.stats.latest_first_seen_at_by_tool['cursor']} />)}
   </div>
 
   {builtins.length > 0 && (
@@ -39,7 +39,7 @@ const { plugins, builtins } = entriesForTool('cursor')
         {builtins.length} commands from Cursor changelog.
       </p>
       <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" id="builtin-grid">
-        {builtins.map((entry) => <EntryCard entry={entry} latestFirstSeenAt={catalog.stats.latest_first_seen_at} />)}
+        {builtins.map((entry) => <EntryCard entry={entry} latestFirstSeenAt={catalog.stats.latest_first_seen_at_by_tool['cursor']} />)}
       </div>
     </section>
   )}

@@ -44,7 +44,7 @@ describe('buildCatalog', () => {
     expect(catalog.stats.total).toBe(2)
     expect(catalog.stats.by_tool).toEqual({ 'claude-code': 2 })
     expect(catalog.stats.by_kind).toEqual({ 'first-party': 2 })
-    expect(catalog.stats.latest_first_seen_at).toBe('2026-03-20T00:00:00.000Z')
+    expect(catalog.stats.latest_first_seen_at_by_tool).toEqual({ 'claude-code': '2026-03-20T00:00:00.000Z' })
 
     const viewA = catalog.entries.find((e) => e.id === 'a')!
     expect(viewA.first_seen_at).toBe('2026-03-15T00:00:00.000Z')

@@ -37,15 +37,17 @@ export function buildCatalog(
 
   views.sort((a, b) => (a.first_seen_at > b.first_seen_at ? -1 : a.first_seen_at < b.first_seen_at ? 1 : 0))
 
-  const latestFirstSeenAt = views.length > 0
-    ? views.reduce((max, v) => v.first_seen_at > max ? v.first_seen_at : max, views[0]!.first_seen_at)
-    : generatedAt
+  const latestByTool: Record<string, string> = {}
+  for (const v of views) {
+    const cur = latestByTool[v.tool]
+    if (!cur || v.first_seen_at > cur) latestByTool[v.tool] = v.first_seen_at
+  }
 
   const stats: CatalogStats = {
     total: views.length,
     by_tool: {},
     by_kind: {},
-    latest_first_seen_at: latestFirstSeenAt,
+    latest_first_seen_at_by_tool: latestByTool,
   }
   for (const v of views) {
     stats.by_tool[v.tool] = (stats.by_tool[v.tool] ?? 0) + 1

@@ -95,7 +95,7 @@ export interface CatalogStats {
   total: number
   by_tool: Record<string, number>
   by_kind: Record<string, number>
-  latest_first_seen_at: string
+  latest_first_seen_at_by_tool: Record<string, string>
 }
 
 // --- Helpers ---
