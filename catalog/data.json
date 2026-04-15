@@ -1,7 +1,187 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-14T15:40:46.232Z",
+  "generated_at": "2026-04-15T02:44:23.401Z",
   "entries": [
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "azure-skills",
+      "name": "azure-skills",
+      "description": "Microsoft Azure MCP integration for cloud resource management, deployments, and Azure services. Manage your Azure infrastructure, monitor applications, and deploy resources directly from Claude Code.",
+      "homepage": "https://github.com/microsoft/azure-skills",
+      "source_url": "https://github.com/microsoft/azure-skills",
+      "metadata": {
+        "extra": {
+          "category": "deployment"
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:23.681Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "bigdata-com",
+      "name": "bigdata-com",
+      "description": "Official Bigdata.com plugin providing financial research, analytics, and intelligence tools powered by Bigdata MCP.",
+      "homepage": "https://docs.bigdata.com",
+      "author": "RavenPack",
+      "source_url": "https://github.com/Bigdata-com/bigdata-plugins-marketplace",
+      "metadata": {
+        "extra": {
+          "category": "database"
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:23.681Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "dataverse",
+      "name": "dataverse",
+      "description": "Agent skills for building on, analyzing, and managing Microsoft Dataverse — with Dataverse MCP, PAC CLI, and Python SDK.",
+      "homepage": "https://github.com/microsoft/Dataverse-skills",
+      "source_url": "https://github.com/microsoft/Dataverse-skills",
+      "metadata": {
+        "extra": {
+          "category": "database"
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:23.681Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "shopify",
+      "name": "shopify",
+      "description": "Shopify developer tools for Claude Code — search Shopify docs, generate and validate GraphQL, Liquid, and UI extension code",
+      "homepage": "https://shopify.dev/docs/apps/build/devmcp",
+      "author": "Shopify",
+      "source_url": "https://github.com/Shopify/shopify-plugins",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:23.681Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "shopify-ai-toolkit",
+      "name": "shopify-ai-toolkit",
+      "description": "Shopify's AI Toolkit provides 18 development skills for building on the Shopify platform, covering documentation search, API schema access, GraphQL and Liquid code validation, Hydrogen storefronts, Polaris UI extensions, store management via CLI, and onboarding guidance for both developers and merchants.",
+      "homepage": "https://shopify.dev",
+      "author": "Shopify",
+      "source_url": "https://github.com/Shopify/Shopify-AI-Toolkit",
+      "metadata": {
+        "extra": {
+          "category": "development"
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:23.681Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "sonarqube",
+      "name": "sonarqube",
+      "description": "Automatically enforce SonarQube code quality and security in the agent coding loop — 7,000+ rules, secrets scanning, agentic analysis, and quality gates across 40+ languages. PostToolUse hooks run analysis after every file edit. Pre-tool secrets scanning prevents 450+ patterns from reaching the LLM. Slash commands give on-demand access to quality gate status, coverage, duplication, and dependency risks. Includes SonarQube CLI, MCP Server, skills, hooks, and slash commands.",
+      "homepage": "https://www.sonarsource.com",
+      "author": "SonarSource",
+      "source_url": "https://github.com/SonarSource/sonarqube-agent-plugins",
+      "metadata": {
+        "extra": {
+          "category": "security"
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:23.681Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "temporal-developer",
+      "name": "Temporal",
+      "description": "Comprehensive skill for developing Temporal applications across Python, TypeScript, Go, and Java.",
+      "source_url": "https://github.com/temporalio/cursor-temporal-plugin",
+      "metadata": {
+        "extra": {
+          "displayName": "Temporal",
+          "tags": [
+            "temporal"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:25.110Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "workos",
+      "name": "WorkOS",
+      "description": "WorkOS integration skills for AuthKit, SSO, Directory Sync, RBAC, Vault, Audit Logs, migrations, and API references.",
+      "source_url": "https://github.com/workos/skills",
+      "metadata": {
+        "extra": {
+          "displayName": "WorkOS",
+          "tags": [
+            "workos"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:25.110Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "paper-desktop",
+      "name": "Paper",
+      "description": "Design on a canvas that Cursor can read and write to — built on web standards.",
+      "source_url": "https://github.com/paper-design/agent-plugins",
+      "metadata": {
+        "extra": {
+          "displayName": "Paper",
+          "tags": []
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:25.110Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "pinecone",
+      "name": "Pinecone",
+      "description": "Pinecone vector database integration. Streamline your Pinecone development with powerful tools for managing vector indexes, querying data, and rapid prototyping. Use slash commands like /quickstart to learn how to build with Pinecone and /query to quickly explore indexes. Access the Pinecone MCP server for creating, describing, upserting and querying indexes with Cursor. Perfect for developers building semantic search, RAG applications, recommendation systems, and other vector-based applications with Pinecone.",
+      "source_url": "https://github.com/pinecone-io/pinecone-cursor-plugin",
+      "metadata": {
+        "extra": {
+          "displayName": "Pinecone",
+          "tags": [
+            "pinecone"
+          ]
+        }
+      },
+      "fetched_at": "2026-04-15T02:44:25.110Z",
+      "first_seen_at": "2026-04-15T02:44:23.401Z",
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
+    },
     {
       "tool": "claude-code",
       "kind": "third-party",
@@ -15,7 +195,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.680Z",
       "first_seen_at": "2026-04-14T02:46:51.870Z",
       "last_updated_at": "2026-04-14T02:46:51.870Z"
     },
@@ -32,7 +212,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-14T02:46:51.870Z",
       "last_updated_at": "2026-04-14T02:46:51.870Z"
     },
@@ -51,7 +231,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-12T02:49:27.335Z",
       "last_updated_at": "2026-04-12T02:49:27.335Z"
     },
@@ -68,7 +248,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -85,7 +265,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -102,7 +282,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -119,7 +299,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -137,7 +317,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -154,7 +334,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -173,7 +353,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -192,7 +372,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -209,7 +389,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -228,7 +408,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -243,7 +423,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -258,7 +438,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -273,7 +453,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -290,7 +470,7 @@
           "category": "location"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -307,7 +487,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -324,7 +504,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.409Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -339,7 +519,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -356,7 +536,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -373,7 +553,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -391,7 +571,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -408,7 +588,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -425,7 +605,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -440,7 +620,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -457,7 +637,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -474,7 +654,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -491,7 +671,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -509,7 +689,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -528,7 +708,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -547,7 +727,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -562,7 +742,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -577,7 +757,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -596,7 +776,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -615,7 +795,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -632,7 +812,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -651,7 +831,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -668,7 +848,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -686,7 +866,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -703,7 +883,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -718,7 +898,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -735,7 +915,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -751,7 +931,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -766,7 +946,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -785,7 +965,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -802,7 +982,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -818,7 +998,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -833,7 +1013,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -852,7 +1032,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -867,7 +1047,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -884,7 +1064,7 @@
           "category": "design"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -901,7 +1081,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -918,7 +1098,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -933,7 +1113,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -948,7 +1128,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -963,7 +1143,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -982,7 +1162,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -999,7 +1179,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1016,7 +1196,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1031,7 +1211,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1049,7 +1229,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1066,7 +1246,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1081,7 +1261,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1100,7 +1280,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1117,7 +1297,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1133,7 +1313,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1150,7 +1330,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1168,7 +1348,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1186,7 +1366,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1203,7 +1383,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1222,7 +1402,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1239,7 +1419,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1256,7 +1436,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1274,7 +1454,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1293,7 +1473,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1312,7 +1492,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1329,7 +1509,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1346,7 +1526,7 @@
           "category": "migration"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1363,7 +1543,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1380,7 +1560,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1397,7 +1577,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1414,7 +1594,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1429,7 +1609,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1444,7 +1624,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1461,7 +1641,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1476,7 +1656,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1491,7 +1671,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1508,7 +1688,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1526,7 +1706,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1543,7 +1723,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1560,7 +1740,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1579,7 +1759,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1596,7 +1776,7 @@
           "category": "testing"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1615,7 +1795,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1632,7 +1812,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1647,7 +1827,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1664,7 +1844,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1683,7 +1863,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1698,7 +1878,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1713,7 +1893,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1731,7 +1911,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1748,7 +1928,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1765,7 +1945,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1784,7 +1964,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1801,7 +1981,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1816,7 +1996,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1833,7 +2013,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1851,7 +2031,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1869,7 +2049,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1884,7 +2064,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1903,7 +2083,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1920,7 +2100,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1937,7 +2117,7 @@
           "category": "monitoring"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1954,7 +2134,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1973,7 +2153,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1992,7 +2172,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2009,24 +2189,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
-      "first_seen_at": "2026-04-10T16:53:16.860Z",
-      "last_updated_at": "2026-04-10T16:53:16.860Z"
-    },
-    {
-      "tool": "claude-code",
-      "kind": "third-party",
-      "id": "sonarqube-agent-plugins",
-      "name": "sonarqube-agent-plugins",
-      "description": "Integrate SonarQube code quality and security analysis into Claude Code: namespaced slash commands, a guided skill to setup the SonarQube CLI, and a startup check for CLI wiring. MCP server registration and secrets-scanning hooks are installed by the SonarQube CLI as part of setup.",
-      "homepage": "https://github.com/SonarSource/sonarqube-agent-plugins",
-      "source_url": "https://github.com/SonarSource/sonarqube-agent-plugins",
-      "metadata": {
-        "extra": {
-          "category": "security"
-        }
-      },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2043,7 +2206,7 @@
           "category": "security"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2060,7 +2223,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2078,7 +2241,7 @@
           "category": "automation"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2095,7 +2258,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2112,7 +2275,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2129,7 +2292,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2146,7 +2309,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2164,7 +2327,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2180,7 +2343,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2199,7 +2362,7 @@
           "author_email": "support@hashicorp.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2217,7 +2380,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2234,7 +2397,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2251,7 +2414,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2268,7 +2431,7 @@
           "category": "deployment"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2283,7 +2446,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2300,7 +2463,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2315,7 +2478,7 @@
       "metadata": {
         "extra": {}
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2332,7 +2495,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2349,7 +2512,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-04-14T15:40:46.410Z",
+      "fetched_at": "2026-04-15T02:44:23.681Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2368,7 +2531,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2387,7 +2550,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2406,7 +2569,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2425,7 +2588,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2442,7 +2605,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2459,7 +2622,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2478,7 +2641,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2497,7 +2660,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2514,7 +2677,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2533,7 +2696,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2552,7 +2715,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2571,7 +2734,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2590,7 +2753,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2607,7 +2770,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2626,7 +2789,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2643,7 +2806,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2660,7 +2823,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2677,7 +2840,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2694,7 +2857,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2713,7 +2876,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2732,7 +2895,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2751,7 +2914,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2770,7 +2933,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2787,7 +2950,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2806,7 +2969,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2823,7 +2986,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2842,7 +3005,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2861,7 +3024,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2880,7 +3043,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2900,7 +3063,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2917,7 +3080,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2936,7 +3099,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2955,7 +3118,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2972,7 +3135,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -2989,7 +3152,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3006,7 +3169,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3025,7 +3188,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3042,7 +3205,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3061,7 +3224,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3080,7 +3243,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3097,7 +3260,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3116,7 +3279,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3135,7 +3298,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3154,7 +3317,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3173,7 +3336,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3192,7 +3355,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3209,7 +3372,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3228,7 +3391,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3245,7 +3408,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3264,7 +3427,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3283,7 +3446,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3302,7 +3465,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3319,7 +3482,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3338,7 +3501,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3357,7 +3520,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3376,7 +3539,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3395,7 +3558,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3415,7 +3578,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3434,7 +3597,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3453,7 +3616,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3472,7 +3635,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3491,7 +3654,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3508,7 +3671,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3529,7 +3692,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3548,7 +3711,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3567,7 +3730,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3584,7 +3747,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3601,7 +3764,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3620,7 +3783,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3637,7 +3800,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3654,7 +3817,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3673,7 +3836,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3692,7 +3855,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3709,7 +3872,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3728,7 +3891,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3747,7 +3910,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3766,7 +3929,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3785,7 +3948,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3804,7 +3967,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3824,7 +3987,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3843,7 +4006,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3860,7 +4023,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3879,7 +4042,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3898,7 +4061,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3918,7 +4081,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3937,7 +4100,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3956,7 +4119,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3976,7 +4139,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3995,7 +4158,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4014,7 +4177,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4033,7 +4196,7 @@
           ]
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.685Z",
+      "fetched_at": "2026-04-15T02:44:25.110Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4049,7 +4212,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4065,7 +4228,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4081,7 +4244,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4097,7 +4260,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4112,7 +4275,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4127,7 +4290,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4143,7 +4306,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4158,7 +4321,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4173,7 +4336,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4188,7 +4351,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4203,7 +4366,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4218,7 +4381,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4233,7 +4396,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4248,7 +4411,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4263,7 +4426,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4278,7 +4441,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4293,7 +4456,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4308,7 +4471,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4324,7 +4487,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:48.838Z",
+      "fetched_at": "2026-04-15T02:44:25.993Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4334,16 +4497,16 @@
       "id": "builtin/batch",
       "name": "batch",
       "description": "Research and plan a large-scale change, then execute it in parallel across 5–30 isolated worktree agents that each open a PR.",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.246Z",
+      "fetched_at": "2026-04-15T02:44:24.366Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
     {
       "tool": "claude-code",
@@ -4351,16 +4514,16 @@
       "id": "builtin/claude-in-chrome",
       "name": "claude-in-chrome",
       "description": "Automates your Chrome browser to interact with web pages - clicking elements, filling forms, capturing screenshots, reading console logs, and navigating sites. Opens pages in new tabs within your existing Chrome session. Requires site-level permissions before executing (configured in the extension).",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.250Z",
+      "fetched_at": "2026-04-15T02:44:24.370Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
     {
       "tool": "claude-code",
@@ -4368,16 +4531,16 @@
       "id": "builtin/debug",
       "name": "debug",
       "description": "Enable debug logging for this session and help diagnose issues",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.255Z",
+      "fetched_at": "2026-04-15T02:44:24.375Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
     {
       "tool": "claude-code",
@@ -4385,16 +4548,16 @@
       "id": "builtin/keybindings-help",
       "name": "keybindings-help",
       "description": "Use when the user wants to customize keyboard shortcuts, rebind keys, add chord bindings, or modify ~/.claude/keybindings.json. Examples: \"rebind ctrl+s\", \"add a chord shortcut\", \"change the submit key\", \"customize keybindings\".",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.259Z",
+      "fetched_at": "2026-04-15T02:44:24.378Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
     {
       "tool": "claude-code",
@@ -4402,16 +4565,16 @@
       "id": "builtin/simplify",
       "name": "simplify",
       "description": "Review changed code for reuse, quality, and efficiency, then fix any issues found.",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.263Z",
+      "fetched_at": "2026-04-15T02:44:24.382Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
     {
       "tool": "claude-code",
@@ -4419,16 +4582,16 @@
       "id": "builtin/update-config",
       "name": "update-config",
       "description": "Use this skill to configure the Claude Code harness via settings.json. Automated behaviors (\"from now on when X\", \"each time X\", \"whenever X\", \"before/after X\") require hooks configured in settings.json - the harness executes these, not Claude, so memory/preferences cannot fulfill them. Also use for: permissions (\"allow X\", \"add permission\", \"move permission to\"), env vars (\"set X=Y\"), hook troubleshooting, or any changes to settings.json/settings.local.json files. Examples: \"allow npm commands\", \"add bq permission to global settings\", \"move permission to user settings\", \"set DEBUG=true\", \"when claude stops show X\". For simple settings like theme/model, use Config tool.",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.267Z",
+      "fetched_at": "2026-04-15T02:44:24.387Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
     {
       "tool": "claude-code",
@@ -4436,32 +4599,32 @@
       "id": "builtin/dream",
       "name": "dream",
       "description": "Reflective memory consolidation — review recent activity, synthesize learnings into typed memory files, and prune stale entries.",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.273Z",
+      "fetched_at": "2026-04-15T02:44:24.392Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
     {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/loop",
       "name": "loop",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.279Z",
+      "fetched_at": "2026-04-15T02:44:24.398Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
     {
       "tool": "claude-code",
@@ -4469,45 +4632,44 @@
       "id": "builtin/schedule",
       "name": "schedule",
       "description": "Create, update, list, or run scheduled remote agents (triggers) that execute on a cron schedule.",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.283Z",
+      "fetched_at": "2026-04-15T02:44:24.402Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
     {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/claude-api",
       "name": "claude-api",
-      "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching.\nTRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks to use the Claude API, Anthropic SDKs, or Managed Agents (`/v1/agents`, `/v1/sessions`); user asks to add, modify, debug, optimize, or improve a Claude feature (prompt caching, cache hit rate, adaptive thinking, compaction, code_execution, batch, files API, citations, memory tool) or a Claude model (Opus/Sonnet/Haiku) in a file; or user asks about prompt caching / cache hit rate / cache reads / cache creation in any project that uses the Anthropic SDK (even without mentioning Claude by name).\nDO NOT TRIGGER when: file imports `openai`/non-Anthropic SDK, filename signals another provider (`agent-openai.py`, `*-generic.py`), code is provider-neutral, or task is general programming/ML.",
-      "version": "2.1.107",
+      "version": "2.1.108",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-04-14T15:40:47.288Z",
+      "fetched_at": "2026-04-15T02:44:24.407Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-04-14T15:40:46.232Z"
+      "last_updated_at": "2026-04-15T02:44:23.401Z"
     }
   ],
   "stats": {
-    "total": 258,
+    "total": 267,
     "by_tool": {
-      "claude-code": 145,
-      "cursor": 113
+      "claude-code": 150,
+      "cursor": 117
     },
     "by_kind": {
-      "third-party": 192,
+      "third-party": 201,
       "first-party": 66
     },
-    "latest_first_seen_at": "2026-04-14T02:46:51.870Z"
+    "latest_first_seen_at": "2026-04-15T02:44:23.401Z"
   }
 }
