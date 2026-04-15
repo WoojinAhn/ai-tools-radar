@@ -75,6 +75,7 @@ function compareEntry(before: CatalogEntry, after: CatalogEntry): FieldChange[] 
         ...Object.keys(after.metadata.extra ?? {}),
       ])
       for (const k of extraKeys) {
+        if (k === 'stars') continue
         const b = before.metadata.extra?.[k]
         const a = after.metadata.extra?.[k]
         if (!deepEqual(b, a)) {

@@ -1,17 +1,21 @@
 // site/src/components/SortSelect.tsx
 import { useEffect, useState } from 'react'
 
-type SortKey = 'newest' | 'oldest' | 'recently-updated'
+type SortKey = 'newest' | 'oldest' | 'recently-updated' | 'most-stars'
 
 const options: { value: SortKey; label: string }[] = [
   { value: 'newest', label: 'Newest first' },
   { value: 'oldest', label: 'Oldest first' },
   { value: 'recently-updated', label: 'Recently updated' },
+  { value: 'most-stars', label: 'Most stars' },
 ]
 
-function sortAttr(key: SortKey): { attr: string; desc: boolean } {
+type SortConfig = { attr: string; desc: boolean; numeric?: boolean }
+
+function sortAttr(key: SortKey): SortConfig {
   if (key === 'oldest') return { attr: 'data-first-seen', desc: false }
   if (key === 'recently-updated') return { attr: 'data-last-updated', desc: true }
+  if (key === 'most-stars') return { attr: 'data-stars', desc: true, numeric: true }
   return { attr: 'data-first-seen', desc: true }
 }
 
@@ -22,11 +26,16 @@ export default function SortSelect() {
     const grid = document.getElementById('entry-grid')
     if (!grid) return
 
-    const { attr, desc } = sortAttr(sort)
+    const { attr, desc, numeric } = sortAttr(sort)
     const cards = [...grid.querySelectorAll<HTMLElement>('article')]
     cards.sort((a, b) => {
       const va = a.getAttribute(attr) ?? ''
       const vb = b.getAttribute(attr) ?? ''
+      if (numeric) {
+        const na = Number(va) || 0
+        const nb = Number(vb) || 0
+        return desc ? nb - na : na - nb
+      }
       return desc ? vb.localeCompare(va) : va.localeCompare(vb)
     })
     for (const card of cards) grid.appendChild(card)

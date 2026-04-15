@@ -10,6 +10,7 @@ import { appendEvents, readAllEvents } from './writers/events.js'
 import { readSnapshot, writeSnapshot } from './writers/snapshot.js'
 import { writeArtifacts } from './writers/artifacts.js'
 import { writeFileAtomic } from './writers/fs-utils.js'
+import { enrichStars } from './enrich-stars.js'
 
 const REPO_ROOT = resolve(process.cwd(), '..')
 // `npm run poll` is invoked with cwd = poller/, so repo root is one level up.
@@ -42,6 +43,8 @@ async function main(): Promise<void> {
     console.log(`[poller] ${source.id}: ${entries.length} entries`)
     fetched.push(...entries)
   }
+
+  await enrichStars(fetched, octokit)
 
   const prevSnapshot = await readSnapshot(PATHS.snapshot)
 

@@ -20,6 +20,7 @@ const detailHref = `${import.meta.env.BASE_URL}/entries/${entry.tool}/${entry.ki
   data-search={`${entry.name} ${entry.description ?? ''}`.toLowerCase()}
   data-first-seen={entry.first_seen_at}
   data-last-updated={entry.last_updated_at}
+  data-stars={entry.metadata.extra.stars ?? 0}
 >
   <div class="flex items-start justify-between gap-3">
     <a href={detailHref} class="font-medium text-white hover:underline">
@@ -30,6 +31,9 @@ const detailHref = `${import.meta.env.BASE_URL}/entries/${entry.tool}/${entry.ki
   <div class="mt-1 text-xs text-neutral-500">
     {displayTool(entry.tool)} · {entry.kind}
     {entry.author && <> · {entry.author}</>}
+    {typeof entry.metadata.extra.stars === 'number' && entry.metadata.extra.stars > 0 && (
+      <> · <span class="text-yellow-500">{entry.metadata.extra.stars.toLocaleString()}</span></>
+    )}
   </div>
   {entry.description && (
     <p class="mt-3 text-sm text-neutral-300 line-clamp-3">{entry.description}</p>
