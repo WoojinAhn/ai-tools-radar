@@ -67,8 +67,20 @@ async function main(): Promise<void> {
 
   const events: Event[] = diff(prevSnapshot, fetched, now)
 
+  // Always rewrite snapshot & catalog (star counts change even without diff events)
+  await writeSnapshot(PATHS.snapshot, fetched, now)
+
+  const allEvents = events.length > 0
+    ? await appendEvents(PATHS.events, events).then(() => readAllEvents(PATHS.events))
+    : await readAllEvents(PATHS.events)
+
+  const catalog = buildCatalog(fetched, allEvents, now)
+  await writeCatalog(PATHS.catalog, catalog)
+
   if (events.length === 0) {
-    console.log('[poller] no changes, exiting')
+    const msg = `chore: update star counts (${date})\n\nNo additions or metadata changes.\n`
+    await writeFileAtomic(`${PATHS.artifactDir}/commit-message.txt`, msg)
+    console.log('[poller] no diff events (snapshot/catalog updated for stars)')
     return
   }
 
@@ -76,13 +88,6 @@ async function main(): Promise<void> {
   const removedCount = events.filter((e) => e.type === 'removed').length
   const updatedCount = events.filter((e) => e.type === 'updated').length
   console.log(`[poller] ${addedCount} added, ${removedCount} removed, ${updatedCount} updated`)
-
-  await writeSnapshot(PATHS.snapshot, fetched, now)
-  await appendEvents(PATHS.events, events)
-
-  const allEvents = await readAllEvents(PATHS.events)
-  const catalog = buildCatalog(fetched, allEvents, now)
-  await writeCatalog(PATHS.catalog, catalog)
 
   const digestPath = `${PATHS.digestDir}/${date}.md`
   await writeDigest(digestPath, events, date)
