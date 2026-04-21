@@ -3,7 +3,7 @@ import { Octokit } from '@octokit/rest'
 import { resolve } from 'node:path'
 import { diff } from './differ.js'
 import { registerSources } from './sources/index.js'
-import type { CatalogEntry, Event } from './sources/types.js'
+import type { CatalogEntry, Event, Source } from './sources/types.js'
 import { buildCatalog, writeCatalog } from './writers/catalog.js'
 import { writeDigest, renderDigest } from './writers/digest-md.js'
 import { appendEvents, readAllEvents } from './writers/events.js'
@@ -23,6 +23,62 @@ const PATHS = {
   artifactDir: `${resolve(process.cwd(), 'out')}`,
 }
 
+export interface FetchResult {
+  entries: CatalogEntry[]
+  failedSourceIds: Set<string>
+}
+
+export async function fetchAllSources(sources: Source[]): Promise<FetchResult> {
+  const entries: CatalogEntry[] = []
+  const failedSourceIds = new Set<string>()
+  for (const source of sources) {
+    try {
+      const fetched = await source.fetch()
+      console.log(`[poller] ${source.id}: ${fetched.length} entries`)
+      entries.push(...fetched)
+    } catch (err) {
+      failedSourceIds.add(source.id)
+      console.error(`[poller] ${source.id}: fetch failed — ${(err as Error).message}`)
+    }
+  }
+  if (sources.length > 0 && failedSourceIds.size === sources.length) {
+    throw new Error(`all ${sources.length} sources failed`)
+  }
+  return { entries, failedSourceIds }
+}
+
+/**
+ * Attribute a catalog entry back to the source that produced it.
+ * Used to preserve snapshot entries when their originating source fails on this poll,
+ * instead of wrongly emitting removal events for every entry of the same tool.
+ */
+export function ownerSourceId(entry: CatalogEntry): string {
+  if (entry.tool === 'claude-code') {
+    if (entry.metadata.extra?.builtin === true) return 'claude-code-builtin'
+    return 'anthropics/claude-plugins-official'
+  }
+  if (entry.tool === 'cursor') {
+    if (entry.kind === 'first-party') return 'cursor-builtin-commands'
+    return 'cursor-marketplace'
+  }
+  return 'unknown'
+}
+
+export function preserveFromFailedSources(
+  fetched: CatalogEntry[],
+  prevEntries: Record<string, CatalogEntry>,
+  failedSourceIds: Set<string>,
+): CatalogEntry[] {
+  if (failedSourceIds.size === 0) return fetched
+  const haveKeys = new Set(fetched.map((e) => `${e.tool}/${e.kind}/${e.id}`))
+  const preserved = [...fetched]
+  for (const [key, prev] of Object.entries(prevEntries)) {
+    if (haveKeys.has(key)) continue
+    if (failedSourceIds.has(ownerSourceId(prev))) preserved.push(prev)
+  }
+  return preserved
+}
+
 async function main(): Promise<void> {
   const now = new Date().toISOString()
   const date = now.slice(0, 10)
@@ -37,16 +93,14 @@ async function main(): Promise<void> {
   const sources = registerSources(octokit)
 
   console.log(`[poller] fetching from ${sources.length} source(s)`)
-  const fetched: CatalogEntry[] = []
-  for (const source of sources) {
-    const entries = await source.fetch()
-    console.log(`[poller] ${source.id}: ${entries.length} entries`)
-    fetched.push(...entries)
-  }
-
-  await enrichStars(fetched, octokit)
+  const { entries, failedSourceIds } = await fetchAllSources(sources)
 
   const prevSnapshot = await readSnapshot(PATHS.snapshot)
+  const fetched = prevSnapshot
+    ? preserveFromFailedSources(entries, prevSnapshot.entries, failedSourceIds)
+    : entries
+
+  await enrichStars(fetched, octokit)
 
   if (!prevSnapshot) {
     console.log('[poller] bootstrap mode: no prior snapshot, writing initial state')
@@ -107,7 +161,11 @@ async function main(): Promise<void> {
   console.log('[poller] done')
 }
 
-main().catch((err: unknown) => {
-  console.error('[poller] fatal:', err)
-  process.exit(1)
-})
+// Only auto-run when this file is the entry point (`tsx src/main.ts`), not when imported by tests.
+const entryHref = process.argv[1] ? new URL(`file://${process.argv[1]}`).href : ''
+if (import.meta.url === entryHref) {
+  main().catch((err: unknown) => {
+    console.error('[poller] fatal:', err)
+    process.exit(1)
+  })
+}
