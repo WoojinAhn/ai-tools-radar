@@ -34,7 +34,49 @@ export class ClaudePluginsSource implements Source {
       return []
     }
     console.log(`[claude-plugins] marketplace.json: ${marketplace.plugins.length} plugins`)
-    return marketplace.plugins.map((p) => this.normalize(p))
+
+    const existingLocalDirs = await this.listLocalPluginDirs()
+    const filtered = marketplace.plugins.filter((p) => this.hasValidLocalSource(p, existingLocalDirs))
+    const dropped = marketplace.plugins.length - filtered.length
+    if (dropped > 0) {
+      console.warn(`[claude-plugins] dropped ${dropped} entries with missing local source directory`)
+    }
+    return filtered.map((p) => this.normalize(p))
+  }
+
+  private async listLocalPluginDirs(): Promise<Set<string> | null> {
+    const dirs = await Promise.all([
+      this.listDir('plugins'),
+      this.listDir('external_plugins'),
+    ])
+    // Fail open: if either listing failed, skip filtering to avoid false removals from transient errors.
+    if (dirs.some((d) => d === null)) return null
+    const set = new Set<string>()
+    for (const [parent, names] of [['plugins', dirs[0]!], ['external_plugins', dirs[1]!]] as const) {
+      for (const n of names) set.add(`${parent}/${n}`)
+    }
+    return set
+  }
+
+  private async listDir(path: string): Promise<string[] | null> {
+    try {
+      const { data } = await this.octokit.rest.repos.getContent({ owner: OWNER, repo: REPO, path })
+      if (!Array.isArray(data)) return null
+      return data.filter((x) => x.type === 'dir').map((x) => x.name)
+    } catch (err) {
+      console.warn(`[claude-plugins] listDir ${path}: ${(err as Error).message}`)
+      return null
+    }
+  }
+
+  private hasValidLocalSource(p: MarketplacePlugin, existing: Set<string> | null): boolean {
+    if (existing === null) return true
+    if (typeof p.source !== 'string') return true
+    const rel = p.source.replace(/^\.\//, '').replace(/\/$/, '')
+    if (!rel.startsWith('plugins/') && !rel.startsWith('external_plugins/')) return true
+    if (existing.has(rel)) return true
+    console.warn(`[claude-plugins] dropping "${p.name}": source directory ${rel} does not exist`)
+    return false
   }
 
   private async readMarketplaceJson(): Promise<MarketplaceJson | null> {
