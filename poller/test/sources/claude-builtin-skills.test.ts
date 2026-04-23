@@ -95,6 +95,27 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
     expect(entries[0]!.description).toBe('Review code.')
   })
 
+  it('accepts minifier identifiers that contain $ (Bun-era bundle)', () => {
+    const js = `I$({name:"debug",description:"Enable debug logging.",async getPromptForCommand(q){}})`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries).toHaveLength(1)
+    expect(entries[0]!.name).toBe('debug')
+    expect(entries[0]!.description).toBe('Enable debug logging.')
+  })
+
+  it('extracts skill with template-literal description', () => {
+    const js = 'UO({name:"schedule",description:`Create, update, list, or run scheduled remote agents.`,async getPromptForCommand(q){}})'
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries).toHaveLength(1)
+    expect(entries[0]!.description).toBe('Create, update, list, or run scheduled remote agents.')
+  })
+
+  it('extracts getter description with conditional logic before return', () => {
+    const js = `UO({name:"loop",get description(){if(FLAG.enabled())return"enabled version";return"default version"},async getPromptForCommand(q){}})`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries[0]!.description).toBe('enabled version')
+  })
+
   it('rejects false positives without getPromptForCommand', () => {
     const js = `XY({name:"not-a-skill",description:"Should be ignored."})`
     const entries = makeSource().parseSkills(js, VERSION)
@@ -128,13 +149,28 @@ describe('extractFromTarBuffer', () => {
   it('extracts file content by exact path', () => {
     const tar = makeTarBuffer('package/cli.js', 'console.log("hello")')
     const result = extractFromTarBuffer(tar, 'package/cli.js')
-    expect(result).toBe('console.log("hello")')
+    expect(result?.toString('utf8')).toBe('console.log("hello")')
   })
 
   it('returns null when file not found', () => {
     const tar = makeTarBuffer('package/cli.js', 'content')
     const result = extractFromTarBuffer(tar, 'package/other.js')
     expect(result).toBeNull()
+  })
+
+  it('preserves raw bytes including high-bit values (needed for Bun native binaries)', () => {
+    const raw = Buffer.from([0x00, 0xff, 0x7f, 0x80, 0x41]) // null, 255, 127, 128, 'A'
+    const header = Buffer.alloc(512)
+    header.write('package/claude', 0, 14, 'utf8')
+    const size = raw.length.toString(8).padStart(11, '0')
+    header.write(size, 124, 12, 'utf8')
+    const contentPadded = Buffer.alloc(Math.ceil(raw.length / 512) * 512)
+    raw.copy(contentPadded)
+    const tar = Buffer.concat([header, contentPadded, Buffer.alloc(1024)])
+
+    const result = extractFromTarBuffer(tar, 'package/claude')
+    expect(result).not.toBeNull()
+    expect(Buffer.compare(result!, raw)).toBe(0)
   })
 
   it('handles empty tar (no entries)', () => {

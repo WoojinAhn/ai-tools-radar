@@ -4,14 +4,17 @@ import { createGunzip } from 'node:zlib'
 import type { CatalogEntry, Source } from './types.js'
 
 const NPM_REGISTRY_URL = 'https://registry.npmjs.org/@anthropic-ai/claude-code/latest'
+// Since claude-code 2.1.116 the wrapper tarball no longer ships cli.js — the JS source is
+// embedded inside a Bun-compiled native binary distributed as a platform package. CI runs on
+// Linux x64; we always fetch the matching version (published alongside the wrapper).
+const NATIVE_PACKAGE = '@anthropic-ai/claude-code-linux-x64'
 
 /**
- * Pattern for skill registration calls in the minified bundle.
- * The function name changes across versions (UO, H2, etc.) so we match
- * any short identifier followed by ({name:"<name>". We validate matches
- * by checking for `getPromptForCommand` in a nearby window.
+ * Pattern for skill registration calls in the embedded JS bundle.
+ * Minifier-picked identifiers can include `$` (e.g. `I$`, `q`, `nm_`), so we match
+ * 1–4 chars from `[A-Za-z0-9_$]`. Validated by `getPromptForCommand` proximity.
  */
-const SKILL_NAME_RE = /\w{1,4}\(\{name:"([^"]*)"/g
+const SKILL_NAME_RE = /[\w$]{1,4}\(\{name:"([^"]*)"/g
 
 /**
  * Extracts skill descriptions from the bundle.
@@ -36,10 +39,17 @@ function extractDescription(source: string, skillName: string): string | undefin
   const sqMatch = /description:'([^']*)'/.exec(window)
   if (sqMatch) return sqMatch[1]!.replace(/\\n/g, '\n')
 
-  // Form 3: get description(){return"..."}
-  const getterMatch = /get description\(\)\{return"([^"]*)"/.exec(window)
-  if (getterMatch) return getterMatch[1]!.replace(/\\n/g, '\n')
+  // Form 3: description:`...` (template literal — used by some skills, e.g. schedule)
+  const tlMatch = /description:`([^`]*)`/.exec(window)
+  if (tlMatch) return tlMatch[1]!.replace(/\\n/g, '\n')
 
+  // Form 4: get description(){...return"..."} (with conditional logic before the return)
+  const getterDqMatch = /get description\(\)\{[^}]*?return\s*"([^"]*)"/.exec(window)
+  if (getterDqMatch) return getterDqMatch[1]!.replace(/\\n/g, '\n')
+  const getterSqMatch = /get description\(\)\{[^}]*?return\s*'([^']*)'/.exec(window)
+  if (getterSqMatch) return getterSqMatch[1]!.replace(/\\n/g, '\n')
+
+  // description:<identifier> — value lives elsewhere in the bundle, not resolvable here.
   return undefined
 }
 
@@ -70,12 +80,13 @@ async function fetchJson(url: string): Promise<unknown> {
 }
 
 /**
- * Download a .tgz URL and extract a single file by path, returning its
- * contents as a string. Uses only Node.js built-ins (no tar library).
+ * Download a .tgz URL and extract a single file by path, returning its raw bytes.
+ * Uses only Node.js built-ins (no tar library).
  *
  * tar format: 512-byte header blocks followed by file content blocks.
+ * The native CLI binary is ~200MB decompressed — large but acceptable for a CI job.
  */
-async function extractFileFromTarball(tarballUrl: string, targetPath: string): Promise<string> {
+async function extractFileFromTarball(tarballUrl: string, targetPath: string): Promise<Buffer> {
   return new Promise((resolve, reject) => {
     const makeRequest = (url: string): void => {
       httpsGet(url, (res) => {
@@ -89,8 +100,6 @@ async function extractFileFromTarball(tarballUrl: string, targetPath: string): P
 
         res.pipe(gunzip)
 
-        // Accumulate the entire decompressed tar into memory, then parse.
-        // cli.js is ~20MB decompressed — acceptable for a CI job.
         gunzip.on('data', (chunk: Buffer) => chunks.push(chunk))
         gunzip.on('end', () => {
           const buf = Buffer.concat(chunks)
@@ -110,7 +119,7 @@ async function extractFileFromTarball(tarballUrl: string, targetPath: string): P
 }
 
 /** @internal Exported for testing only. */
-export function extractFromTarBuffer(buf: Buffer, targetPath: string): string | null {
+export function extractFromTarBuffer(buf: Buffer, targetPath: string): Buffer | null {
   let offset = 0
   while (offset + 512 <= buf.length) {
     // tar header: first 100 bytes = file name (null-terminated)
@@ -126,7 +135,7 @@ export function extractFromTarBuffer(buf: Buffer, targetPath: string): string | 
     const size = parseInt(sizeStr, 8) || 0
 
     if (name === targetPath) {
-      return buf.subarray(offset + 512, offset + 512 + size).toString('utf8')
+      return buf.subarray(offset + 512, offset + 512 + size)
     }
 
     // Advance past header + content (rounded up to 512-byte blocks)
@@ -145,15 +154,21 @@ export class ClaudeBuiltinSkillsSource implements Source {
 
   async fetch(): Promise<CatalogEntry[]> {
     console.log('[builtin-skills] fetching latest @anthropic-ai/claude-code from npm')
-    const pkg = (await fetchJson(NPM_REGISTRY_URL)) as NpmPackageInfo
-    const version = pkg.version
-    const tarballUrl = pkg.dist.tarball
-    console.log(`[builtin-skills] version ${version}, extracting cli.js`)
+    const wrapper = (await fetchJson(NPM_REGISTRY_URL)) as NpmPackageInfo
+    const version = wrapper.version
+    console.log(`[builtin-skills] version ${version}, fetching native binary from ${NATIVE_PACKAGE}`)
 
-    const cliJs = await extractFileFromTarball(tarballUrl, 'package/cli.js')
-    console.log(`[builtin-skills] cli.js size: ${(cliJs.length / 1024 / 1024).toFixed(1)}MB`)
+    const nativeMeta = (await fetchJson(
+      `https://registry.npmjs.org/${NATIVE_PACKAGE}/${version}`,
+    )) as NpmPackageInfo
+    const tarballUrl = nativeMeta.dist.tarball
 
-    const skills = this.parseSkills(cliJs, version)
+    const binary = await extractFileFromTarball(tarballUrl, 'package/claude')
+    console.log(`[builtin-skills] binary size: ${(binary.length / 1024 / 1024).toFixed(1)}MB`)
+
+    // latin1 preserves byte values 1-to-1 as chars, so JS source regions inside the
+    // Bun standalone binary stay matchable by the same regexes used on the old cli.js.
+    const skills = this.parseSkills(binary.toString('latin1'), version)
     console.log(`[builtin-skills] found ${skills.length} built-in skills`)
     return skills
   }
