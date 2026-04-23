@@ -64,8 +64,8 @@ A local poll writes real files under `state/`, `catalog/`, `digests/`. Review th
 
 ### Code style
 - TypeScript strict mode. No `any` unless justified in a comment.
-- `ClaudePluginsSource` reads `marketplace.json` via Octokit (single API call for all plugins — local + external). `ClaudeBuiltinSkillsSource` uses Node.js built-ins to fetch from npm registry. Both Cursor sources use `fetchHtml()` from `src/sources/http.ts` to parse `cursor.com` HTML pages.
-- Claude Code built-in skill extraction uses a generic regex (`\w{1,4}\({name:"..."`) validated by `getPromptForCommand` presence — the minified function name changes across npm versions.
+- `ClaudePluginsSource` reads `marketplace.json` via Octokit (single API call for all plugins — local + external). `ClaudeBuiltinSkillsSource` fetches the platform-specific native binary (`@anthropic-ai/claude-code-linux-x64`) from the npm registry — since claude-code 2.1.116 the wrapper no longer ships `cli.js`, but the JS source is embedded verbatim in the Bun-compiled binary. Both Cursor sources use `fetchHtml()` from `src/sources/http.ts` to parse `cursor.com` HTML pages.
+- Claude Code built-in skill extraction uses a generic regex (`[\w$]{1,4}\({name:"..."`) validated by `getPromptForCommand` presence — the minified function identifier changes across versions and may include `$`.
 - Cursor marketplace extraction parses `initialPlugins` from Next.js RSC payload. First-party detection: `repositoryUrl === github.com/cursor/plugins`.
 - Tests live under `poller/test/` and mirror the `src/` tree.
 - Site components prefer static `.astro` over client islands. Add islands only for the two interactive pieces (search, filter).

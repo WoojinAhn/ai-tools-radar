@@ -14,8 +14,8 @@ Currently tracking two tools:
 ```
 cron 09:00 KST (daily)
   │
-  ├─ Claude Code: fetch marketplace.json via GitHub API (128 plugins)
-  ├─ Claude Code: fetch built-in skills via npm registry (parse cli.js bundle)
+  ├─ Claude Code: fetch marketplace.json via GitHub API
+  ├─ Claude Code: fetch built-in skills via npm registry (parse native binary)
   ├─ Cursor: fetch marketplace via cursor.com/marketplace (RSC payload parse)
   ├─ Cursor: fetch built-in commands via cursor.com/changelog
   ├─ Diff against state/snapshot.json
