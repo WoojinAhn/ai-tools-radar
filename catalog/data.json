@@ -1,7 +1,139 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-05-01T03:37:22.576Z",
+  "generated_at": "2026-05-02T02:53:31.805Z",
   "entries": [
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "agentforce-adlc",
+      "name": "agentforce-adlc",
+      "description": "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, and optimize .agent files",
+      "homepage": "https://github.com/SalesforceAIResearch/agentforce-adlc",
+      "source_url": "https://github.com/SalesforceAIResearch/agentforce-adlc",
+      "metadata": {
+        "extra": {
+          "category": "development",
+          "stars": 31
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:32.207Z",
+      "first_seen_at": "2026-05-02T02:53:31.805Z",
+      "last_updated_at": "2026-05-02T02:53:31.805Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "desktop-commander",
+      "name": "desktop-commander",
+      "description": "MCP server for terminal commands, process management, and file operations across text, code, PDF, DOCX, Excel, images, and structured data.",
+      "homepage": "https://desktopcommander.app",
+      "author": "Desktop Commander",
+      "source_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "metadata": {
+        "extra": {
+          "category": "productivity",
+          "stars": 5977
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:32.207Z",
+      "first_seen_at": "2026-05-02T02:53:31.805Z",
+      "last_updated_at": "2026-05-02T02:53:31.805Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "oracle-ai-data-platform-workbench-spark-connectors",
+      "name": "oracle-ai-data-platform-workbench-spark-connectors",
+      "description": "Oracle AI Data Platform Workbench Spark connectors for Claude Code. 18 connector skills covering every data source workbench customers commonly need: Oracle Autonomous DB family (ALH/ADW/ATP) via wallet/IAM-DB-Token/API-key, ExaCS, Fusion ERP REST, Fusion BICC, EPM Cloud Planning, Essbase 21c, OCI Streaming (Kafka), OCI Object Storage, Apache Iceberg, plus external systems (PostgreSQL, MySQL/HeatWave, SQL Server, Snowflake, Azure ADLS Gen2, AWS S3, generic REST, custom JDBC, Excel). Live-validated on the workbench `tpcds` cluster (Spark 3.5.0): 17 PASS / 4 ship-as-is out of 21 test rows.",
+      "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
+      "author": "Oracle",
+      "source_url": "https://github.com/oracle-samples/oracle-aidp-samples",
+      "metadata": {
+        "extra": {
+          "category": "development",
+          "stars": 30
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:32.207Z",
+      "first_seen_at": "2026-05-02T02:53:31.805Z",
+      "last_updated_at": "2026-05-02T02:53:31.805Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "sap-mdk-server",
+      "name": "sap-mdk-server",
+      "description": "MCP server for SAP Mobile Development Kit (MDK). Build and modify MDK applications with AI assistance — schema lookups, action validation, rule editing, and project scaffolding.",
+      "homepage": "https://help.sap.com/docs/MDK",
+      "author": "SAP",
+      "source_url": "https://github.com/SAP/mdk-mcp-server",
+      "metadata": {
+        "extra": {
+          "category": "development",
+          "stars": 30
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:32.207Z",
+      "first_seen_at": "2026-05-02T02:53:31.805Z",
+      "last_updated_at": "2026-05-02T02:53:31.805Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "servicenow-sdk",
+      "name": "servicenow-sdk",
+      "description": "Create, edit, and deploy ServiceNow applications with the Fluent SDK effortlessly through Claude AI.",
+      "homepage": "https://servicenow.github.io/sdk/",
+      "author": "ServiceNow",
+      "source_url": "https://github.com/ServiceNow/sdk",
+      "metadata": {
+        "extra": {
+          "category": "development",
+          "stars": 61
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:32.207Z",
+      "first_seen_at": "2026-05-02T02:53:31.805Z",
+      "last_updated_at": "2026-05-02T02:53:31.805Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "snowflake-cortex-code",
+      "name": "snowflake-cortex-code",
+      "description": "Automatically route Snowflake prompts from Claude Code to Cortex Code for execution. Provides slash commands for code review and task delegation, plus skills for routing, run, and setup.",
+      "homepage": "https://docs.snowflake.com/en/user-guide/cortex-code",
+      "author": "Snowflake",
+      "source_url": "https://github.com/Snowflake-Labs/snowflake-ai-kit",
+      "metadata": {
+        "extra": {
+          "category": "development",
+          "stars": 5
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:32.207Z",
+      "first_seen_at": "2026-05-02T02:53:31.805Z",
+      "last_updated_at": "2026-05-02T02:53:31.805Z"
+    },
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "youdotcom-agent-skills",
+      "name": "youdotcom-agent-skills",
+      "description": "You.com agent skills for web search, research with citations, and content extraction. Guided integrations for Vercel AI SDK, Claude Agent SDK, OpenAI Agents SDK, crewAI, LangChain, Microsoft Teams.ai, direct REST API, and bash CLI.",
+      "homepage": "https://you.com",
+      "author": "You.com",
+      "source_url": "https://github.com/youdotcom-oss/agent-skills",
+      "metadata": {
+        "extra": {
+          "category": "productivity",
+          "stars": 29
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:32.207Z",
+      "first_seen_at": "2026-05-02T02:53:31.805Z",
+      "last_updated_at": "2026-05-02T02:53:31.805Z"
+    },
     {
       "tool": "claude-code",
       "kind": "third-party",
@@ -17,7 +149,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-30T03:27:12.791Z",
       "last_updated_at": "2026-04-30T03:27:12.791Z"
     },
@@ -35,7 +167,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-30T03:27:12.791Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -53,7 +185,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-30T03:27:12.791Z",
       "last_updated_at": "2026-04-30T03:27:12.791Z"
     },
@@ -69,10 +201,10 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 60
+          "stars": 62
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-29T03:26:33.436Z",
       "last_updated_at": "2026-04-29T03:26:33.436Z"
     },
@@ -88,10 +220,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 4
+          "stars": 5
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-29T03:26:33.436Z",
       "last_updated_at": "2026-04-29T03:26:33.436Z"
     },
@@ -110,7 +242,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-29T03:26:33.436Z",
       "last_updated_at": "2026-04-29T03:26:33.436Z"
     },
@@ -125,10 +257,10 @@
         "extra": {
           "displayName": "Harness",
           "tags": [],
-          "stars": 0
+          "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-29T03:26:33.436Z",
       "last_updated_at": "2026-04-29T03:26:33.436Z"
     },
@@ -145,7 +277,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-29T03:26:33.436Z",
       "last_updated_at": "2026-04-29T03:26:33.436Z"
     },
@@ -163,7 +295,7 @@
           "stars": 9
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-29T03:26:33.436Z",
       "last_updated_at": "2026-04-29T03:26:33.436Z"
     },
@@ -181,7 +313,7 @@
           "stars": 30
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-29T03:26:33.436Z",
       "last_updated_at": "2026-04-29T03:26:33.436Z"
     },
@@ -200,7 +332,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -219,7 +351,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -238,7 +370,7 @@
           "stars": 12
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -257,7 +389,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -276,7 +408,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -292,10 +424,10 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 45
+          "stars": 48
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -314,7 +446,7 @@
           "stars": 13
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -334,7 +466,7 @@
           "stars": 12
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -352,7 +484,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -370,7 +502,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -388,7 +520,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -406,7 +538,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-28T03:27:58.245Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -422,7 +554,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-25T02:39:40.401Z",
       "last_updated_at": "2026-04-25T02:39:40.401Z"
     },
@@ -441,7 +573,7 @@
           "stars": 18
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -460,7 +592,7 @@
           "stars": 9
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -479,7 +611,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -498,7 +630,7 @@
           "stars": 18
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -513,10 +645,10 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 778
+          "stars": 787
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -535,7 +667,7 @@
           "stars": 35
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -554,7 +686,7 @@
           "stars": 36
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -570,10 +702,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 4364
+          "stars": 4366
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -589,10 +721,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 65
+          "stars": 66
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -611,7 +743,7 @@
           "stars": 11
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -630,7 +762,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -649,7 +781,7 @@
           "stars": 12
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -668,7 +800,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -687,7 +819,7 @@
           "stars": 29
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-24T02:51:10.331Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -704,7 +836,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.300Z",
+      "fetched_at": "2026-05-02T02:53:35.014Z",
       "first_seen_at": "2026-04-23T16:58:52.030Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -724,7 +856,7 @@
           "stars": 18
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-23T16:58:52.030Z",
       "last_updated_at": "2026-04-23T16:58:52.030Z"
     },
@@ -741,10 +873,10 @@
           "tags": [
             "gsap"
           ],
-          "stars": 2987
+          "stars": 3011
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-23T02:49:50.987Z",
       "last_updated_at": "2026-04-23T02:49:50.987Z"
     },
@@ -759,10 +891,10 @@
         "extra": {
           "displayName": "Coding Tutor",
           "tags": [],
-          "stars": 15919
+          "stars": 15982
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-23T02:49:50.987Z",
       "last_updated_at": "2026-04-23T02:49:50.987Z"
     },
@@ -781,7 +913,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-22T02:46:59.603Z",
       "last_updated_at": "2026-04-22T02:46:59.603Z"
     },
@@ -800,7 +932,7 @@
           "stars": 11
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-22T02:46:59.603Z",
       "last_updated_at": "2026-04-22T02:46:59.603Z"
     },
@@ -815,10 +947,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -833,10 +965,10 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -855,7 +987,7 @@
           "stars": 11
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -871,10 +1003,10 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 96
+          "stars": 97
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -890,10 +1022,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 265
+          "stars": 268
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -908,10 +1040,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -926,10 +1058,10 @@
         "extra": {
           "displayName": "shadcn/ui",
           "tags": [],
-          "stars": 113307
+          "stars": 113354
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -949,7 +1081,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -964,10 +1096,10 @@
         "extra": {
           "displayName": "Azure",
           "tags": [],
-          "stars": 778
+          "stars": 787
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -983,7 +1115,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -999,7 +1131,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -1015,7 +1147,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -1030,7 +1162,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-21T16:31:24.516Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -1051,7 +1183,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-17T02:47:31.206Z",
       "last_updated_at": "2026-04-17T02:47:31.206Z"
     },
@@ -1071,7 +1203,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-16T02:52:11.764Z",
       "last_updated_at": "2026-04-16T02:52:11.764Z"
     },
@@ -1088,7 +1220,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-16T02:52:11.764Z",
       "last_updated_at": "2026-04-16T02:52:11.764Z"
     },
@@ -1105,7 +1237,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-16T02:52:11.764Z",
       "last_updated_at": "2026-04-16T02:52:11.764Z"
     },
@@ -1120,10 +1252,10 @@
         "extra": {
           "displayName": "AWS SageMaker",
           "tags": [],
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-15T16:27:50.478Z",
       "last_updated_at": "2026-04-15T16:27:50.478Z"
     },
@@ -1138,10 +1270,10 @@
         "extra": {
           "displayName": "AWS Databases",
           "tags": [],
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-15T16:27:50.478Z",
       "last_updated_at": "2026-04-15T16:27:50.478Z"
     },
@@ -1156,10 +1288,10 @@
         "extra": {
           "displayName": "Resend",
           "tags": [],
-          "stars": 106
+          "stars": 107
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-15T16:27:50.478Z",
       "last_updated_at": "2026-04-15T16:27:50.478Z"
     },
@@ -1178,7 +1310,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-15T02:44:23.401Z",
       "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
@@ -1193,10 +1325,10 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 84
+          "stars": 87
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-15T02:44:23.401Z",
       "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
@@ -1215,7 +1347,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-15T02:44:23.401Z",
       "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
@@ -1231,10 +1363,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 269
+          "stars": 273
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-15T02:44:23.401Z",
       "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
@@ -1253,7 +1385,7 @@
           "stars": 84
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-15T02:44:23.401Z",
       "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
@@ -1270,10 +1402,10 @@
           "tags": [
             "workos"
           ],
-          "stars": 21
+          "stars": 22
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-15T02:44:23.401Z",
       "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
@@ -1291,7 +1423,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-15T02:44:23.401Z",
       "last_updated_at": "2026-04-15T02:44:23.401Z"
     },
@@ -1311,27 +1443,9 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-15T02:44:23.401Z",
       "last_updated_at": "2026-04-16T02:52:11.764Z"
-    },
-    {
-      "tool": "claude-code",
-      "kind": "third-party",
-      "id": "adlc",
-      "name": "adlc",
-      "description": "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, and optimize .agent files",
-      "homepage": "https://github.com/SalesforceAIResearch/agentforce-adlc",
-      "source_url": "https://github.com/SalesforceAIResearch/agentforce-adlc",
-      "metadata": {
-        "extra": {
-          "category": "development",
-          "stars": 31
-        }
-      },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
-      "first_seen_at": "2026-04-14T02:46:51.870Z",
-      "last_updated_at": "2026-04-14T02:46:51.870Z"
     },
     {
       "tool": "claude-code",
@@ -1347,7 +1461,7 @@
           "stars": 73
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-14T02:46:51.870Z",
       "last_updated_at": "2026-04-14T02:46:51.870Z"
     },
@@ -1367,7 +1481,7 @@
           "stars": 29
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-12T02:49:27.335Z",
       "last_updated_at": "2026-04-12T02:49:27.335Z"
     },
@@ -1385,7 +1499,7 @@
           "stars": 22
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -1403,7 +1517,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -1418,10 +1532,10 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 1372
+          "stars": 1379
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -1436,10 +1550,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 45
+          "stars": 48
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -1455,10 +1569,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 128
+          "stars": 129
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -1476,7 +1590,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -1496,7 +1610,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -1516,7 +1630,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-11T02:30:29.084Z",
       "last_updated_at": "2026-04-11T02:30:29.084Z"
     },
@@ -1534,7 +1648,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1553,7 +1667,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1567,10 +1681,10 @@
       "source_url": "https://github.com/techwolf-ai/ai-first-toolkit",
       "metadata": {
         "extra": {
-          "stars": 70
+          "stars": 71
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1587,7 +1701,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1601,10 +1715,10 @@
       "source_url": "https://github.com/AikidoSec/aikido-claude-plugin",
       "metadata": {
         "extra": {
-          "stars": 6
+          "stars": 7
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1619,10 +1733,10 @@
       "metadata": {
         "extra": {
           "category": "location",
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1639,7 +1753,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1654,10 +1768,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 350
+          "stars": 354
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1674,7 +1788,7 @@
           "stars": 30
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1689,10 +1803,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1707,10 +1821,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 5861
+          "stars": 5862
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1725,10 +1839,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1743,10 +1857,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 4
+          "stars": 5
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1760,10 +1874,10 @@
       "source_url": "https://github.com/brightdata/skills",
       "metadata": {
         "extra": {
-          "stars": 76
+          "stars": 83
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1781,7 +1895,7 @@
           "stars": 94
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1796,10 +1910,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 37806
+          "stars": 37878
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1817,7 +1931,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1835,7 +1949,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1854,7 +1968,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1873,7 +1987,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1890,7 +2004,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1909,7 +2023,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-22T02:46:59.603Z"
     },
@@ -1928,7 +2042,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1947,7 +2061,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -1957,17 +2071,17 @@
       "id": "coderabbit",
       "name": "coderabbit",
       "description": "Your code review partner. CodeRabbit provides external validation using a specialized AI architecture and 40+ integrated static analyzers—offering a different perspective that catches bugs, security vulnerabilities, logic errors, and edge cases. Context-aware analysis via AST parsing and codegraph relationships. Automatically incorporates CLAUDE.md and project coding guidelines into reviews. Useful after writing or modifying code, before commits, when implementing complex or security-sensitive logic, or when a second opinion would increase confidence in the changes. Returns specific findings with suggested fixes that can be applied immediately. Free to use.",
-      "homepage": "https://github.com/coderabbitai/claude-plugin.git",
-      "source_url": "https://github.com/coderabbitai/claude-plugin",
+      "homepage": "https://github.com/coderabbitai/skills",
+      "source_url": "https://github.com/coderabbitai/skills",
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 43
+          "stars": 85
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
-      "last_updated_at": "2026-04-10T16:53:16.860Z"
+      "last_updated_at": "2026-05-02T02:53:31.805Z"
     },
     {
       "tool": "claude-code",
@@ -1984,7 +2098,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2001,7 +2115,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2019,7 +2133,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2034,10 +2148,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 350
+          "stars": 354
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2051,10 +2165,10 @@
       "source_url": "https://github.com/astronomer/agents",
       "metadata": {
         "extra": {
-          "stars": 350
+          "stars": 354
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2069,10 +2183,10 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2088,7 +2202,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2105,7 +2219,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2124,7 +2238,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2139,10 +2253,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1822
+          "stars": 1829
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2158,7 +2272,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2175,7 +2289,7 @@
           "stars": 21
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2194,7 +2308,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2211,7 +2325,7 @@
           "stars": 26
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2226,10 +2340,10 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 1307
+          "stars": 1313
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2246,7 +2360,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2264,7 +2378,7 @@
           "stars": 64
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2281,7 +2395,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2298,7 +2412,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2315,7 +2429,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2334,7 +2448,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2351,7 +2465,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2368,7 +2482,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2385,7 +2499,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2403,7 +2517,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2420,7 +2534,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2437,7 +2551,7 @@
           "stars": 15
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2456,7 +2570,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2471,10 +2585,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 10367
+          "stars": 10371
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2490,7 +2604,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2508,7 +2622,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2526,7 +2640,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2544,7 +2658,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2561,7 +2675,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2580,7 +2694,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2598,7 +2712,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2615,7 +2729,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2633,7 +2747,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2652,7 +2766,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2671,7 +2785,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2686,10 +2800,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1599
+          "stars": 1600
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2707,7 +2821,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2722,10 +2836,10 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 97
+          "stars": 98
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2743,7 +2857,7 @@
           "stars": 56
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2761,7 +2875,7 @@
           "stars": 16
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2778,7 +2892,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2795,7 +2909,7 @@
           "stars": 45
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2813,7 +2927,7 @@
           "stars": 353
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2830,7 +2944,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2847,7 +2961,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2865,7 +2979,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2883,7 +2997,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2901,7 +3015,7 @@
           "stars": 57
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2919,7 +3033,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2938,7 +3052,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2955,7 +3069,7 @@
           "category": "testing"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2974,7 +3088,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -2992,7 +3106,7 @@
           "stars": 28
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3006,10 +3120,10 @@
       "source_url": "https://github.com/gitroomhq/postiz-agent",
       "metadata": {
         "extra": {
-          "stars": 195
+          "stars": 196
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3027,7 +3141,7 @@
           "stars": 15
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3046,7 +3160,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3063,7 +3177,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3080,7 +3194,7 @@
           "stars": 30
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3098,7 +3212,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3116,7 +3230,7 @@
           "stars": 30
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3131,10 +3245,10 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 253
+          "stars": 254
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3153,7 +3267,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3171,7 +3285,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3185,10 +3299,10 @@
       "source_url": "https://github.com/Digital-Process-Tools/claude-remember",
       "metadata": {
         "extra": {
-          "stars": 68
+          "stars": 69
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3206,7 +3320,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3224,7 +3338,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3242,7 +3356,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3259,7 +3373,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3278,7 +3392,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3296,7 +3410,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3311,10 +3425,10 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 159
+          "stars": 160
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3331,7 +3445,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3350,7 +3464,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3369,7 +3483,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3384,10 +3498,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 47
+          "stars": 48
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3405,7 +3519,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3423,7 +3537,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3439,10 +3553,10 @@
       "metadata": {
         "extra": {
           "category": "automation",
-          "stars": 873
+          "stars": 1209
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3457,10 +3571,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1516
+          "stars": 1518
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3478,7 +3592,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3496,7 +3610,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-17T02:47:31.206Z"
     },
@@ -3511,10 +3625,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 174687
+          "stars": 175700
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3532,7 +3646,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3548,7 +3662,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3567,7 +3681,7 @@
           "author_email": "support@hashicorp.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3585,7 +3699,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3603,7 +3717,7 @@
           "stars": 12
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3621,7 +3735,7 @@
           "stars": 12
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3639,7 +3753,7 @@
           "stars": 156
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3656,7 +3770,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3674,7 +3788,7 @@
           "stars": 9
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3688,10 +3802,10 @@
       "source_url": "https://github.com/Automattic/claude-code-wordpress.com",
       "metadata": {
         "extra": {
-          "stars": 24
+          "stars": 25
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3709,7 +3823,7 @@
           "stars": 37
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3727,7 +3841,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:22.989Z",
+      "fetched_at": "2026-05-02T02:53:32.207Z",
       "first_seen_at": "2026-04-10T16:53:16.860Z",
       "last_updated_at": "2026-04-10T16:53:16.860Z"
     },
@@ -3746,7 +3860,7 @@
           ]
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3766,7 +3880,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-23T02:49:50.987Z"
     },
@@ -3786,7 +3900,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3806,7 +3920,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3821,10 +3935,10 @@
         "extra": {
           "displayName": "Astronomer",
           "tags": [],
-          "stars": 350
+          "stars": 354
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3844,7 +3958,7 @@
           "stars": 31
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-17T02:47:31.206Z"
     },
@@ -3864,7 +3978,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3881,10 +3995,10 @@
           "tags": [
             "shopify"
           ],
-          "stars": 269
+          "stars": 273
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3901,7 +4015,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3921,7 +4035,7 @@
           "stars": 450
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3941,7 +4055,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-16T02:52:11.764Z"
     },
@@ -3961,7 +4075,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3978,10 +4092,10 @@
           "tags": [
             "firebase"
           ],
-          "stars": 263
+          "stars": 264
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -3998,7 +4112,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4018,7 +4132,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4033,10 +4147,10 @@
         "extra": {
           "displayName": "AWS Amplify",
           "tags": [],
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4051,10 +4165,10 @@
         "extra": {
           "displayName": "AWS Serverless",
           "tags": [],
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4069,10 +4183,10 @@
         "extra": {
           "displayName": "Amazon Location Service",
           "tags": [],
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4092,7 +4206,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4109,10 +4223,10 @@
           "tags": [
             "mongodb"
           ],
-          "stars": 97
+          "stars": 98
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4132,7 +4246,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4152,7 +4266,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4170,7 +4284,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4187,10 +4301,10 @@
           "tags": [
             "miro"
           ],
-          "stars": 96
+          "stars": 97
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4208,7 +4322,7 @@
           "stars": 90
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4228,7 +4342,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4245,10 +4359,10 @@
           "tags": [
             "svelte"
           ],
-          "stars": 237
+          "stars": 238
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4268,7 +4382,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4289,7 +4403,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4307,7 +4421,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4325,7 +4439,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-21T16:31:24.516Z"
     },
@@ -4345,7 +4459,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4363,7 +4477,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4381,7 +4495,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4396,10 +4510,10 @@
         "extra": {
           "displayName": "Meta Reality Labs",
           "tags": [],
-          "stars": 32
+          "stars": 33
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4419,7 +4533,7 @@
           "stars": 29
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4437,7 +4551,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4457,7 +4571,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4474,10 +4588,10 @@
           "tags": [
             "sanity"
           ],
-          "stars": 128
+          "stars": 129
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4495,7 +4609,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4512,10 +4626,10 @@
           "tags": [
             "webflow"
           ],
-          "stars": 63
+          "stars": 64
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4535,7 +4649,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4555,7 +4669,7 @@
           "stars": 12
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4575,7 +4689,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4595,7 +4709,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4610,10 +4724,10 @@
         "extra": {
           "displayName": "tldraw",
           "tags": [],
-          "stars": 46726
+          "stars": 46751
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4633,7 +4747,7 @@
           "stars": 22
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-28T03:27:58.245Z"
     },
@@ -4651,7 +4765,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4671,7 +4785,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4691,7 +4805,7 @@
           "stars": 37
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4711,7 +4825,7 @@
           "stars": 9
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4729,7 +4843,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4746,10 +4860,10 @@
           "tags": [
             "planetscale"
           ],
-          "stars": 2
+          "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4769,7 +4883,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4789,7 +4903,7 @@
           "stars": 110
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4809,7 +4923,7 @@
           "stars": 12
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4827,10 +4941,10 @@
             "hugging",
             "huggingface"
           ],
-          "stars": 10367
+          "stars": 10371
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4850,7 +4964,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4867,10 +4981,10 @@
           "tags": [
             "redis"
           ],
-          "stars": 46
+          "stars": 47
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4890,7 +5004,7 @@
           "stars": 28
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4910,7 +5024,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4925,10 +5039,10 @@
         "extra": {
           "displayName": "Monday.com",
           "tags": [],
-          "stars": 395
+          "stars": 396
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4947,10 +5061,10 @@
             "jira",
             "confluence"
           ],
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4970,7 +5084,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -4990,7 +5104,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-24T02:51:10.331Z"
     },
@@ -5007,7 +5121,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5025,7 +5139,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5042,10 +5156,10 @@
           "tags": [
             "superpowers"
           ],
-          "stars": 174687
+          "stars": 175700
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5060,10 +5174,10 @@
         "extra": {
           "displayName": "Compound Engineering",
           "tags": [],
-          "stars": 15919
+          "stars": 15982
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5080,7 +5194,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5100,7 +5214,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5120,7 +5234,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5135,10 +5249,10 @@
         "extra": {
           "displayName": "Slack",
           "tags": [],
-          "stars": 47
+          "stars": 48
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5155,10 +5269,10 @@
           "tags": [
             "databricks"
           ],
-          "stars": 94
+          "stars": 96
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-29T03:26:33.436Z"
     },
@@ -5178,7 +5292,7 @@
           "stars": 56
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5195,10 +5309,10 @@
           "tags": [
             "figma"
           ],
-          "stars": 1307
+          "stars": 1313
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5218,7 +5332,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5238,7 +5352,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5256,10 +5370,10 @@
             "aws",
             "amazon"
           ],
-          "stars": 642
+          "stars": 644
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5279,7 +5393,7 @@
           "stars": 156
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5296,7 +5410,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5313,10 +5427,10 @@
           "tags": [
             "sentry"
           ],
-          "stars": 159
+          "stars": 160
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5336,7 +5450,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5357,7 +5471,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5374,10 +5488,10 @@
           "tags": [
             "stripe"
           ],
-          "stars": 1516
+          "stars": 1518
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5394,10 +5508,10 @@
           "tags": [
             "cloudflare"
           ],
-          "stars": 1372
+          "stars": 1379
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5415,10 +5529,10 @@
             "upstash",
             "context7"
           ],
-          "stars": 54213
+          "stars": 54253
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5438,7 +5552,7 @@
           "stars": 9
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5458,7 +5572,7 @@
           "stars": 8
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5475,10 +5589,10 @@
           "tags": [
             "convex"
           ],
-          "stars": 99
+          "stars": 100
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.130Z",
+      "fetched_at": "2026-05-02T02:53:35.762Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5494,7 +5608,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5510,7 +5624,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5526,7 +5640,22 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
+      "first_seen_at": "2026-04-10T16:23:15.365Z",
+      "last_updated_at": "2026-04-10T16:23:15.365Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "first-party",
+      "id": "builtin/add-plugin",
+      "name": "/add-plugin",
+      "source_url": "https://cursor.com/changelog",
+      "metadata": {
+        "extra": {
+          "builtin": true
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5542,7 +5671,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5557,7 +5686,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5572,7 +5701,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5588,22 +5717,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
-      "first_seen_at": "2026-04-10T16:23:15.365Z",
-      "last_updated_at": "2026-04-10T16:23:15.365Z"
-    },
-    {
-      "tool": "cursor",
-      "kind": "first-party",
-      "id": "builtin/add-plugin",
-      "name": "/add-plugin",
-      "source_url": "https://cursor.com/changelog",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5618,67 +5732,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
-      "first_seen_at": "2026-04-10T16:23:15.365Z",
-      "last_updated_at": "2026-04-10T16:23:15.365Z"
-    },
-    {
-      "tool": "cursor",
-      "kind": "first-party",
-      "id": "builtin/usage",
-      "name": "/usage",
-      "source_url": "https://cursor.com/changelog",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
-      "first_seen_at": "2026-04-10T16:23:15.365Z",
-      "last_updated_at": "2026-04-10T16:23:15.365Z"
-    },
-    {
-      "tool": "cursor",
-      "kind": "first-party",
-      "id": "builtin/about",
-      "name": "/about",
-      "source_url": "https://cursor.com/changelog",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
-      "first_seen_at": "2026-04-10T16:23:15.365Z",
-      "last_updated_at": "2026-04-10T16:23:15.365Z"
-    },
-    {
-      "tool": "cursor",
-      "kind": "first-party",
-      "id": "builtin/setup-terminal",
-      "name": "/setup-terminal",
-      "source_url": "https://cursor.com/changelog",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
-      "first_seen_at": "2026-04-10T16:23:15.365Z",
-      "last_updated_at": "2026-04-10T16:23:15.365Z"
-    },
-    {
-      "tool": "cursor",
-      "kind": "first-party",
-      "id": "builtin/list",
-      "name": "/list",
-      "source_url": "https://cursor.com/changelog",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5693,22 +5747,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
-      "first_seen_at": "2026-04-10T16:23:15.365Z",
-      "last_updated_at": "2026-04-10T16:23:15.365Z"
-    },
-    {
-      "tool": "cursor",
-      "kind": "first-party",
-      "id": "builtin/model",
-      "name": "/model",
-      "source_url": "https://cursor.com/changelog",
-      "metadata": {
-        "extra": {
-          "builtin": true
-        }
-      },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5723,7 +5762,82 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
+      "first_seen_at": "2026-04-10T16:23:15.365Z",
+      "last_updated_at": "2026-04-10T16:23:15.365Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "first-party",
+      "id": "builtin/usage",
+      "name": "/usage",
+      "source_url": "https://cursor.com/changelog",
+      "metadata": {
+        "extra": {
+          "builtin": true
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:36.079Z",
+      "first_seen_at": "2026-04-10T16:23:15.365Z",
+      "last_updated_at": "2026-04-10T16:23:15.365Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "first-party",
+      "id": "builtin/about",
+      "name": "/about",
+      "source_url": "https://cursor.com/changelog",
+      "metadata": {
+        "extra": {
+          "builtin": true
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:36.079Z",
+      "first_seen_at": "2026-04-10T16:23:15.365Z",
+      "last_updated_at": "2026-04-10T16:23:15.365Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "first-party",
+      "id": "builtin/setup-terminal",
+      "name": "/setup-terminal",
+      "source_url": "https://cursor.com/changelog",
+      "metadata": {
+        "extra": {
+          "builtin": true
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:36.079Z",
+      "first_seen_at": "2026-04-10T16:23:15.365Z",
+      "last_updated_at": "2026-04-10T16:23:15.365Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "first-party",
+      "id": "builtin/list",
+      "name": "/list",
+      "source_url": "https://cursor.com/changelog",
+      "metadata": {
+        "extra": {
+          "builtin": true
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:36.079Z",
+      "first_seen_at": "2026-04-10T16:23:15.365Z",
+      "last_updated_at": "2026-04-10T16:23:15.365Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "first-party",
+      "id": "builtin/model",
+      "name": "/model",
+      "source_url": "https://cursor.com/changelog",
+      "metadata": {
+        "extra": {
+          "builtin": true
+        }
+      },
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5738,7 +5852,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5753,7 +5867,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:26.443Z",
+      "fetched_at": "2026-05-02T02:53:36.079Z",
       "first_seen_at": "2026-04-10T16:23:15.365Z",
       "last_updated_at": "2026-04-10T16:23:15.365Z"
     },
@@ -5770,7 +5884,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.224Z",
+      "fetched_at": "2026-05-02T02:53:34.939Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5787,7 +5901,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.246Z",
+      "fetched_at": "2026-05-02T02:53:34.961Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5804,7 +5918,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.283Z",
+      "fetched_at": "2026-05-02T02:53:34.997Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5821,7 +5935,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.321Z",
+      "fetched_at": "2026-05-02T02:53:35.036Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5838,7 +5952,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.352Z",
+      "fetched_at": "2026-05-02T02:53:35.068Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5855,7 +5969,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.377Z",
+      "fetched_at": "2026-05-02T02:53:35.092Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5872,7 +5986,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.414Z",
+      "fetched_at": "2026-05-02T02:53:35.130Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5889,7 +6003,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.454Z",
+      "fetched_at": "2026-05-02T02:53:35.170Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5906,7 +6020,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.486Z",
+      "fetched_at": "2026-05-02T02:53:35.201Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     },
@@ -5922,23 +6036,23 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-05-01T03:37:25.515Z",
+      "fetched_at": "2026-05-02T02:53:35.230Z",
       "first_seen_at": "2026-04-09T16:49:22.970Z",
       "last_updated_at": "2026-05-01T03:37:22.576Z"
     }
   ],
   "stats": {
-    "total": 324,
+    "total": 330,
     "by_tool": {
-      "claude-code": 181,
+      "claude-code": 187,
       "cursor": 143
     },
     "by_kind": {
-      "third-party": 249,
+      "third-party": 255,
       "first-party": 75
     },
     "latest_first_seen_at_by_tool": {
-      "claude-code": "2026-04-30T03:27:12.791Z",
+      "claude-code": "2026-05-02T02:53:31.805Z",
       "cursor": "2026-04-30T03:27:12.791Z"
     }
   }
