@@ -86,7 +86,7 @@ export interface CatalogFile {
   stats: CatalogStats
 }
 
-export interface CatalogEntryView extends CatalogEntry {
+export type CatalogEntryView = Omit<CatalogEntry, 'fetched_at'> & {
   first_seen_at: string
   last_updated_at: string
 }

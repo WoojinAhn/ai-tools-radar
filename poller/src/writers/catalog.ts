@@ -28,8 +28,12 @@ export function buildCatalog(
 
   const views: CatalogEntryView[] = entries.map((entry) => {
     const timeline = byKey.get(entryKey(entry))
+    // Omit fetched_at from the catalog view: the site does not read it,
+    // and including it churns every entry on every poll.
+    // The snapshot remains the source of truth for fetched_at.
+    const { fetched_at: _fetchedAt, ...rest } = entry
     return {
-      ...entry,
+      ...rest,
       first_seen_at: timeline?.firstSeen ?? generatedAt,
       last_updated_at: timeline?.lastUpdated ?? generatedAt,
     }
