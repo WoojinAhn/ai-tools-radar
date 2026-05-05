@@ -12,9 +12,11 @@ export function getStaticPaths() {
 }
 
 const { entry } = Astro.props
+// Claude Code's catalog lives at `/` (canonical); `/claude-code/` is a redirect.
+const toolPath = entry.tool === 'claude-code' ? '' : `/${entry.tool}/`
 const backHref = isBuiltin(entry)
-  ? `${import.meta.env.BASE_URL}/${entry.tool}/#builtin-${entry.tool === 'cursor' ? 'commands' : 'skills'}`
-  : `${import.meta.env.BASE_URL}/${entry.tool}/`
+  ? `${import.meta.env.BASE_URL}${toolPath}#builtin-${entry.tool === 'cursor' ? 'commands' : 'skills'}`
+  : `${import.meta.env.BASE_URL}${toolPath || '/'}`
 const backLabel = isBuiltin(entry)
   ? `← Back to built-in ${entry.tool === 'cursor' ? 'commands' : 'skills'}`
   : `← Back to ${displayTool(entry.tool)} catalog`

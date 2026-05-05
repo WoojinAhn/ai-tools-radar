@@ -1,3 +1,46 @@
 ---
-return Astro.redirect(`${import.meta.env.BASE_URL}/claude-code/`)
+import BaseLayout from '../layouts/BaseLayout.astro'
+import EntryCard from '../components/EntryCard.astro'
+import Stats from '../components/Stats.astro'
+import ToolTabs from '../components/ToolTabs.astro'
+import SearchBox from '../components/SearchBox.tsx'
+import FilterBar from '../components/FilterBar.tsx'
+import SortSelect from '../components/SortSelect.tsx'
+import { catalog, entriesForTool } from '../lib/catalog.ts'
+
+const { plugins, builtins } = entriesForTool('claude-code')
 ---
+
+<BaseLayout title="Claude Code — ai-tools-radar">
+  <ToolTabs activeTool="claude-code" />
+
+  <h1 class="text-3xl font-semibold tracking-tight mb-2">Marketplace Plugins</h1>
+  <p class="text-neutral-400 mb-8">
+    {plugins.length} plugins across Claude Code's official marketplace.
+    Last updated {catalog.generated_at.slice(0, 10)}.
+  </p>
+
+  <Stats entries={plugins} />
+
+  <div class="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center mb-6">
+    <div class="flex-1"><SearchBox client:visible /></div>
+    <FilterBar client:visible />
+    <SortSelect client:visible />
+  </div>
+
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" id="entry-grid">
+    {plugins.map((entry) => <EntryCard entry={entry} latestFirstSeenAt={catalog.stats.latest_first_seen_at_by_tool['claude-code']} />)}
+  </div>
+
+  {builtins.length > 0 && (
+    <section id="builtin-skills" class="mt-16 pt-12 border-t border-neutral-800">
+      <h2 class="text-2xl font-semibold tracking-tight mb-2">Built-in Skills</h2>
+      <p class="text-neutral-400 mb-8">
+        {builtins.length} skills embedded in the Claude Code CLI binary.
+      </p>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" id="builtin-grid">
+        {builtins.map((entry) => <EntryCard entry={entry} latestFirstSeenAt={catalog.stats.latest_first_seen_at_by_tool['claude-code']} />)}
+      </div>
+    </section>
+  )}
+</BaseLayout>

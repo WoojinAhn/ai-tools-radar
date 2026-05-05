@@ -56,7 +56,7 @@ poller/          TypeScript — fetches, diffs, writes state
   test/            Vitest
 
 site/            Astro 5 + Tailwind 4 — static catalog site
-  src/pages/       /claude-code/, /cursor/, digests, entries, about
+  src/pages/       / (Claude Code), /cursor/, digests, entries, about
   src/components/  ToolTabs, EntryCard, Stats, NewBadge, SearchBox, FilterBar
 
 state/           Poller-written (committed to git)
