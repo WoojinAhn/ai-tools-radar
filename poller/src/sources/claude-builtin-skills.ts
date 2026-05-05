@@ -10,11 +10,20 @@ const NPM_REGISTRY_URL = 'https://registry.npmjs.org/@anthropic-ai/claude-code/l
 const NATIVE_PACKAGE = '@anthropic-ai/claude-code-linux-x64'
 
 /**
- * Pattern for skill registration calls in the embedded JS bundle.
- * Minifier-picked identifiers can include `$` (e.g. `I$`, `q`, `nm_`), so we match
- * 1–4 chars from `[A-Za-z0-9_$]`. Validated by `getPromptForCommand` proximity.
+ * Pattern for skill registrations in the embedded JS bundle.
+ *
+ * The bundle uses two forms, both anchored by `name:"..."`:
+ *  - Function-call form:    `Af({name:"batch", ...})`               (`I$`, `H2`, etc.)
+ *  - Object-literal form:   `_35={type:"prompt", description:"...", ..., name:"statusline", ...}`
+ *
+ * In the object-literal form, `name:` is not always adjacent to `type:"prompt"` —
+ * other fields (description, aliases, contentLength) may appear in between, so we
+ * allow up to 500 non-`}` chars between the `type:"prompt"` anchor and `name:"..."`.
+ *
+ * Minifier-picked identifiers can include `$`. Both forms are validated downstream
+ * by `getPromptForCommand` proximity to filter non-skill objects.
  */
-const SKILL_NAME_RE = /[\w$]{1,4}\(\{name:"([^"]*)"/g
+const SKILL_NAME_RE = /(?:[\w$]{1,4}\(\{|=\{type:"prompt",(?:[^}]{0,500}?,)?)name:"([^"]*)"/g
 
 /**
  * Extracts skill descriptions from the bundle.
@@ -23,13 +32,16 @@ const SKILL_NAME_RE = /[\w$]{1,4}\(\{name:"([^"]*)"/g
  * bundler versions), then search within a bounded window for the description.
  */
 function extractDescription(source: string, skillName: string): string | undefined {
-  const anchor = `({name:"${skillName}"`
+  // Anchor on the bare `name:"<skillName>"` to support both function-call
+  // (`fn({name:"..."`) and object-literal (`var={...,name:"..."`) forms.
+  const anchor = `name:"${skillName}"`
   const idx = source.indexOf(anchor)
   if (idx === -1) return undefined
 
-  // Work within a bounded window after the anchor.
-  // Some descriptions are 500+ chars, so use a generous window.
-  const window = source.slice(idx, idx + 2000)
+  // Window spans both before and after the anchor: in the object-literal form,
+  // `description:` can appear before `name:` (e.g. `={type:"prompt",description:"...",...,name:"..."}`).
+  // Some descriptions are 500+ chars, so use a generous window in each direction.
+  const window = source.slice(Math.max(0, idx - 1000), idx + 2000)
 
   // Form 1: description:"..."
   const dqMatch = /description:"([^"]*)"/.exec(window)

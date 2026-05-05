@@ -121,6 +121,41 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
     const entries = makeSource().parseSkills(js, VERSION)
     expect(entries).toEqual([])
   })
+
+  it('extracts skill registered via object-literal form (var=type:prompt,name:...)', () => {
+    const js = `var B$5;var Is7=T(()=>{i9$();d8();l$();B$5={type:"prompt",name:"init",description:"Initialize a new CLAUDE.md file with codebase documentation",source:"builtin",async getPromptForCommand(H){return[]}}});`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries).toHaveLength(1)
+    expect(entries[0]).toMatchObject({
+      id: 'builtin/init',
+      name: 'init',
+      description: 'Initialize a new CLAUDE.md file with codebase documentation',
+    })
+  })
+
+  it('extracts mixed function-call and object-literal forms in the same bundle', () => {
+    const js = [
+      `Af({name:"batch",description:"Run a large change.",async getPromptForCommand(q){}})`,
+      `W_5={type:"prompt",name:"review",description:"Review a pull request",source:"builtin",async getPromptForCommand(H){}}`,
+      `T2={type:"prompt",name:"commit",description:"Create a commit.",source:"builtin",async getPromptForCommand(H){}}`,
+    ].join(';')
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries.map((e) => e.name).sort()).toEqual(['batch', 'commit', 'review'])
+  })
+
+  it('object-literal form still requires getPromptForCommand to validate', () => {
+    const js = `Q1={type:"prompt",name:"not-a-skill",description:"missing GPC"}`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries).toEqual([])
+  })
+
+  it('object-literal form: name field not adjacent to type:prompt (other fields between)', () => {
+    const js = `_35={type:"prompt",description:"Set up Claude Code's status line UI",contentLength:0,aliases:[],name:"statusline",source:"builtin",async getPromptForCommand(H){}}`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries).toHaveLength(1)
+    expect(entries[0]!.name).toBe('statusline')
+    expect(entries[0]!.description).toBe("Set up Claude Code's status line UI")
+  })
 })
 
 describe('extractFromTarBuffer', () => {
