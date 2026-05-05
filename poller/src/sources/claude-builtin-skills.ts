@@ -26,22 +26,48 @@ const NATIVE_PACKAGE = '@anthropic-ai/claude-code-linux-x64'
 const SKILL_NAME_RE = /(?:[\w$]{1,4}\(\{|=\{type:"prompt",(?:[^}]{0,500}?,)?)name:"([^"]*)"/g
 
 /**
- * Extracts skill descriptions from the bundle.
- *
- * Strategy: find `({name:"<skillName>"` anchor (function name varies across
- * bundler versions), then search within a bounded window for the description.
+ * Find the end of the object literal that opens at `openIdx` (which must point
+ * to a `{`). Walks forward with brace-counting while skipping over string
+ * literals (single, double, and template) so braces inside strings or nested
+ * function bodies do not break the count. Returns the index of the matching
+ * closing `}`, or `-1` if not found within `maxLen` chars.
  */
-function extractDescription(source: string, skillName: string): string | undefined {
-  // Anchor on the bare `name:"<skillName>"` to support both function-call
-  // (`fn({name:"..."`) and object-literal (`var={...,name:"..."`) forms.
-  const anchor = `name:"${skillName}"`
-  const idx = source.indexOf(anchor)
-  if (idx === -1) return undefined
+function findObjectEnd(source: string, openIdx: number, maxLen = 20000): number {
+  const limit = Math.min(source.length, openIdx + maxLen)
+  let depth = 0
+  let i = openIdx
+  while (i < limit) {
+    const c = source[i]
+    if (c === '"' || c === "'" || c === '`') {
+      const quote = c
+      i++
+      while (i < limit) {
+        const cc = source[i]
+        if (cc === '\\') { i += 2; continue }
+        if (cc === quote) { i++; break }
+        i++
+      }
+      continue
+    }
+    if (c === '{') depth++
+    else if (c === '}') {
+      depth--
+      if (depth === 0) return i
+    }
+    i++
+  }
+  return -1
+}
 
-  // Window spans both before and after the anchor: in the object-literal form,
-  // `description:` can appear before `name:` (e.g. `={type:"prompt",description:"...",...,name:"..."}`).
-  // Some descriptions are 500+ chars, so use a generous window in each direction.
-  const window = source.slice(Math.max(0, idx - 1000), idx + 2000)
+/**
+ * Extracts the description for the skill object that begins at `objectOpen`
+ * (the position of the opening `{`) — bounded by the matching closing `}` so
+ * we never read fields from an adjacent sibling registration.
+ */
+function extractDescription(source: string, objectOpen: number): string | undefined {
+  const objectEnd = findObjectEnd(source, objectOpen)
+  if (objectEnd === -1) return undefined
+  const window = source.slice(objectOpen, objectEnd + 1)
 
   // Form 1: description:"..."
   const dqMatch = /description:"([^"]*)"/.exec(window)
@@ -55,10 +81,12 @@ function extractDescription(source: string, skillName: string): string | undefin
   const tlMatch = /description:`([^`]*)`/.exec(window)
   if (tlMatch) return tlMatch[1]!.replace(/\\n/g, '\n')
 
-  // Form 4: get description(){...return"..."} (with conditional logic before the return)
-  const getterDqMatch = /get description\(\)\{[^}]*?return\s*"([^"]*)"/.exec(window)
+  // Form 4: get description(){...} — capture the first string literal in the body.
+  // Handles plain returns, ternaries (`return cond?"A":"B"`) and conditional branches
+  // (`if(x)return"A";return"B"`). The first branch is taken as the canonical description.
+  const getterDqMatch = /get description\(\)\{[^}]*?"([^"]*)"/.exec(window)
   if (getterDqMatch) return getterDqMatch[1]!.replace(/\\n/g, '\n')
-  const getterSqMatch = /get description\(\)\{[^}]*?return\s*'([^']*)'/.exec(window)
+  const getterSqMatch = /get description\(\)\{[^}]*?'([^']*)'/.exec(window)
   if (getterSqMatch) return getterSqMatch[1]!.replace(/\\n/g, '\n')
 
   // description:<identifier> — value lives elsewhere in the bundle, not resolvable here.
@@ -194,6 +222,12 @@ export class ClaudeBuiltinSkillsSource implements Source {
       const name = match[1]!
       if (seen.has(name)) continue
 
+      // The match starts with either `<id>(\{` (function-call form) or
+      // `<id>=\{` (object-literal form); the object opens at the first `{`
+      // inside the match.
+      const objectOpen = source.indexOf('{', match.index)
+      if (objectOpen === -1 || objectOpen >= match.index + match[0].length) continue
+
       // Validate: real skill registrations contain getPromptForCommand nearby.
       // Some skills have large description/config blocks before the method, so use 2000 chars.
       const validationWindow = source.slice(match.index, match.index + 2000)
@@ -201,7 +235,7 @@ export class ClaudeBuiltinSkillsSource implements Source {
 
       seen.add(name)
 
-      const description = extractDescription(source, name)
+      const description = extractDescription(source, objectOpen)
 
       entries.push({
         tool: 'claude-code',

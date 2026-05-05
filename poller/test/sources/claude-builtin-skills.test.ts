@@ -156,6 +156,32 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
     expect(entries[0]!.name).toBe('statusline')
     expect(entries[0]!.description).toBe("Set up Claude Code's status line UI")
   })
+
+  it('does not pull description from an adjacent sibling skill object', () => {
+    // init has a getter; init-verifiers has a literal description right after.
+    // The init description must NOT bleed in from init-verifiers.
+    const js = `B$5={type:"prompt",name:"init",get description(){return"Initialize a new CLAUDE.md file"},source:"builtin",async getPromptForCommand(){}};U$5={type:"prompt",name:"init-verifiers",description:"Create verifier skill(s)",source:"builtin",async getPromptForCommand(){}}`
+    const entries = makeSource().parseSkills(js, VERSION)
+    const init = entries.find((e) => e.name === 'init')
+    const verifiers = entries.find((e) => e.name === 'init-verifiers')
+    expect(init?.description).toBe('Initialize a new CLAUDE.md file')
+    expect(verifiers?.description).toBe('Create verifier skill(s)')
+  })
+
+  it('extracts first branch from ternary inside getter description', () => {
+    const js = `B$5={type:"prompt",name:"init",get description(){return SH(process.env.FLAG)?"new variant":"default variant"},async getPromptForCommand(){}}`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries[0]!.description).toBe('new variant')
+  })
+
+  it('does not pull description from a preceding sibling whose description appears before its name', () => {
+    // rate-limit-options is registered before statusline. statusline's description
+    // appears BEFORE its name field; the back-search must stop at rate-limit-options.
+    const js = `K35={type:"local-jsx",name:"rate-limit-options",description:"Show options when rate limit is reached",isHidden:!0,async getPromptForCommand(){}};_35={type:"prompt",description:"Set up Claude Code's status line UI",contentLength:0,aliases:[],name:"statusline",source:"builtin",async getPromptForCommand(H){}}`
+    const entries = makeSource().parseSkills(js, VERSION)
+    const statusline = entries.find((e) => e.name === 'statusline')
+    expect(statusline?.description).toBe("Set up Claude Code's status line UI")
+  })
 })
 
 describe('extractFromTarBuffer', () => {
