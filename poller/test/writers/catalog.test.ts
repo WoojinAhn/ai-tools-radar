@@ -49,10 +49,12 @@ describe('buildCatalog', () => {
     const viewA = catalog.entries.find((e) => e.id === 'a')!
     expect(viewA.first_seen_at).toBe('2026-03-15T00:00:00.000Z')
     expect(viewA.last_updated_at).toBe('2026-04-01T00:00:00.000Z')
+    expect(viewA).not.toHaveProperty('fetched_at')
 
     const viewB = catalog.entries.find((e) => e.id === 'b')!
     expect(viewB.first_seen_at).toBe('2026-03-20T00:00:00.000Z')
     expect(viewB.last_updated_at).toBe('2026-03-20T00:00:00.000Z')
+    expect(viewB).not.toHaveProperty('fetched_at')
   })
 
   it('falls back to generated_at when no events reference an entry', () => {

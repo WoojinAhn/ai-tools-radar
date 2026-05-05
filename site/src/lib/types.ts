@@ -20,7 +20,6 @@ export interface CatalogEntryView {
     mcp_servers?: string[]
     extra: Record<string, unknown>
   }
-  fetched_at: string
   first_seen_at: string
   last_updated_at: string
 }
