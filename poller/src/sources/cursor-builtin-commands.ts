@@ -3,7 +3,9 @@ import { fetchHtml } from './http.js'
 import type { CatalogEntry, Source } from './types.js'
 
 const CHANGELOG_BASE = 'https://cursor.com/changelog'
-const MAX_PAGE = 5
+const MAX_PAGE = 20
+/** Stop fetching after this many consecutive pages yield zero commands. */
+const MAX_CONSECUTIVE_EMPTY_PAGES = 2
 
 /** Pattern for an RSC `code` element wrapping a slash command. */
 const COMMAND_RE = /\{"children":"(\/[a-z][\w-]*)"\}/g
@@ -171,6 +173,69 @@ export function parseCommands(html: string): CatalogEntry[] {
   return entries
 }
 
+/** Returns true if an error from fetchHtml looks like a 404 (page doesn't exist). */
+function is404Error(err: unknown): boolean {
+  return err instanceof Error && /HTTP 404/.test(err.message)
+}
+
+/**
+ * Page-by-page fetch loop. Exported for testing so the fetcher can be stubbed.
+ *
+ * Stops early when `MAX_CONSECUTIVE_EMPTY_PAGES` consecutive pages either:
+ *   - return HTTP 404 (Cursor's pagination ends), or
+ *   - yield zero commands when parsed.
+ *
+ * Non-404 errors propagate to the caller.
+ */
+export async function fetchAllPages(
+  fetcher: (url: string) => Promise<string> = fetchHtml,
+): Promise<CatalogEntry[]> {
+  const merged: CatalogEntry[] = []
+  const seen = new Set<string>()
+  let consecutiveEmpty = 0
+
+  for (let p = 1; p <= MAX_PAGE; p++) {
+    const url = p === 1 ? CHANGELOG_BASE : `${CHANGELOG_BASE}/page/${p}`
+    let html: string
+    try {
+      html = await fetcher(url)
+    } catch (err) {
+      if (is404Error(err)) {
+        consecutiveEmpty++
+        if (consecutiveEmpty >= MAX_CONSECUTIVE_EMPTY_PAGES) {
+          console.log(
+            `[cursor-builtin-commands] reached end of pagination at page ${p} (404 x ${consecutiveEmpty})`,
+          )
+          break
+        }
+        continue
+      }
+      throw err
+    }
+
+    const pageEntries = parseCommands(html)
+    if (pageEntries.length === 0) {
+      consecutiveEmpty++
+      if (consecutiveEmpty >= MAX_CONSECUTIVE_EMPTY_PAGES) {
+        console.log(
+          `[cursor-builtin-commands] stopping at page ${p} (${consecutiveEmpty} consecutive empty pages)`,
+        )
+        break
+      }
+      continue
+    }
+
+    consecutiveEmpty = 0
+    for (const entry of pageEntries) {
+      if (seen.has(entry.name)) continue
+      seen.add(entry.name)
+      merged.push(entry)
+    }
+  }
+
+  return merged
+}
+
 export class CursorBuiltinCommandsSource implements Source {
   readonly tool = 'cursor' as const
   readonly id = 'cursor-builtin-commands'
@@ -178,16 +243,7 @@ export class CursorBuiltinCommandsSource implements Source {
   async fetch(): Promise<CatalogEntry[]> {
     try {
       console.log('[cursor-builtin-commands] fetching changelog pages')
-      const pages: string[] = []
-
-      // Fetch page 1 (base URL) and pages 2..MAX_PAGE
-      pages.push(await fetchHtml(CHANGELOG_BASE))
-      for (let p = 2; p <= MAX_PAGE; p++) {
-        pages.push(await fetchHtml(`${CHANGELOG_BASE}/page/${p}`))
-      }
-
-      const combined = pages.join('\n')
-      const entries = parseCommands(combined)
+      const entries = await fetchAllPages()
       console.log(`[cursor-builtin-commands] found ${entries.length} built-in commands`)
       return entries
     } catch (err) {
