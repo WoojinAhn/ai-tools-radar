@@ -174,6 +174,23 @@ describe('ClaudeBuiltinSkillsSource.parseSkills', () => {
     expect(entries[0]!.description).toBe('new variant')
   })
 
+  it('applies manual fallback description for claude-api when bundle has no inline description', () => {
+    // Bundle uses `description:SOME_GLOBAL_VAR` (identifier reference) — not resolvable statically.
+    const js = `UO({name:"claude-api",description:CLAUDE_API_DESC,async getPromptForCommand(q){}})`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries).toHaveLength(1)
+    expect(entries[0]!.name).toBe('claude-api')
+    expect(entries[0]!.description).toBe('Build, debug, and optimize Claude API / Anthropic SDK apps.')
+  })
+
+  it('inline description wins over fallback when both are available', () => {
+    const js = `UO({name:"claude-api",description:"Inline description from bundle.",async getPromptForCommand(q){}})`
+    const entries = makeSource().parseSkills(js, VERSION)
+    expect(entries).toHaveLength(1)
+    expect(entries[0]!.name).toBe('claude-api')
+    expect(entries[0]!.description).toBe('Inline description from bundle.')
+  })
+
   it('does not pull description from a preceding sibling whose description appears before its name', () => {
     // rate-limit-options is registered before statusline. statusline's description
     // appears BEFORE its name field; the back-search must stop at rate-limit-options.

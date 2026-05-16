@@ -26,6 +26,20 @@ const NATIVE_PACKAGE = '@anthropic-ai/claude-code-linux-x64'
 const SKILL_NAME_RE = /(?:[\w$]{1,4}\(\{|=\{type:"prompt",(?:[^}]{0,500}?,)?)name:"([^"]*)"/g
 
 /**
+ * Manual fallback descriptions for skills whose `description` field in the bundle
+ * is an identifier reference (e.g. `description:SOME_GLOBAL_VAR`) rather than an
+ * inline string/template/getter — meaning `extractDescription` cannot resolve it.
+ *
+ * Applied ONLY when static extraction returns `undefined`. If a future bundle inlines
+ * the description, the live extraction wins automatically.
+ *
+ * Keep this map minimal — only add entries with a clear, observed need.
+ */
+const BUILTIN_DESCRIPTION_FALLBACK: Record<string, string> = {
+  'claude-api': 'Build, debug, and optimize Claude API / Anthropic SDK apps.',
+}
+
+/**
  * Find the end of the object literal that opens at `openIdx` (which must point
  * to a `{`). Walks forward with brace-counting while skipping over string
  * literals (single, double, and template) so braces inside strings or nested
@@ -235,7 +249,7 @@ export class ClaudeBuiltinSkillsSource implements Source {
 
       seen.add(name)
 
-      const description = extractDescription(source, objectOpen)
+      const description = extractDescription(source, objectOpen) ?? BUILTIN_DESCRIPTION_FALLBACK[name]
 
       entries.push({
         tool: 'claude-code',
