@@ -1,6 +1,9 @@
 // poller/test/sources/cursor-builtin-commands.test.ts
 import { describe, it, expect } from 'vitest'
-import { parseCommands } from '../../src/sources/cursor-builtin-commands.js'
+import {
+  parseCommands,
+  fetchAllPages,
+} from '../../src/sources/cursor-builtin-commands.js'
 
 describe('parseCommands', () => {
   it('extracts command from RSC payload pattern', () => {
@@ -120,5 +123,80 @@ describe('parseCommands', () => {
     const entries = parseCommands(html)
     expect(entries[0]!.name).toBe('/orphan')
     expect(entries[0]!.description).toBeUndefined()
+  })
+})
+
+describe('fetchAllPages', () => {
+  it('stops after two consecutive empty pages', async () => {
+    const calls: string[] = []
+    const fetcher = async (url: string): Promise<string> => {
+      calls.push(url)
+      if (url.endsWith('/changelog')) return `{"children":"/alpha"}`
+      if (url.endsWith('/page/2')) return `{"children":"/beta"}`
+      // pages 3, 4, ... return content with no commands
+      return `nothing here`
+    }
+
+    const entries = await fetchAllPages(fetcher)
+
+    expect(entries.map((e) => e.name).sort()).toEqual(['/alpha', '/beta'])
+    // Should fetch base + page 2 (yields) + page 3 (empty) + page 4 (empty, triggers stop)
+    expect(calls).toEqual([
+      'https://cursor.com/changelog',
+      'https://cursor.com/changelog/page/2',
+      'https://cursor.com/changelog/page/3',
+      'https://cursor.com/changelog/page/4',
+    ])
+  })
+
+  it('stops after two consecutive 404 pages without throwing', async () => {
+    const calls: string[] = []
+    const fetcher = async (url: string): Promise<string> => {
+      calls.push(url)
+      if (url.endsWith('/changelog')) return `{"children":"/foo"}`
+      throw new Error(`HTTP 404 for ${url}`)
+    }
+
+    const entries = await fetchAllPages(fetcher)
+    expect(entries.map((e) => e.name)).toEqual(['/foo'])
+    expect(calls).toEqual([
+      'https://cursor.com/changelog',
+      'https://cursor.com/changelog/page/2',
+      'https://cursor.com/changelog/page/3',
+    ])
+  })
+
+  it('resets the empty-page counter when a later page yields commands', async () => {
+    const calls: string[] = []
+    const fetcher = async (url: string): Promise<string> => {
+      calls.push(url)
+      if (url.endsWith('/changelog')) return `{"children":"/a"}`
+      if (url.endsWith('/page/2')) return `no commands`
+      if (url.endsWith('/page/3')) return `{"children":"/b"}`
+      // pages 4, 5 empty -> stop
+      return `nothing`
+    }
+
+    const entries = await fetchAllPages(fetcher)
+    expect(entries.map((e) => e.name).sort()).toEqual(['/a', '/b'])
+    expect(calls.length).toBe(5) // base, /page/2, /page/3, /page/4, /page/5
+  })
+
+  it('deduplicates commands seen on multiple pages', async () => {
+    const fetcher = async (url: string): Promise<string> => {
+      if (url.endsWith('/changelog')) return `{"children":"/dup"}`
+      if (url.endsWith('/page/2')) return `{"children":"/dup"} {"children":"/new"}`
+      return `nothing`
+    }
+    const entries = await fetchAllPages(fetcher)
+    expect(entries.map((e) => e.name).sort()).toEqual(['/dup', '/new'])
+  })
+
+  it('propagates non-404 errors', async () => {
+    const fetcher = async (url: string): Promise<string> => {
+      if (url.endsWith('/changelog')) return `{"children":"/x"}`
+      throw new Error(`HTTP 500 for ${url}`)
+    }
+    await expect(fetchAllPages(fetcher)).rejects.toThrow(/HTTP 500/)
   })
 })
