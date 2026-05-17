@@ -128,6 +128,21 @@ function findContainers(payload: string): Container[] {
 }
 
 /**
+ * Detects descriptions whose leading clause self-declares the command's removal,
+ * e.g. `"/list removed. Use /resume..."` or `"/foo is deprecated"`. Anchored to
+ * the command name itself so a sibling's removal announcement (e.g. `/model`'s
+ * description starting with `"/models removed..."`) does not drop the entry.
+ *
+ * Exported for testing.
+ */
+export function isSelfDeclaredRemoval(commandName: string, description: string | undefined): boolean {
+  if (!description) return false
+  const escaped = commandName.replace(/[/-]/g, '\\$&')
+  const re = new RegExp(`^${escaped}\\s+(removed|is\\s+(deprecated|no\\s+longer))\\b`, 'i')
+  return re.test(description.trim())
+}
+
+/**
  * Parse Cursor built-in commands from one HTML page (or multiple pages joined).
  * Exported for testing.
  */
@@ -138,32 +153,53 @@ export function parseCommands(html: string): CatalogEntry[] {
   const payload = decoded.length > 0 ? decoded : html
 
   const containers = findContainers(payload)
-  const entries: CatalogEntry[] = []
-  const seen = new Set<string>()
   const now = new Date().toISOString()
 
+  // Group every match by command name. Some commands appear in multiple posts
+  // (e.g. an intro post AND a later removal post) — we need ALL associated
+  // containers to make a removal decision, not just the first occurrence.
+  // A command may also appear with no enclosing <p>/<li> at all; we still
+  // emit those entries (description undefined) to preserve prior behavior.
+  const order: string[] = []
+  const occurrences = new Map<string, Container[]>()
   COMMAND_RE.lastIndex = 0
   let match: RegExpExecArray | null
   while ((match = COMMAND_RE.exec(payload)) !== null) {
     const commandName = match[1]!
-    if (seen.has(commandName)) continue
-    seen.add(commandName)
-
+    if (!occurrences.has(commandName)) {
+      occurrences.set(commandName, [])
+      order.push(commandName)
+    }
     // Innermost <p>/<li> whose JSON range covers the command position is the
-    // most specific description.
+    // most specific description for this occurrence.
     let best: Container | undefined
     for (const c of containers) {
       if (c.start <= match.index && match.index <= c.end) {
         if (!best || c.end - c.start < best.end - best.start) best = c
       }
     }
+    if (!best) continue
+    const list = occurrences.get(commandName)!
+    if (!list.some((existing) => existing.start === best!.start)) list.push(best)
+  }
+
+  const entries: CatalogEntry[] = []
+  for (const commandName of order) {
+    const conts = occurrences.get(commandName)!
+
+    // Drop the entry if ANY occurrence's description self-declares removal.
+    if (conts.some((c) => isSelfDeclaredRemoval(commandName, c.text))) continue
+
+    // Prefer the first container's text (matches prior behavior); undefined
+    // when no container wraps any occurrence.
+    const description = conts[0]?.text
 
     entries.push({
       tool: 'cursor',
       kind: 'first-party',
       id: `builtin/${commandName.slice(1)}`,
       name: commandName,
-      description: best?.text,
+      description,
       source_url: CHANGELOG_BASE,
       metadata: { extra: { builtin: true } },
       fetched_at: now,

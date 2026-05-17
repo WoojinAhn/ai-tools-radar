@@ -3,6 +3,7 @@ import { describe, it, expect } from 'vitest'
 import {
   parseCommands,
   fetchAllPages,
+  isSelfDeclaredRemoval,
 } from '../../src/sources/cursor-builtin-commands.js'
 
 describe('parseCommands', () => {
@@ -198,5 +199,59 @@ describe('fetchAllPages', () => {
       throw new Error(`HTTP 500 for ${url}`)
     }
     await expect(fetchAllPages(fetcher)).rejects.toThrow(/HTTP 500/)
+  })
+})
+
+describe('isSelfDeclaredRemoval', () => {
+  it('matches "<name> removed" at start of description', () => {
+    expect(isSelfDeclaredRemoval('/list', '/list removed. Use /resume to see all prior conversations.')).toBe(true)
+    expect(isSelfDeclaredRemoval('/models', '/models removed. Use /model to see all models or select a model.')).toBe(true)
+  })
+
+  it('matches "<name> is deprecated" / "<name> is no longer"', () => {
+    expect(isSelfDeclaredRemoval('/foo', '/foo is deprecated. Use /bar instead.')).toBe(true)
+    expect(isSelfDeclaredRemoval('/foo', '/foo is no longer supported.')).toBe(true)
+  })
+
+  it('does NOT match when description mentions a different command’s removal', () => {
+    // /model's actual cursor.com description: "/models removed. Use /model to see all models..."
+    expect(isSelfDeclaredRemoval('/model', '/models removed. Use /model to see all models or select a model.')).toBe(false)
+    // /a should not be triggered by /alpha being removed
+    expect(isSelfDeclaredRemoval('/a', '/alpha removed. ...')).toBe(false)
+  })
+
+  it('does NOT match normal descriptions', () => {
+    expect(isSelfDeclaredRemoval('/usage', 'See Cursor streaks and stats with /usage.')).toBe(false)
+    expect(isSelfDeclaredRemoval('/foo', undefined)).toBe(false)
+    expect(isSelfDeclaredRemoval('/foo', '')).toBe(false)
+  })
+
+  it('is case-insensitive and tolerates leading whitespace', () => {
+    expect(isSelfDeclaredRemoval('/foo', '   /Foo Removed. Use bar.')).toBe(true)
+  })
+})
+
+describe('parseCommands — deprecated entries are dropped', () => {
+  it('skips a command whose description self-declares removal', () => {
+    const html = `["$","li",null,{"children":[["$","code",null,{"children":"/list"}]," removed. Use ",["$","code",null,{"children":"/resume"}]," to see all prior conversations."]}]`
+    const entries = parseCommands(html)
+    // /list is dropped; /resume (mentioned inside the same description) is kept.
+    expect(entries.map((e) => e.name).sort()).toEqual(['/resume'])
+  })
+
+  it('keeps a command whose description merely references a different command’s removal', () => {
+    const html = `["$","li",null,{"children":[["$","code",null,{"children":"/models"}]," removed. Use ",["$","code",null,{"children":"/model"}]," to see all models or select a model."]}]`
+    const entries = parseCommands(html)
+    // /models drops (self-declared); /model stays — its container description starts with the OTHER name.
+    expect(entries.map((e) => e.name).sort()).toEqual(['/model'])
+  })
+
+  it('drops a command even when its intro paragraph appears before a separate removal paragraph', () => {
+    // Mirrors real cursor.com: /models is introduced in one <p> and removed in another <li>
+    // on the same page. The first occurrence is the intro, so a "first-wins" filter would miss it.
+    const intro = `["$","p",null,{"children":["Use the new agent models command, --list-models flag, or ",["$","code",null,{"children":"/models"}]," slash command to list all available models."]}]`
+    const removal = `["$","li",null,{"children":[["$","code",null,{"children":"/models"}]," removed. Use ",["$","code",null,{"children":"/model"}]," to see all models or select a model."]}]`
+    const entries = parseCommands(`${intro} ${removal}`)
+    expect(entries.map((e) => e.name).sort()).toEqual(['/model'])
   })
 })
