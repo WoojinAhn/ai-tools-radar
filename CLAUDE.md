@@ -21,7 +21,7 @@ Full design: `docs/superpowers/specs/2026-04-09-ai-tools-radar-design.md` (origi
 - **Poller:** plain TypeScript + Octokit + npm registry API + `cursor.com` HTML parsing + Vitest.
 - **Site:** Astro 5 with Tailwind. Content collection for digests via `glob` loader pointing at `../digests/`.
 - **State:** Git. No database. `state/snapshot.json` is the current mirror; `state/events.jsonl` is the append-only event log; `catalog/data.json` is a rebuildable view for the site.
-- **CI:** GitHub Actions. Two workflows: `daily-poll.yml` (cron) and `deploy-pages.yml` (on push).
+- **CI:** GitHub Actions. Three workflows: `daily-poll.yml` (cron poll + conditional commit), `deploy-pages.yml` (build + deploy on push to main), and `ci.yml` (poller typecheck + tests + site build on PRs and push to main).
 
 ## Repository layout
 
@@ -65,18 +65,19 @@ A local poll writes real files under `state/`, `catalog/`, `digests/`. Review th
 ### Code style
 - TypeScript strict mode. No `any` unless justified in a comment.
 - `ClaudePluginsSource` reads `marketplace.json` via Octokit (single API call for all plugins — local + external). `ClaudeBuiltinSkillsSource` fetches the platform-specific native binary (`@anthropic-ai/claude-code-linux-x64`) from the npm registry — since claude-code 2.1.116 the wrapper no longer ships `cli.js`, but the JS source is embedded verbatim in the Bun-compiled binary. Both Cursor sources use `fetchHtml()` from `src/sources/http.ts` to parse `cursor.com` HTML pages.
-- Claude Code built-in skill extraction uses a generic regex (`[\w$]{1,4}\({name:"..."`) validated by `getPromptForCommand` presence — the minified function identifier changes across versions and may include `$`.
+- Claude Code built-in skill extraction matches BOTH registration forms in the bundle: function-call (`fn({name:"..."`) and object-literal (`={type:"prompt",...,name:"..."}`). Each candidate is validated by `getPromptForCommand` proximity. Description extraction is bounded to the enclosing object literal via brace-balanced scanning (skipping string contents) so adjacent skill objects can't cross-contaminate. Skills whose description is an identifier reference (not statically resolvable) are filled via a small `BUILTIN_DESCRIPTION_FALLBACK` map.
+- Cursor built-in commands parser decodes `__next_f.push([1, "..."])` chunks → walks the RSC tree → picks each command's innermost enclosing `<p>`/`<li>`. Scans up to 20 changelog pages with an early stop after two consecutive empty/404 pages. Commands whose description self-declares removal (e.g. `"/X removed."`, `"/X is deprecated"`) are dropped; the check inspects ALL occurrences of a name, not just the first.
 - Cursor marketplace extraction parses `initialPlugins` from Next.js RSC payload. First-party detection: `repositoryUrl === github.com/cursor/plugins`.
 - Tests live under `poller/test/` and mirror the `src/` tree.
 - Site components prefer static `.astro` over client islands. Add islands only for the two interactive pieces (search, filter).
-- The site is structured by tool: `/claude-code/` and `/cursor/`, each with Marketplace Plugins (search/filter) + Built-in section. `ToolTabs.astro` renders the tab bar.
+- The site's canonical Claude Code catalog lives at `/`; `/claude-code/` is a meta-refresh redirect kept for bookmark continuity. Cursor lives at `/cursor/`. `ToolTabs.astro` links Claude Code → `/` (no extra hop) and Cursor → `/cursor/`.
 - Built-in entries are identified by `metadata.extra.builtin === true`.
 - Entry detail routes use `[...id]` (rest param) because built-in IDs contain slashes (e.g. `builtin/simplify`).
 
 ### Data invariants
 - `state/snapshot.json` entries are sorted by key before serialization so byte-identical states produce byte-identical files.
 - `state/events.jsonl` is append-only. Never rewrite prior lines.
-- Diffing ignores `source_url` and `fetched_at` — both are noise.
+- Diffing ignores `source_url` (noise). `fetched_at` is preserved on `state/snapshot.json` but no longer serialized into `catalog/data.json` so data-only commits don't churn every entry on every poll.
 - Differ has a transient-failure guard: if a tool returns zero entries but previously had entries, removals for that tool are skipped (prevents false removal events when `cursor.com` is unreachable).
 - First run is special: bootstrap mode writes the snapshot without emitting events or a digest.
 

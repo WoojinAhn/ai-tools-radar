@@ -72,6 +72,7 @@ digests/
 .github/workflows/
   daily-poll.yml   Cron + poller + conditional commit + issue
   deploy-pages.yml On push, build Astro and deploy to Pages
+  ci.yml           PR + push gate: poller typecheck/tests + site build
 ```
 
 ## Tech stack
