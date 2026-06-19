@@ -11,11 +11,10 @@ export default function FilterBar() {
     cards.forEach((card) => {
       const cardKind = card.dataset.kind
       const match = kind === 'all' || cardKind === kind
-      if (match) {
-        if (card.dataset.searchHidden !== 'true') card.style.display = ''
-      } else {
-        card.style.display = 'none'
-      }
+      card.dataset.filterHidden = match ? 'false' : 'true'
+      // visible only when neither the kind filter nor the search hides it
+      card.style.display =
+        card.dataset.filterHidden === 'true' || card.dataset.searchHidden === 'true' ? 'none' : ''
     })
   }, [kind])
 

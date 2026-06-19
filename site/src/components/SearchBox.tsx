@@ -10,7 +10,10 @@ export default function SearchBox() {
     cards.forEach((card) => {
       const hay = card.dataset.search ?? ''
       const match = needle === '' || hay.includes(needle)
-      card.style.display = match ? '' : 'none'
+      card.dataset.searchHidden = match ? 'false' : 'true'
+      // visible only when neither the search nor the kind filter hides it
+      card.style.display =
+        card.dataset.searchHidden === 'true' || card.dataset.filterHidden === 'true' ? 'none' : ''
     })
   }, [q])
 
