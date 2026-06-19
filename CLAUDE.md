@@ -21,7 +21,7 @@ Full design: `docs/superpowers/specs/2026-04-09-ai-tools-radar-design.md` (origi
 - **Poller:** plain TypeScript + Octokit + npm registry API + `cursor.com` HTML parsing + Vitest.
 - **Site:** Astro 5 with Tailwind. Content collection for digests via `glob` loader pointing at `../digests/`.
 - **State:** Git. No database. `state/snapshot.json` is the current mirror; `state/events.jsonl` is the append-only event log; `catalog/data.json` is a rebuildable view for the site.
-- **CI:** GitHub Actions. Three workflows: `daily-poll.yml` (cron poll + conditional commit), `deploy-pages.yml` (build + deploy on push to main), and `ci.yml` (poller typecheck + tests + site build on PRs and push to main).
+- **CI:** GitHub Actions. Three workflows: `daily-poll.yml` (cron poll + conditional commit), `deploy-pages.yml` (build + deploy; triggered by push to main or `workflow_dispatch` dispatched from `daily-poll.yml` after a data commit — the default-token push alone won't trigger it), and `ci.yml` (poller typecheck + tests + site build on PRs and push to main).
 
 ## Repository layout
 

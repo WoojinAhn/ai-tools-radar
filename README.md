@@ -25,7 +25,7 @@ cron 09:00 KST (daily)
   └─ Changes detected:
        ├─ Update snapshot + catalog + events log
        ├─ Generate digests/YYYY-MM-DD.md
-       ├─ Commit & push → triggers Pages rebuild
+       ├─ Commit & push → dispatch Deploy Pages workflow
        └─ Open a GitHub Issue ("Daily Digest — YYYY-MM-DD")
 ```
 
@@ -71,7 +71,7 @@ digests/
 
 .github/workflows/
   daily-poll.yml   Cron + poller + conditional commit + issue
-  deploy-pages.yml On push, build Astro and deploy to Pages
+  deploy-pages.yml Build Astro and deploy to Pages (push to main or dispatch from daily-poll)
   ci.yml           PR + push gate: poller typecheck/tests + site build
 ```
 
