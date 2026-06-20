@@ -1,7 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-19T09:36:14.141Z",
+  "generated_at": "2026-06-20T03:54:32.974Z",
   "entries": [
+    {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "learn-with-coursera",
+      "name": "learn-with-coursera",
+      "description": "Turn any learning intent into a personalized Coursera experience. Asks three quick questions (topic, familiarity, preferred format), searches Coursera's catalog, and delivers the right next step — a course, hands-on project, short video, or live roleplay — then maps a path forward. Requires the Coursera connector for catalog tools.",
+      "homepage": "https://github.com/coursera/skills",
+      "author": "Coursera",
+      "source_url": "https://github.com/coursera/skills",
+      "metadata": {
+        "extra": {
+          "category": "learning",
+          "stars": 0
+        }
+      },
+      "first_seen_at": "2026-06-20T03:54:32.974Z",
+      "last_updated_at": "2026-06-20T03:54:32.974Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "databricks",
+      "name": "Databricks",
+      "description": "Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration.",
+      "source_url": "https://github.com/databricks/databricks-agent-skills",
+      "metadata": {
+        "extra": {
+          "displayName": "Databricks",
+          "tags": [],
+          "stars": 164
+        }
+      },
+      "first_seen_at": "2026-06-20T03:54:32.974Z",
+      "last_updated_at": "2026-06-20T03:54:32.974Z"
+    },
     {
       "tool": "claude-code",
       "kind": "first-party",
@@ -48,7 +83,7 @@
         "extra": {
           "displayName": "Kraken",
           "tags": [],
-          "stars": 634
+          "stars": 636
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -82,7 +117,7 @@
         "extra": {
           "displayName": "Roboflow",
           "tags": [],
-          "stars": 16
+          "stars": 18
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -184,7 +219,7 @@
         "extra": {
           "displayName": "AWS Data Analytics",
           "tags": [],
-          "stars": 914
+          "stars": 921
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -201,7 +236,7 @@
         "extra": {
           "displayName": "AWS Core",
           "tags": [],
-          "stars": 914
+          "stars": 921
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -218,7 +253,7 @@
         "extra": {
           "displayName": "AWS Agents",
           "tags": [],
-          "stars": 914
+          "stars": 921
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -285,7 +320,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 914
+          "stars": 921
         }
       },
       "first_seen_at": "2026-06-18T04:11:41.692Z",
@@ -492,7 +527,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1
+          "stars": 2
         }
       },
       "first_seen_at": "2026-06-16T04:25:08.395Z",
@@ -692,7 +727,7 @@
         "extra": {
           "displayName": "Netlify",
           "tags": [],
-          "stars": 18
+          "stars": 19
         }
       },
       "first_seen_at": "2026-06-10T03:56:43.646Z",
@@ -1028,7 +1063,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1328
+          "stars": 1341
         }
       },
       "first_seen_at": "2026-06-02T04:11:24.309Z",
@@ -1140,7 +1175,7 @@
         "extra": {
           "displayName": "HeyGen",
           "tags": [],
-          "stars": 299
+          "stars": 301
         }
       },
       "first_seen_at": "2026-05-30T03:37:25.474Z",
@@ -1526,7 +1561,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 491
+          "stars": 494
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -1598,7 +1633,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 28776
+          "stars": 28923
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -1652,7 +1687,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2448
+          "stars": 2450
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -2001,7 +2036,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 20
+          "stars": 21
         }
       },
       "first_seen_at": "2026-05-12T03:30:31.187Z",
@@ -2108,7 +2143,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 914
+          "stars": 921
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -2126,7 +2161,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 914
+          "stars": 921
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -2144,7 +2179,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 914
+          "stars": 921
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -2558,7 +2593,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 6186
+          "stars": 6187
         }
       },
       "first_seen_at": "2026-05-02T02:53:31.805Z",
@@ -2631,7 +2666,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 22
+          "stars": 23
         }
       },
       "first_seen_at": "2026-05-02T02:53:31.805Z",
@@ -3046,8 +3081,8 @@
       "kind": "third-party",
       "id": "auth0",
       "name": "auth0",
-      "description": "Add authentication to any app with Auth0. This plugin detects your framework, scaffolds the right Auth0 SDK integration, and guides you through login, logout, sessions, and protected routes — using current SDK patterns.",
-      "homepage": "https://auth0.com/docs/quickstart/agent-skills",
+      "description": "Enterprise-grade auth, easy to implement. Add login, SSO, MFA, and access control to any app with framework-aware guidance.",
+      "homepage": "https://auth0.com",
       "author": "Auth0",
       "source_url": "https://github.com/auth0/agent-skills",
       "metadata": {
@@ -3057,7 +3092,7 @@
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
-      "last_updated_at": "2026-04-24T02:51:10.331Z"
+      "last_updated_at": "2026-06-20T03:54:32.974Z"
     },
     {
       "tool": "claude-code",
@@ -3070,7 +3105,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 1220
+          "stars": 1222
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -3124,7 +3159,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 4592
+          "stars": 4594
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -3142,7 +3177,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 246
+          "stars": 247
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -3214,7 +3249,7 @@
       "metadata": {
         "extra": {
           "category": "security",
-          "stars": 39
+          "stars": 40
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -3268,7 +3303,7 @@
           "tags": [
             "gsap"
           ],
-          "stars": 9434
+          "stars": 9518
         }
       },
       "first_seen_at": "2026-04-23T02:49:50.987Z",
@@ -3426,7 +3461,7 @@
         "extra": {
           "displayName": "shadcn/ui",
           "tags": [],
-          "stars": 116957
+          "stars": 117005
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -3462,7 +3497,7 @@
         "extra": {
           "displayName": "Azure",
           "tags": [],
-          "stars": 1220
+          "stars": 1222
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -3655,7 +3690,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 395
+          "stars": 397
         }
       },
       "first_seen_at": "2026-04-15T02:44:23.401Z",
@@ -3764,7 +3799,7 @@
           "tags": [
             "zscaler"
           ],
-          "stars": 39
+          "stars": 40
         }
       },
       "first_seen_at": "2026-04-12T02:49:27.335Z",
@@ -3815,7 +3850,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 1849
+          "stars": 1864
         }
       },
       "first_seen_at": "2026-04-11T02:30:29.084Z",
@@ -3850,7 +3885,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 151
+          "stars": 152
         }
       },
       "first_seen_at": "2026-04-11T02:30:29.084Z",
@@ -4053,7 +4088,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 5993
+          "stars": 5995
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -4103,7 +4138,7 @@
       "source_url": "https://github.com/brightdata/skills",
       "metadata": {
         "extra": {
-          "stars": 201
+          "stars": 203
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -4139,7 +4174,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 43978
+          "stars": 44024
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -4447,7 +4482,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2081
+          "stars": 2085
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -4529,7 +4564,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 1642
+          "stars": 1645
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -4562,7 +4597,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 129
+          "stars": 131
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -4680,7 +4715,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 10695
+          "stars": 10698
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -4883,7 +4918,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1714
+          "stars": 1715
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -4969,7 +5004,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 18
+          "stars": 19
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -5171,7 +5206,7 @@
       "source_url": "https://github.com/gitroomhq/postiz-agent",
       "metadata": {
         "extra": {
-          "stars": 301
+          "stars": 302
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -5427,7 +5462,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 219
+          "stars": 221
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -5547,7 +5582,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1614
+          "stars": 1615
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -5598,7 +5633,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 232796
+          "stars": 233483
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -5753,7 +5788,7 @@
       "source_url": "https://github.com/Automattic/claude-code-wordpress.com",
       "metadata": {
         "extra": {
-          "stars": 35
+          "stars": 36
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -5770,7 +5805,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 303
+          "stars": 304
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -5934,7 +5969,7 @@
           "tags": [
             "shopify"
           ],
-          "stars": 395
+          "stars": 397
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -6475,7 +6510,7 @@
         "extra": {
           "displayName": "Sanity",
           "tags": [],
-          "stars": 151
+          "stars": 152
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -6604,7 +6639,7 @@
         "extra": {
           "displayName": "tldraw",
           "tags": [],
-          "stars": 47996
+          "stars": 48016
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -6678,7 +6713,7 @@
           "tags": [
             "zapier"
           ],
-          "stars": 303
+          "stars": 304
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -6771,7 +6806,7 @@
           "tags": [
             "langfuse"
           ],
-          "stars": 166
+          "stars": 167
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -6810,7 +6845,7 @@
             "hugging",
             "huggingface"
           ],
-          "stars": 10695
+          "stars": 10698
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -6997,7 +7032,7 @@
           "tags": [
             "superpowers"
           ],
-          "stars": 232796
+          "stars": 233484
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -7014,7 +7049,7 @@
         "extra": {
           "displayName": "Compound Engineering",
           "tags": [],
-          "stars": 21748
+          "stars": 21786
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -7094,25 +7129,6 @@
     {
       "tool": "cursor",
       "kind": "third-party",
-      "id": "databricks-skills",
-      "name": "Databricks",
-      "description": "Databricks skills for CLI, Apps, Unity Catalog, Model Serving, Declarative Automation Bundles (DABs), and more.",
-      "source_url": "https://github.com/databricks/databricks-agent-skills",
-      "metadata": {
-        "extra": {
-          "displayName": "Databricks",
-          "tags": [
-            "databricks"
-          ],
-          "stars": 163
-        }
-      },
-      "first_seen_at": "2026-04-10T16:23:15.365Z",
-      "last_updated_at": "2026-04-29T03:26:33.436Z"
-    },
-    {
-      "tool": "cursor",
-      "kind": "third-party",
       "id": "neon-postgres",
       "name": "Neon Postgres",
       "description": "Manage your Neon projects and databases with the neon-postgres agent skill and the Neon MCP Server",
@@ -7142,7 +7158,7 @@
           "tags": [
             "figma"
           ],
-          "stars": 1642
+          "stars": 1645
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -7312,7 +7328,7 @@
           "tags": [
             "stripe"
           ],
-          "stars": 1614
+          "stars": 1615
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -7331,7 +7347,7 @@
           "tags": [
             "cloudflare"
           ],
-          "stars": 1849
+          "stars": 1864
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -7351,7 +7367,7 @@
             "upstash",
             "context7"
           ],
-          "stars": 57678
+          "stars": 57728
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -7544,18 +7560,18 @@
     }
   ],
   "stats": {
-    "total": 431,
+    "total": 432,
     "by_tool": {
-      "claude-code": 258,
+      "claude-code": 259,
       "cursor": 173
     },
     "by_kind": {
-      "first-party": 78,
-      "third-party": 353
+      "third-party": 354,
+      "first-party": 78
     },
     "latest_first_seen_at_by_tool": {
-      "claude-code": "2026-06-19T04:40:39.261Z",
-      "cursor": "2026-06-19T04:40:39.261Z"
+      "claude-code": "2026-06-20T03:54:32.974Z",
+      "cursor": "2026-06-20T03:54:32.974Z"
     }
   }
 }
