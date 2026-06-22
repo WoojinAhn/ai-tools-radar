@@ -25,11 +25,10 @@ cron 09:00 KST (daily)
   └─ Changes detected:
        ├─ Update snapshot + catalog + events log
        ├─ Generate digests/YYYY-MM-DD.md
-       ├─ Commit & push → dispatch Deploy Pages workflow
-       └─ Open a GitHub Issue ("Daily Digest — YYYY-MM-DD")
+       └─ Commit & push → dispatch Deploy Pages workflow
 ```
 
-On days when nothing changes, nothing happens — no commit, no issue, no noise.
+On days when nothing changes, nothing happens — no commit, no noise.
 
 ## Live site
 
@@ -70,7 +69,7 @@ digests/
   YYYY-MM-DD.md    One file per change day (frontmatter + markdown)
 
 .github/workflows/
-  daily-poll.yml   Cron + poller + conditional commit + issue
+  daily-poll.yml   Cron + poller + conditional commit + deploy dispatch
   deploy-pages.yml Build Astro and deploy to Pages (push to main or dispatch from daily-poll)
   ci.yml           PR + push gate: poller typecheck/tests + site build
 ```
