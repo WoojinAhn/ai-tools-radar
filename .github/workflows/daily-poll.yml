@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
   actions: write   # required for `gh workflow run` to dispatch Deploy Pages
 
 concurrency:
@@ -62,14 +61,3 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run deploy-pages.yml --ref main
-
-      - name: Open digest issue
-        if: steps.commit.outputs.changed == 'true' && hashFiles('poller/out/issue-title.txt') != ''
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          title=$(cat poller/out/issue-title.txt)
-          gh issue create \
-            --title "$title" \
-            --body-file poller/out/issue-body.md \
-            --label digest
