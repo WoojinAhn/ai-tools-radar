@@ -1688,3 +1688,31 @@
 {"ts":"2026-06-21T04:25:06.521Z","type":"updated","key":"claude-code/first-party/builtin/claude-api","changes":[{"path":"version","before":"2.1.183","after":"2.1.185"}]}
 {"ts":"2026-06-21T04:25:06.521Z","type":"updated","key":"claude-code/first-party/builtin/run","changes":[{"path":"version","before":"2.1.183","after":"2.1.185"}]}
 {"ts":"2026-06-21T04:25:06.521Z","type":"updated","key":"claude-code/first-party/builtin/run-skill-generator","changes":[{"path":"version","before":"2.1.183","after":"2.1.185"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/third-party/sentry","changes":[{"path":"homepage","before":"https://github.com/getsentry/sentry-for-claude/tree/main","after":"https://github.com/getsentry/plugin-claude"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"added","key":"claude-code/third-party/langfuse","entry":{"tool":"claude-code","kind":"third-party","id":"langfuse","name":"langfuse","description":"Skills for working with Langfuse, the open-source LLM engineering platform for tracing, prompt management, and evaluation.","homepage":"https://langfuse.com","author":"Langfuse","source_url":"https://github.com/langfuse/skills","metadata":{"extra":{"category":"monitoring","stars":168}},"fetched_at":"2026-06-23T03:45:07.160Z"}}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/init","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/init-verifiers","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/review","changes":[{"path":"description","before":"Review a pull request","after":"Review a GitHub pull request; for your working diff use /code-review"},{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/ultraplan","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/ultrareview","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/teleport","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/remote-control","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/schedule","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/autofix-pr","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/statusline","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/team-onboarding","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/insights","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/batch","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/claude-in-chrome","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/cowork-plugin","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/debug","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/design","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/design-sync","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/fewer-permission-prompts","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/keybindings-help","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/update-config","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/loop","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/claude-api","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/run","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"claude-code/first-party/builtin/run-skill-generator","changes":[{"path":"version","before":"2.1.185","after":"2.1.186"}]}
+{"ts":"2026-06-23T03:45:06.690Z","type":"updated","key":"cursor/third-party/hex","changes":[{"path":"description","before":"MCP server integration for Hex - connect Cursor to your Hex workspace for data analysis and notebook collaboration","after":"AI analytics and data collaboration - connect Cursor to your Hex workspace with MCP"}]}
