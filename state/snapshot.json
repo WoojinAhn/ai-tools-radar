@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-26T03:55:41.099Z",
+  "generated_at": "2026-06-27T03:38:15.654Z",
   "entries": {
     "claude-code/first-party/agent-sdk-dev": {
       "tool": "claude-code",
@@ -17,7 +17,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/builtin/autofix-pr": {
       "tool": "claude-code",
@@ -25,14 +25,14 @@
       "id": "builtin/autofix-pr",
       "name": "autofix-pr",
       "description": "Monitor and autofix any issues with the current PR",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.687Z"
+      "fetched_at": "2026-06-27T03:38:18.071Z"
     },
     "claude-code/first-party/builtin/batch": {
       "tool": "claude-code",
@@ -40,14 +40,14 @@
       "id": "builtin/batch",
       "name": "batch",
       "description": "Research and plan a large-scale change, then execute it in parallel across 5\\u201330 isolated worktree agents that each open a PR.",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.691Z"
+      "fetched_at": "2026-06-27T03:38:18.075Z"
     },
     "claude-code/first-party/builtin/claude-api": {
       "tool": "claude-code",
@@ -55,14 +55,14 @@
       "id": "builtin/claude-api",
       "name": "claude-api",
       "description": "Build, debug, and optimize Claude API / Anthropic SDK apps.",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.693Z"
+      "fetched_at": "2026-06-27T03:38:18.078Z"
     },
     "claude-code/first-party/builtin/claude-in-chrome": {
       "tool": "claude-code",
@@ -70,28 +70,28 @@
       "id": "builtin/claude-in-chrome",
       "name": "claude-in-chrome",
       "description": "Automates your Chrome browser to interact with web pages - clicking elements, filling forms, capturing screenshots, reading console logs, and navigating sites. Opens pages in new tabs within your existing Chrome session. Requires site-level permissions before executing (configured in the extension).",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.691Z"
+      "fetched_at": "2026-06-27T03:38:18.075Z"
     },
     "claude-code/first-party/builtin/cowork-plugin": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/cowork-plugin",
       "name": "cowork-plugin",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.691Z"
+      "fetched_at": "2026-06-27T03:38:18.075Z"
     },
     "claude-code/first-party/builtin/debug": {
       "tool": "claude-code",
@@ -99,14 +99,14 @@
       "id": "builtin/debug",
       "name": "debug",
       "description": "Enable debug logging for this session and help diagnose issues",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.691Z"
+      "fetched_at": "2026-06-27T03:38:18.075Z"
     },
     "claude-code/first-party/builtin/design": {
       "tool": "claude-code",
@@ -114,28 +114,28 @@
       "id": "builtin/design",
       "name": "design",
       "description": "Hub for Claude Design (claude.ai/design): routes `sync`/`login` to their dedicated commands and maps `import`/`export`/`status`/free-form prompts to the `",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.691Z"
+      "fetched_at": "2026-06-27T03:38:18.075Z"
     },
     "claude-code/first-party/builtin/design-sync": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/design-sync",
       "name": "design-sync",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.692Z"
+      "fetched_at": "2026-06-27T03:38:18.076Z"
     },
     "claude-code/first-party/builtin/fewer-permission-prompts": {
       "tool": "claude-code",
@@ -143,14 +143,14 @@
       "id": "builtin/fewer-permission-prompts",
       "name": "fewer-permission-prompts",
       "description": "Scan your transcripts for common read-only Bash and MCP tool calls, then add a prioritized allowlist to project .claude/settings.json to reduce permission prompts.",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.692Z"
+      "fetched_at": "2026-06-27T03:38:18.076Z"
     },
     "claude-code/first-party/builtin/init": {
       "tool": "claude-code",
@@ -158,14 +158,14 @@
       "id": "builtin/init",
       "name": "init",
       "description": "Initialize new CLAUDE.md file(s) and optional skills/hooks with codebase documentation",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.685Z"
+      "fetched_at": "2026-06-27T03:38:18.068Z"
     },
     "claude-code/first-party/builtin/init-verifiers": {
       "tool": "claude-code",
@@ -173,14 +173,14 @@
       "id": "builtin/init-verifiers",
       "name": "init-verifiers",
       "description": "Create verifier skill(s) for automated verification of code changes",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.685Z"
+      "fetched_at": "2026-06-27T03:38:18.069Z"
     },
     "claude-code/first-party/builtin/insights": {
       "tool": "claude-code",
@@ -188,14 +188,14 @@
       "id": "builtin/insights",
       "name": "insights",
       "description": "Generate a report analyzing your Claude Code sessions",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.688Z"
+      "fetched_at": "2026-06-27T03:38:18.072Z"
     },
     "claude-code/first-party/builtin/keybindings-help": {
       "tool": "claude-code",
@@ -203,14 +203,14 @@
       "id": "builtin/keybindings-help",
       "name": "keybindings-help",
       "description": "Use when the user wants to customize keyboard shortcuts, rebind keys, add chord bindings, or modify ~/.claude/keybindings.json. Examples: \"rebind ctrl+s\", \"add a chord shortcut\", \"change the submit key\", \"customize keybindings\".",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.692Z"
+      "fetched_at": "2026-06-27T03:38:18.076Z"
     },
     "claude-code/first-party/builtin/loop": {
       "tool": "claude-code",
@@ -218,14 +218,14 @@
       "id": "builtin/loop",
       "name": "loop",
       "description": "Run a prompt or slash command on a recurring interval (e.g. /loop 5m /foo). Omit the interval to let the model self-pace.",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.692Z"
+      "fetched_at": "2026-06-27T03:38:18.077Z"
     },
     "claude-code/first-party/builtin/remote-control": {
       "tool": "claude-code",
@@ -233,14 +233,14 @@
       "id": "builtin/remote-control",
       "name": "remote-control",
       "description": "Control this session from your phone or claude.ai/code",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.687Z"
+      "fetched_at": "2026-06-27T03:38:18.071Z"
     },
     "claude-code/first-party/builtin/review": {
       "tool": "claude-code",
@@ -248,42 +248,42 @@
       "id": "builtin/review",
       "name": "review",
       "description": "Review a GitHub pull request; for your working diff use /code-review",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.687Z"
+      "fetched_at": "2026-06-27T03:38:18.070Z"
     },
     "claude-code/first-party/builtin/run": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/run",
       "name": "run",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.693Z"
+      "fetched_at": "2026-06-27T03:38:18.078Z"
     },
     "claude-code/first-party/builtin/run-skill-generator": {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/run-skill-generator",
       "name": "run-skill-generator",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.694Z"
+      "fetched_at": "2026-06-27T03:38:18.078Z"
     },
     "claude-code/first-party/builtin/schedule": {
       "tool": "claude-code",
@@ -291,14 +291,14 @@
       "id": "builtin/schedule",
       "name": "schedule",
       "description": "Create and manage scheduled remote Claude Code agents",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.687Z"
+      "fetched_at": "2026-06-27T03:38:18.071Z"
     },
     "claude-code/first-party/builtin/statusline": {
       "tool": "claude-code",
@@ -306,14 +306,14 @@
       "id": "builtin/statusline",
       "name": "statusline",
       "description": "Set up Claude Code's status line UI",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.687Z"
+      "fetched_at": "2026-06-27T03:38:18.071Z"
     },
     "claude-code/first-party/builtin/team-onboarding": {
       "tool": "claude-code",
@@ -321,14 +321,14 @@
       "id": "builtin/team-onboarding",
       "name": "team-onboarding",
       "description": "Help teammates ramp on Claude Code with a guide from your usage",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.688Z"
+      "fetched_at": "2026-06-27T03:38:18.072Z"
     },
     "claude-code/first-party/builtin/teleport": {
       "tool": "claude-code",
@@ -336,14 +336,14 @@
       "id": "builtin/teleport",
       "name": "teleport",
       "description": "Resume a Claude Code session from claude.ai",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.687Z"
+      "fetched_at": "2026-06-27T03:38:18.071Z"
     },
     "claude-code/first-party/builtin/ultraplan": {
       "tool": "claude-code",
@@ -351,14 +351,14 @@
       "id": "builtin/ultraplan",
       "name": "ultraplan",
       "description": "Claude Code on the web drafts a plan you can edit and approve",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.687Z"
+      "fetched_at": "2026-06-27T03:38:18.071Z"
     },
     "claude-code/first-party/builtin/ultrareview": {
       "tool": "claude-code",
@@ -366,14 +366,14 @@
       "id": "builtin/ultrareview",
       "name": "ultrareview",
       "description": "Find and verify bugs in your branch using Claude Code on the web",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.687Z"
+      "fetched_at": "2026-06-27T03:38:18.071Z"
     },
     "claude-code/first-party/builtin/update-config": {
       "tool": "claude-code",
@@ -381,14 +381,14 @@
       "id": "builtin/update-config",
       "name": "update-config",
       "description": "Use this skill to configure the Claude Code harness via settings.json. Automated behaviors (\"from now on when X\", \"each time X\", \"whenever X\", \"before/after X\") require hooks configured in settings.json - the harness executes these, not Claude, so memory/preferences cannot fulfill them. Also use for: permissions (\"allow X\", \"add permission\", \"move permission to\"), env vars (\"set X=Y\"), hook troubleshooting, or any changes to settings.json/settings.local.json files. Examples: \"allow npm commands\", \"add bq permission to global settings\", \"move permission to user settings\", \"set DEBUG=true\", \"when claude stops show X\". For simple settings like theme/model, suggest the /config command.",
-      "version": "2.1.193",
+      "version": "2.1.195",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:43.692Z"
+      "fetched_at": "2026-06-27T03:38:18.077Z"
     },
     "claude-code/first-party/clangd-lsp": {
       "tool": "claude-code",
@@ -404,7 +404,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/claude-code-setup": {
       "tool": "claude-code",
@@ -421,7 +421,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/claude-md-management": {
       "tool": "claude-code",
@@ -438,7 +438,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/code-modernization": {
       "tool": "claude-code",
@@ -455,7 +455,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/code-review": {
       "tool": "claude-code",
@@ -472,7 +472,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/code-simplifier": {
       "tool": "claude-code",
@@ -489,7 +489,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/commit-commands": {
       "tool": "claude-code",
@@ -506,7 +506,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/csharp-lsp": {
       "tool": "claude-code",
@@ -522,7 +522,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/cwc-makers": {
       "tool": "claude-code",
@@ -539,7 +539,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/explanatory-output-style": {
       "tool": "claude-code",
@@ -556,7 +556,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/feature-dev": {
       "tool": "claude-code",
@@ -573,7 +573,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/frontend-design": {
       "tool": "claude-code",
@@ -590,7 +590,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/gopls-lsp": {
       "tool": "claude-code",
@@ -606,7 +606,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/hookify": {
       "tool": "claude-code",
@@ -623,7 +623,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/jdtls-lsp": {
       "tool": "claude-code",
@@ -639,7 +639,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/kotlin-lsp": {
       "tool": "claude-code",
@@ -655,7 +655,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/learning-output-style": {
       "tool": "claude-code",
@@ -672,7 +672,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/lua-lsp": {
       "tool": "claude-code",
@@ -688,7 +688,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/math-olympiad": {
       "tool": "claude-code",
@@ -705,7 +705,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/mcp-server-dev": {
       "tool": "claude-code",
@@ -722,7 +722,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/mcp-tunnels": {
       "tool": "claude-code",
@@ -739,7 +739,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/php-lsp": {
       "tool": "claude-code",
@@ -755,7 +755,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/playground": {
       "tool": "claude-code",
@@ -772,7 +772,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/plugin-dev": {
       "tool": "claude-code",
@@ -789,7 +789,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/pr-review-toolkit": {
       "tool": "claude-code",
@@ -806,7 +806,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/project-artifact": {
       "tool": "claude-code",
@@ -823,7 +823,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/pyright-lsp": {
       "tool": "claude-code",
@@ -839,7 +839,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/ralph-loop": {
       "tool": "claude-code",
@@ -856,7 +856,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/ruby-lsp": {
       "tool": "claude-code",
@@ -872,7 +872,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/rust-analyzer-lsp": {
       "tool": "claude-code",
@@ -888,7 +888,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/security-guidance": {
       "tool": "claude-code",
@@ -905,7 +905,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/session-report": {
       "tool": "claude-code",
@@ -922,7 +922,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/skill-creator": {
       "tool": "claude-code",
@@ -939,7 +939,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/swift-lsp": {
       "tool": "claude-code",
@@ -955,7 +955,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/first-party/typescript-lsp": {
       "tool": "claude-code",
@@ -971,7 +971,7 @@
           "author_email": "support@anthropic.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/42crunch-api-security-testing": {
       "tool": "claude-code",
@@ -988,7 +988,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/adobe-for-creativity": {
       "tool": "claude-code",
@@ -1002,10 +1002,10 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 133
+          "stars": 134
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/agentforce-adlc": {
       "tool": "claude-code",
@@ -1018,10 +1018,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 77
+          "stars": 78
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/ai-plugins": {
       "tool": "claude-code",
@@ -1036,7 +1036,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aikido": {
       "tool": "claude-code",
@@ -1051,7 +1051,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/airtable": {
       "tool": "claude-code",
@@ -1068,7 +1068,7 @@
           "stars": 34
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/airwallex-agentos": {
       "tool": "claude-code",
@@ -1085,7 +1085,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/alloydb": {
       "tool": "claude-code",
@@ -1102,7 +1102,7 @@
           "stars": 21
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/alloydb-omni": {
       "tool": "claude-code",
@@ -1119,7 +1119,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/amazon-location-service": {
       "tool": "claude-code",
@@ -1132,10 +1132,10 @@
       "metadata": {
         "extra": {
           "category": "location",
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/amplitude": {
       "tool": "claude-code",
@@ -1151,7 +1151,7 @@
           "stars": 29
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/apollo": {
       "tool": "claude-code",
@@ -1168,7 +1168,7 @@
           "stars": 14
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/apollo-skills": {
       "tool": "claude-code",
@@ -1182,10 +1182,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 87
+          "stars": 89
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/appwrite": {
       "tool": "claude-code",
@@ -1202,7 +1202,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/asana": {
       "tool": "claude-code",
@@ -1217,7 +1217,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/astronomer-data-agents": {
       "tool": "claude-code",
@@ -1230,10 +1230,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 392
+          "stars": 393
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/atlan": {
       "tool": "claude-code",
@@ -1248,7 +1248,7 @@
           "stars": 33
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/atlassian": {
       "tool": "claude-code",
@@ -1261,10 +1261,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 802
+          "stars": 804
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/atomic-agents": {
       "tool": "claude-code",
@@ -1277,10 +1277,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 6008
+          "stars": 6007
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/auth0": {
       "tool": "claude-code",
@@ -1297,7 +1297,7 @@
           "stars": 33
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aws-agents": {
       "tool": "claude-code",
@@ -1311,10 +1311,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1167
+          "stars": 1381
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aws-agents-for-devsecops": {
       "tool": "claude-code",
@@ -1328,10 +1328,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1167
+          "stars": 1381
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aws-amplify": {
       "tool": "claude-code",
@@ -1344,10 +1344,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aws-core": {
       "tool": "claude-code",
@@ -1361,10 +1361,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1167
+          "stars": 1381
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aws-data-analytics": {
       "tool": "claude-code",
@@ -1378,10 +1378,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1167
+          "stars": 1381
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aws-dev-toolkit": {
       "tool": "claude-code",
@@ -1398,7 +1398,7 @@
           "stars": 9
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aws-serverless": {
       "tool": "claude-code",
@@ -1411,10 +1411,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aws-startup-advisor": {
       "tool": "claude-code",
@@ -1431,7 +1431,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/aws-transform": {
       "tool": "claude-code",
@@ -1445,10 +1445,10 @@
       "metadata": {
         "extra": {
           "category": "migration",
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/azure": {
       "tool": "claude-code",
@@ -1461,10 +1461,10 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 1236
+          "stars": 1238
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/azure-cosmos-db-assistant": {
       "tool": "claude-code",
@@ -1480,7 +1480,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/base44": {
       "tool": "claude-code",
@@ -1496,7 +1496,7 @@
           "stars": 79
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/bigdata-com": {
       "tool": "claude-code",
@@ -1513,7 +1513,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/bigquery-data-analytics": {
       "tool": "claude-code",
@@ -1530,7 +1530,7 @@
           "stars": 45
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/boltz": {
       "tool": "claude-code",
@@ -1547,7 +1547,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/box": {
       "tool": "claude-code",
@@ -1563,7 +1563,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/brightdata-plugin": {
       "tool": "claude-code",
@@ -1575,10 +1575,10 @@
       "source_url": "https://github.com/brightdata/skills",
       "metadata": {
         "extra": {
-          "stars": 221
+          "stars": 223
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/buildkite": {
       "tool": "claude-code",
@@ -1595,7 +1595,24 @@
           "stars": 14
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
+    },
+    "claude-code/third-party/canva": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "canva",
+      "name": "canva",
+      "description": "Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server.",
+      "homepage": "https://www.canva.com",
+      "author": "Canva",
+      "source_url": "https://github.com/canva-sdks/canva-skills",
+      "metadata": {
+        "extra": {
+          "category": "design",
+          "stars": 42
+        }
+      },
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/carta-cap-table": {
       "tool": "claude-code",
@@ -1612,7 +1629,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/carta-crm": {
       "tool": "claude-code",
@@ -1629,7 +1646,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/carta-investors": {
       "tool": "claude-code",
@@ -1646,7 +1663,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/cds-mcp": {
       "tool": "claude-code",
@@ -1664,7 +1681,7 @@
           "stars": 99
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/chrome-devtools-mcp": {
       "tool": "claude-code",
@@ -1677,10 +1694,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 44449
+          "stars": 44503
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/circle-skills": {
       "tool": "claude-code",
@@ -1694,10 +1711,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 123
+          "stars": 124
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/circleback": {
       "tool": "claude-code",
@@ -1713,7 +1730,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/clickhouse": {
       "tool": "claude-code",
@@ -1730,7 +1747,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/clickhouse-best-practices": {
       "tool": "claude-code",
@@ -1747,7 +1764,7 @@
           "stars": 477
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/cloud-sql-mysql": {
       "tool": "claude-code",
@@ -1764,7 +1781,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/cloud-sql-postgresql": {
       "tool": "claude-code",
@@ -1781,7 +1798,7 @@
           "stars": 40
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/cloud-sql-sqlserver": {
       "tool": "claude-code",
@@ -1798,7 +1815,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/cloudflare": {
       "tool": "claude-code",
@@ -1811,10 +1828,10 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 1933
+          "stars": 1945
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/cloudinary": {
       "tool": "claude-code",
@@ -1829,7 +1846,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/cockroachdb": {
       "tool": "claude-code",
@@ -1846,7 +1863,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/coderabbit": {
       "tool": "claude-code",
@@ -1859,10 +1876,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 115
+          "stars": 116
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/codspeed": {
       "tool": "claude-code",
@@ -1879,7 +1896,7 @@
           "stars": 207
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/confidence": {
       "tool": "claude-code",
@@ -1896,7 +1913,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/context7": {
       "tool": "claude-code",
@@ -1911,7 +1928,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/convex": {
       "tool": "claude-code",
@@ -1928,7 +1945,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/crowdstrike-falcon-foundry": {
       "tool": "claude-code",
@@ -1945,7 +1962,7 @@
           "stars": 18
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/dash0": {
       "tool": "claude-code",
@@ -1962,7 +1979,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/data": {
       "tool": "claude-code",
@@ -1975,10 +1992,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 392
+          "stars": 393
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/data-agent-kit-starter-pack": {
       "tool": "claude-code",
@@ -1995,7 +2012,7 @@
           "stars": 120
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/data-engineering": {
       "tool": "claude-code",
@@ -2007,10 +2024,10 @@
       "source_url": "https://github.com/astronomer/agents",
       "metadata": {
         "extra": {
-          "stars": 392
+          "stars": 393
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/databases-on-aws": {
       "tool": "claude-code",
@@ -2023,10 +2040,10 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/databricks": {
       "tool": "claude-code",
@@ -2040,10 +2057,10 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 174
+          "stars": 177
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/datadog": {
       "tool": "claude-code",
@@ -2060,7 +2077,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/datahub-skills": {
       "tool": "claude-code",
@@ -2077,7 +2094,7 @@
           "stars": 27
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/dataproc": {
       "tool": "claude-code",
@@ -2094,7 +2111,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/datarobot-agent-skills": {
       "tool": "claude-code",
@@ -2111,7 +2128,7 @@
           "stars": 21
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/dataverse": {
       "tool": "claude-code",
@@ -2124,10 +2141,10 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 155
+          "stars": 157
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/deploy-on-aws": {
       "tool": "claude-code",
@@ -2140,10 +2157,10 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/desktop-commander": {
       "tool": "claude-code",
@@ -2157,10 +2174,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 6212
+          "stars": 6215
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/discord": {
       "tool": "claude-code",
@@ -2174,7 +2191,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/dominodatalab": {
       "tool": "claude-code",
@@ -2191,7 +2208,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/dropbox": {
       "tool": "claude-code",
@@ -2208,7 +2225,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/duckdb-skills": {
       "tool": "claude-code",
@@ -2225,7 +2242,7 @@
           "stars": 499
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/duende-skills": {
       "tool": "claude-code",
@@ -2242,7 +2259,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/exa": {
       "tool": "claude-code",
@@ -2256,10 +2273,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 4626
+          "stars": 4633
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/expo": {
       "tool": "claude-code",
@@ -2272,10 +2289,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2124
+          "stars": 2130
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/fakechat": {
       "tool": "claude-code",
@@ -2289,7 +2306,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/fastly-agent-toolkit": {
       "tool": "claude-code",
@@ -2304,7 +2321,7 @@
           "stars": 27
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/fiftyone": {
       "tool": "claude-code",
@@ -2319,7 +2336,7 @@
           "stars": 35
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/figma": {
       "tool": "claude-code",
@@ -2335,7 +2352,7 @@
           "stars": 1669
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/firebase": {
       "tool": "claude-code",
@@ -2350,7 +2367,7 @@
           "category": "database"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/firecrawl": {
       "tool": "claude-code",
@@ -2363,10 +2380,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 141
+          "stars": 142
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/firestore-native": {
       "tool": "claude-code",
@@ -2383,7 +2400,7 @@
           "stars": 28
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/forge-skills": {
       "tool": "claude-code",
@@ -2400,7 +2417,7 @@
           "stars": 14
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/fullstory": {
       "tool": "claude-code",
@@ -2417,7 +2434,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/github": {
       "tool": "claude-code",
@@ -2432,7 +2449,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/gitlab": {
       "tool": "claude-code",
@@ -2447,7 +2464,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/greptile": {
       "tool": "claude-code",
@@ -2462,7 +2479,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/huggingface-skills": {
       "tool": "claude-code",
@@ -2478,7 +2495,7 @@
           "stars": 10733
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/hunter": {
       "tool": "claude-code",
@@ -2495,7 +2512,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/hyperframes": {
       "tool": "claude-code",
@@ -2509,10 +2526,10 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 31367
+          "stars": 31567
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/imessage": {
       "tool": "claude-code",
@@ -2526,7 +2543,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/intercom": {
       "tool": "claude-code",
@@ -2542,7 +2559,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/jfrog": {
       "tool": "claude-code",
@@ -2559,7 +2576,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/knowledge-catalog": {
       "tool": "claude-code",
@@ -2573,10 +2590,10 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 20
+          "stars": 22
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/langfuse": {
       "tool": "claude-code",
@@ -2590,10 +2607,10 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 178
+          "stars": 179
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/langfuse-observability": {
       "tool": "claude-code",
@@ -2610,7 +2627,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/laravel-boost": {
       "tool": "claude-code",
@@ -2625,7 +2642,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/learn-with-coursera": {
       "tool": "claude-code",
@@ -2642,7 +2659,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/legalzoom": {
       "tool": "claude-code",
@@ -2658,7 +2675,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/linear": {
       "tool": "claude-code",
@@ -2673,7 +2690,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/liquid-lsp": {
       "tool": "claude-code",
@@ -2690,7 +2707,7 @@
           "stars": 19
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/liquid-skills": {
       "tool": "claude-code",
@@ -2707,7 +2724,7 @@
           "stars": 19
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/logfire": {
       "tool": "claude-code",
@@ -2724,7 +2741,7 @@
           "stars": 88
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/logrocket": {
       "tool": "claude-code",
@@ -2741,7 +2758,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/looker": {
       "tool": "claude-code",
@@ -2758,7 +2775,7 @@
           "stars": 47
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/lovable": {
       "tool": "claude-code",
@@ -2775,7 +2792,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/lumen": {
       "tool": "claude-code",
@@ -2789,10 +2806,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 221
+          "stars": 224
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/lusha": {
       "tool": "claude-code",
@@ -2809,7 +2826,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/mapbox": {
       "tool": "claude-code",
@@ -2826,7 +2843,7 @@
           "stars": 66
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/mcp-apps": {
       "tool": "claude-code",
@@ -2840,10 +2857,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2487
+          "stars": 2495
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/mercadopago": {
       "tool": "claude-code",
@@ -2860,7 +2877,7 @@
           "stars": 22
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/microsoft-docs": {
       "tool": "claude-code",
@@ -2873,10 +2890,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1735
+          "stars": 1736
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/migration-to-aws": {
       "tool": "claude-code",
@@ -2893,7 +2910,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/mintlify": {
       "tool": "claude-code",
@@ -2909,7 +2926,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/miro": {
       "tool": "claude-code",
@@ -2923,10 +2940,10 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 123
+          "stars": 126
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/monday-crm": {
       "tool": "claude-code",
@@ -2940,10 +2957,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 411
+          "stars": 412
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/mongodb": {
       "tool": "claude-code",
@@ -2959,7 +2976,7 @@
           "stars": 144
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/neon": {
       "tool": "claude-code",
@@ -2975,7 +2992,7 @@
           "stars": 71
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/netlify-skills": {
       "tool": "claude-code",
@@ -2991,7 +3008,7 @@
           "stars": 21
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/netsuite-suitecloud": {
       "tool": "claude-code",
@@ -3008,7 +3025,7 @@
           "stars": 305
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/nightvision": {
       "tool": "claude-code",
@@ -3023,7 +3040,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/nimble": {
       "tool": "claude-code",
@@ -3038,7 +3055,7 @@
           "stars": 47
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/notion": {
       "tool": "claude-code",
@@ -3051,10 +3068,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 425
+          "stars": 426
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/nvidia-skills": {
       "tool": "claude-code",
@@ -3068,10 +3085,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1865
+          "stars": 1894
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/oracle-ai-data-platform-workbench-databricks-migrator": {
       "tool": "claude-code",
@@ -3088,7 +3105,7 @@
           "stars": 37
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/oracle-ai-data-platform-workbench-engineer-agent": {
       "tool": "claude-code",
@@ -3105,7 +3122,7 @@
           "stars": 37
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/oracle-ai-data-platform-workbench-spark-connectors": {
       "tool": "claude-code",
@@ -3122,7 +3139,7 @@
           "stars": 37
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/oracledb": {
       "tool": "claude-code",
@@ -3139,7 +3156,7 @@
           "stars": 8
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/outputai": {
       "tool": "claude-code",
@@ -3153,10 +3170,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 422
+          "stars": 423
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/pagerduty": {
       "tool": "claude-code",
@@ -3172,7 +3189,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/pigment": {
       "tool": "claude-code",
@@ -3189,7 +3206,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/pinecone": {
       "tool": "claude-code",
@@ -3205,7 +3222,7 @@
           "stars": 67
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/planetscale": {
       "tool": "claude-code",
@@ -3221,7 +3238,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/playwright": {
       "tool": "claude-code",
@@ -3236,7 +3253,7 @@
           "category": "testing"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/posthog": {
       "tool": "claude-code",
@@ -3252,7 +3269,7 @@
           "stars": 57
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/postiz": {
       "tool": "claude-code",
@@ -3264,10 +3281,10 @@
       "source_url": "https://github.com/gitroomhq/postiz-agent",
       "metadata": {
         "extra": {
-          "stars": 315
+          "stars": 318
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/postman": {
       "tool": "claude-code",
@@ -3280,10 +3297,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 28
+          "stars": 29
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/prisma": {
       "tool": "claude-code",
@@ -3298,7 +3315,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/pydantic-ai": {
       "tool": "claude-code",
@@ -3314,7 +3331,7 @@
           "stars": 88
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/qdrant-skills": {
       "tool": "claude-code",
@@ -3328,10 +3345,10 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 177
+          "stars": 181
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/qodo-skills": {
       "tool": "claude-code",
@@ -3347,7 +3364,7 @@
           "stars": 39
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/qt-development-skills": {
       "tool": "claude-code",
@@ -3361,10 +3378,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 266
+          "stars": 268
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/quarkus-agent": {
       "tool": "claude-code",
@@ -3381,7 +3398,7 @@
           "stars": 39
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/railway": {
       "tool": "claude-code",
@@ -3397,7 +3414,7 @@
           "stars": 282
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/rc": {
       "tool": "claude-code",
@@ -3410,10 +3427,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 33
+          "stars": 34
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/redis-development": {
       "tool": "claude-code",
@@ -3430,7 +3447,7 @@
           "stars": 77
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/remember": {
       "tool": "claude-code",
@@ -3442,10 +3459,10 @@
       "source_url": "https://github.com/Digital-Process-Tools/claude-remember",
       "metadata": {
         "extra": {
-          "stars": 127
+          "stars": 128
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/resend": {
       "tool": "claude-code",
@@ -3459,10 +3476,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 138
+          "stars": 140
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/revenuecat": {
       "tool": "claude-code",
@@ -3475,10 +3492,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 33
+          "stars": 34
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/rill": {
       "tool": "claude-code",
@@ -3495,7 +3512,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/rootly": {
       "tool": "claude-code",
@@ -3512,7 +3529,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/runway-api": {
       "tool": "claude-code",
@@ -3529,7 +3546,7 @@
           "stars": 55
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sagemaker-ai": {
       "tool": "claude-code",
@@ -3542,10 +3559,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sanity": {
       "tool": "claude-code",
@@ -3562,7 +3579,7 @@
           "stars": 158
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sap-cds-mcp": {
       "tool": "claude-code",
@@ -3580,7 +3597,7 @@
           "stars": 99
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sap-fiori-mcp-server": {
       "tool": "claude-code",
@@ -3598,7 +3615,7 @@
           "stars": 150
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sap-hana-cli": {
       "tool": "claude-code",
@@ -3616,7 +3633,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sap-mdk-server": {
       "tool": "claude-code",
@@ -3634,7 +3651,7 @@
           "stars": 33
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/save-to-spotify": {
       "tool": "claude-code",
@@ -3651,7 +3668,7 @@
           "stars": 373
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/semgrep": {
       "tool": "claude-code",
@@ -3664,10 +3681,10 @@
       "metadata": {
         "extra": {
           "category": "security",
-          "stars": 7
+          "stars": 8
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sentry": {
       "tool": "claude-code",
@@ -3683,7 +3700,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sentry-cli": {
       "tool": "claude-code",
@@ -3700,7 +3717,7 @@
           "stars": 90
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/serena": {
       "tool": "claude-code",
@@ -3715,7 +3732,7 @@
           "category": "development"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/servicenow-sdk": {
       "tool": "claude-code",
@@ -3732,7 +3749,7 @@
           "stars": 92
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/shopify": {
       "tool": "claude-code",
@@ -3749,7 +3766,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/shopify-ai-toolkit": {
       "tool": "claude-code",
@@ -3763,10 +3780,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 415
+          "stars": 417
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/slack": {
       "tool": "claude-code",
@@ -3779,10 +3796,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 66
+          "stars": 68
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/snowflake-cortex-code": {
       "tool": "claude-code",
@@ -3799,7 +3816,7 @@
           "stars": 26
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sonarqube": {
       "tool": "claude-code",
@@ -3816,7 +3833,7 @@
           "stars": 95
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sonatype-guide": {
       "tool": "claude-code",
@@ -3832,7 +3849,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sourcegraph": {
       "tool": "claude-code",
@@ -3848,7 +3865,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/spanner": {
       "tool": "claude-code",
@@ -3865,7 +3882,7 @@
           "stars": 18
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/spotify-ads-api": {
       "tool": "claude-code",
@@ -3878,10 +3895,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 11
+          "stars": 12
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/stripe": {
       "tool": "claude-code",
@@ -3894,10 +3911,10 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1634
+          "stars": 1635
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/sumup": {
       "tool": "claude-code",
@@ -3913,7 +3930,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/supabase": {
       "tool": "claude-code",
@@ -3929,7 +3946,7 @@
           "stars": 8
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/superpowers": {
       "tool": "claude-code",
@@ -3942,10 +3959,27 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 238827
+          "stars": 239497
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
+    },
+    "claude-code/third-party/tavily": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "tavily",
+      "name": "tavily",
+      "description": "Build AI applications with real-time web data using Tavily's search, extract, crawl, and research APIs.",
+      "homepage": "https://www.tavily.com/",
+      "author": "Tavily Team",
+      "source_url": "https://github.com/tavily-ai/skills",
+      "metadata": {
+        "extra": {
+          "category": "development",
+          "stars": 392
+        }
+      },
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/teamcity-cli": {
       "tool": "claude-code",
@@ -3962,7 +3996,7 @@
           "stars": 108
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/telegram": {
       "tool": "claude-code",
@@ -3976,7 +4010,7 @@
           "category": "productivity"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/terraform": {
       "tool": "claude-code",
@@ -3993,7 +4027,7 @@
           "author_email": "support@hashicorp.com"
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/togetherai-skills": {
       "tool": "claude-code",
@@ -4010,7 +4044,7 @@
           "stars": 32
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/twilio-developer-kit": {
       "tool": "claude-code",
@@ -4027,7 +4061,7 @@
           "stars": 22
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/ui5": {
       "tool": "claude-code",
@@ -4042,10 +4076,10 @@
         "extra": {
           "category": "development",
           "author_email": "openui5@sap.com",
-          "stars": 17
+          "stars": 18
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/ui5-modernization": {
       "tool": "claude-code",
@@ -4060,10 +4094,10 @@
         "extra": {
           "category": "development",
           "author_email": "openui5@sap.com",
-          "stars": 17
+          "stars": 18
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/ui5-typescript-conversion": {
       "tool": "claude-code",
@@ -4078,10 +4112,27 @@
         "extra": {
           "category": "development",
           "author_email": "openui5@sap.com",
-          "stars": 17
+          "stars": 18
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
+    },
+    "claude-code/third-party/unreal-engine-skills-for-claude-code": {
+      "tool": "claude-code",
+      "kind": "third-party",
+      "id": "unreal-engine-skills-for-claude-code",
+      "name": "unreal-engine-skills-for-claude-code",
+      "description": "Control Unreal Editor directly from Claude Code via MCP. Hundreds of tools exposed via Unreal's ToolsetRegistry across 30+ toolsets: actors, blueprints, materials, Niagara, Control Rigs, Sequencer, State Trees, widgets, Gameplay Ability System, automation testing, and more.",
+      "homepage": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor",
+      "author": "Epic Games",
+      "source_url": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin",
+      "metadata": {
+        "extra": {
+          "category": "development",
+          "stars": 71
+        }
+      },
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/valtown": {
       "tool": "claude-code",
@@ -4098,7 +4149,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/vanta": {
       "tool": "claude-code",
@@ -4115,7 +4166,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.604Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/vanta-mcp-plugin": {
       "tool": "claude-code",
@@ -4132,7 +4183,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/vercel": {
       "tool": "claude-code",
@@ -4148,7 +4199,7 @@
           "stars": 201
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/vibe-prospecting": {
       "tool": "claude-code",
@@ -4165,7 +4216,7 @@
           "stars": 16
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/windsor-ai": {
       "tool": "claude-code",
@@ -4182,7 +4233,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/wix": {
       "tool": "claude-code",
@@ -4198,7 +4249,7 @@
           "stars": 18
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/wordpress.com": {
       "tool": "claude-code",
@@ -4213,7 +4264,7 @@
           "stars": 37
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/workos": {
       "tool": "claude-code",
@@ -4230,7 +4281,7 @@
           "stars": 36
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/youdotcom-agent-skills": {
       "tool": "claude-code",
@@ -4244,10 +4295,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 42
+          "stars": 43
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/zapier": {
       "tool": "claude-code",
@@ -4260,10 +4311,10 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 316
+          "stars": 320
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/zilliz": {
       "tool": "claude-code",
@@ -4280,7 +4331,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/zoom-plugin": {
       "tool": "claude-code",
@@ -4296,7 +4347,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/zoominfo": {
       "tool": "claude-code",
@@ -4313,7 +4364,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "claude-code/third-party/zscaler": {
       "tool": "claude-code",
@@ -4330,7 +4381,7 @@
           "stars": 40
         }
       },
-      "fetched_at": "2026-06-26T03:55:41.605Z"
+      "fetched_at": "2026-06-27T03:38:15.959Z"
     },
     "cursor/first-party/agent-compatibility": {
       "tool": "cursor",
@@ -4345,7 +4396,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/builtin/automate": {
       "tool": "cursor",
@@ -4359,7 +4410,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.424Z"
+      "fetched_at": "2026-06-27T03:38:18.913Z"
     },
     "cursor/first-party/builtin/babysit": {
       "tool": "cursor",
@@ -4373,7 +4424,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.424Z"
+      "fetched_at": "2026-06-27T03:38:18.913Z"
     },
     "cursor/first-party/builtin/in-cloud": {
       "tool": "cursor",
@@ -4387,7 +4438,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.424Z"
+      "fetched_at": "2026-06-27T03:38:18.913Z"
     },
     "cursor/first-party/builtin/review": {
       "tool": "cursor",
@@ -4401,7 +4452,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.424Z"
+      "fetched_at": "2026-06-27T03:38:18.913Z"
     },
     "cursor/first-party/builtin/review-bugbot": {
       "tool": "cursor",
@@ -4415,7 +4466,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.424Z"
+      "fetched_at": "2026-06-27T03:38:18.913Z"
     },
     "cursor/first-party/builtin/review-security": {
       "tool": "cursor",
@@ -4429,7 +4480,7 @@
           "builtin": true
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.424Z"
+      "fetched_at": "2026-06-27T03:38:18.913Z"
     },
     "cursor/first-party/cli-for-agent": {
       "tool": "cursor",
@@ -4444,7 +4495,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/continual-learning": {
       "tool": "cursor",
@@ -4459,7 +4510,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/create-plugin": {
       "tool": "cursor",
@@ -4474,7 +4525,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/cursor-sdk": {
       "tool": "cursor",
@@ -4489,7 +4540,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/cursor-team-kit": {
       "tool": "cursor",
@@ -4504,7 +4555,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/docs-canvas": {
       "tool": "cursor",
@@ -4519,7 +4570,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/orchestrate": {
       "tool": "cursor",
@@ -4534,7 +4585,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/pr-review-canvas": {
       "tool": "cursor",
@@ -4549,7 +4600,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/pstack": {
       "tool": "cursor",
@@ -4564,7 +4615,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/first-party/thermos": {
       "tool": "cursor",
@@ -4579,7 +4630,7 @@
           "tags": []
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/1password": {
       "tool": "cursor",
@@ -4595,7 +4646,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/airwallex": {
       "tool": "cursor",
@@ -4613,7 +4664,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/amazon-location-service": {
       "tool": "cursor",
@@ -4626,10 +4677,10 @@
         "extra": {
           "displayName": "Amazon Location Service",
           "tags": [],
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/amplitude": {
       "tool": "cursor",
@@ -4647,7 +4698,7 @@
           "stars": 29
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/antimetal": {
       "tool": "cursor",
@@ -4665,7 +4716,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/app-builder": {
       "tool": "cursor",
@@ -4678,10 +4729,10 @@
         "extra": {
           "displayName": "Adobe Developer App Builder",
           "tags": [],
-          "stars": 133
+          "stars": 134
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/appwrite-plugin": {
       "tool": "cursor",
@@ -4699,7 +4750,7 @@
           "stars": 8
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/arize-skills": {
       "tool": "cursor",
@@ -4715,7 +4766,7 @@
           "stars": 35
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/asana": {
       "tool": "cursor",
@@ -4731,7 +4782,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/astronomer-data": {
       "tool": "cursor",
@@ -4744,10 +4795,10 @@
         "extra": {
           "displayName": "Astronomer",
           "tags": [],
-          "stars": 392
+          "stars": 393
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/atlan": {
       "tool": "cursor",
@@ -4763,7 +4814,7 @@
           "stars": 33
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/atlassian": {
       "tool": "cursor",
@@ -4780,10 +4831,10 @@
             "jira",
             "confluence"
           ],
-          "stars": 802
+          "stars": 804
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/auth0": {
       "tool": "cursor",
@@ -4801,7 +4852,7 @@
           "stars": 33
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/aws-agents": {
       "tool": "cursor",
@@ -4814,10 +4865,10 @@
         "extra": {
           "displayName": "AWS Agents",
           "tags": [],
-          "stars": 1168
+          "stars": 1381
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/aws-amplify": {
       "tool": "cursor",
@@ -4830,10 +4881,10 @@
         "extra": {
           "displayName": "AWS Amplify",
           "tags": [],
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/aws-core": {
       "tool": "cursor",
@@ -4846,10 +4897,10 @@
         "extra": {
           "displayName": "AWS Core",
           "tags": [],
-          "stars": 1168
+          "stars": 1381
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/aws-data-analytics": {
       "tool": "cursor",
@@ -4862,10 +4913,10 @@
         "extra": {
           "displayName": "AWS Data Analytics",
           "tags": [],
-          "stars": 1168
+          "stars": 1381
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/aws-serverless": {
       "tool": "cursor",
@@ -4878,10 +4929,10 @@
         "extra": {
           "displayName": "AWS Serverless",
           "tags": [],
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/azure": {
       "tool": "cursor",
@@ -4894,10 +4945,10 @@
         "extra": {
           "displayName": "Azure",
           "tags": [],
-          "stars": 1236
+          "stars": 1238
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/azure-cosmosdb": {
       "tool": "cursor",
@@ -4913,7 +4964,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/box": {
       "tool": "cursor",
@@ -4929,7 +4980,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/braintrust": {
       "tool": "cursor",
@@ -4945,7 +4996,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/bright-data": {
       "tool": "cursor",
@@ -4961,7 +5012,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/browse": {
       "tool": "cursor",
@@ -4979,7 +5030,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/browserstack": {
       "tool": "cursor",
@@ -4997,7 +5048,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/buildkite": {
       "tool": "cursor",
@@ -5013,7 +5064,7 @@
           "stars": 14
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/chainguard": {
       "tool": "cursor",
@@ -5029,7 +5080,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/chargebee-integration": {
       "tool": "cursor",
@@ -5047,7 +5098,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/chatprd": {
       "tool": "cursor",
@@ -5063,7 +5114,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/circle": {
       "tool": "cursor",
@@ -5076,10 +5127,10 @@
         "extra": {
           "displayName": "Circle",
           "tags": [],
-          "stars": 123
+          "stars": 124
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/clerk": {
       "tool": "cursor",
@@ -5097,7 +5148,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/clickhouse-cursor-plugin": {
       "tool": "cursor",
@@ -5115,7 +5166,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/clickup": {
       "tool": "cursor",
@@ -5132,7 +5183,7 @@
           ]
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/cloudflare": {
       "tool": "cursor",
@@ -5147,10 +5198,10 @@
           "tags": [
             "cloudflare"
           ],
-          "stars": 1933
+          "stars": 1945
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/cloudinary": {
       "tool": "cursor",
@@ -5168,7 +5219,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/cockroachdb": {
       "tool": "cursor",
@@ -5186,7 +5237,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/compound-engineering": {
       "tool": "cursor",
@@ -5199,10 +5250,10 @@
         "extra": {
           "displayName": "Compound Engineering",
           "tags": [],
-          "stars": 22048
+          "stars": 22094
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/confidence": {
       "tool": "cursor",
@@ -5218,7 +5269,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/context7-plugin": {
       "tool": "cursor",
@@ -5234,10 +5285,10 @@
             "upstash",
             "context7"
           ],
-          "stars": 58084
+          "stars": 58150
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/convex": {
       "tool": "cursor",
@@ -5255,7 +5306,7 @@
           "stars": 103
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/coralogix-mcp": {
       "tool": "cursor",
@@ -5271,7 +5322,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/corridor": {
       "tool": "cursor",
@@ -5287,7 +5338,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/ctx": {
       "tool": "cursor",
@@ -5303,7 +5354,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/dagster-expert": {
       "tool": "cursor",
@@ -5316,10 +5367,10 @@
         "extra": {
           "displayName": "Dagster",
           "tags": [],
-          "stars": 173
+          "stars": 174
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/databases-on-aws": {
       "tool": "cursor",
@@ -5332,10 +5383,10 @@
         "extra": {
           "displayName": "AWS Databases",
           "tags": [],
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/databricks": {
       "tool": "cursor",
@@ -5348,10 +5399,10 @@
         "extra": {
           "displayName": "Databricks",
           "tags": [],
-          "stars": 174
+          "stars": 177
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/datadog": {
       "tool": "cursor",
@@ -5369,7 +5420,7 @@
           "stars": 9
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/datarobot-agent-skills": {
       "tool": "cursor",
@@ -5387,7 +5438,7 @@
           "stars": 21
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/dataverse": {
       "tool": "cursor",
@@ -5400,10 +5451,10 @@
         "extra": {
           "displayName": "Microsoft Dataverse",
           "tags": [],
-          "stars": 155
+          "stars": 157
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/dbt": {
       "tool": "cursor",
@@ -5421,7 +5472,7 @@
           "stars": 587
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/deploy-on-aws": {
       "tool": "cursor",
@@ -5437,10 +5488,10 @@
             "aws",
             "amazon"
           ],
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/dnb-risk-analytics": {
       "tool": "cursor",
@@ -5456,7 +5507,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/elastic": {
       "tool": "cursor",
@@ -5472,7 +5523,7 @@
           "stars": 31
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/encore": {
       "tool": "cursor",
@@ -5490,7 +5541,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/endorlabs": {
       "tool": "cursor",
@@ -5506,7 +5557,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/etoro": {
       "tool": "cursor",
@@ -5521,10 +5572,10 @@
           "tags": [
             "etoro"
           ],
-          "stars": 12
+          "stars": 13
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/exa": {
       "tool": "cursor",
@@ -5540,7 +5591,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/figma": {
       "tool": "cursor",
@@ -5558,7 +5609,7 @@
           "stars": 1669
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/firebase": {
       "tool": "cursor",
@@ -5573,10 +5624,10 @@
           "tags": [
             "firebase"
           ],
-          "stars": 359
+          "stars": 362
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/firecrawl": {
       "tool": "cursor",
@@ -5594,7 +5645,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/firetiger": {
       "tool": "cursor",
@@ -5610,7 +5661,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/forge-skills": {
       "tool": "cursor",
@@ -5626,7 +5677,7 @@
           "stars": 14
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/functions": {
       "tool": "cursor",
@@ -5644,7 +5695,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/gitlab": {
       "tool": "cursor",
@@ -5662,7 +5713,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/glean": {
       "tool": "cursor",
@@ -5680,7 +5731,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/grafana-assistant": {
       "tool": "cursor",
@@ -5698,7 +5749,7 @@
           "stars": 15
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/grafana-cloud-mcp": {
       "tool": "cursor",
@@ -5714,7 +5765,7 @@
           "stars": 15
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/granola": {
       "tool": "cursor",
@@ -5732,7 +5783,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/gsap-skills": {
       "tool": "cursor",
@@ -5747,10 +5798,10 @@
           "tags": [
             "gsap"
           ],
-          "stars": 10044
+          "stars": 10163
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/harness": {
       "tool": "cursor",
@@ -5766,7 +5817,7 @@
           "stars": 10
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/hex": {
       "tool": "cursor",
@@ -5784,7 +5835,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/heygen": {
       "tool": "cursor",
@@ -5797,10 +5848,10 @@
         "extra": {
           "displayName": "HeyGen",
           "tags": [],
-          "stars": 318
+          "stars": 320
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/higgsfield": {
       "tool": "cursor",
@@ -5816,7 +5867,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/huggingface-skills": {
       "tool": "cursor",
@@ -5835,7 +5886,7 @@
           "stars": 10733
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/hyperframes": {
       "tool": "cursor",
@@ -5864,10 +5915,10 @@
             "tts",
             "audio-reactive"
           ],
-          "stars": 31367
+          "stars": 31567
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/icepanel": {
       "tool": "cursor",
@@ -5883,7 +5934,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/jfrog": {
       "tool": "cursor",
@@ -5899,7 +5950,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/kraken-cli": {
       "tool": "cursor",
@@ -5912,10 +5963,10 @@
         "extra": {
           "displayName": "Kraken",
           "tags": [],
-          "stars": 641
+          "stars": 643
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/langfuse": {
       "tool": "cursor",
@@ -5930,10 +5981,10 @@
           "tags": [
             "langfuse"
           ],
-          "stars": 178
+          "stars": 179
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/launchdarkly": {
       "tool": "cursor",
@@ -5951,7 +6002,7 @@
           "stars": 17
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/linear": {
       "tool": "cursor",
@@ -5970,7 +6021,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/lovable": {
       "tool": "cursor",
@@ -5986,7 +6037,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/magicpath": {
       "tool": "cursor",
@@ -6002,7 +6053,7 @@
           "stars": 82
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/mainframe": {
       "tool": "cursor",
@@ -6018,7 +6069,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/merge-agent-handler": {
       "tool": "cursor",
@@ -6034,7 +6085,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/meta-quest-agentic-tools": {
       "tool": "cursor",
@@ -6047,10 +6098,10 @@
         "extra": {
           "displayName": "Meta Reality Labs",
           "tags": [],
-          "stars": 122
+          "stars": 123
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/mintlify-cursor-plugin": {
       "tool": "cursor",
@@ -6066,7 +6117,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/miro": {
       "tool": "cursor",
@@ -6081,10 +6132,10 @@
           "tags": [
             "miro"
           ],
-          "stars": 123
+          "stars": 126
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/mixpanel-mcp": {
       "tool": "cursor",
@@ -6100,7 +6151,7 @@
           "stars": 8
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/modern-web-guidance": {
       "tool": "cursor",
@@ -6113,10 +6164,10 @@
         "extra": {
           "displayName": "Modern Web Guidance",
           "tags": [],
-          "stars": 1446
+          "stars": 1458
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/monday-crm": {
       "tool": "cursor",
@@ -6129,10 +6180,10 @@
         "extra": {
           "displayName": "Monday.com",
           "tags": [],
-          "stars": 411
+          "stars": 412
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/mongodb": {
       "tool": "cursor",
@@ -6150,7 +6201,7 @@
           "stars": 144
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/monk": {
       "tool": "cursor",
@@ -6166,7 +6217,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/neon-postgres": {
       "tool": "cursor",
@@ -6184,7 +6235,7 @@
           "stars": 71
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/netlify-skills": {
       "tool": "cursor",
@@ -6200,7 +6251,7 @@
           "stars": 21
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/notion-workspace": {
       "tool": "cursor",
@@ -6218,7 +6269,7 @@
           "stars": 17
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/omni-analytics": {
       "tool": "cursor",
@@ -6236,7 +6287,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/opensearch-agent-skills": {
       "tool": "cursor",
@@ -6249,10 +6300,10 @@
         "extra": {
           "displayName": "OpenSearch",
           "tags": [],
-          "stars": 30
+          "stars": 31
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/opsera-devsecops": {
       "tool": "cursor",
@@ -6270,7 +6321,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/pagerduty": {
       "tool": "cursor",
@@ -6288,7 +6339,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/paper-desktop": {
       "tool": "cursor",
@@ -6304,7 +6355,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/paradedb": {
       "tool": "cursor",
@@ -6320,7 +6371,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/parallel": {
       "tool": "cursor",
@@ -6336,7 +6387,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/pendo-analytics": {
       "tool": "cursor",
@@ -6354,7 +6405,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/phantom-connect": {
       "tool": "cursor",
@@ -6372,7 +6423,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/pinecone": {
       "tool": "cursor",
@@ -6390,7 +6441,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/plain": {
       "tool": "cursor",
@@ -6406,7 +6457,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/planetscale": {
       "tool": "cursor",
@@ -6424,7 +6475,7 @@
           "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/port": {
       "tool": "cursor",
@@ -6440,7 +6491,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/posthog": {
       "tool": "cursor",
@@ -6458,7 +6509,7 @@
           "stars": 57
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/postman": {
       "tool": "cursor",
@@ -6473,10 +6524,10 @@
           "tags": [
             "postman"
           ],
-          "stars": 2
+          "stars": 3
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/prisma": {
       "tool": "cursor",
@@ -6494,7 +6545,7 @@
           "stars": 8
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/quiverai": {
       "tool": "cursor",
@@ -6510,7 +6561,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/railway": {
       "tool": "cursor",
@@ -6526,7 +6577,7 @@
           "stars": 282
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/raisely": {
       "tool": "cursor",
@@ -6542,7 +6593,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/redis-development": {
       "tool": "cursor",
@@ -6560,7 +6611,7 @@
           "stars": 77
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/render": {
       "tool": "cursor",
@@ -6576,7 +6627,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/resend": {
       "tool": "cursor",
@@ -6589,10 +6640,10 @@
         "extra": {
           "displayName": "Resend",
           "tags": [],
-          "stars": 138
+          "stars": 140
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/revenuecat": {
       "tool": "cursor",
@@ -6605,10 +6656,10 @@
         "extra": {
           "displayName": "RevenueCat",
           "tags": [],
-          "stars": 33
+          "stars": 34
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/revenuecat-play-billing": {
       "tool": "cursor",
@@ -6621,10 +6672,10 @@
         "extra": {
           "displayName": "RevenueCat Play Billing",
           "tags": [],
-          "stars": 33
+          "stars": 34
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/revolut-x": {
       "tool": "cursor",
@@ -6640,7 +6691,7 @@
           "stars": 22
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/roboflow": {
       "tool": "cursor",
@@ -6653,10 +6704,10 @@
         "extra": {
           "displayName": "Roboflow",
           "tags": [],
-          "stars": 21
+          "stars": 22
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/runlayer": {
       "tool": "cursor",
@@ -6674,7 +6725,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/sagemaker-ai": {
       "tool": "cursor",
@@ -6687,10 +6738,10 @@
         "extra": {
           "displayName": "AWS SageMaker",
           "tags": [],
-          "stars": 807
+          "stars": 809
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/sanity": {
       "tool": "cursor",
@@ -6706,7 +6757,7 @@
           "stars": 158
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/scandit-sdk": {
       "tool": "cursor",
@@ -6722,7 +6773,7 @@
           "stars": 13
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/scylladb": {
       "tool": "cursor",
@@ -6738,7 +6789,7 @@
           "stars": 5
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/semgrep-plugin": {
       "tool": "cursor",
@@ -6756,7 +6807,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/sentry": {
       "tool": "cursor",
@@ -6774,7 +6825,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/shadcn": {
       "tool": "cursor",
@@ -6787,10 +6838,10 @@
         "extra": {
           "displayName": "shadcn/ui",
           "tags": [],
-          "stars": 117456
+          "stars": 117520
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/shopify-plugin": {
       "tool": "cursor",
@@ -6805,10 +6856,10 @@
           "tags": [
             "shopify"
           ],
-          "stars": 415
+          "stars": 417
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/sinch-cursor-plugin": {
       "tool": "cursor",
@@ -6824,7 +6875,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/slack": {
       "tool": "cursor",
@@ -6837,10 +6888,10 @@
         "extra": {
           "displayName": "Slack",
           "tags": [],
-          "stars": 66
+          "stars": 68
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/snyk-api-web": {
       "tool": "cursor",
@@ -6856,7 +6907,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/snyk-secure-development": {
       "tool": "cursor",
@@ -6874,7 +6925,7 @@
           "stars": 48
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/sonarqube": {
       "tool": "cursor",
@@ -6890,7 +6941,7 @@
           "stars": 95
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/sonatype-cursor-plugin": {
       "tool": "cursor",
@@ -6906,7 +6957,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/spottercode": {
       "tool": "cursor",
@@ -6925,7 +6976,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/stripe": {
       "tool": "cursor",
@@ -6940,10 +6991,10 @@
           "tags": [
             "stripe"
           ],
-          "stars": 1634
+          "stars": 1635
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/subtext": {
       "tool": "cursor",
@@ -6959,7 +7010,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/supabase": {
       "tool": "cursor",
@@ -6977,7 +7028,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/superpowers": {
       "tool": "cursor",
@@ -6992,10 +7043,10 @@
           "tags": [
             "superpowers"
           ],
-          "stars": 238828
+          "stars": 239500
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/svelte": {
       "tool": "cursor",
@@ -7013,7 +7064,7 @@
           "stars": 281
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/tabnine": {
       "tool": "cursor",
@@ -7029,7 +7080,7 @@
           "stars": 7
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/tavily": {
       "tool": "cursor",
@@ -7047,7 +7098,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/temporal": {
       "tool": "cursor",
@@ -7065,7 +7116,7 @@
           "stars": 4
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/thousandeyes": {
       "tool": "cursor",
@@ -7084,7 +7135,7 @@
           "stars": 2
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/tierzero": {
       "tool": "cursor",
@@ -7100,7 +7151,7 @@
           "stars": 0
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/tldraw": {
       "tool": "cursor",
@@ -7113,10 +7164,10 @@
         "extra": {
           "displayName": "tldraw",
           "tags": [],
-          "stars": 48315
+          "stars": 48341
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/turbopuffer": {
       "tool": "cursor",
@@ -7134,7 +7185,7 @@
           "stars": 6
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/twilio-developer-kit": {
       "tool": "cursor",
@@ -7152,7 +7203,7 @@
           "stars": 22
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/vantage": {
       "tool": "cursor",
@@ -7168,7 +7219,7 @@
           "stars": 1
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/vercel": {
       "tool": "cursor",
@@ -7186,7 +7237,7 @@
           "stars": 201
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/webflow": {
       "tool": "cursor",
@@ -7204,7 +7255,7 @@
           "stars": 98
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/wix": {
       "tool": "cursor",
@@ -7222,7 +7273,7 @@
           "stars": 18
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/workos": {
       "tool": "cursor",
@@ -7240,7 +7291,7 @@
           "stars": 36
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/zapier": {
       "tool": "cursor",
@@ -7255,10 +7306,10 @@
           "tags": [
             "zapier"
           ],
-          "stars": 316
+          "stars": 320
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     },
     "cursor/third-party/zscaler": {
       "tool": "cursor",
@@ -7276,7 +7327,7 @@
           "stars": 40
         }
       },
-      "fetched_at": "2026-06-26T03:55:44.257Z"
+      "fetched_at": "2026-06-27T03:38:18.759Z"
     }
   }
 }
