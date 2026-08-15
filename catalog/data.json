@@ -1,13 +1,47 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-14T02:04:06.414Z",
+  "generated_at": "2026-08-15T01:18:34.929Z",
   "entries": [
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "aleph",
+      "name": "Aleph",
+      "description": "Aleph MCP server. Your one source of truth for financial data.",
+      "source_url": "https://github.com/GetAleph/cursor-plugin",
+      "metadata": {
+        "extra": {
+          "displayName": "Aleph",
+          "tags": [],
+          "stars": 0
+        }
+      },
+      "first_seen_at": "2026-08-15T01:18:34.929Z",
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "dynatrace",
+      "name": "Dynatrace",
+      "description": "Dynatrace observability skills. DQL query patterns, application and infrastructure monitoring, log analysis, problem investigation, and incident response workflows. Use with dtctl or the Dynatrace MCP server (https://docs.dynatrace.com/docs/shortlink/dynatrace-mcp-server) for live platform access.",
+      "source_url": "https://github.com/Dynatrace/dynatrace-for-ai",
+      "metadata": {
+        "extra": {
+          "displayName": "Dynatrace",
+          "tags": [],
+          "stars": 120
+        }
+      },
+      "first_seen_at": "2026-08-15T01:18:34.929Z",
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
+    },
     {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/artifact-components",
       "name": "artifact-components",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -15,7 +49,7 @@
         }
       },
       "first_seen_at": "2026-08-14T02:04:06.414Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "cursor",
@@ -63,7 +97,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 410
+          "stars": 411
         }
       },
       "first_seen_at": "2026-08-12T02:03:49.836Z",
@@ -282,7 +316,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 822
+          "stars": 827
         }
       },
       "first_seen_at": "2026-08-08T01:45:10.492Z",
@@ -449,7 +483,7 @@
         "extra": {
           "displayName": "Stripe Link",
           "tags": [],
-          "stars": 642
+          "stars": 645
         }
       },
       "first_seen_at": "2026-08-08T01:45:10.492Z",
@@ -533,7 +567,7 @@
         "extra": {
           "displayName": "AgentMail",
           "tags": [],
-          "stars": 1
+          "stars": 2
         }
       },
       "first_seen_at": "2026-08-07T02:44:31.991Z",
@@ -633,7 +667,7 @@
         "extra": {
           "displayName": "GitHits",
           "tags": [],
-          "stars": 76
+          "stars": 77
         }
       },
       "first_seen_at": "2026-08-05T02:39:03.445Z",
@@ -820,7 +854,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 216464
+          "stars": 217594
         }
       },
       "first_seen_at": "2026-07-28T02:39:54.208Z",
@@ -891,7 +925,7 @@
         "extra": {
           "displayName": "Nvidia Skills",
           "tags": [],
-          "stars": 2921
+          "stars": 2946
         }
       },
       "first_seen_at": "2026-07-24T02:48:10.841Z",
@@ -942,7 +976,7 @@
         "extra": {
           "displayName": "React Doctor",
           "tags": [],
-          "stars": 14368
+          "stars": 14378
         }
       },
       "first_seen_at": "2026-07-24T02:48:10.841Z",
@@ -1068,7 +1102,7 @@
       "metadata": {
         "extra": {
           "category": "security",
-          "stars": 22
+          "stars": 23
         }
       },
       "first_seen_at": "2026-07-22T02:47:23.787Z",
@@ -1122,7 +1156,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1714
+          "stars": 1726
         }
       },
       "first_seen_at": "2026-07-22T02:47:23.787Z",
@@ -1222,7 +1256,7 @@
       "kind": "first-party",
       "id": "builtin/explain-usage",
       "name": "explain-usage",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -1230,7 +1264,7 @@
         }
       },
       "first_seen_at": "2026-07-22T02:47:23.787Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "cursor",
@@ -1314,7 +1348,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 227
+          "stars": 230
         }
       },
       "first_seen_at": "2026-07-17T02:47:05.468Z",
@@ -1348,7 +1382,7 @@
         "extra": {
           "displayName": "AMD",
           "tags": [],
-          "stars": 227
+          "stars": 230
         }
       },
       "first_seen_at": "2026-07-17T02:47:05.468Z",
@@ -1365,7 +1399,7 @@
         "extra": {
           "displayName": "Mem0",
           "tags": [],
-          "stars": 63211
+          "stars": 63276
         }
       },
       "first_seen_at": "2026-07-17T02:47:05.468Z",
@@ -1384,7 +1418,7 @@
         "extra": {
           "category": "development",
           "author_email": "open-source@confident-ai.com",
-          "stars": 17578
+          "stars": 17599
         }
       },
       "first_seen_at": "2026-07-16T02:44:24.966Z",
@@ -1429,8 +1463,8 @@
       "kind": "first-party",
       "id": "builtin/doctor",
       "name": "doctor",
-      "description": "Health-check the user's Claude Code setup and fix issues: diagnose installation health \\u2014 what the `claude doctor` terminal diagnostics cover \\u2014 from local data (duplicate or leftover installs, PATH, unparseable settings files, broken or colliding agent definitions); find unused skills, MCP servers, and plugins versus their context cost and disable dead weight; deduplicate local CLAUDE.md files against checked-in ones; trim checked-in CLAUDE.md files by cutting content a session could derive from the codebase (directory layouts, tech-stack lists, architecture overviews) while keeping gotchas, rationale, and non-standard conventions; migrate always-loaded CLAUDE.md guidance into lazy skills and nested CLAUDE.md files; flag slow hooks and context-heavy extensions; check the installed version is current; make auto mode the default permission mode; and pre-approve frequently denied read-only commands. Use when the user asks for a doctor run, checkup, audit, tune-up, or cleanup of their Claude Code setup or configuration.",
-      "version": "2.1.232",
+      "description": "Health-check the user's Claude Code setup and fix issues: diagnose installation health \\u2014 what the `claude doctor` terminal diagnostics cover \\u2014 from local data (duplicate or leftover installs, PATH, unparseable settings files, broken or colliding agent definitions, skills whose frontmatter fails to parse); find unused skills, MCP servers, and plugins versus their context cost and disable dead weight; deduplicate local CLAUDE.md files against checked-in ones; trim checked-in CLAUDE.md files by cutting content a session could derive from the codebase (directory layouts, tech-stack lists, architecture overviews) while keeping gotchas, rationale, and non-standard conventions; migrate always-loaded CLAUDE.md guidance into lazy skills and nested CLAUDE.md files; flag slow hooks and context-heavy extensions; check the installed version is current; make auto mode the default permission mode; and pre-approve frequently denied read-only commands. Use when the user asks for a doctor run, checkup, audit, tune-up, or cleanup of their Claude Code setup or configuration.",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -1438,7 +1472,7 @@
         }
       },
       "first_seen_at": "2026-07-09T03:29:13.281Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "cursor",
@@ -1512,7 +1546,7 @@
       "kind": "first-party",
       "id": "builtin/setup-cowork",
       "name": "setup-cowork",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -1520,7 +1554,7 @@
         }
       },
       "first_seen_at": "2026-07-03T03:27:54.672Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "cursor",
@@ -1597,7 +1631,7 @@
       "kind": "first-party",
       "id": "builtin/plan-artifact",
       "name": "plan-artifact",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -1605,7 +1639,7 @@
         }
       },
       "first_seen_at": "2026-07-02T03:46:53.361Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "cursor",
@@ -1652,7 +1686,7 @@
         "extra": {
           "displayName": "Canva",
           "tags": [],
-          "stars": 63
+          "stars": 64
         }
       },
       "first_seen_at": "2026-07-02T03:46:53.361Z",
@@ -1670,7 +1704,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 16
+          "stars": 17
         }
       },
       "first_seen_at": "2026-07-01T04:05:39.164Z",
@@ -1688,7 +1722,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 16
+          "stars": 17
         }
       },
       "first_seen_at": "2026-07-01T04:05:39.164Z",
@@ -1706,7 +1740,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 16
+          "stars": 17
         }
       },
       "first_seen_at": "2026-07-01T04:05:39.164Z",
@@ -1868,7 +1902,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 63
+          "stars": 64
         }
       },
       "first_seen_at": "2026-06-27T03:38:15.654Z",
@@ -1886,7 +1920,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 450
+          "stars": 452
         }
       },
       "first_seen_at": "2026-06-27T03:38:15.654Z",
@@ -1904,7 +1938,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 185
+          "stars": 186
         }
       },
       "first_seen_at": "2026-06-27T03:38:15.654Z",
@@ -2013,7 +2047,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 259
+          "stars": 260
         }
       },
       "first_seen_at": "2026-06-24T03:47:49.278Z",
@@ -2031,7 +2065,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 243
+          "stars": 244
         }
       },
       "first_seen_at": "2026-06-23T03:45:06.690Z",
@@ -2066,7 +2100,7 @@
         "extra": {
           "displayName": "Databricks",
           "tags": [],
-          "stars": 259
+          "stars": 260
         }
       },
       "first_seen_at": "2026-06-20T03:54:32.974Z",
@@ -2254,7 +2288,7 @@
         "extra": {
           "displayName": "AWS Data Analytics",
           "tags": [],
-          "stars": 2338
+          "stars": 2347
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -2271,7 +2305,7 @@
         "extra": {
           "displayName": "AWS Core",
           "tags": [],
-          "stars": 2338
+          "stars": 2347
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -2288,7 +2322,7 @@
         "extra": {
           "displayName": "AWS Agents",
           "tags": [],
-          "stars": 2338
+          "stars": 2347
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -2355,7 +2389,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2338
+          "stars": 2347
         }
       },
       "first_seen_at": "2026-06-18T04:11:41.692Z",
@@ -2438,7 +2472,7 @@
       "kind": "first-party",
       "id": "builtin/design",
       "name": "design",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -2446,7 +2480,7 @@
         }
       },
       "first_seen_at": "2026-06-18T04:11:41.692Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "cursor",
@@ -2614,7 +2648,7 @@
         "extra": {
           "displayName": "Arize",
           "tags": [],
-          "stars": 44
+          "stars": 45
         }
       },
       "first_seen_at": "2026-06-13T03:59:26.751Z",
@@ -2849,7 +2883,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 11
+          "stars": 12
         }
       },
       "first_seen_at": "2026-06-06T03:41:19.216Z",
@@ -3082,7 +3116,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2921
+          "stars": 2946
         }
       },
       "first_seen_at": "2026-06-02T04:11:24.309Z",
@@ -3093,7 +3127,7 @@
       "kind": "first-party",
       "id": "builtin/design-sync",
       "name": "design-sync",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -3101,7 +3135,7 @@
         }
       },
       "first_seen_at": "2026-06-02T04:11:24.309Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "cursor",
@@ -3446,7 +3480,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 252
+          "stars": 260
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -3500,7 +3534,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 527
+          "stars": 528
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -3572,7 +3606,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 40874
+          "stars": 40984
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -3590,7 +3624,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 246
+          "stars": 248
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -3626,7 +3660,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2716
+          "stars": 2719
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -3662,7 +3696,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 163
+          "stars": 164
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -3716,7 +3750,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 108
+          "stars": 109
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -3770,7 +3804,7 @@
       "metadata": {
         "extra": {
           "category": "security",
-          "stars": 43
+          "stars": 44
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -3781,7 +3815,7 @@
       "kind": "first-party",
       "id": "builtin/run",
       "name": "run",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -3789,14 +3823,14 @@
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
       "kind": "first-party",
       "id": "builtin/run-skill-generator",
       "name": "run-skill-generator",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -3804,7 +3838,7 @@
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "cursor",
@@ -3817,7 +3851,7 @@
         "extra": {
           "displayName": "Modern Web Guidance",
           "tags": [],
-          "stars": 1714
+          "stars": 1726
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -3922,7 +3956,7 @@
         "extra": {
           "displayName": "Grafana Cloud",
           "tags": [],
-          "stars": 16
+          "stars": 17
         }
       },
       "first_seen_at": "2026-05-14T03:37:37.667Z",
@@ -4064,7 +4098,7 @@
         "extra": {
           "displayName": "OpenSearch",
           "tags": [],
-          "stars": 41
+          "stars": 42
         }
       },
       "first_seen_at": "2026-05-09T03:20:42.752Z",
@@ -4082,7 +4116,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2338
+          "stars": 2347
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -4100,7 +4134,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2338
+          "stars": 2347
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -4118,7 +4152,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2338
+          "stars": 2347
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -4396,7 +4430,7 @@
       "id": "builtin/init",
       "name": "init",
       "description": "Initialize new CLAUDE.md file(s) and optional skills/hooks with codebase documentation",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -4404,7 +4438,7 @@
         }
       },
       "first_seen_at": "2026-05-05T09:15:03.101Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
@@ -4412,7 +4446,7 @@
       "id": "builtin/statusline",
       "name": "statusline",
       "description": "Set up Claude Code's status line UI",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -4420,7 +4454,7 @@
         }
       },
       "first_seen_at": "2026-05-05T09:15:03.101Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
@@ -4428,7 +4462,7 @@
       "id": "builtin/team-onboarding",
       "name": "team-onboarding",
       "description": "Help teammates ramp on Claude Code with a guide from your usage",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -4436,7 +4470,7 @@
         }
       },
       "first_seen_at": "2026-05-05T09:15:03.101Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
@@ -4444,7 +4478,7 @@
       "id": "builtin/insights",
       "name": "insights",
       "description": "Generate a report analyzing your Claude Code sessions",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -4452,7 +4486,7 @@
         }
       },
       "first_seen_at": "2026-05-05T09:15:03.101Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
@@ -4465,7 +4499,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 95
+          "stars": 96
         }
       },
       "first_seen_at": "2026-05-02T02:53:31.805Z",
@@ -4483,7 +4517,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 9322
+          "stars": 9328
         }
       },
       "first_seen_at": "2026-05-02T02:53:31.805Z",
@@ -4652,24 +4686,6 @@
     },
     {
       "tool": "claude-code",
-      "kind": "third-party",
-      "id": "aws-dev-toolkit",
-      "name": "aws-dev-toolkit",
-      "description": "AWS development toolkit — 34 skills, 11 agents, and 3 MCP servers for building, migrating, and performing architecture reviews on AWS.",
-      "homepage": "https://github.com/aws-samples/sample-claude-code-plugins-for-startups",
-      "author": "aws-samples",
-      "source_url": "https://github.com/aws-samples/sample-claude-code-plugins-for-startups",
-      "metadata": {
-        "extra": {
-          "category": "development",
-          "stars": 12
-        }
-      },
-      "first_seen_at": "2026-04-29T03:26:33.436Z",
-      "last_updated_at": "2026-04-29T03:26:33.436Z"
-    },
-    {
-      "tool": "claude-code",
       "kind": "first-party",
       "id": "code-modernization",
       "name": "code-modernization",
@@ -4730,7 +4746,7 @@
         "extra": {
           "displayName": "Scandit",
           "tags": [],
-          "stars": 17
+          "stars": 18
         }
       },
       "first_seen_at": "2026-04-29T03:26:33.436Z",
@@ -5013,7 +5029,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 1377
+          "stars": 1379
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -5049,7 +5065,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 162
+          "stars": 163
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -5067,7 +5083,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 4866
+          "stars": 4867
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -5085,7 +5101,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 357
+          "stars": 359
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -5169,7 +5185,7 @@
       "id": "builtin/fewer-permission-prompts",
       "name": "fewer-permission-prompts",
       "description": "Scan your transcripts for common read-only Bash and MCP tool calls, then add a prioritized allowlist to project .claude/settings.json to reduce permission prompts.",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -5177,7 +5193,7 @@
         }
       },
       "first_seen_at": "2026-04-23T16:58:52.030Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "cursor",
@@ -5211,7 +5227,7 @@
           "tags": [
             "gsap"
           ],
-          "stars": 13553
+          "stars": 13601
         }
       },
       "first_seen_at": "2026-04-23T02:49:50.987Z",
@@ -5335,7 +5351,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 322
+          "stars": 323
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -5369,7 +5385,7 @@
         "extra": {
           "displayName": "shadcn/ui",
           "tags": [],
-          "stars": 121278
+          "stars": 121322
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -5405,7 +5421,7 @@
         "extra": {
           "displayName": "Azure",
           "tags": [],
-          "stars": 1377
+          "stars": 1379
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -5542,7 +5558,7 @@
         "extra": {
           "displayName": "Resend",
           "tags": [],
-          "stars": 163
+          "stars": 164
         }
       },
       "first_seen_at": "2026-04-15T16:27:50.478Z",
@@ -5595,7 +5611,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 501
+          "stars": 504
         }
       },
       "first_seen_at": "2026-04-15T02:44:23.401Z",
@@ -5632,7 +5648,7 @@
           "tags": [
             "workos"
           ],
-          "stars": 43
+          "stars": 44
         }
       },
       "first_seen_at": "2026-04-15T02:44:23.401Z",
@@ -5668,7 +5684,7 @@
           "tags": [
             "pinecone"
           ],
-          "stars": 0
+          "stars": 1
         }
       },
       "first_seen_at": "2026-04-15T02:44:23.401Z",
@@ -5755,7 +5771,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 2626
+          "stars": 2633
         }
       },
       "first_seen_at": "2026-04-11T02:30:29.084Z",
@@ -5790,7 +5806,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 175
+          "stars": 176
         }
       },
       "first_seen_at": "2026-04-11T02:30:29.084Z",
@@ -5943,7 +5959,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 419
+          "stars": 421
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -5976,7 +5992,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 958
+          "stars": 963
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -5993,7 +6009,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 6171
+          "stars": 6176
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6043,7 +6059,7 @@
       "source_url": "https://github.com/brightdata/skills",
       "metadata": {
         "extra": {
-          "stars": 246
+          "stars": 245
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6079,7 +6095,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 49114
+          "stars": 49179
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6183,7 +6199,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 3
+          "stars": 4
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6305,7 +6321,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 419
+          "stars": 421
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6321,7 +6337,7 @@
       "source_url": "https://github.com/astronomer/agents",
       "metadata": {
         "extra": {
-          "stars": 419
+          "stars": 421
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6388,7 +6404,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2409
+          "stars": 2412
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6453,7 +6469,7 @@
       "source_url": "https://github.com/voxel51/fiftyone-skills",
       "metadata": {
         "extra": {
-          "stars": 37
+          "stars": 38
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6470,7 +6486,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 1886
+          "stars": 1888
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6503,7 +6519,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 194
+          "stars": 195
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6621,7 +6637,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 10923
+          "stars": 10927
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -6824,7 +6840,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1833
+          "stars": 1836
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -7010,7 +7026,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 67
+          "stars": 68
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -7096,7 +7112,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 75
+          "stars": 76
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -7112,7 +7128,7 @@
       "source_url": "https://github.com/gitroomhq/postiz-agent",
       "metadata": {
         "extra": {
-          "stars": 407
+          "stars": 409
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -7248,7 +7264,7 @@
       "source_url": "https://github.com/Digital-Process-Tools/claude-remember",
       "metadata": {
         "extra": {
-          "stars": 152
+          "stars": 153
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -7471,7 +7487,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1740
+          "stars": 1745
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -7505,7 +7521,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 9
+          "stars": 10
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -7522,7 +7538,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 271773
+          "stars": 272188
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -7678,7 +7694,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 377
+          "stars": 379
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -7788,7 +7804,7 @@
         "extra": {
           "displayName": "Astronomer",
           "tags": [],
-          "stars": 419
+          "stars": 421
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -7843,7 +7859,7 @@
           "tags": [
             "shopify"
           ],
-          "stars": 501
+          "stars": 504
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -7878,7 +7894,7 @@
           "tags": [
             "dbt"
           ],
-          "stars": 662
+          "stars": 665
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -7935,7 +7951,7 @@
           "tags": [
             "firebase"
           ],
-          "stars": 407
+          "stars": 409
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8367,7 +8383,7 @@
         "extra": {
           "displayName": "Sanity",
           "tags": [],
-          "stars": 175
+          "stars": 176
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8496,7 +8512,7 @@
         "extra": {
           "displayName": "tldraw",
           "tags": [],
-          "stars": 49773
+          "stars": 49781
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8532,7 +8548,7 @@
         "extra": {
           "displayName": "1Password",
           "tags": [],
-          "stars": 5
+          "stars": 6
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8570,7 +8586,7 @@
           "tags": [
             "zapier"
           ],
-          "stars": 377
+          "stars": 379
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8663,7 +8679,7 @@
           "tags": [
             "langfuse"
           ],
-          "stars": 243
+          "stars": 244
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8682,7 +8698,7 @@
           "tags": [
             "grafana"
           ],
-          "stars": 16
+          "stars": 17
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8702,7 +8718,7 @@
             "hugging",
             "huggingface"
           ],
-          "stars": 10923
+          "stars": 10927
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8759,7 +8775,7 @@
           "tags": [
             "posthog"
           ],
-          "stars": 75
+          "stars": 76
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8799,7 +8815,7 @@
             "jira",
             "confluence"
           ],
-          "stars": 958
+          "stars": 963
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8889,7 +8905,7 @@
           "tags": [
             "superpowers"
           ],
-          "stars": 271773
+          "stars": 272188
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -8906,7 +8922,7 @@
         "extra": {
           "displayName": "Compound Engineering",
           "tags": [],
-          "stars": 24238
+          "stars": 24261
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -9015,7 +9031,7 @@
           "tags": [
             "figma"
           ],
-          "stars": 1886
+          "stars": 1888
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -9185,7 +9201,7 @@
           "tags": [
             "stripe"
           ],
-          "stars": 1740
+          "stars": 1745
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -9204,7 +9220,7 @@
           "tags": [
             "cloudflare"
           ],
-          "stars": 2626
+          "stars": 2633
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -9224,7 +9240,7 @@
             "upstash",
             "context7"
           ],
-          "stars": 60698
+          "stars": 60758
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -9243,7 +9259,7 @@
           "tags": [
             "notion"
           ],
-          "stars": 20
+          "stars": 22
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -9281,7 +9297,7 @@
           "tags": [
             "convex"
           ],
-          "stars": 108
+          "stars": 109
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -9293,7 +9309,7 @@
       "id": "builtin/batch",
       "name": "batch",
       "description": "Research and plan a large-scale change, then execute it in parallel across 5\\u201330 isolated worktree agents that each open a PR.",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -9301,7 +9317,7 @@
         }
       },
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
@@ -9309,7 +9325,7 @@
       "id": "builtin/claude-in-chrome",
       "name": "claude-in-chrome",
       "description": "Automates your Chrome browser to interact with web pages - clicking elements, filling forms, capturing screenshots, reading console logs, and navigating sites. Opens pages in new tabs within your existing Chrome session. Requires site-level permissions before executing (configured in the extension).",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -9317,7 +9333,7 @@
         }
       },
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
@@ -9325,7 +9341,7 @@
       "id": "builtin/debug",
       "name": "debug",
       "description": "Enable debug logging for this session and help diagnose issues",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -9333,7 +9349,7 @@
         }
       },
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
@@ -9341,7 +9357,7 @@
       "id": "builtin/keybindings-help",
       "name": "keybindings-help",
       "description": "Use when the user wants to customize keyboard shortcuts, rebind keys, add chord bindings, or modify ~/.claude/keybindings.json. Examples: \"rebind ctrl+s\", \"add a chord shortcut\", \"change the submit key\", \"customize keybindings\".",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -9349,7 +9365,7 @@
         }
       },
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
@@ -9357,7 +9373,7 @@
       "id": "builtin/update-config",
       "name": "update-config",
       "description": "Use this skill to configure the Claude Code harness via settings.json. Automated behaviors (\"from now on when X\", \"each time X\", \"whenever X\", \"before/after X\") require hooks configured in settings.json - the harness executes these, not Claude, so memory/preferences cannot fulfill them. Also use for: permissions (\"allow X\", \"add permission\", \"move permission to\"), env vars (\"set X=Y\"), hook troubleshooting, or any changes to settings.json/settings.local.json files. Examples: \"allow npm commands\", \"add bq permission to global settings\", \"move permission to user settings\", \"set DEBUG=true\", \"when claude stops show X\". For simple settings like theme/model, suggest the /config command.",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -9365,7 +9381,7 @@
         }
       },
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     },
     {
       "tool": "claude-code",
@@ -9373,7 +9389,7 @@
       "id": "builtin/claude-api",
       "name": "claude-api",
       "description": "Build, debug, and optimize Claude API / Anthropic SDK apps.",
-      "version": "2.1.232",
+      "version": "2.1.233",
       "source_url": "https://www.npmjs.com/package/@anthropic-ai/claude-code",
       "metadata": {
         "extra": {
@@ -9381,22 +9397,22 @@
         }
       },
       "first_seen_at": "2026-04-09T16:49:22.970Z",
-      "last_updated_at": "2026-08-14T02:04:06.414Z"
+      "last_updated_at": "2026-08-15T01:18:34.929Z"
     }
   ],
   "stats": {
-    "total": 537,
+    "total": 538,
     "by_tool": {
-      "claude-code": 307,
-      "cursor": 230
+      "cursor": 232,
+      "claude-code": 306
     },
     "by_kind": {
-      "first-party": 95,
-      "third-party": 442
+      "third-party": 443,
+      "first-party": 95
     },
     "latest_first_seen_at_by_tool": {
-      "claude-code": "2026-08-14T02:04:06.414Z",
-      "cursor": "2026-08-14T02:04:06.414Z"
+      "cursor": "2026-08-15T01:18:34.929Z",
+      "claude-code": "2026-08-14T02:04:06.414Z"
     }
   }
 }
