@@ -1,7 +1,91 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T03:53:45.930Z",
+  "generated_at": "2026-09-22T03:50:59.776Z",
   "entries": [
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "extend",
+      "name": "Extend",
+      "description": "Document processing for agents: parse, extract, classify, and split PDFs, images, Office docs, spreadsheets, and emails, plus PDF form filling. Bundles the hosted Extend MCP server and the extend-api and extend-cli skills.",
+      "source_url": "https://github.com/extend-hq/extend-agent-plugin",
+      "metadata": {
+        "extra": {
+          "displayName": "Extend",
+          "tags": [],
+          "stars": 0
+        }
+      },
+      "first_seen_at": "2026-09-22T03:50:59.776Z",
+      "last_updated_at": "2026-09-22T03:50:59.776Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "mcp-server-for-wordpress",
+      "name": "WordPress",
+      "description": "Connect your WordPress site to Cursor via the miniOrange MCP gateway. Cursor can use the abilities exposed by your WordPress Abilities API to perform actions on your WordPress site.",
+      "source_url": "https://github.com/miniOrangeDev/miniorange-cursor-plugins",
+      "metadata": {
+        "extra": {
+          "displayName": "WordPress",
+          "tags": [],
+          "stars": 0
+        }
+      },
+      "first_seen_at": "2026-09-22T03:50:59.776Z",
+      "last_updated_at": "2026-09-22T03:50:59.776Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "opusclip",
+      "name": "OpusClip",
+      "description": "Turn long videos into AI-curated short clips: caption, reframe, thumbnail, schedule, and publish.",
+      "source_url": "https://github.com/opus-pro/opusclip-mcp",
+      "metadata": {
+        "extra": {
+          "displayName": "OpusClip",
+          "tags": [],
+          "stars": 4
+        }
+      },
+      "first_seen_at": "2026-09-22T03:50:59.776Z",
+      "last_updated_at": "2026-09-22T03:50:59.776Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "third-party",
+      "id": "coder",
+      "name": "Coder",
+      "description": "Skills for installing, configuring, and operating a self-hosted Coder deployment from the Cursor IDE.",
+      "source_url": "https://github.com/coder/cursor-plugin",
+      "metadata": {
+        "extra": {
+          "displayName": "Coder",
+          "tags": [],
+          "stars": 0
+        }
+      },
+      "first_seen_at": "2026-09-22T03:50:59.776Z",
+      "last_updated_at": "2026-09-22T03:50:59.776Z"
+    },
+    {
+      "tool": "cursor",
+      "kind": "first-party",
+      "id": "finance",
+      "name": "Finance",
+      "description": "Securely connect your accounts so Grok can help with questions about your spending, subscriptions, balances, and investments.",
+      "source_url": "https://github.com/cursor/plugins",
+      "metadata": {
+        "extra": {
+          "displayName": "Finance",
+          "tags": []
+        }
+      },
+      "first_seen_at": "2026-09-22T03:50:59.776Z",
+      "last_updated_at": "2026-09-22T03:50:59.776Z"
+    },
     {
       "tool": "claude-code",
       "kind": "third-party",
@@ -167,7 +251,7 @@
         "extra": {
           "displayName": "ReadMe",
           "tags": [],
-          "stars": 0
+          "stars": 1
         }
       },
       "first_seen_at": "2026-09-19T03:40:29.921Z",
@@ -551,7 +635,7 @@
         "extra": {
           "displayName": "Zernio",
           "tags": [],
-          "stars": 2
+          "stars": 3
         }
       },
       "first_seen_at": "2026-09-16T03:51:14.006Z",
@@ -620,7 +704,7 @@
         "extra": {
           "displayName": "Pascal",
           "tags": [],
-          "stars": 24172
+          "stars": 24221
         }
       },
       "first_seen_at": "2026-09-13T03:46:31.994Z",
@@ -655,7 +739,7 @@
         "extra": {
           "displayName": "Descript",
           "tags": [],
-          "stars": 31
+          "stars": 32
         }
       },
       "first_seen_at": "2026-09-12T03:39:07.523Z",
@@ -706,7 +790,7 @@
         "extra": {
           "displayName": "Dart and Flutter",
           "tags": [],
-          "stars": 2975
+          "stars": 2977
         }
       },
       "first_seen_at": "2026-09-12T03:39:07.523Z",
@@ -760,7 +844,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 3
+          "stars": 4
         }
       },
       "first_seen_at": "2026-09-11T03:34:37.284Z",
@@ -980,7 +1064,7 @@
         "extra": {
           "displayName": "Crustdata",
           "tags": [],
-          "stars": 0
+          "stars": 1
         }
       },
       "first_seen_at": "2026-09-06T03:29:05.969Z",
@@ -1116,7 +1200,7 @@
         "extra": {
           "displayName": "postiz",
           "tags": [],
-          "stars": 482
+          "stars": 487
         }
       },
       "first_seen_at": "2026-09-06T03:29:05.969Z",
@@ -1133,7 +1217,7 @@
         "extra": {
           "displayName": "Antom",
           "tags": [],
-          "stars": 89
+          "stars": 90
         }
       },
       "first_seen_at": "2026-09-05T03:28:26.653Z",
@@ -1295,7 +1379,7 @@
       "kind": "third-party",
       "id": "ryze-ai",
       "name": "Ryze AI",
-      "description": "Google Ads, Meta Ads, GA4, Search Console, SEO/GEO/AEO in Cursor — audit, report, optimize ads and rankings",
+      "description": "Connect Google Ads and Meta Ads, then pull GA4, Search Console, and SEO/GEO/AEO in the same workspace. Audit campaigns and rankings, find wasted spend, inspect indexing, track AI-referral traffic, and report paid + organic performance — one connector for ads and search, not ads-only.",
       "source_url": "https://github.com/Ryze-AI-Adgent/cursor-plugin",
       "metadata": {
         "extra": {
@@ -1305,7 +1389,7 @@
         }
       },
       "first_seen_at": "2026-09-03T03:28:55.818Z",
-      "last_updated_at": "2026-09-03T03:28:55.818Z"
+      "last_updated_at": "2026-09-22T03:50:59.776Z"
     },
     {
       "tool": "cursor",
@@ -1436,7 +1520,7 @@
         "extra": {
           "displayName": "Supermemory",
           "tags": [],
-          "stars": 26
+          "stars": 27
         }
       },
       "first_seen_at": "2026-09-01T04:05:19.080Z",
@@ -1537,7 +1621,7 @@
         "extra": {
           "displayName": "CrowdStrike Falcon Fusion",
           "tags": [],
-          "stars": 19
+          "stars": 20
         }
       },
       "first_seen_at": "2026-08-28T10:08:52.613Z",
@@ -1554,7 +1638,7 @@
         "extra": {
           "displayName": "Inkbox",
           "tags": [],
-          "stars": 84
+          "stars": 85
         }
       },
       "first_seen_at": "2026-08-28T10:08:52.613Z",
@@ -2038,7 +2122,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 346
+          "stars": 347
         }
       },
       "first_seen_at": "2026-08-26T01:23:09.789Z",
@@ -2056,7 +2140,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 346
+          "stars": 347
         }
       },
       "first_seen_at": "2026-08-26T01:23:09.789Z",
@@ -2144,7 +2228,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 314
+          "stars": 325
         }
       },
       "first_seen_at": "2026-08-25T01:19:50.171Z",
@@ -2195,7 +2279,7 @@
         "extra": {
           "displayName": "Treg",
           "tags": [],
-          "stars": 1740
+          "stars": 1912
         }
       },
       "first_seen_at": "2026-08-25T01:19:50.171Z",
@@ -2212,7 +2296,7 @@
         "extra": {
           "displayName": "Superdesign",
           "tags": [],
-          "stars": 581
+          "stars": 586
         }
       },
       "first_seen_at": "2026-08-25T01:19:50.171Z",
@@ -2263,7 +2347,7 @@
         "extra": {
           "displayName": "Chrome Devtools for Agents",
           "tags": [],
-          "stars": 52396
+          "stars": 52445
         }
       },
       "first_seen_at": "2026-08-25T01:19:50.171Z",
@@ -2543,7 +2627,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 28
+          "stars": 29
         }
       },
       "first_seen_at": "2026-08-12T02:03:49.836Z",
@@ -2561,7 +2645,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 581
+          "stars": 586
         }
       },
       "first_seen_at": "2026-08-12T02:03:49.836Z",
@@ -2780,7 +2864,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1023
+          "stars": 1025
         }
       },
       "first_seen_at": "2026-08-08T01:45:10.492Z",
@@ -2966,7 +3050,7 @@
       "metadata": {
         "extra": {
           "category": "security",
-          "stars": 19
+          "stars": 20
         }
       },
       "first_seen_at": "2026-08-07T02:44:31.991Z",
@@ -3285,7 +3369,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 266557
+          "stars": 267258
         }
       },
       "first_seen_at": "2026-07-28T02:39:54.208Z",
@@ -3356,7 +3440,7 @@
         "extra": {
           "displayName": "Nvidia Skills",
           "tags": [],
-          "stars": 3386
+          "stars": 3394
         }
       },
       "first_seen_at": "2026-07-24T02:48:10.841Z",
@@ -3390,7 +3474,7 @@
         "extra": {
           "displayName": "React Doctor",
           "tags": [],
-          "stars": 14905
+          "stars": 14909
         }
       },
       "first_seen_at": "2026-07-24T02:48:10.841Z",
@@ -3570,7 +3654,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2281
+          "stars": 2291
         }
       },
       "first_seen_at": "2026-07-22T02:47:23.787Z",
@@ -3588,7 +3672,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 78
+          "stars": 79
         }
       },
       "first_seen_at": "2026-07-22T02:47:23.787Z",
@@ -3764,7 +3848,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 367
+          "stars": 369
         }
       },
       "first_seen_at": "2026-07-17T02:47:05.468Z",
@@ -3798,7 +3882,7 @@
         "extra": {
           "displayName": "AMD",
           "tags": [],
-          "stars": 367
+          "stars": 369
         }
       },
       "first_seen_at": "2026-07-17T02:47:05.468Z",
@@ -3815,7 +3899,7 @@
         "extra": {
           "displayName": "Mem0",
           "tags": [],
-          "stars": 65727
+          "stars": 65800
         }
       },
       "first_seen_at": "2026-07-17T02:47:05.468Z",
@@ -3834,7 +3918,7 @@
         "extra": {
           "category": "development",
           "author_email": "open-source@confident-ai.com",
-          "stars": 18360
+          "stars": 18377
         }
       },
       "first_seen_at": "2026-07-16T02:44:24.966Z",
@@ -4324,7 +4408,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 297
+          "stars": 298
         }
       },
       "first_seen_at": "2026-06-27T03:38:15.654Z",
@@ -4379,7 +4463,7 @@
         "extra": {
           "displayName": "Railway",
           "tags": [],
-          "stars": 325
+          "stars": 327
         }
       },
       "first_seen_at": "2026-06-26T03:55:41.099Z",
@@ -4433,7 +4517,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 323
+          "stars": 325
         }
       },
       "first_seen_at": "2026-06-24T03:47:49.278Z",
@@ -4451,7 +4535,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 278
+          "stars": 281
         }
       },
       "first_seen_at": "2026-06-23T03:45:06.690Z",
@@ -4486,7 +4570,7 @@
         "extra": {
           "displayName": "Databricks",
           "tags": [],
-          "stars": 323
+          "stars": 325
         }
       },
       "first_seen_at": "2026-06-20T03:54:32.974Z",
@@ -4538,7 +4622,7 @@
         "extra": {
           "displayName": "Kraken",
           "tags": [],
-          "stars": 727
+          "stars": 728
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -4555,7 +4639,7 @@
         "extra": {
           "displayName": "Microsoft Dataverse",
           "tags": [],
-          "stars": 227
+          "stars": 229
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -4674,7 +4758,7 @@
         "extra": {
           "displayName": "AWS Data Analytics",
           "tags": [],
-          "stars": 2687
+          "stars": 2693
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -4691,7 +4775,7 @@
         "extra": {
           "displayName": "AWS Core",
           "tags": [],
-          "stars": 2687
+          "stars": 2693
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -4708,7 +4792,7 @@
         "extra": {
           "displayName": "AWS Agents",
           "tags": [],
-          "stars": 2687
+          "stars": 2693
         }
       },
       "first_seen_at": "2026-06-19T04:40:39.261Z",
@@ -4775,7 +4859,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2687
+          "stars": 2693
         }
       },
       "first_seen_at": "2026-06-18T04:11:41.692Z",
@@ -4793,7 +4877,7 @@
       "metadata": {
         "extra": {
           "category": "migration",
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-06-18T04:11:41.692Z",
@@ -5019,7 +5103,7 @@
         "extra": {
           "displayName": "Arize",
           "tags": [],
-          "stars": 52
+          "stars": 53
         }
       },
       "first_seen_at": "2026-06-13T03:59:26.751Z",
@@ -5469,7 +5553,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 18
+          "stars": 19
         }
       },
       "first_seen_at": "2026-06-02T04:11:24.309Z",
@@ -5487,7 +5571,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 3386
+          "stars": 3394
         }
       },
       "first_seen_at": "2026-06-02T04:11:24.309Z",
@@ -5519,7 +5603,7 @@
         "extra": {
           "displayName": "HeyGen",
           "tags": [],
-          "stars": 443
+          "stars": 445
         }
       },
       "first_seen_at": "2026-05-30T03:37:25.474Z",
@@ -5588,7 +5672,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 31
+          "stars": 32
         }
       },
       "first_seen_at": "2026-05-29T03:52:31.173Z",
@@ -5815,7 +5899,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 151
+          "stars": 153
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -5851,7 +5935,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 361
+          "stars": 362
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -5905,7 +5989,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 582
+          "stars": 584
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -5977,7 +6061,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 51990
+          "stars": 52187
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -6031,7 +6115,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2859
+          "stars": 2862
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -6049,7 +6133,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 152
+          "stars": 154
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -6067,7 +6151,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 180
+          "stars": 181
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -6103,7 +6187,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 68
+          "stars": 69
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -6222,7 +6306,7 @@
         "extra": {
           "displayName": "Modern Web Guidance",
           "tags": [],
-          "stars": 2281
+          "stars": 2291
         }
       },
       "first_seen_at": "2026-05-20T03:47:26.253Z",
@@ -6487,7 +6571,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2687
+          "stars": 2693
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -6505,7 +6589,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2687
+          "stars": 2693
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -6523,7 +6607,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2687
+          "stars": 2693
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -6613,7 +6697,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 242
+          "stars": 244
         }
       },
       "first_seen_at": "2026-05-08T03:22:20.638Z",
@@ -6868,7 +6952,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 110
+          "stars": 111
         }
       },
       "first_seen_at": "2026-05-02T02:53:31.805Z",
@@ -6886,7 +6970,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 9676
+          "stars": 9692
         }
       },
       "first_seen_at": "2026-05-02T02:53:31.805Z",
@@ -6941,7 +7025,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 125
+          "stars": 127
         }
       },
       "first_seen_at": "2026-05-02T02:53:31.805Z",
@@ -6959,7 +7043,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 37
+          "stars": 38
         }
       },
       "first_seen_at": "2026-05-02T02:53:31.805Z",
@@ -7240,7 +7324,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 136
+          "stars": 137
         }
       },
       "first_seen_at": "2026-04-28T03:27:58.245Z",
@@ -7276,7 +7360,7 @@
         "extra": {
           "displayName": "Tabnine",
           "tags": [],
-          "stars": 9
+          "stars": 8
         }
       },
       "first_seen_at": "2026-04-28T03:27:58.245Z",
@@ -7293,7 +7377,7 @@
         "extra": {
           "displayName": "Tabnine Context Engine",
           "tags": [],
-          "stars": 9
+          "stars": 8
         }
       },
       "first_seen_at": "2026-04-28T03:27:58.245Z",
@@ -7398,7 +7482,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 1489
+          "stars": 1491
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -7434,7 +7518,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 187
+          "stars": 188
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -7452,7 +7536,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 5034
+          "stars": 5036
         }
       },
       "first_seen_at": "2026-04-24T02:51:10.331Z",
@@ -7596,7 +7680,7 @@
           "tags": [
             "gsap"
           ],
-          "stars": 15514
+          "stars": 15563
         }
       },
       "first_seen_at": "2026-04-23T02:49:50.987Z",
@@ -7614,7 +7698,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 14
+          "stars": 15
         }
       },
       "first_seen_at": "2026-04-22T02:46:59.603Z",
@@ -7632,7 +7716,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 34
+          "stars": 35
         }
       },
       "first_seen_at": "2026-04-22T02:46:59.603Z",
@@ -7649,7 +7733,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -7666,7 +7750,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -7684,7 +7768,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 34
+          "stars": 35
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -7720,7 +7804,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 346
+          "stars": 347
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -7737,7 +7821,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -7754,7 +7838,7 @@
         "extra": {
           "displayName": "shadcn/ui",
           "tags": [],
-          "stars": 124273
+          "stars": 124342
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -7790,7 +7874,7 @@
         "extra": {
           "displayName": "Azure",
           "tags": [],
-          "stars": 1489
+          "stars": 1491
         }
       },
       "first_seen_at": "2026-04-21T16:31:24.516Z",
@@ -7893,7 +7977,7 @@
         "extra": {
           "displayName": "AWS SageMaker",
           "tags": [],
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-15T16:27:50.478Z",
@@ -7910,7 +7994,7 @@
         "extra": {
           "displayName": "AWS Databases",
           "tags": [],
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-15T16:27:50.478Z",
@@ -7927,7 +8011,7 @@
         "extra": {
           "displayName": "Resend",
           "tags": [],
-          "stars": 180
+          "stars": 181
         }
       },
       "first_seen_at": "2026-04-15T16:27:50.478Z",
@@ -7962,7 +8046,7 @@
       "metadata": {
         "extra": {
           "category": "database",
-          "stars": 227
+          "stars": 229
         }
       },
       "first_seen_at": "2026-04-15T02:44:23.401Z",
@@ -7980,7 +8064,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 560
+          "stars": 564
         }
       },
       "first_seen_at": "2026-04-15T02:44:23.401Z",
@@ -8140,7 +8224,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 2877
+          "stars": 2888
         }
       },
       "first_seen_at": "2026-04-11T02:30:29.084Z",
@@ -8157,7 +8241,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 136
+          "stars": 137
         }
       },
       "first_seen_at": "2026-04-11T02:30:29.084Z",
@@ -8175,7 +8259,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 185
+          "stars": 186
         }
       },
       "first_seen_at": "2026-04-11T02:30:29.084Z",
@@ -8228,7 +8312,7 @@
           "tags": [
             "granola"
           ],
-          "stars": 6
+          "stars": 7
         }
       },
       "first_seen_at": "2026-04-11T02:30:29.084Z",
@@ -8295,7 +8379,7 @@
       "metadata": {
         "extra": {
           "category": "location",
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -8361,7 +8445,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 1050
+          "stars": 1054
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -8378,7 +8462,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 6254
+          "stars": 6252
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -8395,7 +8479,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -8464,7 +8548,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 52396
+          "stars": 52445
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -8723,7 +8807,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -8773,7 +8857,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 2590
+          "stars": 2593
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -8855,7 +8939,7 @@
       "metadata": {
         "extra": {
           "category": "design",
-          "stars": 2008
+          "stars": 2012
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -8888,7 +8972,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 222
+          "stars": 223
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9008,7 +9092,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 11073
+          "stars": 11077
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9211,7 +9295,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1896
+          "stars": 1898
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9229,7 +9313,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 18
+          "stars": 19
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9346,7 +9430,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 484
+          "stars": 485
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9483,7 +9567,7 @@
       "metadata": {
         "extra": {
           "category": "monitoring",
-          "stars": 84
+          "stars": 86
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9499,7 +9583,7 @@
       "source_url": "https://github.com/gitroomhq/postiz-agent",
       "metadata": {
         "extra": {
-          "stars": 482
+          "stars": 487
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9584,7 +9668,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 325
+          "stars": 327
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9807,7 +9891,7 @@
       "metadata": {
         "extra": {
           "category": "productivity",
-          "stars": 132
+          "stars": 133
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9858,7 +9942,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 1830
+          "stars": 1829
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -9909,7 +9993,7 @@
       "metadata": {
         "extra": {
           "category": "development",
-          "stars": 289344
+          "stars": 289776
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -10031,7 +10115,7 @@
       "metadata": {
         "extra": {
           "category": "deployment",
-          "stars": 287
+          "stars": 288
         }
       },
       "first_seen_at": "2026-04-10T16:53:16.860Z",
@@ -10232,7 +10316,7 @@
           "tags": [
             "shopify"
           ],
-          "stars": 560
+          "stars": 564
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -10267,7 +10351,7 @@
           "tags": [
             "dbt"
           ],
-          "stars": 719
+          "stars": 721
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -10324,7 +10408,7 @@
           "tags": [
             "firebase"
           ],
-          "stars": 448
+          "stars": 450
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -10376,7 +10460,7 @@
         "extra": {
           "displayName": "AWS Amplify",
           "tags": [],
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -10393,7 +10477,7 @@
         "extra": {
           "displayName": "AWS Serverless",
           "tags": [],
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -10410,7 +10494,7 @@
         "extra": {
           "displayName": "Amazon Location Service",
           "tags": [],
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -10520,7 +10604,7 @@
         "extra": {
           "displayName": "Circle",
           "tags": [],
-          "stars": 151
+          "stars": 153
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -10569,7 +10653,7 @@
       "kind": "third-party",
       "id": "postman",
       "name": "Postman",
-      "description": "Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, and publish generated API documentation.",
+      "description": "Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman Flows, and publish generated API documentation.",
       "source_url": "https://github.com/postmanlabs/postman-plugin",
       "metadata": {
         "extra": {
@@ -10581,7 +10665,7 @@
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
-      "last_updated_at": "2026-09-18T03:43:47.372Z"
+      "last_updated_at": "2026-09-22T03:50:59.776Z"
     },
     {
       "tool": "cursor",
@@ -10756,7 +10840,7 @@
         "extra": {
           "displayName": "Sanity",
           "tags": [],
-          "stars": 185
+          "stars": 186
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -10792,7 +10876,7 @@
           "tags": [
             "webflow"
           ],
-          "stars": 123
+          "stars": 124
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -10885,7 +10969,7 @@
         "extra": {
           "displayName": "tldraw",
           "tags": [],
-          "stars": 50486
+          "stars": 50506
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11052,7 +11136,7 @@
           "tags": [
             "langfuse"
           ],
-          "stars": 278
+          "stars": 281
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11091,7 +11175,7 @@
             "hugging",
             "huggingface"
           ],
-          "stars": 11073
+          "stars": 11077
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11129,7 +11213,7 @@
           "tags": [
             "redis"
           ],
-          "stars": 152
+          "stars": 154
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11148,7 +11232,7 @@
           "tags": [
             "posthog"
           ],
-          "stars": 84
+          "stars": 86
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11189,7 +11273,7 @@
             "confluence",
             "loom"
           ],
-          "stars": 1050
+          "stars": 1054
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11279,7 +11363,7 @@
           "tags": [
             "superpowers"
           ],
-          "stars": 289344
+          "stars": 289776
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11296,7 +11380,7 @@
         "extra": {
           "displayName": "Compound Engineering",
           "tags": [],
-          "stars": 25179
+          "stars": 25196
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11348,7 +11432,7 @@
         "extra": {
           "displayName": "Slack",
           "tags": [],
-          "stars": 132
+          "stars": 133
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11386,7 +11470,7 @@
           "tags": [
             "figma"
           ],
-          "stars": 2008
+          "stars": 2012
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11405,7 +11489,7 @@
           "tags": [
             "supabase"
           ],
-          "stars": 9
+          "stars": 10
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11444,7 +11528,7 @@
             "aws",
             "amazon"
           ],
-          "stars": 899
+          "stars": 900
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11463,7 +11547,7 @@
           "tags": [
             "vercel"
           ],
-          "stars": 287
+          "stars": 288
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11556,7 +11640,7 @@
           "tags": [
             "stripe"
           ],
-          "stars": 1830
+          "stars": 1829
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11575,7 +11659,7 @@
           "tags": [
             "cloudflare"
           ],
-          "stars": 2877
+          "stars": 2888
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11595,7 +11679,7 @@
             "upstash",
             "context7"
           ],
-          "stars": 62260
+          "stars": 62297
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11614,7 +11698,7 @@
           "tags": [
             "notion"
           ],
-          "stars": 31
+          "stars": 32
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11652,7 +11736,7 @@
           "tags": [
             "convex"
           ],
-          "stars": 112
+          "stars": 113
         }
       },
       "first_seen_at": "2026-04-10T16:23:15.365Z",
@@ -11756,18 +11840,18 @@
     }
   ],
   "stats": {
-    "total": 677,
+    "total": 682,
     "by_tool": {
-      "claude-code": 328,
-      "cursor": 349
+      "cursor": 354,
+      "claude-code": 328
     },
     "by_kind": {
-      "third-party": 542,
-      "first-party": 135
+      "third-party": 546,
+      "first-party": 136
     },
     "latest_first_seen_at_by_tool": {
-      "claude-code": "2026-09-19T03:40:29.921Z",
-      "cursor": "2026-09-19T03:40:29.921Z"
+      "cursor": "2026-09-22T03:50:59.776Z",
+      "claude-code": "2026-09-19T03:40:29.921Z"
     }
   }
 }
